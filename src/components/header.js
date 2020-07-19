@@ -24,6 +24,9 @@ const Header = () => {
               <Link to="/character-sheet" className="item btn">
                 Character Sheet
               </Link>
+              <Link to="/NPCs" className="item btn">
+                NPCs
+              </Link>
               <Link to="/prompts" className="item btn">
                 Prompts
               </Link>

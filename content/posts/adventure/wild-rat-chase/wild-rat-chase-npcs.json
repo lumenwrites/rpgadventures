@@ -1,0 +1,49 @@
+[
+    {
+	"type": "Villain",
+	"name": "Jafar",
+	"description": "King's Evil Vizier. Cunning and Ambitious. Tall slender figure, permanent sneer on his face, unless he's talking to someone above his station, then - obsequious smile.",
+	"image": "/tokens/villains/jafar.png",
+	"powers": [
+	    {
+		"title": "Run",
+		"level": "3",
+		"description":"Run as fast as you can."
+	    },
+	    {
+		"title": "Jump",
+		"level": "3",
+		"description":"Jump as fast as you can."
+	    },
+	    {
+		"title": "Sneak",
+		"level": "3",
+		"description":"Sneak as fast as you can."
+	    }
+	]
+    },
+    {
+	"type": "Villain",
+	"name": "Gretchen",
+	"description": "A mean old hag",
+	"image": "/tokens/villains/gretchen.png"
+    },
+    {
+	"type": "Villain",
+	"name": "Pazuzu",
+	"description": "The ungrateful gargoyle.",
+	"image": "/tokens/villains/pazuzu.png"
+    },
+    {
+	"type": "Villain",
+	"name": "Guz",
+	"description": "Simple but loyal to his master.",
+	"image": "/tokens/villains/guz.png"
+    },
+    {
+	"type": "Villain",
+	"name": "Guz",
+	"description": "Simple but loyal to his master.",
+	"image": "/tokens/villains/guz.png"
+    }    
+]

@@ -1,0 +1,89 @@
+.cards-modal {
+    .category-title {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 20px;
+    }
+}
+.cards {
+    .columns {
+	column-count: 2;
+	column-gap: 20px;
+	padding-top: 20px;
+	:first-child {
+	    margin-top: 0;
+	}
+    }
+}
+.card {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid $border;
+    border-radius: 4px;
+    font-size: 12px;
+    background: white;
+    .title {
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	input {
+	    font-size: 12px;
+	    text-align: center;
+	    border: none;
+	    outline: 1px solid $border;
+	    font-weight: bold;
+	}
+	svg {
+	    float:left;
+	    color: $text-dim;
+	    margin-right: 5px;
+	    &:hover {
+		cursor: pointer;
+		color: $text;
+	    }
+	}
+	.level {
+	    width: 16px;
+	    height: 16px;
+	    border-radius: 50%;
+	    background: $panel-bg;
+	    float:right;
+	    color: $text;
+	    display:flex;
+	    align-items: center;
+	    justify-content: center;
+	    
+	}
+    }
+    .description {
+    }
+
+    width: 100%;
+    -webkit-column-break-inside: avoid;
+
+    &:first-child {
+	margin-top: 0;
+    }
+}
+
+.append {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $text-dim;
+    background: transparent;
+    svg {
+	margin: 5px;
+	width: 1.5em;
+	height: 1.5em;
+	color: $text-dim;
+    }
+    &:hover {
+	background: white;
+	color: $text;
+	cursor: pointer;
+	svg { color: $text; }
+    }
+}
+
