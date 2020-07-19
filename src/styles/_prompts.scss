@@ -1,0 +1,69 @@
+.prompts {
+    margin-top: 10px;
+    background:$background-header;
+    padding: 10px 20px;
+    h1 { text-align: center; }
+    .prompt {
+	margin-top: 20px;
+	.btn {
+	    float:right;
+	}
+	.refresh {
+	    float:right;
+	    cursor: pointer;
+	    //margin-right: 10px;
+	    margin-top: -10px;
+	    border-radius: 50%;
+	    padding: 5px;
+	    width: 30px;
+	    height: 30px;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;	    
+	    //border: 1px solid $border;
+	    &:hover { background: $panel-bg; }
+	    z-index: 2;
+	}
+	.prompt-label {
+	    opacity: 0.8;
+	    font-weight: bold;
+	    font-size: 0.8em;
+	}
+	.text {
+	    outline: 1px solid $border;
+	    padding: 10px;
+	    padding-right:0;
+	    margin-bottom: 5px;
+	    //margin-top: 10px; // move it away from the randomize button
+	    //min-height: 50px;
+	}
+    }
+    .small {
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration: none;
+	float:right;
+    }
+}
+.small {
+    font-size: 11px;
+    font-weight: normal;
+    text-decoration: none;
+    float:right;
+}
+
+.image-prompt {
+    text-align: center;
+    img {
+	max-height: 260px;
+    }
+}
+.small-subtitle {
+    // For a link back to /prompts from the lists
+    text-align: right;
+    a {
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration: none;
+    }
+}

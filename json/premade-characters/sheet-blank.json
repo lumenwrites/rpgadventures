@@ -1,0 +1,22 @@
+{
+    "name":"",
+    "image":"",
+    "currentHealth": 10,
+    "maxHealth":10,
+    "currentEnergy": 10,
+    "maxEnergy": 10,
+    "memorySize": 10,
+    "inventorySize":10,
+    "experience": 0,
+    "level": 1,
+    "cards":[],
+    "abilities": [],
+    "spells": [],
+    "magicItems": [],
+    "equipment": [],
+    "id": "12",
+    "appearance": "",
+    "ambitions": "",
+    "personality": "",
+    "backstory": ""
+}

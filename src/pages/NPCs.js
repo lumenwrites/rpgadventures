@@ -7,12 +7,15 @@ import Modal from "../components/elements/modal"
 import { toggleModal } from "../actions/utils"
 
 import Layout from "../components/layout"
+
 import NPCCard from "../components/NPCs/NPCCard"
 
-import npcs from "../../json/npcs-test.json"
+//import npcs from "../../content/adventure/wild-rat-chase/wild-rat-chase-npcs.json"
 
 class NPCs extends Component {
   renderCards = () => {
+    var { npcs } = this.props
+    if (!npcs) return //remove it later
     return npcs.map((c, i) => {
       return <NPCCard npc={c} key={i} />
     })
@@ -27,4 +30,4 @@ class NPCs extends Component {
   }
 }
 
-export default NPCs
+export default connect(({ npcs }) => ({ npcs }), {})(NPCs)
