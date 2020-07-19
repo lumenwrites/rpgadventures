@@ -29,31 +29,14 @@ const Header = () => {
               </Link>
             </div>
           </div>
-          <div className="dropdown">
-            <div className="menu-handle btn">Guides</div>
-            <div className="menu">
-              <Link to="/guide/roleplaying-tips" className="item btn">
-                Roleplaying Tips
-              </Link>
-              <Link to="/guide/adventure-design" className="item btn">
-                Adventure Design
-              </Link>
-              <Link to="/guide/improving-combat" className="item btn">
-                Improving Combat
-              </Link>
-            </div>
-          </div>
 
-          <div className="dropdown">
-            <Link to="/posts" className="menu-handle btn">
-              Adventures
-            </Link>
-            <div className="menu">
-              <Link to="/adventure/wild-rat-chase" className="item btn">
-                Wild Rat Chase
-              </Link>
-            </div>
-          </div>
+          <Link to="/guides" className="menu-handle btn">
+            Guides
+          </Link>
+
+          <Link to="/adventures" className="menu-handle btn">
+            Adventures
+          </Link>
         </div>
         {/* End right */}
         <div className="clearfix" />

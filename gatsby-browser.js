@@ -3,3 +3,6 @@ import "typeface-montserrat"
 import "typeface-merriweather"
 
 import "prismjs/themes/prism.css"
+
+import wrapWithProvider from "./wrap-with-provider"
+export const wrapRootElement = wrapWithProvider
