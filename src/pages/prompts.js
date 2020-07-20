@@ -2,7 +2,9 @@ import React, { Component } from "react"
 import { connect } from "react-redux"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
+import Img from "gatsby-image"
+
 import promptCategories from "../../json/prompts/prompts.json"
 import locations from "../../json/prompts/locations.json"
 
@@ -56,8 +58,10 @@ class Prompts extends Component {
     )
   }
   renderLocation = () => {
+    var locations = this.props.data.allFile.edges
+
     var location =
-      locations[Math.floor(this.state.locationSeed * locations.length)]
+	  locations[Math.floor(this.state.locationSeed * locations.length)].node
     return (
       <div className="prompt image-prompt">
         <div
@@ -70,7 +74,8 @@ class Prompts extends Component {
         </div>
         <span className="prompt-label">{location.title}</span>
         <div className="clearfix" />
-        <img src={location.url} />
+        <Img fixed={location.childImageSharp.fixed} />
+        {/* <img src={location.url} /> */}
       </div>
     )
   }
@@ -138,3 +143,26 @@ class Prompts extends Component {
 }
 
 export default Prompts
+
+export const query = graphql`
+  query {
+    allFile(
+      filter: {
+        extension: { regex: "/(jpg)|(png)|(tif)|(tiff)|(webp)|(jpeg)/" }
+        relativeDirectory: { eq: "prompts/locations" }
+      }
+      sort: { order: ASC, fields: id }
+    ) {
+      edges {
+        node {
+          name
+          childImageSharp {
+            fixed(width: 400) {
+              ...GatsbyImageSharpFixed
+            }
+          }
+        }
+      }
+    }
+  }
+`
