@@ -3,25 +3,23 @@ import { connect } from 'react-redux'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 import { updateNpc } from "../../actions/npcsActions"
+import { toggleModal } from "../../actions/utils"
+
+import PowersModal from "./PowersModal"
+import Power from './Power'
 
 class NPCStats extends Component {
   renderPowers = () => {
     var { npc } = this.props
     if (!npc.powers) return
     return npc.powers.map((p, i) => (
-      <div className="power" key={i}>
-          <div className="title">
-              {p.title}
-              <div className="level">{p.level}</div>
-          </div>
-          <div className="description">{p.description}</div>
-      </div>
+      <Power power={p} key={i} npc={npc} />
     ))
   }
 
   updateStat = (value) => {
     var { npc, updateNpc } = this.props
-    this.props.updateNpc({...npc, ...value})
+    updateNpc({...npc, ...value})
   }
 
   render() {
@@ -58,11 +56,18 @@ class NPCStats extends Component {
 		      />
 		  </div>
               </div>
-              <div className="powers">{this.renderPowers()}</div>
+              <div className="powers">
+		  {this.renderPowers()}
+		  <div className="append-power"
+		       onClick={() => { this.props.toggleModal(`powers-${npc.id}`)}}>
+		      Add <FontAwesomeIcon icon={["fas", "plus-circle"]}/>
+		  </div>
+	      </div>
+	      <PowersModal npc={npc} />
           </div>
       </>
     )
   }
 }
 
-export default connect(({ npcs }) => ({ npcs }), { updateNpc })(NPCStats)
+export default connect(({ npcs }) => ({ npcs }), { updateNpc, toggleModal })(NPCStats)

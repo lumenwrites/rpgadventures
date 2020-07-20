@@ -1,101 +1,170 @@
 .npcs {
-  display: grid;
-  grid-gap: 0 10px;
-  grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    grid-gap: 0 10px;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .npc {
-  border: 1px solid $border;
-  border-radius: 4px;
-  background: #fafafa;
-  margin-top: 10px;
-  height: 315px;
-  width: 226px;
-  position: relative;
-  .character-image {
-    width: 100px;
-    height: 100px;
-    margin-top: 5px;
-    //cursor: default;
-  }
-  .name {
-    text-align: center;
-    font-size: 16px;
-    margin: 0;
-    border: none;
-    border-bottom: 1px solid $border;
+    border: 1px solid $border;
+    border-radius: 4px;
     background: #fafafa;
-    font-weight: bold;
-    width: 164px;
-    &:hover,&:focus {
-	outline:none;
-    }
-  }  
-
-  .character-description {
-    margin-top: 5px;
-    font-size: 12px;
-    background: white;
-    padding: 5px;
-    border: 1px solid #dddddd;
-    border-radius: 4px;
-    height: 160px;
-    overflow-x: hidden;
-    overflow-y: auto;
-    p {
-      margin: 0;
-    }
-  }
-  .image-url {
-      margin-top: 10px;
-      height: 95px;
-      input {
-	  float: left;
-	  width: calc(100% - 20px);
-      }
-      .icon {
-	  margin: 4px 0 0 4px;
-	  cursor: pointer;
-      }
-  }
-  textarea {
-    font-size: 12px;
     margin-top: 10px;
-    background: white;
-    padding: 10px;
-    border-radius: 4px;
-    border: 1px solid $border;
-  }
-  h1 {
-    font-size: 16px;
-    margin: 0;
-    border-bottom: 1px solid $border;
-  }
-  hr {
-    border-top: 1px solid $border;
-  }
-  .show-stats-btn {
-    font-size: 11px;
-    opacity: 70%;
-    border: 1px solid $border;
-    cursor: pointer;
-    border-radius: 4px;
-    width: 20px;
-    height: 20px;
-    padding: 0;
-    line-height: 20px;
-    text-align: center;
-    float:right;
-    &:hover {
-      background: white;
-      opacity: 100%;
+    height: 315px;
+    width: 226px;
+    position: relative;
+
+    // Name
+    .name {
+	text-align: center;
+	font-size: 16px;
+	margin: 0;
+	border: none;
+	border-bottom: 1px solid $border;
+	background: #fafafa;
+	font-weight: bold;
+	width: 164px;
+	&:hover,&:focus {
+	    outline:none;
+	}
+    }  
+    // Buttons
+    .show-stats-btn {
+	font-size: 11px;
+	opacity: 70%;
+	border: 1px solid $border;
+	cursor: pointer;
+	border-radius: 4px;
+	width: 20px;
+	height: 20px;
+	padding: 0;
+	line-height: 20px;
+	text-align: center;
+	float:right;
+	&:hover {
+	    background: white;
+	    opacity: 100%;
+	}
     }
-  }
-  .edit-btn, .delete-btn {
-      @extend .show-stats-btn;
-      float: left;
-  }
-  .power {
+    .edit-btn, .delete-btn {
+	@extend .show-stats-btn;
+	float: left;
+    }
+    
+    // Image
+    .character-image {
+	width: 100px;
+	height: 100px;
+	margin-top: 5px;
+    }
+    .image-url {
+	margin-top: 10px;
+	height: 95px;
+	input {
+	    float: left;
+	    width: calc(100% - 20px);
+	}
+	.icon {
+	    margin: 4px 0 0 4px;
+	    cursor: pointer;
+	}
+    }
+
+    // Description
+    .character-description {
+	margin-top: 5px;
+	font-size: 12px;
+	background: white;
+	padding: 5px;
+	border: 1px solid #dddddd;
+	border-radius: 4px;
+	height: 160px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	p {
+	    margin: 0;
+	}
+    }
+    textarea {
+	font-size: 12px;
+	margin-top: 10px;
+	background: white;
+	padding: 10px;
+	border-radius: 4px;
+	border: 1px solid $border;
+    }
+
+    .stats {
+	justify-content: space-between;
+	margin-top: 5px;
+    }
+    .stats .stat {
+	background: white;
+	width: calc(33.33% - 5px);
+	height: auto;
+	padding: 5px;
+	.value {
+	    line-height: unset;
+	    background: white;
+	}
+	input:focus {
+	    //outline: 1px solid $border;
+	    outline: none;
+	}
+    }
+    .powers {
+	overflow-x: hidden;
+	overflow-y: auto;
+	height: 220px;
+
+	&::-webkit-scrollbar {
+	    width: 6px;
+	}
+	&::-webkit-scrollbar-track,
+	&::-webkit-scrollbar-corner {
+	    background-color: transparent;
+	}
+	&::-webkit-scrollbar-thumb {
+	    background-color: $border;
+	    border-left: 2px solid transparent!important;
+	    //border-radius: 9px;
+	    background-clip: content-box;
+	}
+    }
+    padding: 10px;
+    -webkit-column-break-inside: avoid;
+}
+
+.powers-modal {
+    .category-title {
+	text-align: center;
+	margin-top: 5px;
+    }
+    .columns {
+	column-gap: 5px;
+	margin-top: 5px;
+    }
+    .tabs {
+	margin: -16px -32px 0 -32px;
+    }
+    .tab {
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	outline: 1px solid $border;
+	width: calc(100% / 4);
+	padding: 5px;
+
+	&.active {
+	    font-weight: bold;
+	    text-decoration: underline;
+	}
+    }
+    
+}
+
+.power {
     font-size: 11px;
     text-align: left;
     margin-top: 4px;
@@ -103,44 +172,81 @@
     border: 1px solid $border;
     background: white;
     border-radius: 4px;
+    -webkit-column-break-inside: avoid;
+    &.adding {
+	@extend .on-click-animation;
+	cursor: pointer;
+    }
+    .delete-btn {
+	width: 12px;
+	height: 12px;
+	margin-right:5px;
+	line-height: 16px;	    
+	border:none;
+    }
+    
     .title {
-      font-weight: bold;
-      border-bottom: 1px solid $border;
+	font-weight: bold;
+	border-bottom: 1px solid $border;
     }
     .level {
-      width: 14px;
-      height: 14px;
-      border-radius: 50%;
-      background: $panel-bg;
-      float: right;
-      color: $text;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      float: right;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background: $panel-bg;
+	float: right;
+	color: $text;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	float: right;
     }
-  }
-  .stats {
-    justify-content: space-between;
-    margin-top: 5px;
-  }
-  .stats .stat {
-    background: white;
-    width: calc(33.33% - 5px);
-    height: auto;
-    padding: 5px;
-    .value {
-      line-height: unset;
-      background: white;
+}
+.append-power {
+    @extend .power;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $text-dim;
+    background: transparent;
+    svg {
+	margin: 5px;
+	width: 1.5em;
+	height: 1.5em;
+	color: $text-dim;
     }
-    input:focus {
-      //outline: 1px solid $border;
-      outline: none;
+    &:hover {
+	background: white;
+	color: $text;
+	cursor: pointer;
+	svg { color: $text; }
     }
-  }
-  .cards {
-    margin-top: 10px;
-  }
-  padding: 10px;
-  -webkit-column-break-inside: avoid;
+}
+
+
+.on-click-animation {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    position:relative;
+    overflow:hidden;
+    &:after {
+	content: "";
+	background: white;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;	
+	opacity: 0;
+	transition: all 0.8s
+    }
+    &:active:after {
+	padding: 0;
+	margin: 0;
+	opacity: 1;
+	transition: 0s
+    }    
 }

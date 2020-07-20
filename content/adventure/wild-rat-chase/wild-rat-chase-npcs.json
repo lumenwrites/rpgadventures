@@ -11,16 +11,19 @@
 	"powers": [
 	    {
 		"title": "Run",
+		"id": "1",
 		"level": "3",
 		"description":"Run as fast as you can."
 	    },
 	    {
 		"title": "Jump",
+		"id": "2",		
 		"level": "3",
 		"description":"Jump as fast as you can."
 	    },
 	    {
 		"title": "Sneak",
+		"id": "3",				
 		"level": "3",
 		"description":"Sneak as fast as you can."
 	    }

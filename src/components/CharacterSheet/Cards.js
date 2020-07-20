@@ -4,10 +4,6 @@ import { connect } from 'react-redux'
 import Card from './Card'
 
 class Cards extends Component {
-    componentDidMount(){}
-
-    componentDidUpdate(prevProps, prevState){}
-
     renderCategories = () => {
 	/* Cards are passed to it by the appropriate section */
 	return this.props.cards.map((category,i)=> {
