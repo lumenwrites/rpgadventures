@@ -10,7 +10,7 @@ class World extends Component {
     return data.allFile.edges.map(({ node }, i) => {
       return (
         <div className="nobreak" key={i}>
-          <h4>{node.name}</h4>
+          <span className="bold">{node.name}</span>
           <Img fixed={node.childImageSharp.fixed} />
         </div>
       )

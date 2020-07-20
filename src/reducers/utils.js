@@ -1,5 +1,5 @@
 var INITIAL_STATE = {
-    showModal: "powers-Jafar"
+    showModal: ""
 }
 
 export default function (state = INITIAL_STATE, action) {

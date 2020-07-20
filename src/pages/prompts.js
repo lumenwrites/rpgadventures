@@ -64,18 +64,19 @@ class Prompts extends Component {
 	  locations[Math.floor(this.state.locationSeed * locations.length)].node
     return (
       <div className="prompt image-prompt">
-        <div
-          className="refresh"
-          onClick={() => {
-            this.setState({ locationSeed: Math.random() })
-          }}
-        >
-          <FontAwesomeIcon icon={["fas", "dice"]} />
-        </div>
-        <span className="prompt-label">{location.title}</span>
-        <div className="clearfix" />
-        <Img fixed={location.childImageSharp.fixed} />
-        {/* <img src={location.url} /> */}
+          <div
+            className="refresh"
+            onClick={() => {
+              this.setState({ locationSeed: Math.random() })
+            }}
+          >
+              <FontAwesomeIcon icon={["fas", "dice"]} />
+          </div>
+          <div className="clearfix" />	  
+          <span className="prompt-label">{location.name}</span>
+          <div className="clearfix" />
+          {/* <Img fixed={location.childImageSharp.fixed} />  */}
+          <img src={location.childImageSharp.original.src} />
       </div>
     )
   }
@@ -83,60 +84,60 @@ class Prompts extends Component {
   render() {
     return (
       <Layout>
-        <div className="prompts">
-          <h1>Adventure Prompts</h1>
-          <h3>Story Idea</h3>
-          {this.renderPrompt("High Concept")}
-          <Link className="small" to="/prompts/high-concept-ideas">
-            [Full list of High Concept Ideas]
-          </Link>
-          <div className="clearfix" />
-          {this.renderPrompt("Adventure Goal")}
-          <Link className="small" to="/prompts/goals">
-            [Full list of Goals]
-          </Link>
-          <div className="clearfix" />
-          {this.renderPrompt("Complication")}
-          <Link className="small" to="/prompts/complications">
-            [Full list of Complications]
-          </Link>
-          <div className="clearfix" />
-          {/* <h3>Antagonist</h3> */}
-          {/* {this.renderPrompt("Description")} */}
-          {/* {this.renderPrompt("Goal")} */}
-          {/* {this.renderPrompt("Powers")} */}
-          <h3>Setting</h3>
-          {this.renderLocation()}
-          <Link className="small" to="/world">
-            [Full list of Settings]
-          </Link>
-          <div className="clearfix" />
-          <h3>Challenges</h3>
-          {this.renderPrompt("Action/Adventure")}
-          {this.renderPrompt("Exploration")}
-          {this.renderPrompt("Social/Intrigue")}
-          {this.renderPrompt("Mystery/Investigation")}
-          {this.renderPrompt("Stealth/Heist")}
-          <Link className="small" to="/prompts/challenges">
-            [Full list of Challenges]
-          </Link>
-          <div className="clearfix" />
-          {this.renderPrompt("Villain's Moves")}
-          <Link className="small" to="/prompts/villain-moves">
-            [Full list of Villain's Moves]
-          </Link>
-          <div className="clearfix" />
-          <h3>Useful Resources</h3>
-          <ul>
-            <li>
-              Use{" "}
-              <a href="https://docs.google.com/document/d/1R7bOixB-1tN7U3lEi47L-NDA91CibDJ0VTgrbKO2nlQ/">
-                Adventure Template
-              </a>{" "}
-              to develop these prompts into a complete adventure.
-            </li>
-          </ul>
-        </div>
+          <div className="prompts">
+              <h1>Adventure Prompts</h1>
+              <h3>Story Idea</h3>
+              {this.renderPrompt("High Concept")}
+              <Link className="small" to="/prompts/high-concept-ideas">
+		  [Full list of High Concept Ideas]
+              </Link>
+              <div className="clearfix" />
+              {this.renderPrompt("Adventure Goal")}
+              <Link className="small" to="/prompts/goals">
+		  [Full list of Goals]
+              </Link>
+              <div className="clearfix" />
+              {this.renderPrompt("Complication")}
+              <Link className="small" to="/prompts/complications">
+		  [Full list of Complications]
+              </Link>
+              <div className="clearfix" />
+              {/* <h3>Antagonist</h3> */}
+              {/* {this.renderPrompt("Description")} */}
+              {/* {this.renderPrompt("Goal")} */}
+              {/* {this.renderPrompt("Powers")} */}
+              <h3>Setting</h3>
+              {this.renderLocation()}
+              <Link className="small" to="/world">
+		  [Full list of Settings]
+              </Link>
+              <div className="clearfix" />
+              <h3>Challenges</h3>
+              {this.renderPrompt("Action/Adventure")}
+              {this.renderPrompt("Exploration")}
+              {this.renderPrompt("Social/Intrigue")}
+              {this.renderPrompt("Mystery/Investigation")}
+              {this.renderPrompt("Stealth/Heist")}
+              <Link className="small" to="/prompts/challenges">
+		  [Full list of Challenges]
+              </Link>
+              <div className="clearfix" />
+              {this.renderPrompt("Villain's Moves")}
+              <Link className="small" to="/prompts/villain-moves">
+		  [Full list of Villain's Moves]
+              </Link>
+              <div className="clearfix" />
+              <h3>Useful Resources</h3>
+              <ul>
+		  <li>
+		      Use{" "}
+		      <a href="https://docs.google.com/document/d/1R7bOixB-1tN7U3lEi47L-NDA91CibDJ0VTgrbKO2nlQ/">
+			  Adventure Template
+		      </a>{" "}
+		      to develop these prompts into a complete adventure.
+		  </li>
+              </ul>
+          </div>
       </Layout>
     )
   }
@@ -156,7 +157,9 @@ export const query = graphql`
       edges {
         node {
           name
+	  relativePath
           childImageSharp {
+	    original { src }
             fixed(width: 400) {
               ...GatsbyImageSharpFixed
             }

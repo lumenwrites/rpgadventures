@@ -11,7 +11,7 @@ import { updateNpc, deleteNpc } from "../../actions/npcsActions"
 
 class NPCCard extends Component {
   state = {
-    showStats: true,
+    showStats: false,
     edit: false,
   }
 

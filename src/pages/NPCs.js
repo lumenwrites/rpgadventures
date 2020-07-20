@@ -11,9 +11,17 @@ import Layout from "../components/layout"
 import NPCCard from "../components/NPCs/NPCCard"
 import NPCsSubnav from "../components/NPCs/NPCsSubnav"
 
-//import npcs from "../../content/adventure/wild-rat-chase/wild-rat-chase-npcs.json"
+/* Actions */
+import { loadNpcs } from "../actions/npcsActions"
 
 class NPCs extends Component {
+  componentDidMount() {
+    var npcs = localStorage.getItem("npcs")
+    if (npcs && npcs.length) {
+      this.props.loadNpcs(JSON.parse(npcs))
+    }
+  }
+  
   renderCards = () => {
     var { npcs } = this.props
     if (!npcs) return //remove it later
@@ -32,4 +40,4 @@ class NPCs extends Component {
   }
 }
 
-export default connect(({ npcs }) => ({ npcs }), {})(NPCs)
+export default connect(({ npcs }) => ({ npcs }), {loadNpcs})(NPCs)
