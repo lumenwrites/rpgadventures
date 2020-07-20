@@ -9,31 +9,27 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location}>
-      <div className="post-grid">
-        {posts.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
-          let image
-          if (node.frontmatter.image) {
-            image = <Img fluid={node.frontmatter.image.childImageSharp.fluid} />
-          }
-          return (
-            <div className="post-box" key={node.fields.slug}>
-              {image}
-              <h2>
-                <Link to={node.fields.slug}>{title}</Link>
-              </h2>
-              <section>
-                <p
-                  dangerouslySetInnerHTML={{
-                    __html: node.frontmatter.description || node.excerpt,
-                  }}
-                />
-              </section>
-            </div>
-          )
-        })}
-      </div>
-      <SEO title="All posts" />
+	<div className="post-grid">
+            {posts.map(({ node }) => {
+              const title = node.frontmatter.title || node.fields.slug
+              let image
+              if (node.frontmatter.image) {
+		image = <Img fluid={node.frontmatter.image.childImageSharp.fluid} />
+              }
+              return (
+		<Link className="post-box" to={node.fields.slug} key={node.fields.slug}>
+		    {image}
+		    <section className="description">
+			<div className="title">{title}</div>
+			<div dangerouslySetInnerHTML={{
+			  __html: node.frontmatter.description || node.excerpt,
+			}}/>
+		    </section>
+		</Link>
+              )
+            })}
+		    </div>
+		    <SEO title="All posts" />
     </Layout>
   )
 }
