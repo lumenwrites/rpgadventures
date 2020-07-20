@@ -1,0 +1,7 @@
+export const loadNpc = npc => ({ type: 'LOAD_NPC', payload: npc })
+export const loadNpcs = npcs => ({ type: 'LOAD_NPCS', payload: npcs })
+export const createNpc = npc => ({ type: 'CREATE_NPC', payload: npc })
+export const updateNpc = npc => ({ type: 'UPDATE_NPC', payload: npc })
+export const deleteNpc = npc => ({ type: 'DELETE_NPC', payload: npc })
+export const appendCard = card => ({ type: 'APPEND_CARD', payload: card })
+export const removeCard = card => ({ type: 'REMOVE_CARD', payload: card })

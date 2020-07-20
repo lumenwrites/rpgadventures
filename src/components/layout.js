@@ -12,10 +12,11 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 library.add(fas, far, fab)
 
 
-const Layout = ({ location, children }) => {
+const Layout = ({ location, children, subnav }) => {
   return (
     <>
       <Header />
+      {subnav}
       <main>
         <div className="wrapper">{children}</div>
       </main>

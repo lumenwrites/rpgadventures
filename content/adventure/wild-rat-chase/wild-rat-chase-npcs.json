@@ -2,8 +2,12 @@
     {
 	"type": "Villain",
 	"name": "Jafar",
+	"id": "Jafar",	
 	"description": "King's Evil Vizier. Cunning and Ambitious. Tall slender figure, permanent sneer on his face, unless he's talking to someone above his station, then - obsequious smile.",
 	"image": "/tokens/villains/jafar.png",
+	"health": 10,
+	"energy": 10,
+	"attack": 4,		
 	"powers": [
 	    {
 		"title": "Run",
@@ -25,25 +29,41 @@
     {
 	"type": "Villain",
 	"name": "Gretchen",
+	"id": "Gretchen",	
 	"description": "A mean old hag",
-	"image": "/tokens/villains/gretchen.png"
+	"image": "/tokens/villains/gretchen.png",
+	"health": 10,
+	"energy": 10,
+	"attack": 4
     },
     {
 	"type": "Villain",
 	"name": "Pazuzu",
+	"id": "Pazuzu",	
 	"description": "The ungrateful gargoyle.",
-	"image": "/tokens/villains/pazuzu.png"
+	"image": "/tokens/villains/pazuzu.png",
+	"health": 10,
+	"energy": 10,
+	"attack": 4
     },
     {
 	"type": "Villain",
 	"name": "Guz",
+	"id": "Guz",	
 	"description": "Simple but loyal to his master.",
-	"image": "/tokens/villains/guz.png"
+	"image": "/tokens/villains/guz.png",
+	"health": 10,
+	"energy": 10,
+	"attack": 4
     },
     {
 	"type": "Villain",
 	"name": "Guz",
+	"id": "Guz",	
 	"description": "Simple but loyal to his master.",
-	"image": "/tokens/villains/guz.png"
+	"image": "/tokens/villains/guz.png",
+	"health": 10,
+	"energy": 10,
+	"attack": 4
     }    
 ]

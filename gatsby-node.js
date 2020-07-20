@@ -68,7 +68,6 @@ exports.createPages = async ({ graphql, actions }) => {
 
     // Generate a list of categories
     categorySet.add(post.node.fields.category)
-    console.log("FIELDS", post.node.fields)
   })
 
   // Create category pages

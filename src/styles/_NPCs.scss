@@ -5,24 +5,33 @@
 }
 
 .npc {
-  background-color: $btn-bg;
   border: 1px solid $border;
   border-radius: 4px;
   background: #fafafa;
   margin-top: 10px;
-  float: left;
   height: 315px;
-  //width: calc(33.33% - 5px);
+  width: 226px;
   position: relative;
   .character-image {
     width: 100px;
     height: 100px;
     margin-top: 5px;
+    //cursor: default;
   }
   .name {
     text-align: center;
-    //margin-top:45px;
-  }
+    font-size: 16px;
+    margin: 0;
+    border: none;
+    border-bottom: 1px solid $border;
+    background: #fafafa;
+    font-weight: bold;
+    width: 164px;
+    &:hover,&:focus {
+	outline:none;
+    }
+  }  
+
   .character-description {
     margin-top: 5px;
     font-size: 12px;
@@ -31,9 +40,23 @@
     border: 1px solid #dddddd;
     border-radius: 4px;
     height: 160px;
+    overflow-x: hidden;
+    overflow-y: auto;
     p {
       margin: 0;
     }
+  }
+  .image-url {
+      margin-top: 10px;
+      height: 95px;
+      input {
+	  float: left;
+	  width: calc(100% - 20px);
+      }
+      .icon {
+	  margin: 4px 0 0 4px;
+	  cursor: pointer;
+      }
   }
   textarea {
     font-size: 12px;
@@ -44,14 +67,14 @@
     border: 1px solid $border;
   }
   h1 {
-    font-size: 14px;
+    font-size: 16px;
     margin: 0;
     border-bottom: 1px solid $border;
   }
   hr {
     border-top: 1px solid $border;
   }
-  .show-stats {
+  .show-stats-btn {
     font-size: 11px;
     opacity: 70%;
     border: 1px solid $border;
@@ -62,13 +85,15 @@
     padding: 0;
     line-height: 20px;
     text-align: center;
-    position: absolute;
-    right: 10px;
-    top: 8px;
+    float:right;
     &:hover {
       background: white;
       opacity: 100%;
     }
+  }
+  .edit-btn, .delete-btn {
+      @extend .show-stats-btn;
+      float: left;
   }
   .power {
     font-size: 11px;

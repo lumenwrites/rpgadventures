@@ -1,28 +1,51 @@
-import React from "react"
-
+import React, { Component } from 'react'
+import { connect } from 'react-redux'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import TextareaAutosize from 'react-textarea-autosize'
 
-const NPCDescription = props => {
-    var { npc, toggleStats } = props
+import { updateNpc } from "../../actions/npcsActions"
 
-  return (
-    <>
-      <div
-        className="show-stats"
-        onClick={toggleStats}
-      >
-        <FontAwesomeIcon icon={["fas", "chart-line"]} />
-      </div>
-      <div className="name">
-        <h1>{npc.name}</h1>
-      </div>
-      <div
-        className="character-image"
-        style={{ backgroundImage: 'url("' + npc.image + '")' }}
-        onClick={() => this.setState({ adding: true })}
-      />
-      <div className="character-description">{npc.description}</div>
-    </>
-  )
+class NPCDescription extends Component {
+  state = {
+    editImage: false
+  }
+  
+  toggleEdit = () => {
+    this.setState({editImage:!this.state.editImage})
+  }
+  update = (value) => {
+    var { npc, updateNpc } = this.props
+    this.props.updateNpc({...npc, ...value})
+  }
+
+  render() {
+    var { npc } = this.props
+
+    return (
+      <>
+	  { this.state.editImage ?
+	    (<div className="image-url">
+		<input type="text"
+		       placeholder="Image Url"
+		       value={npc.image}
+		       onChange={(e)=>this.update({image:e.target.value})}/>
+		<FontAwesomeIcon className="icon"
+				 icon={["fas", "check-circle"]}
+				 onClick={this.toggleEdit}/>
+	    </div>) : (
+	      <div
+	      className="character-image"
+	      style={{ backgroundImage: 'url("' + npc.image + '")' }}
+	      onClick={this.toggleEdit}
+	      />) }
+	  <textarea
+	    className="character-description"
+	    placeholder="Description, Personality, Goals, Motivations."
+	    value={npc.description}
+	    onChange={(e)=>this.update({description:e.target.value})} />
+	  {/* <div className="character-description">{npc.description}</div> */}
+      </>
+    )
+  }
 }
-export default NPCDescription
+export default connect(({ }) => ({ }), { updateNpc })(NPCDescription)
