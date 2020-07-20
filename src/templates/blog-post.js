@@ -12,7 +12,6 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
       <article>
         {/* {post.frontmatter.title && <h1>{post.frontmatter.title}</h1>} */}
         <MDXRenderer>{post.body}</MDXRenderer>
-        <hr />
         <footer></footer>
       </article>
       <SEO title={post.frontmatter.title} description={post.frontmatter.description || post.excerpt}/>

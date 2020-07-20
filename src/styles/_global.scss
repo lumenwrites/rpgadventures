@@ -93,8 +93,11 @@ article a, .prompts a {
     text-decoration: underline;
 }
 b, strong { font-weight: bold;}
+ol {
+    //margin-top: 1em;
+}
 ol li {
-    margin-top: 1em;
+    margin-top: 0.2em;
     //margin-left: 1em;
 }
 hr {

@@ -157,7 +157,6 @@ export const query = graphql`
       edges {
         node {
           name
-	  relativePath
           childImageSharp {
 	    original { src }
             fixed(width: 400) {
