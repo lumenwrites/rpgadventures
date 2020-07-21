@@ -6,15 +6,15 @@ import SEO from "../components/seo"
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.mdx
-
+  const adventure = post.fields.category === "adventure"
   return (
     <Layout location={location}>
-      <article>
-        {/* {post.frontmatter.title && <h1>{post.frontmatter.title}</h1>} */}
-        <MDXRenderer>{post.body}</MDXRenderer>
-        <footer></footer>
-      </article>
-      <SEO title={post.frontmatter.title} description={post.frontmatter.description || post.excerpt}/>
+	<article className={adventure ? "adventure" : ""} >
+            {/* {post.frontmatter.title && <h1>{post.frontmatter.title}</h1>} */}
+            <MDXRenderer>{post.body}</MDXRenderer>
+            <footer></footer>
+	</article>
+	<SEO title={post.frontmatter.title} description={post.frontmatter.description || post.excerpt}/>
     </Layout>
   )
 }
@@ -27,6 +27,9 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 160)
       body
+      fields {
+	category
+      }
       frontmatter {
         title
         description
