@@ -18,74 +18,61 @@ class Stats extends Component {
 	var itemCount = sheet.magicItems.length + sheet.equipment.length
 	//console.log(sheet)
 	return (
-	    <div className="stats">
-		<div className="stat">
-		    <div className="title">
-			Health
-		    </div>
-		    <div className="inputs-wrapper">
-			<input type="number"
-			       className="value"
-			       value={sheet.currentHealth}
-			       onChange={(e)=>
-				   this.update(e.target.value,
-					       "currentHealth")}/>
-			/
-			<input type="number"
-			       className="value"
-			       value={sheet.maxHealth}
-			       onChange={(e)=>
-				   this.update(e.target.value,
-					       "maxHealth")}/>
-		    </div>
-		</div>
-
-		<div className="stat">
-		    <div className="title">
-			Energy
-		    </div>
-		    <div className="inputs-wrapper">
-			<input type="number"
-			       className="value"
-			       value={sheet.currentEnergy}
-			       onChange={(e)=>
-				   this.update(e.target.value,
-					       "currentEnergy")}/>
-			/
-			<input type="number"
-			       className="value"
-			       value={sheet.maxEnergy}
-			       onChange={(e)=>
-				   this.update(e.target.value,
-					       "maxEnergy")}/>
-		    </div>
-		</div>
-		
-		<div className="stat">
-		    <div className="title">
-			Experience
-		    </div>
-		    <input type="number"
-			   className="value"
-			   value={sheet.experience}
-			   onChange={(e)=>
+	  <div className="stats">
+	      <div className="stat">
+		  <div className="title">
+		      Health
+		  </div>
+		  <div className="inputs-wrapper">
+		      <input type="number"
+			     className="value"
+			     value={sheet.currentHealth}
+			     onChange={(e)=>
 			       this.update(e.target.value,
-					   "experience")}/>
-		</div>
-
-		<div className="stat">
-		    <div className="title">
-			Level
-		    </div>
-		    <input type="number"
-			   className="value"
-			   value={sheet.level}
-			   onChange={(e)=>
+					   "currentHealth")}/>
+		      /
+		      <input type="number"
+			     className="value"
+			     value={sheet.maxHealth}
+			     onChange={(e)=>
 			       this.update(e.target.value,
-					   "level")}/>
-		</div>
+					   "maxHealth")}/>
+		  </div>
+	      </div>
 
-	    </div>
+	      <div className="stat">
+		  <div className="title">
+		      Energy
+		  </div>
+		  <div className="inputs-wrapper">
+		      <input type="number"
+			     className="value"
+			     value={sheet.currentEnergy}
+			     onChange={(e)=>
+			       this.update(e.target.value,
+					   "currentEnergy")}/>
+		      /
+		      <input type="number"
+			     className="value"
+			     value={sheet.maxEnergy}
+			     onChange={(e)=>
+			       this.update(e.target.value,
+					   "maxEnergy")}/>
+		  </div>
+	      </div>
+	      
+	      <div className="stat">
+		  <div className="title">
+		      Experience
+		  </div>
+		  <input type="number"
+			 className="value"
+			 value={sheet.experience}
+			 onChange={(e)=>
+			   this.update(e.target.value,
+				       "experience")}/>
+	      </div>
+	  </div>
 	)
     }
 }

@@ -1,6 +1,8 @@
 import React, { Component } from "react"
 import { connect } from "react-redux"
 
+import ReactTooltip from 'react-tooltip'
+
 import Layout from "../components/layout"
 
 import Subnav from "../components/CharacterSheet/Subnav"
@@ -18,22 +20,27 @@ class Sheet extends Component {
     if (sheets && sheets.length) {
       this.props.loadSheets(JSON.parse(sheets))
     }
+    //ReactTooltip.rebuild()
   }
+
+  
+
 
   render() {
     var { sheets, updateSheet } = this.props
     var sheet = sheets[0]
     document.title = sheet.name + " | Character Sheet"
     var subnav = <Subnav/>
+    //ReactTooltip.rebuild()
     return (
       <Layout subnav={subnav}>
           <article className="character-sheet" id="character-sheet">
               <input
-	      type="text"
-	      className="character-name"
-	      placeholder="Character's Name"
-	      value={sheet.name}
-	      onChange={e => updateSheet({ ...sheet, name: e.target.value })}
+		type="text"
+		className="character-name"
+		placeholder="Character's Name"
+		value={sheet.name}
+		onChange={e => updateSheet({ ...sheet, name: e.target.value })}
               />
               <div className="clearfix" />
               <Image />

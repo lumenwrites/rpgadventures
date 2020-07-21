@@ -39,20 +39,18 @@ textarea {
     margin-top: 10px;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     .stat {
 	padding: 20px;
 	border: 1px solid $border;
 	background: #fafafa;
 	border-radius: 4px;
 	text-align: center;
-	//width: 100px;
-	width: 33%;
-	width: calc(25% - 20px);
-	@media  (max-width: 500px) {
-	    width: calc(25% - 2px);
-	}
+	width: calc(33.33% - 10px);	
 
+	@media  (max-width: 500px) {
+	width: calc(33.33% - 2px);	
+	}	
 	height: 85px;
 
 	display: flex;

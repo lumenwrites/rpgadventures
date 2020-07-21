@@ -9,9 +9,11 @@ class Tooltip extends Component {
     const { utils } = this.props
     /* The whole goal of this component is to rerender tooltip when a new modal
        opens or a hidden element is rendered, because otherwise it won't appear. */
-    const key = utils.showModal
+    //const key = utils.showModal
+    //console.log("rerender tooltip")
+    //key={key} 
     return (
-      <ReactTooltip key={key} type="dark" effect="solid" delayShow={0} />
+      <ReactTooltip type="dark" effect="solid" delayShow={0} />
     )
   }
 }
