@@ -23,16 +23,17 @@ class Sheet extends Component {
   render() {
     var { sheets, updateSheet } = this.props
     var sheet = sheets[0]
+    document.title = sheet.name + " | Character Sheet"
     var subnav = <Subnav/>
     return (
       <Layout subnav={subnav}>
           <article className="character-sheet" id="character-sheet">
               <input
-		type="text"
-		className="character-name"
-		placeholder="Character's Name"
-		value={sheet.name}
-		onChange={e => updateSheet({ ...sheet, name: e.target.value })}
+	      type="text"
+	      className="character-name"
+	      placeholder="Character's Name"
+	      value={sheet.name}
+	      onChange={e => updateSheet({ ...sheet, name: e.target.value })}
               />
               <div className="clearfix" />
               <Image />

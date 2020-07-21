@@ -7,6 +7,7 @@ import TextareaAutosize from 'react-textarea-autosize';
 import { updateSheet, removeCard, } from '../../actions/sheetActions'
 import { toggleModal } from '../../actions/utils'
 
+import Tooltip from '../elements/Tooltip'
 
 class Card extends Component {
     constructor(props) {
@@ -83,44 +84,45 @@ class Card extends Component {
 	/* Creating is true when the card is rendered into card creation modal,
 	   it's false when it's renderd into character sheet (show trash icon)*/
 	return (
-	    <div className="card">
-		<div className="title">
-		    {creating ?
-		     /* If it's rendered into cards modal, only show add icon */
-		     <FontAwesomeIcon icon={["fas", "plus-circle"]}
-				      onClick={this.appendCard}/>
-		    :
-		     <>
-			 {/* If it's rendered into sheet, show delete and edit */}
-			 <FontAwesomeIcon icon={["fas", "trash-alt"]}
-					  onClick={this.removeCard}/>
-		     	 {this.state.editing ?
-			  <FontAwesomeIcon icon={["fas", "check-circle"]}
-					   onClick={this.updateCard}/>
-			 :
-			  <FontAwesomeIcon icon={["fas", "edit"]}
-					   onClick={()=>
-					       this.setState({editing: true})}/>}
-		     </>
-		    }
-		    {this.state.editing ?
-		     <input ref={ref => this.titleInput = ref}
-			    defaultValue={item.title}/>
-		    :
-		     item.title}
-		    <div className="level">{item.level}</div>
-		</div>
-		{item.description && <hr/>}
-		{this.state.editing ?
-		 <TextareaAutosize
-		     placeholder={"Description"}
-		     ref={ref => this.descriptionInput = ref}
-		     defaultValue={item.description}/>
-		:
-		 <div className="description">{item.description}</div>
-		}		
-		
-	    </div>
+	  <div className="card">
+	      <div className="title">
+		  {creating ?
+		   /* If it's rendered into cards modal, only show add icon */
+		   <FontAwesomeIcon icon={["fas", "plus-circle"]}
+				    onClick={this.appendCard}/>
+		  :
+		   <>
+		       {/* If it's rendered into sheet, show delete and edit */}
+		       <FontAwesomeIcon icon={["fas", "trash-alt"]}
+					onClick={this.removeCard}/>
+		       {this.state.editing ?
+			<FontAwesomeIcon icon={["fas", "check-circle"]}
+					 onClick={this.updateCard}/>
+		       :
+			<FontAwesomeIcon icon={["fas", "edit"]}
+					 onClick={()=>
+					   this.setState({editing: true})}/>}
+		   </>
+		  }
+		  {this.state.editing ?
+		   <input ref={ref => this.titleInput = ref}
+			  defaultValue={item.title}/>
+		  :
+		   item.title}
+		  <div className="level"
+		       data-tip="Level and Energy Cost">{item.level}</div>
+	      </div>
+	      {item.description && <hr/>}
+	      {this.state.editing ?
+	       <TextareaAutosize
+		 placeholder={"Description"}
+		 ref={ref => this.descriptionInput = ref}
+		 defaultValue={item.description}/>
+	      :
+	       <div className="description">{item.description}</div>
+	      }		
+	      <Tooltip/>
+	  </div>
 	)
     }
 }
