@@ -28,8 +28,8 @@ const BlogIndex = ({ data, location }) => {
 		</Link>
               )
             })}
-		    </div>
-		    <SEO title="All posts" />
+	</div>
+	<SEO title="All posts" />
     </Layout>
   )
 }
@@ -40,7 +40,7 @@ export const pageQuery = graphql`
   query PostsByCategory($category: String!) {
     allMdx(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { fields: { category: { eq: $category } } }
+      filter: { fields: { category: { eq: $category }  draft: { eq: false } } }
     ) {
       edges {
         node {

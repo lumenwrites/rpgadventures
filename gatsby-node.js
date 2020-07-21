@@ -17,6 +17,11 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     const fileNode = getNode(node.parent)
     const parsedFilePath = path.parse(fileNode.relativePath)
     createNodeField({node, name: `category`, value: parsedFilePath.dir})
+
+    /* Create draft field */
+    var draft = node.frontmatter.draft ? true : false
+    //console.log(slug, "DRAFT", draft)
+    createNodeField({node, name: `draft`, value: draft})
   }
 }
 
@@ -31,6 +36,7 @@ exports.createPages = async ({ graphql, actions }) => {
         allMdx(
           sort: { fields: [frontmatter___date], order: DESC }
           limit: 1000
+          filter: { fields: { draft: { eq: false } } } 
         ) {
           edges {
             node {
