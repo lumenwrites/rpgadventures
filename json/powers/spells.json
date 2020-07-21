@@ -1,0 +1,67 @@
+[
+  {
+    "title": " Kinestetic",
+    "powers": [
+      {
+        "title": "Run",
+        "ep": "2",
+        "xp": "3",
+        "description": "For the next hour you can run as fast as a horse.",
+        "section": "spells"
+      },
+      {
+        "title": "Walk on walls/ceiling",
+        "ep": "1",
+        "xp": "2",
+        "bonusDice": "1",
+        "requirements": "Novice Ninja",
+        "description": "For the next 20 minutes you can walk on any surface at any angle as if it was regular floor.",
+        "section": "spells"
+      }
+    ]
+  },
+  {
+    "title": "Telekinesis",
+    "powers": [
+      {
+        "title": "Mold Earth",
+        "ep": "3",
+        "xp": "2",
+        "bonusDice": "1",
+        "requirements": "Novice Telekinesis",
+        "description": "You can target an area (5x5 meter cube) of loose earth, you can instantaneously excavate it, move it along the ground, and deposit it up to 5 meters away.\nYou can cause shapes, colors, or both to appear on the dirt or stone, spelling out words, creating images, or shaping patterns.",
+        "section": "spells"
+      },
+      {
+        "title": "Push/Pull metal",
+        "ep": "3",
+        "xp": "2",
+        "description": "Push metal directly away from you, or pull it towards you. If the object is lighter than you, the object moves, if it’s heavier - you move. If an object is thrown at a speed, deals 4 damage.",
+        "section": "spells"
+      }
+    ]
+  },
+  {
+    "title": "Intermediate Telekinesis",
+    "powers": [
+      {
+        "title": "Levitate",
+        "ep": "5",
+        "description": "Slowly lifts the target (object, creature, including yourself) vertically above the ground, up to 10 meters. The target can weight up to 300 kg.",
+        "section": "spells"
+      },
+      {
+        "title": "Greater Telekinesis",
+        "ep": "6",
+        "description": "Levitate human-sized objects and creatures.\nThrowing an object/creature deals 5 damage to the target and to the object.\n(requires “Minor Telekinesis”)",
+        "section": "spells"
+      },
+      {
+        "title": "Fly",
+        "ep": "7",
+        "description": "Grant the power of flight to the target creature(including yourself). The target can fly at a speed of a bird for the next 10 minutes.",
+        "section": "spells"
+      }
+    ]
+  }
+]

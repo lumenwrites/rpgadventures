@@ -3,68 +3,37 @@ import { connect } from 'react-redux'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
-import spells from '../../../json/spells.json'
-import abilities from '../../../json/abilities.json'
-import magicItems from '../../../json/magic-items.json'
-import equipment from '../../../json/equipment.json'
-
-import Card from './Card'
-import Modal from '../elements/modal'
-import Cards from './Cards'
+import Power from './Power'
+import PowersModal from './PowersModal'
 
 /* Actions */
 import { toggleModal } from '../../actions/utils'
 
 class Section extends Component {
-    renderCards = () => {
-	var type
-	switch (this.props.type) {
-	    case 'Ability': type = 'abilities'; break;
-	    case 'Spell': type = 'spells'; break;
-	    case 'Magic Item': type = 'magicItems'; break;
-	    case 'Item': type = 'equipment'; break;
-	}
-	var cards = this.props.sheets[0][type]
-	if (cards.length == 0) return;
-	return cards.map((card,i)=> {
-	    return (
-		<Card item={card} key={i} />
-	    )
-	})
-    }
-    
-    render() {
-	var cards
-	switch (this.props.type) {
-	    case 'Spell': cards = spells; break;
-	    case 'Ability': cards = abilities; break;
-	    case 'Magic Item': cards = magicItems; break;
-	    case 'Item': cards = equipment; break;
-	}
-	return (
-	    <div className="section">
-		<div className="section-title">
-		    {this.props.title}
-		</div>
+  renderPowers = () => {
+    var { sheets, section } = this.props
+    var powers = sheets[0][section]
+    if (powers.length == 0) return
+    return powers.map((power,i) => <Power power={power} key={i} />)
+  }
+  
+  render() {
+    var { title, singular, section, powers } = this.props
+    return (
+      <div className="section">
+	  <div className="section-title">{title}</div>
+	  <div className="cards">{this.renderPowers()}</div>
+	  
+	  <div className="card append"
+	       onClick={() => {this.props.toggleModal(section)}}>
+	      Add {singular}
+	      <FontAwesomeIcon icon={["fas", "plus-circle"]}/>
+	  </div>
 
-		<div className="cards">
-		    {this.renderCards()}	
-		</div>
-		
-		<div className="card append"
-		     onClick={() => {
-			 this.props.toggleModal(this.props.type+"-cards")
-		     }}>
-		    Add {this.props.type}
-		    <FontAwesomeIcon icon={["fas", "plus-circle"]}/>
-		</div>
-		
-		<Modal name={this.props.type+"-cards"}className="cards-modal wide">
-		    <Cards cards={cards} />
-		</Modal>
-	    </div>
-	)
-    }
+	  <PowersModal name={section} powers={powers} />
+      </div>
+    )
+  }
 }
 
 export default connect(({sheets})=>({sheets}), {toggleModal})(Section)

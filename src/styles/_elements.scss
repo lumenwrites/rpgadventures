@@ -212,3 +212,7 @@ tbody tr:nth-child(even){
 	transition: 0s
     }    
 }
+
+.react-tooltip {
+    z-index: 100;
+}

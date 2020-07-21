@@ -11,6 +11,11 @@ import Stats from "../components/CharacterSheet/Stats"
 import Section from "../components/CharacterSheet/Section"
 import Description from "../components/CharacterSheet/Description"
 
+//import abilities from '../../../json/abilities.json'
+import spells from '../../json/powers/spells.json'
+//import magicItems from '../../../json/magic-items.json'
+//import equipment from '../../../json/equipment.json'
+
 /* Actions */
 import { updateSheet, loadSheets } from "../actions/sheetActions"
 
@@ -36,22 +41,29 @@ class Sheet extends Component {
       <Layout subnav={subnav}>
           <article className="character-sheet" id="character-sheet">
               <input
-		type="text"
-		className="character-name"
-		placeholder="Character's Name"
-		value={sheet.name}
-		onChange={e => updateSheet({ ...sheet, name: e.target.value })}
+	      type="text"
+	      className="character-name"
+	      placeholder="Character's Name"
+	      value={sheet.name}
+	      onChange={e => updateSheet({ ...sheet, name: e.target.value })}
               />
               <div className="clearfix" />
               <Image />
               <Stats />
               <div className="col-1">
-		  <Section title="Abilities" type="Ability" />
-		  <Section title="Spells" type="Spell" />
+		  {/*  
+		      <Section title="Abilities" singular="Ability" powers={abilities}
+		      section="abilities"/>
+		    */}
+		  <Section title="Spells" singular="Spell" powers={spells}
+			   section="spells" />
               </div>
               <div className="col-2">
-		  <Section title="Magic Items" type="Magic Item" />
-		  <Section title="Equipment" type="Item" />
+		  {/* 
+		      <Section title="Magic Items" singular="Item" powers={magicItems}
+		      section="magicItems"/>
+		      <Section title="Equipment" singular="Item" powers={equipment}
+		      section="equipment" /> */}
               </div>
 
               <div className="clearfix" />

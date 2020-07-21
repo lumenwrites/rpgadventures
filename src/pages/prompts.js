@@ -5,63 +5,57 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { Link, graphql } from "gatsby"
 import Img from "gatsby-image"
 
-import promptCategories from "../../json/prompts/prompts.json"
+import ReactMarkdown from 'react-markdown'
+
+import HCs from "../../json/prompts/HCs.json"
+import goals from "../../json/prompts/goals.json"
+import complications from "../../json/prompts/complications.json"
+import villains from "../../json/prompts/villains.json"
+import villainMotivations from "../../json/prompts/villain-motivations.json"
+import movieCharacters from "../../json/prompts/movie-characters.json"
+
+import action from "../../json/prompts/action-adventure.json"
+import exploration from "../../json/prompts/exploration.json"
+import social from "../../json/prompts/social.json"
+import mystery from "../../json/prompts/mystery.json"
+import stealth from "../../json/prompts/stealth.json"
+import villainMoves from "../../json/prompts/villain-moves.json"
+
 import locations from "../../json/prompts/locations.json"
 
 import Layout from "../components/layout"
 
-var categories = [
-  "Adventure Goal",
-  "Action/Adventure",
-  "Exploration",
-  "Social/Intrigue",
-  "Mystery/Investigation",
-  "Stealth/Heist",
-  "Complication",
-  "Description",
-  "Goal",
-  "Powers",
-  "Villain's Moves",
-  "High Concept",
-]
 
 class Prompts extends Component {
   state = {
-    seeds: Array.from({ length: promptCategories.length }, () => Math.random()),
+    seeds: Array.from({ length: 20 }, () => Math.random()),
     locationSeed: Math.random(),
   }
 
-  renderPrompt = type => {
-    /* Turn category type (like Action/Adventure) into an index */
-    var i = categories.findIndex(t => t == type)
-    var c = promptCategories[i]
-    var prompt = c.prompts[Math.floor(this.state.seeds[i] * c.prompts.length)]
-    if (c.type == "Adventure Goal") {
-      c.type = "Heroes'/Antagonist's Goal"
-    }
+  renderPrompt = (title, prompts, index) => {
+    var prompt = prompts[Math.floor(this.state.seeds[index] * prompts.length)]
     return (
       <div className="prompt">
-        <div
-          className="refresh"
-          onClick={() => {
+          <div className="refresh" onClick={() => {
             var seeds = [...this.state.seeds]
-            seeds[i] = Math.random()
+            seeds[index] = Math.random()
             this.setState({ seeds })
-          }}
-        >
-          <FontAwesomeIcon icon={["fas", "dice"]} />
-        </div>
-        <span className="prompt-label">{c.type}:</span>
-        <div className="clearfix" />
-        <div className="text">{prompt}</div>
+          }}>
+              <FontAwesomeIcon icon={["fas", "dice"]} />
+          </div>
+          <span className="prompt-label">{title}:</span>
+          <div className="clearfix" />
+	  <ReactMarkdown source={prompt}
+			 className="text"
+			 escapeHtml={false} />
       </div>
     )
   }
+
   renderLocation = () => {
     var locations = this.props.data.allFile.edges
 
-    var location =
-	  locations[Math.floor(this.state.locationSeed * locations.length)].node
+    var location = locations[Math.floor(this.state.locationSeed * locations.length)].node
     return (
       <div className="prompt image-prompt">
           <div
@@ -86,44 +80,49 @@ class Prompts extends Component {
       <Layout>
           <div className="prompts">
               <h1>Adventure Prompts</h1>
-              <h3>Story Idea</h3>
-              {this.renderPrompt("High Concept")}
+	      <h3>Adventure Idea</h3>
+	      {this.renderPrompt("High Concept Idea", HCs, 0)}
               <Link className="small" to="/prompts/high-concept-ideas">
 		  [Full list of High Concept Ideas]
               </Link>
-              <div className="clearfix" />
-              {this.renderPrompt("Adventure Goal")}
-              <Link className="small" to="/prompts/goals">
+              <div className="clearfix" />	      
+	      {this.renderPrompt("Heroes'/Antagonist's Goal", goals, 1)}
+	      <Link className="small" to="/prompts/goals">
 		  [Full list of Goals]
               </Link>
-              <div className="clearfix" />
-              {this.renderPrompt("Complication")}
+              <div className="clearfix" />	      
+	      {this.renderPrompt("Complication", complications, 2)}
               <Link className="small" to="/prompts/complications">
 		  [Full list of Complications]
               </Link>
-              <div className="clearfix" />
-              {/* <h3>Antagonist</h3> */}
-              {/* {this.renderPrompt("Description")} */}
-              {/* {this.renderPrompt("Goal")} */}
-              {/* {this.renderPrompt("Powers")} */}
+	      <div className="clearfix" />
+	      <h3>Antagonist</h3>
+	      {this.renderPrompt("Antagonist", villains, 3)}
+	      {this.renderPrompt("Antagonist's Motivation", villainMotivations, 4)}
+	      {this.renderPrompt("Movie Character", movieCharacters, 5)}
+	      <Link className="small" to="/prompts/antagonist-prompts">
+		  [Full list of Antagonist Prompts]
+              </Link>
+	      <div className="clearfix" />
+	      (Adapt them to fantasy and use as an Antagonist. For good characters - make an evil/corrupted version of them.)
               <h3>Setting</h3>
               {this.renderLocation()}
               <Link className="small" to="/world">
 		  [Full list of Settings]
               </Link>
               <div className="clearfix" />
-              <h3>Challenges</h3>
-              {this.renderPrompt("Action/Adventure")}
-              {this.renderPrompt("Exploration")}
-              {this.renderPrompt("Social/Intrigue")}
-              {this.renderPrompt("Mystery/Investigation")}
-              {this.renderPrompt("Stealth/Heist")}
+	      <h3>Challenges</h3>
+	      {this.renderPrompt("Action/Adventure", action, 6)}
+	      {this.renderPrompt("Exploration", exploration, 7)}
+	      {this.renderPrompt("Social/Intrigue", social, 8)}
+	      {this.renderPrompt("Mystery/Investigation", mystery, 9)}
+	      {this.renderPrompt("Stealth/Heist", stealth, 10)}
               <Link className="small" to="/prompts/challenges">
 		  [Full list of Challenges]
               </Link>
-              <div className="clearfix" />
-              {this.renderPrompt("Villain's Moves")}
-              <Link className="small" to="/prompts/villain-moves">
+	      <div className="clearfix" />
+	      {this.renderPrompt("Villain's Moves", villainMoves, 11)}
+	      <Link className="small" to="/prompts/villain-moves">
 		  [Full list of Villain's Moves]
               </Link>
               <div className="clearfix" />

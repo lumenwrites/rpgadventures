@@ -23,8 +23,8 @@ const Layout = ({ location, children, subnav }) => {
 	<main>
             <div className="wrapper">{children}</div>
 	</main>
-	<ReactTooltip type="dark" effect="solid" delayShow={0}
-	getContent={() => { return null }}/>
+	<ReactTooltip className="react-tooltip" type="dark" effect="solid"
+		      delayShow={0} html={true}/>
     </>
   )
 }

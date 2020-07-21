@@ -16,34 +16,36 @@
     }
 }
 .card {
-    margin-top: 10px;
-    padding: 10px;
+    margin-top: 5px;
+    padding: 5px;
     border: 1px solid $border;
     border-radius: 4px;
     font-size: 12px;
     background: white;
+    -webkit-column-break-inside: avoid;
 
-    &.appending {
-	@extend .on-click-animation;
+    &.adding {
+	@extend .on-click-animation; //from _elements.scss
 	cursor: pointer
     }
 
-    .title {
-	font-size: 12px;
+    .card-header {
 	font-weight: bold;
 	input {
 	    font-size: 12px;
+	    height: 16px;
 	    border: none;
+	    background: #fafafa; // like in textarea in _global.scss
 	    outline: 1px solid $border;
 	    font-weight: bold;
 	}
-
 
 	.edit-icons {
 	    svg {
 		float:left;
 		color: $text-dim;
 		margin-right: 5px;
+		height: 15px;
 		&:hover {
 		    cursor: pointer;
 		    color: $text;
@@ -69,12 +71,14 @@
 	    }
 	}
     }
-    .description {
+
+    hr { margin-top: 2px; }
+    .textarea-description {
+	outline: 1px solid $border;	
     }
-
-    width: 100%;
-    -webkit-column-break-inside: avoid;
-
+    .requirements {
+	border-top: 1px solid $border;	
+    }
     &:first-child {
 	margin-top: 0;
     }
