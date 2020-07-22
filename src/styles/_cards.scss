@@ -1,4 +1,24 @@
-.cards-modal {
+.powers-modal {
+    .title {
+	font-size: 1.5em;
+	font-weight: bold;
+	float: left;
+    }
+    .no-powers-available {
+	border: 1px solid $border;
+	border-radius: 4px;
+	font-size: 11px;
+	padding: 5px;
+    }
+    .filter-powers-toggle {
+	float:right;
+	text-align: center;
+	display: block;
+	font-size: 11px;
+	width: 220px;
+	height: 34px;
+	line-height: 15px;
+    }
     .category-title {
 	text-align: center;
 	font-weight: bold;

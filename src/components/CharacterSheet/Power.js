@@ -23,6 +23,9 @@ class Power extends Component {
     
     // Put spells into updatedSheet.spells, abilities into updatedSheet.abilities, etc.
     updatedSheet[section] = [...updatedSheet[section], power]
+
+    // Subtract the power from current XP
+    if (power.xp) { updatedSheet.experience -= power.xp }
     updateSheet(updatedSheet)
   }
 

@@ -1,27 +1,32 @@
-var INITIAL_STATE = [
-  {
-    name:"",
-    image:"",
-    currentHealth: 10,
-    maxHealth:10,
-    currentEnergy: 10,
-    maxEnergy: 10,
-    memorySize: 10,
-    inventorySize:10,
-    experience: 0,
-    level: 1,
-    cards:[],
-    abilities: [],
-    spells: [],
-    magicItems: [],
-    equipment: [],
-    id: "12",
-    appearance: "",
-    ambitions: "",
-    personality: "",
-    backstory: ""
-  }
-]
+import blankSheet from '../../json/premade-characters/sheet-blank.json'
+
+var INITIAL_STATE = [blankSheet]
+
+/* 
+   [
+   {
+   name:"",
+   image:"",
+   currentHealth: 10,
+   maxHealth:10,
+   currentEnergy: 10,
+   maxEnergy: 10,
+   memorySize: 10,
+   inventorySize:10,
+   experience: 0,
+   level: 1,
+   cards:[],
+   abilities: [],
+   spells: [],
+   magicItems: [],
+   equipment: [],
+   id: "12",
+   appearance: "",
+   ambitions: "",
+   personality: "",
+   backstory: ""
+   }
+   ] */
 
 export default function (state = INITIAL_STATE, action) {
   switch (action.type) {
@@ -59,8 +64,8 @@ export default function (state = INITIAL_STATE, action) {
       if (updatedSheets.length == 0) updatedSheets.push(INITIAL_STATE[0])
       //TODO generate unique id?
       localStorage.setItem('sheets', JSON.stringify(updatedSheets))
-      return updatedSheets
-    default:
-      return state
+	return updatedSheets
+      default:
+	return state
+    }
   }
-}
