@@ -5,13 +5,14 @@ import Img from "gatsby-image"
 
 //import logoImage from "../../static/logo.png"
 
-const Header = ({data}) => {
+const Header = (props) => {
+  console.log("DATA",props)
   return (
     <header>
 	<div className="wrapper">
             <Link to="/" className="logo">
-		{/* <img src={logoImage} /> */}
-		<Img alt={data.logo.name} fixed={data.logo.childImageSharp.fixed} />		
+		 <img src={logoImage} /> 
+		{/* <Img alt={data.logo.name} fixed={data.logo.childImageSharp.fixed} />		 */}
 		mirage
             </Link>
             <div className="right">
