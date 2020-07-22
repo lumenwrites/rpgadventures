@@ -24,6 +24,9 @@ const Header = () => {
 			<Link to="/rules-gm" className="item btn">
 			    For GMs
 			</Link>
+			<Link to="/pen-and-paper" className="item btn">
+			    Pen & Paper
+			</Link>
 		    </div>
 		</div>
 		
@@ -35,6 +38,9 @@ const Header = () => {
 			</Link>
 			<Link to="/NPCs" className="item btn">
 			    NPCs
+			</Link>
+			<Link to="/all-powers" className="item btn">
+			    All Powers
 			</Link>
 			<Link to="/prompts" className="item btn">
 			    Prompts

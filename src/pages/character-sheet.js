@@ -25,17 +25,19 @@ class Sheet extends Component {
     if (sheets && sheets.length) {
       this.props.loadSheets(JSON.parse(sheets))
     }
-    //ReactTooltip.rebuild()
   }
 
-  
+  componentDidUpdate = () => {
+    ReactTooltip.rebuild()
+  }  
+
   render() {
     var { sheets, updateSheet } = this.props
     var sheet = sheets[0]
     const isSSR = typeof window === "undefined"
     if (!isSSR) { document.title = sheet.name + " | Character Sheet" } 
     var subnav = <Subnav/>
-    //ReactTooltip.rebuild()
+
     return (
       <Layout subnav={subnav}>
           <article className="character-sheet" id="character-sheet">

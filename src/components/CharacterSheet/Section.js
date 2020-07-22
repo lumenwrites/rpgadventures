@@ -14,7 +14,7 @@ class Section extends Component {
     var { sheets, section } = this.props
     var powers = sheets[0][section]
     if (powers.length == 0) return
-    return powers.map((power,i) => <Power power={power} key={i} />)
+    return powers.map((power,i) => <Power power={power} key={i} onSheet />)
   }
   
   render() {

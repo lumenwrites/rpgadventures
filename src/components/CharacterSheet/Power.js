@@ -80,38 +80,39 @@ class Power extends Component {
     /* Show requirements when adding ability/item, or for just the items in the sheet */
     /* (because you can have an item, but don't know how to use it) */
     var isItem = power.section == "magicItems" || power.section == "equipment"
-    var displayRequirements = sample || (power.requirements && (adding || isItem))
+    var displayRequirements = (power.requirements && (adding || isItem || sample))
+    var displayFooter = displayRequirements || power.xp || power.ep || power.bonusDice 
     return (
       <div className={`card ${adding ? "adding" : ""}`}
-	   onClick={()=> adding ? this.addPower() : null } >
-	  <div className="card-header">
-	      {/* Edit Icons */}
-	      {this.renderEditIcons()}
+      onClick={()=> adding ? this.addPower() : null } >
+      <div className="card-header">
+      {/* Edit Icons */}
+      {this.renderEditIcons()}
 
-	      {/*  Title */}
-	      {this.state.editing ? (
-		<input ref={ref => this.titleInput = ref}
-		       defaultValue={power.title}/>
-	      ) : (
-		<span className="card-title">{power.title}</span>
-	      )}
+      {/*  Title */}
+      {this.state.editing ? (
+	<input ref={ref => this.titleInput = ref}
+	       defaultValue={power.title}/>
+      ) : (
+	<span className="card-title">{power.title}</span>
+      )}
 
-	  </div>
-	  
-	  <hr/>
-	  {/* Description */}
-	  {this.state.editing ? (
-	    <TextareaAutosize
-	      className="textarea-description"
-	      placeholder={"Description"}
-	      ref={ref => this.descriptionInput = ref}
-	      defaultValue={power.description}/>
-	  ) : (
-	    <div className="description">{power.description}</div>
-	  )}
-	  {(!adding || power.requirements) &&
-	   <div className="card-footer">
-	       {/* Show EP cost if it exists */}
+      </div>
+      
+      <hr/>
+      {/* Description */}
+      {this.state.editing ? (
+	<TextareaAutosize
+	  className="textarea-description"
+	  placeholder={"Description"}
+	  ref={ref => this.descriptionInput = ref}
+	  defaultValue={power.description}/>
+      ) : (
+	<div className="description">{power.description}</div>
+      )}
+      {(displayFooter) &&
+       <div className="card-footer">
+	{/* Show EP cost if it exists */}
 	       {power.ep && (
 		 <div className="level" data-tip="Energy Cost (to use)">
 		     <FontAwesomeIcon icon={["fab", "react"]}/>	  

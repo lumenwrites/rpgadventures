@@ -14,8 +14,8 @@ class PowersModal extends Component {
   }
 
   componentDidUpdate = (prevProps) => {
+    ReactTooltip.rebuild()
     if (this.props.utils.showModal !== prevProps.utils.showModal) {
-      ReactTooltip.rebuild()
       console.log("[PowersModal] Modal Opened")
     }
   }

@@ -36,6 +36,9 @@
 	border-radius: 4px;
 	font-size: 11px;
 	padding: 5px;
+	ul {
+	    padding-left: 20px;
+	}
     }
     .filter-powers-toggle {
 	float:right;
@@ -160,3 +163,19 @@
     }
 }
 
+
+.all-powers-app {
+    @extend .powers-modal-npcs;
+    margin-top: 20px;
+    .tabs {
+	margin: -16px;
+    }
+    background: white;
+    padding: 20px;
+
+    .card .level.requirements {
+	float: right;
+	margin-right: 0;
+    }
+
+}
