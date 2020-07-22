@@ -144,17 +144,15 @@ class PowersModal extends Component {
     var { name } = this.props
     var showFilterToggle = name == "abilities" || name == "spells"
     var showRarityFilter = name == "magicItems" || name == "equipment"
+    var title = name
+    if (name === "magicItems") { title = "Magic Items" }
     return (
       <Modal name={this.props.name} className="powers-modal wide">
-	  {showFilterToggle && (
-	    <>
-		<div className="title"> Add {this.props.name} </div>
-		{this.renderFilterPowersToggle()}
-		<div className="clearfix"/>
-		<hr/>
-	    </>
-	  )}
+	  <div className="title"> Add {title} </div>
+	  {showFilterToggle && (this.renderFilterPowersToggle())}
 	  {showRarityFilter && this.renderRarityFilter()}
+	  <div className="clearfix"/>
+	  <hr/>
 	  {this.renderCategories()}
       </Modal>
     )

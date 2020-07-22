@@ -30,6 +30,7 @@
 	font-size: 1.5em;
 	font-weight: bold;
 	float: left;
+	text-transform: capitalize;
     }
     .no-powers-available {
 	border: 1px solid $border;
@@ -50,7 +51,7 @@
 	line-height: 15px;
     }
     .rarity-filter {
-	margin: auto;
+	float: right;
     }
     .category-title {
 	text-align: center;
