@@ -23,16 +23,13 @@ Increases the number of items you can carry by 5.
 
 # Dexterity
 ## Novice Acrobatics | 3 | 3 | 1 
-You are nimble and flexible.
-
-## Intermediate Acrobatics | 6 | 6 | 2 | Novice Acrobatics
 You are very flexible and fast. You can do a backflip, jump between buildings.
 
-## Advanced Acrobatics | 9 | 9 | 3 | Intermediate Acrobatics
-You are ninja-level flexible and fast.
+## Intermediate Acrobatics | 6 | 6 | 2 | Novice Acrobatics
+You are ninja-level flexible and fast. 
 
-## Master Acrobatics | 12 | 12 | 4 | Intermediate Acrobatics
-You are capable of superhuman, spider-man-level acrobatics.
+## Advanced Acrobatics | 9 | 9 | 3 | Intermediate Acrobatics
+You are capable of superhuman, spider-man-level acrobatics. 
 
 ## Novice Stealth | 3 | 3 | 1 
 You are good at sneaking and not being seen.
@@ -41,7 +38,7 @@ You are good at sneaking and not being seen.
 You are very good at sneaking and not being seen.
 
 ## Advanced Stealth | 9 | 9 | 3 | Intermediate Stealth
-Your ability to sneak and hide is ninja-level, you're borderline invisible.
+Your ability to sneak and hide is ninja-level, you're borderline invisible in the shadows.
 
 ## Novice Thief | 3 | 3 | 1 
 You are learning the art of stealing, concealing, smuggling things.
@@ -52,34 +49,50 @@ You are very good at the art of stealing, concealing, smuggling things.
 ## Advanced Thief | 9 | 9 | 3 | Intermediate Thief
 You are an expert thief. You can steal, conceal, or smuggle anything.
 
-
 ---
 
-# Arcana
+# Genral Magic
 
 ## Novice Arcana | 3 | 3 | 1 
 You have a basic understanding of magic and arcane arts.
 Enables you to use more sophisticated magic items.
 
-## Intermediate Arcana | 6 | 6 | 2
+## Intermediate Arcana | 6 | 6 | 2 | Novice Arcana
 You have a solid understaning of magic and it's principles. 
 Enables you to use more sophisticated magic items.
 
+## Advanced Arcana | 9 | 9 | 3 | Intermediate Arcana
+You have mastered the depth and intricacies of arcane arts.
+You can identify and use any magic item.
+
+---
+
+# Knowledege
 
 ---
 
 # Combat
 ## Novice Swordsman | 3 | 3 | 1 
-You are nimble and flexible.
+You are capable of holding a sword and stabbing things with it. Sometimes you even hit them.
 
 ## Intermediate Swordsman | 6 | 6 | 2 | Novice Swordsman
-You are very flexible and fast. You can do a backflip, jump between buildings.
+You are quite good with the sword. You can use more powerful and advanced swords.
 
 ## Advanced Swordsman | 9 | 9 | 3 | Intermediate Swordsman
-You are ninja-level flexible and fast.
+You are an expert, your mastery of swordsmanship knows no rivals.
 
-## Master Swordsman | 12 | 12 | 4 | Intermediate Swordsman
-You are capable of superhuman, spider-man-level swordsman.
+---
+
+# Armor
+## Light armor | | 3 | | 
+Enables you to wear light armor.
+
+## Medium Armor armor | | 5 | | Novice Athletics
+Enables you to wear medium armor.
+
+## Heavy armor | | 8 | | Intermediate Athletics
+Enables you to wear heavy armor.
+
 
 ---
 
