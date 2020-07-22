@@ -29,12 +29,11 @@ class Sheet extends Component {
   }
 
   
-
-
   render() {
     var { sheets, updateSheet } = this.props
     var sheet = sheets[0]
-    document.title = sheet.name + " | Character Sheet"
+    const isSSR = typeof window === "undefined"
+    if (!isSSR) { document.title = sheet.name + " | Character Sheet" } 
     var subnav = <Subnav/>
     //ReactTooltip.rebuild()
     return (
