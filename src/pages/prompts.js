@@ -137,9 +137,9 @@ class Prompts extends Component {
               <ul>
 		  <li>
 		      Use{" "}
-		      <a href="https://docs.google.com/document/d/1R7bOixB-1tN7U3lEi47L-NDA91CibDJ0VTgrbKO2nlQ/">
+		      <Link to="/guide/adventure-template/">
 			  Adventure Template
-		      </a>{" "}
+		      </Link>{" "}
 		      to develop these prompts into a complete adventure.
 		  </li>
               </ul>
@@ -166,7 +166,7 @@ export const query = graphql`
           childImageSharp {
 	    original { src }
             fixed(width: 400) {
-              ...GatsbyImageSharpFixed
+              ...GatsbyImageSharpFixed_withWebp
             }
           }
         }
@@ -185,7 +185,7 @@ export const query = graphql`
           childImageSharp {
 	    original { src }
             fixed(width: 400) {
-              ...GatsbyImageSharpFixed
+              ...GatsbyImageSharpFixed_withWebp
             }
           }
         }

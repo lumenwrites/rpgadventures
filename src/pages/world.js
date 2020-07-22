@@ -32,35 +32,35 @@ class World extends Component {
     }
   }
 
-  export default World
+export default World
 
-  export const query = graphql`
-    query {
-      allFile(
-	filter: {
-          extension: { regex: "/(jpg)|(png)|(tif)|(tiff)|(webp)|(jpeg)/" }
-          relativeDirectory: { eq: "prompts/locations" }
-	}
-	sort: { order: DESC, fields: id }
-      ) {
-	edges {
-          node {
-            name
-            childImageSharp {
-              fixed(width: 290) {
-		...GatsbyImageSharpFixed
-              }
+export const query = graphql`
+  query {
+    allFile(
+      filter: {
+        extension: { regex: "/(jpg)|(png)|(tif)|(tiff)|(webp)|(jpeg)/" }
+        relativeDirectory: { eq: "prompts/locations" }
+      }
+      sort: { order: DESC, fields: id }
+    ) {
+      edges {
+        node {
+          name
+          childImageSharp {
+            fixed(width: 290) {
+	      ...GatsbyImageSharpFixed_withWebp
             }
           }
-	}
-      }
-      mirageWorld: file(relativePath: { eq: "prompts/world/mirage-world.jpg" }) {
-	childImageSharp {
-	  original { src }
-          fluid(maxWidth: 620) {
-            ...GatsbyImageSharpFluid
-          }
-	}
+        }
       }
     }
-  `
+    mirageWorld: file(relativePath: { eq: "prompts/world/mirage-world.jpg" }) {
+      childImageSharp {
+	original { src }
+        fluid(maxWidth: 620) {
+	  ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+  }
+`
