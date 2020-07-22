@@ -11,7 +11,7 @@ const Header = ({data}) => {
 	<div className="wrapper">
             <Link to="/" className="logo">
 		{/* <img src={logoImage} /> */}
-		<Img alt={node.name} fixed={data.logo.childImageSharp.fixed} />		
+		<Img alt={data.logo.name} fixed={data.logo.childImageSharp.fixed} />		
 		mirage
             </Link>
             <div className="right">
