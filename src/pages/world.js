@@ -10,27 +10,29 @@ class World extends Component {
     return data.allFile.edges.map(({ node }, i) => {
       return (
         <div className="nobreak" key={i}>
-        <span className="bold">{node.name}</span>
-        <Img alt={node.name} fixed={node.childImageSharp.fixed} />
+            <span className="bold">{node.name}</span>
+            <Img alt={node.name} fixed={node.childImageSharp.fixed} />
         </div>
       )
     })
-    }
-    render() {
-      var { mirageWorld } = this.props.data
-      return (
-	<Layout>
-            <article>
-		<h1>World of Mirage</h1>
-		<p>Mirage is set in a colorful and zany fantasy world. Think Disenchantment, Futurama, Gravity Falls, Rick and Morty, Last Kids on Earth. It can have grounded, sincere, dramatic, poignant moments, but it's not meant to be too realistic or taken too seriously.</p>
-		<img src={mirageWorld.childImageSharp.original.src} />          
-		<h2>Locations</h2>
-		<div className="columns">{this.renderImages()}</div>
-            </article>
-	</Layout>
-      )
-    }
   }
+  render() {
+    var { mirageWorld } = this.props.data
+    return (
+      <Layout>
+          <article>
+	      <h1>World of Mirage</h1>
+	      <p>Mirage is set in a colorful and zany fantasy world. Think Disenchantment, Futurama, Gravity Falls, Rick and Morty, Last Kids on Earth. It can have grounded, sincere, dramatic, poignant moments, but it's not meant to be too realistic or taken too seriously.</p>
+	      <a href={mirageWorld.childImageSharp.original.src}>
+		  <Img fluid={mirageWorld.childImageSharp.fluid} />
+	      </a>
+	      <h2>Locations</h2>
+	      <div className="columns">{this.renderImages()}</div>
+          </article>
+      </Layout>
+    )
+  }
+}
 
 export default World
 
