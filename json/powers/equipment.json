@@ -5,13 +5,31 @@
       {
         "title": "Dagger",
         "ep": "",
+        "xp": "",
+        "bonusDice": "",
+        "requirements": "",
         "description": "For stabbing. Deals 2 damage.",
+        "rarity": "Common",
         "section": "equipment"
       },
       {
         "title": "Crowbar",
         "ep": "",
+        "xp": "",
+        "bonusDice": "",
+        "requirements": "",
         "description": "Smashes things, pries things open. Deals 2 damage.",
+        "rarity": "Common",
+        "section": "equipment"
+      },
+      {
+        "title": "Gun",
+        "ep": "",
+        "xp": "",
+        "bonusDice": "",
+        "requirements": "",
+        "description": "Smashes things, pries things open. Deals 2 damage.",
+        "rarity": "Uncommon",
         "section": "equipment"
       },
       {

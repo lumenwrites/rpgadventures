@@ -31,7 +31,7 @@ categories.map((category)=>{
     title = title.substring(3) // remove hashtags
     //console.log([title, ep, xp, bonusDice, requirements])
     var powerJson = {
-      title, ep, xp, bonusDice, requirements,  description,
+      title, ep, xp, bonusDice, requirements,  description, rarity,
       // "spells", where to put it inside the sheet, used when adding powers to the sheet
       section: fileName,
       //category,

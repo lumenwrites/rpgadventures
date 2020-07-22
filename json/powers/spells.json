@@ -38,12 +38,7 @@
         "xp": "2",
         "description": "Push metal directly away from you, or pull it towards you. If the object is lighter than you, the object moves, if it’s heavier - you move. If an object is thrown at a speed, deals 4 damage.",
         "section": "spells"
-      }
-    ]
-  },
-  {
-    "title": "Intermediate Telekinesis",
-    "powers": [
+      },
       {
         "title": "Levitate",
         "ep": "5",
@@ -60,6 +55,17 @@
         "title": "Fly",
         "ep": "7",
         "description": "Grant the power of flight to the target creature(including yourself). The target can fly at a speed of a bird for the next 10 minutes.",
+        "section": "spells"
+      }
+    ]
+  },
+  {
+    "title": "Illusionism",
+    "powers": [
+      {
+        "title": "Major Illusion",
+        "ep": "6",
+        "description": "Create an object no larger than an elephant, complete with sounds, smells, movement.",
         "section": "spells"
       }
     ]

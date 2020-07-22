@@ -81,7 +81,9 @@ class Power extends Component {
     /* (because you can have an item, but don't know how to use it) */
     var isItem = power.section == "magicItems" || power.section == "equipment"
     var displayRequirements = (power.requirements && (adding || isItem || sample))
-    var displayFooter = displayRequirements || power.xp || power.ep || power.bonusDice 
+    var displayRarity = (power.rarity)
+    var displayFooter = displayRequirements || power.xp || power.ep
+		     || power.bonusDice || displayRarity
     return (
       <div className={`card ${adding ? "adding" : ""}`}
       onClick={()=> adding ? this.addPower() : null } >
@@ -112,35 +114,43 @@ class Power extends Component {
       )}
       {(displayFooter) &&
        <div className="card-footer">
-	{/* Show EP cost if it exists */}
-	       {power.ep && (
-		 <div className="level" data-tip="Energy Cost (to use)">
-		     <FontAwesomeIcon icon={["fab", "react"]}/>	  
-		     {power.ep}
-		 </div>)}
-	       {/* Bonus Dice. */}
-	       {power.bonusDice && (
-		 <div className="level" data-tip="When used, adds this many dice to your roll">
-		     <FontAwesomeIcon icon={["fas", "dice"]}/>	  
-		     {power.bonusDice}
-		 </div>)}
-	       {/* Show XP cost if it exists, and I'm in the PowerModal */}
-	       {(adding || sample) && power.xp && (
-		 <div className="level" data-tip="Experience Cost (to learn)">
-		     <FontAwesomeIcon icon={["fas", "book"]}/>	  		  
-		     {power.xp}
-		 </div>
-	       )}
-	       {/* Requirements. */}
-	       {displayRequirements && (
-		 <div className="level requirements" data-tip="Prerequisites">
-		     <FontAwesomeIcon icon={["fas", "project-diagram"]}/>
-		     {power.requirements}
-		 </div>
-	       )}
-	       <div className="clearfix"/>
-	   </div>
-	  }
+	   {/* Show EP cost if it exists */}
+	   {power.ep && (
+	     <div className="level" data-tip="Energy Cost (to use)">
+		 <FontAwesomeIcon icon={["fab", "react"]}/>	  
+		 {power.ep}
+	     </div>)}
+	   {/* Bonus Dice. */}
+	   {power.bonusDice && (
+	     <div className="level" data-tip="When used, adds this many dice to your roll">
+		 <FontAwesomeIcon icon={["fas", "dice"]}/>	  
+		 {power.bonusDice}
+	     </div>)}
+	   {/* Show XP cost if it exists, and I'm in the PowerModal */}
+	   {(adding || sample) && power.xp && (
+	     <div className="level" data-tip="Experience Cost (to learn)">
+		 <FontAwesomeIcon icon={["fas", "book"]}/>	  		  
+		 {power.xp}
+	     </div>
+	   )}
+	   {/* Requirements. */}
+	   {displayRequirements && (
+	     <div className="level requirements" data-tip="Prerequisites">
+		 <FontAwesomeIcon icon={["fas", "project-diagram"]}/>
+		 {power.requirements}
+	     </div>
+	   )}
+	   {/* Requirements. */}
+	   {displayRarity && (
+	     <div className="level requirements" data-tip="Item Rarity">
+		 <FontAwesomeIcon icon={["far", "gem"]}/>
+		 {power.rarity}
+	     </div>
+	   )}
+
+	   <div className="clearfix"/>
+       </div>
+      }
       </div>
     )
   }

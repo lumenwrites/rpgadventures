@@ -10,7 +10,8 @@ import Power from './Power'
 
 class PowersModal extends Component {
   state = {
-    filterPowers: true
+    filterPowers: true,
+    rarity: "Common"    
   }
 
   componentDidUpdate = (prevProps) => {
@@ -100,7 +101,13 @@ class PowersModal extends Component {
 	if (!meetsTheRequirements) return true
       }
     }
-    
+
+    /* Filter common items */
+    var isItem = power.section == "magicItems" || power.section == "equipment"
+    var { rarity }  = this.state
+    if (isItem && rarity !== "Any") {
+      if (power.rarity !== rarity) return true
+    }
     return false
   }
   
@@ -114,9 +121,29 @@ class PowersModal extends Component {
     })
   }
 
+  renderRarityFilter = () => {
+    var raritiesList = ["Any", "Common", "Uncommon", "Rare", "Legendary", "Supreme"]
+    var rarities = raritiesList.map((rarity,i)=>(
+      <div className="item btn" key={i} onClick={()=> this.setState({rarity})}>
+	  {rarity}
+      </div>
+    ))
+    return (
+      <div className="dropdown rarity-filter">
+	  <div className="menu-handle btn">
+	      Rarity: {this.state.rarity}
+	  </div>
+	  <div className="menu">
+	      {rarities}
+	  </div>
+      </div>
+    )
+  }
+  
   render() {
     var { name } = this.props
     var showFilterToggle = name == "abilities" || name == "spells"
+    var showRarityFilter = name == "magicItems" || name == "equipment"
     return (
       <Modal name={this.props.name} className="powers-modal wide">
 	  {showFilterToggle && (
@@ -127,6 +154,7 @@ class PowersModal extends Component {
 		<hr/>
 	    </>
 	  )}
+	  {showRarityFilter && this.renderRarityFilter()}
 	  {this.renderCategories()}
       </Modal>
     )
