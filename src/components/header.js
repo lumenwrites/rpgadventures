@@ -1,14 +1,17 @@
 import React from "react"
 import { Link } from "gatsby"
+import { graphql } from "gatsby"
+import Img from "gatsby-image"
 
-import logoImage from "../../static/logo.png"
+//import logoImage from "../../static/logo.png"
 
-const Header = () => {
+const Header = ({data}) => {
   return (
     <header>
 	<div className="wrapper">
             <Link to="/" className="logo">
-		<img src={logoImage} />
+		{/* <img src={logoImage} /> */}
+		<Img alt={node.name} fixed={data.logo.childImageSharp.fixed} />		
 		mirage
             </Link>
             <div className="right">
@@ -69,3 +72,15 @@ const Header = () => {
 }
 
 export default Header
+
+export const query = graphql`
+  query {
+    logo: file(relativePath: { eq: "images/logo.png" }) {
+      childImageSharp {
+        fixed(width: 32) {
+	  ...GatsbyImageSharpFixed_withWebp
+        }
+      }
+    }
+  }
+`
