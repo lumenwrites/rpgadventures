@@ -7,6 +7,13 @@ slug: "/rules"
 
 import { Link } from "gatsby"
 
+import Power from '../../src/components/CharacterSheet/Power.js'
+import exampleSpell from './example-spell.json'
+import exampleAbility from './example-ability.json'
+import exampleItem from './example-item.json'
+import exampleMagicItem from './example-magic-item.json'
+
+ 
 # Rules for Players
 
 To get ready for the game, you need 3 things:
@@ -16,61 +23,77 @@ Read this page. Don't worry if you don't get everything right away, you'll easil
 2. **Filled in character sheet**  
 Read the character creation rules below.
 3. **Other people to play with**  
-Go to our [discord community](https://discord.gg/zt4N23d) and find a game you can join  (we play over the voice chat or play-by-post).
+Go to our [discord community](https://discord.gg/zt4N23d) and find a game you can join.
+
+---
+
+## Character Sheet
 
 <div className="columns">
 
-### Health
-Your initial max health is 10 hit-points. You lose points when you get hurt. Recover points by drinking a potion, using a spell, or taking a rest.
+### Stats and Powers
+Your character has 3 stats - **Health**, **Energy**, and **Experience**. You also have 4 kinds of "powers" - **Abilities**, **Spells**, **Magic Items**, and **Equipment**. Your character grows stronger when you increase the stats and gain new powers.
 
-**Short rest** (1 hour in a safe environment) recovers 4 points.
+### Health Points (HP)
+You lose Health Points when you get hurt. Recover points by drinking a potion, using a spell, or taking a rest.
+- **Short rest** (1 hour in a safe environment) recovers 5 points.
+- **Long rest** (8 hours in a safe environment) restores you to full health.
 
-**Long rest** (8 hours in a safe environment) restores you to full health.
+<div className="column-break"/>
 
 ### Energy Points (EP)
-Your initial max energy is 10 points. Spend them to cast spells and use abilities.
+Spend them to cast spells and use abilities.
 
 Recover them by drinking a potion or taking a rest (same as health).
 
-### Indulging
-You can also recover them when you indulge in your character's flaw or succumb to their weakness in a way that makes you vulnerable, introduces a complication, sacrifices your relationships, or otherwise puts you at a risk/disadvantage. For example: get angry, act reckless, get caught lying, forget something important, surrender, run away, act lazy, get high at the worst possible moment, trigger the memory of a past trauma, antagonize an NPC, threaten someone too powerful, etc. Depending on the severity of the complication it causes, GM will award you  1-10 EP.
-
-
 ### Experience (XP)
-Spend points to learn spells and abilities. To learn a spell or an ability, spend the amount of points equal to it's level (learning a 3rd Level Ability costs 3 Experience points).
+Spend Experience Points to learn Spells and Abilities.
 
 Spend 2 points to increase your max Health or Energy by 1 point.
 
-Gain XP as a reward for overcoming challenges, completing quests, and awesome roleplay moments.
-
-<div class="column-break"></div>
-
-### Abilities
-These are extraordinary abilities or specific skills your character has. For example, being very strong, knowing how to pick locks, or being great at seduction.
-
-
-Without the ability, your character is as good at doing things as an average person. You can assume that you will succeed if you try to do something that any regular person is capable of. But if you want to attempt doing something really difficult or risky, the GM can say that it would require a relevant ability (you would need a   “Strongman” ability to lift a super heavy rock, “a Diplomat” to talk the king out of starting a war).
-
-### Inventory
-You can carry and use up to 10 Items. Mundane and tiny items don’t count (a note, a pen, regular clothes). Ammo doesn’t count.
-
-During the short rest, you can unequip items and stash them somewhere (at your house, on a horse, etc). Stashed items can’t be used until re-equipped.
-
-### Trading
-There’s no gold. There’s no need to micromanage paying for meals, a simple room in an inn, or buying mundane items (arrows, ink) - they cost nothing. For the powerful and valuable items, you trade.
-
-You can trade items in your inventory with friendly NPCs and other players. Items don’t have a predetermined price. It all depends on how much the NPC likes you, and how much they want what you have to offer in exchange. Negotiate and bargain to get a better deal.
-
-Give a valuable item to an NPC in exchange for teaching you a skill. Or offer to do some work for them.
-
-### Combat
-In combat, the GM will tell you when it's your turn to act. During your turn, your character can move around and do one thing (for example, cast a spell). If you have something that can help you evade the damage (a shield, a spell, a  dodge skill), you can use it when you're attacked. 
-
-If you run out of Health, you pass out. If someone hits you when you’re passed out - you die and turn into a ghost. You can haunt your fellow players until they find a resurrection scroll, or make a new character.
+Gain XP as a reward for overcoming challenges, completing quests, teamwork, and awesome roleplay moments.
 
 </div>
 
-----
+---
+
+## Powers
+
+<div className="columns">
+
+### Abilities
+You use abilities to do things that are difficult or require expertise. For example, lifting heavy things, picking locks, sneaking, climbing, investigating, seducing, lying. Without the relevant ability, your character is as good at doing things as an average person.
+
+Abilities can enable you to use certain items (for example throwing daggers), learn spells from specific Magic Schools (like Necromancy), learn other abilities (you need "Intermediate Swordsman" ability to learn "Dual Wielding"), add some perks (like being able to carry more equipment), and add bonus dice to your rolls (see the dice rolling rules below).
+
+Example of an ability:
+
+<Power power={exampleAbility} sample />
+
+This ability takes **2** Energy Points to cast and adds **1** bonus dice to your roll. To learn it, you need **3** experience points, and the "Knowledge of Nature" ability.
+
+<div className="column-break"/>
+
+### Spells
+Spells are organized in Magic Schools. To learn more powerful spells you need deeper knowledge of a magic school. For example, you need an "Advanced Telekinesis" ability to cast a "Fly" spell.
+
+Example of a spell:
+
+<Power power={exampleSpell} sample />
+
+This spell costs **2** Energy Points to cast, **3** Experience Points to learn, and requires "Novice Illusionism" ability.
+
+### Magic Items and Equipment
+Using items works much like using spells and abilities does. Using equipment usually costs no energy points, but often requires a specialized ability. Example:
+
+
+
+<Power power={exampleItem} sample />
+
+
+</div>
+
+---
 
 ## Creating your Character
 
@@ -86,8 +109,7 @@ Players more familiar with their favorite spells and items can create a custom c
 
 - Select up to 2 novice abilities.
 - Select to 2 spells.
-- Sel to 2 first level magic items.
-- Up to 2 first level equipment items.
+- Select up to 2 equipment items.
 
 Then fill in appearance/presonality/ambitions/backstory, and you're ready to play.
 
@@ -99,7 +121,8 @@ Then fill in appearance/presonality/ambitions/backstory, and you're ready to pla
 When you attempt to do something difficult or risky, the GM will tell you to roll the dice (d20). The number you roll will determine the result of your action:
 
 - **20** - **Triumph**  
-You get what you want in an exceptionally spectacular way. If you’re dealing damage, double it.
+You succeed in an exceptionally spectacular way.  
+If you’re dealing damage, double it.
 - **15-19** - **Success**  
 You successfully perform the action you were attempting.
 - **7-14** - **Success at a cost**  
@@ -113,12 +136,40 @@ You dramatically fail and suffer a severe setback. You might lose equipment, tak
 Sometimes the GM will tell you to roll several (2, 3, or 4) dice with "**Advantage**" or "**Disadvantage**". If you have Advantage - use the **highest** one of the rolls and ignore the rest. If you have disadvantage - use the **lowest** roll. For example, if GM tells you "Roll 3 Dice with Advantage", and you roll 4,17, and 9, your result is 17.
 
 ### You can improve your chances by using abilities
-When you have an ability relevant to the task you are attempting ("Strogman" for lifting something heavy, "Deception" for lying, etc), you can use it to add advantage dice to your roll, or remove disadvantage dice.
+When you have an ability relevant to the task you are attempting, you can use it to add advantage dice to your roll, or remove disadvantage dice.
 
-For example, Super-Strongman ability allows you to improve your roll by 3 dice:
+For example, "Advanced Athletics" ability allows you to improve your roll by 3 dice:
 
-- If you were supposed to roll 1 dice, by using Super-Strongman you can roll 4 dice with advantage.
-- If you were facing a difficult task and were supposed to roll 3 dice with disadvantage, with Super-Strongman you would roll 2 dice with advantage (remove 2 disadvantage dice and add 1 advantage die).
+- If you were supposed to roll 1 dice, using "Advanced Athletics" allows you to instead roll 4 dice with advantage.
+- If you were facing a difficult task and were supposed to roll 3 dice with disadvantage, with "Advanced Athletics" you would roll 2 dice with advantage (remove 2 disadvantage dice and add 1 advantage die).
+
+---
+
+## Other Rules
+
+<div className="columns">
+
+### Indulging
+You can also recover Energy Points when you indulge in your character's flaw or succumb to their weakness in a way that makes you vulnerable, introduces a complication, sacrifices your relationships, or otherwise puts you at a risk/disadvantage. For example: get angry, act reckless, get caught lying, forget something important, surrender, run away, act lazy, get high at the worst possible moment, trigger the memory of a past trauma, antagonize an NPC, threaten someone too powerful, etc. Depending on the severity of the complication it causes, GM will award you  1-10 EP.
+
+### Combat
+In combat, the GM will tell you when it's your turn to act. During your turn, your character can move around and do one thing (for example, cast a spell). If you have something that can help you evade the damage (a shield, a spell, a  dodge skill), you can use it when you're attacked. 
+
+If you run out of Health, you pass out. If someone hits you when you’re passed out - you die and turn into a ghost. You can haunt your fellow players until they find a resurrection scroll, or make a new character.
+
+<div className="column-break"/>
+
+### Inventory
+You can carry and use up to 10 Items. Mundane and tiny items don’t count (a note, a pen, regular clothes). Ammo doesn’t count.
+
+During the short rest, you can unequip items and stash them somewhere (at your house, on a horse, etc). Stashed items can’t be used until re-equipped.
+
+### Trading
+There’s no gold. There’s no need to micromanage paying for meals, a simple room in an inn, or buying mundane items (arrows, ink) - they cost nothing. For the powerful and valuable items, you trade.
+
+You can trade items in your inventory with friendly NPCs and other players. Items don’t have a predetermined price. It all depends on how much the NPC likes you, and how much they want what you have to offer in exchange. Negotiate and bargain to get a better deal.
+
+</div>
 
 ---
 

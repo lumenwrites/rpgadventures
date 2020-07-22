@@ -12,7 +12,6 @@ You're as strong as the strongest human in the world.
 ## Master Athletics | 12 | 12 | 4 | Intermediate Athletics
 You’re superhumanly strong, like Hulk. You can rip that oak from the earth and snap it in half, you can punch through the solid wall.
 
-
 ## Grapple | 2 | 2 | 1 | Novice Athletics
 You grapple the opponent of your size and strength or smaller. You can hold them for up to 5 minutes.
 

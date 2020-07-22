@@ -9,7 +9,8 @@ class Power extends Component {
   state = { editing: false }
   
   addPower = () => {
-    var { sheets, updateSheet, power } = this.props
+    var { sheets, updateSheet, power, sample } = this.props
+    if (sample) return // example power for the rules page
     var section = power.section
     var updatedSheet = {...sheets[0]}
     power.id = Math.random().toString(36).substring(7)
@@ -56,8 +57,8 @@ class Power extends Component {
   }
 
   renderEditIcons = () => {
-    const { adding } = this.props
-    if (adding) return // no edit icons when I'm adding powers from PowersModal
+    const { adding, sample } = this.props
+    if (adding || sample) return // no edit icons when I'm adding powers from PowersModal
     return (
       <div className="edit-icons">
 	  <FontAwesomeIcon icon={["fas", "trash-alt"]}
@@ -75,11 +76,11 @@ class Power extends Component {
   }
   
   render() {
-    const { power, adding } = this.props
+    const { power, adding, sample } = this.props
     /* Show requirements when adding ability/item, or for just the items in the sheet */
     /* (because you can have an item, but don't know how to use it) */
     var isItem = power.section == "magicItems" || power.section == "equipment"
-    var displayRequirements = power.requirements && (adding || isItem)
+    var displayRequirements = sample || (power.requirements && (adding || isItem))
     return (
       <div className={`card ${adding ? "adding" : ""}`}
 	   onClick={()=> adding ? this.addPower() : null } >
@@ -123,7 +124,7 @@ class Power extends Component {
 		     {power.bonusDice}
 		 </div>)}
 	       {/* Show XP cost if it exists, and I'm in the PowerModal */}
-	       {adding && power.xp && (
+	       {(adding || sample) && power.xp && (
 		 <div className="level" data-tip="Experience Cost (to learn)">
 		     <FontAwesomeIcon icon={["fas", "book"]}/>	  		  
 		     {power.xp}

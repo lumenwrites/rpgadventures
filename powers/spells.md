@@ -16,10 +16,6 @@ You can cause shapes, colors, or both to appear on the dirt or stone, spelling o
 ## Push/Pull metal | 3 | 2
 Push metal directly away from you, or pull it towards you. If the object is lighter than you, the object moves, if it’s heavier - you move. If an object is thrown at a speed, deals 4 damage.
 
----
-
-# Intermediate Telekinesis
-
 ## Levitate | 5
 Slowly lifts the target (object, creature, including yourself) vertically above the ground, up to 10 meters. The target can weight up to 300 kg.
 
@@ -30,3 +26,10 @@ Throwing an object/creature deals 5 damage to the target and to the object.
 
 ## Fly | 7
 Grant the power of flight to the target creature(including yourself). The target can fly at a speed of a bird for the next 10 minutes.
+
+---
+
+# Illusionism
+
+## Major Illusion | 6
+Create an object no larger than an elephant, complete with sounds, smells, movement.

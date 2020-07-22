@@ -3,7 +3,7 @@
   }
 
 main {
-    overflow: auto;
+    overflow-x: hidden;
     overflow-y: overlay;
     height: calc(100% - 54px);
 }
