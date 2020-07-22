@@ -14,6 +14,8 @@ class Power extends Component {
     var updatedSheet = {...sheets[0]}
     power.id = Math.random().toString(36).substring(7)
 
+    /* Don't add if you don't have enough XP */
+    if (power.xp && (sheets[0].experience < power.xp)) return 
     /* You can have multiple items, but not abilities/spells*/
     /* If the ability/spell with this title already exists - don't add it */
     if (section == 'abilities' || section == 'spells') {

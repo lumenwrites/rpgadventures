@@ -65,7 +65,7 @@
         "ep": "3",
         "xp": "3",
         "bonusDice": "1",
-        "description": "You are nimble and flexible.",
+        "description": "You are very flexible and fast. You can do a backflip, jump between buildings.",
         "section": "abilities"
       },
       {
@@ -74,7 +74,7 @@
         "xp": "6",
         "bonusDice": "2",
         "requirements": "Novice Acrobatics",
-        "description": "You are very flexible and fast. You can do a backflip, jump between buildings.",
+        "description": "You are ninja-level flexible and fast.",
         "section": "abilities"
       },
       {
@@ -82,15 +82,6 @@
         "ep": "9",
         "xp": "9",
         "bonusDice": "3",
-        "requirements": "Intermediate Acrobatics",
-        "description": "You are ninja-level flexible and fast.",
-        "section": "abilities"
-      },
-      {
-        "title": "Master Acrobatics",
-        "ep": "12",
-        "xp": "12",
-        "bonusDice": "4",
         "requirements": "Intermediate Acrobatics",
         "description": "You are capable of superhuman, spider-man-level acrobatics.",
         "section": "abilities"
@@ -118,7 +109,7 @@
         "xp": "9",
         "bonusDice": "3",
         "requirements": "Intermediate Stealth",
-        "description": "Your ability to sneak and hide is ninja-level, you're borderline invisible.",
+        "description": "Your ability to sneak and hide is ninja-level, you're borderline invisible in the shadows.",
         "section": "abilities"
       },
       {
@@ -150,7 +141,7 @@
     ]
   },
   {
-    "title": "Arcana",
+    "title": "Genral Magic",
     "powers": [
       {
         "title": "Novice Arcana",
@@ -165,20 +156,40 @@
         "ep": "6",
         "xp": "6",
         "bonusDice": "2",
+        "requirements": "Novice Arcana",
         "description": "You have a solid understaning of magic and it's principles. \nEnables you to use more sophisticated magic items.",
+        "section": "abilities"
+      },
+      {
+        "title": "Advanced Arcana",
+        "ep": "9",
+        "xp": "9",
+        "bonusDice": "3",
+        "requirements": "Intermediate Arcana",
+        "description": "You have mastered the depth and intricacies of arcane arts.\nYou can identify and use any magic item.",
         "section": "abilities"
       }
     ]
   },
   {
-    "title": "Combat",
+    "title": "Knowledege",
+    "powers": [
+      {
+        "title": "",
+        "description": "",
+        "section": "abilities"
+      }
+    ]
+  },
+  {
+    "title": "Weapons",
     "powers": [
       {
         "title": "Novice Swordsman",
         "ep": "3",
         "xp": "3",
         "bonusDice": "1",
-        "description": "You are nimble and flexible.",
+        "description": "You are capable of holding a sword and stabbing things with it. Sometimes you even hit them.",
         "section": "abilities"
       },
       {
@@ -187,7 +198,7 @@
         "xp": "6",
         "bonusDice": "2",
         "requirements": "Novice Swordsman",
-        "description": "You are very flexible and fast. You can do a backflip, jump between buildings.",
+        "description": "You are quite good with the sword. You can use more powerful and advanced swords.",
         "section": "abilities"
       },
       {
@@ -196,16 +207,209 @@
         "xp": "9",
         "bonusDice": "3",
         "requirements": "Intermediate Swordsman",
-        "description": "You are ninja-level flexible and fast.",
+        "description": "You are an expert, your mastery of swordsmanship knows no rivals.",
         "section": "abilities"
       },
       {
-        "title": "Master Swordsman",
-        "ep": "12",
-        "xp": "12",
-        "bonusDice": "4",
+        "title": "Novice Martial Arts",
+        "ep": "3",
+        "xp": "3",
+        "bonusDice": "1",
+        "description": "Your kicks and punches deal 3 damage.",
+        "section": "abilities"
+      },
+      {
+        "title": "Intermediate Martial Arts",
+        "ep": "6",
+        "xp": "6",
+        "bonusDice": "2",
+        "requirements": "Novice Martial Arts",
+        "description": "Your kicks and punches deal 6 damage.",
+        "section": "abilities"
+      },
+      {
+        "title": "Advanced Martial Arts",
+        "ep": "9",
+        "xp": "9",
+        "bonusDice": "3",
+        "requirements": "Intermediate Martial Arts",
+        "description": "Your kicks and punches deal 9 damage. You're basically Jackie Chan on modafinil.",
+        "section": "abilities"
+      },
+      {
+        "title": "Thrown Weapons",
+        "ep": "3",
+        "xp": "3",
+        "bonusDice": "1",
+        "description": "Allows you to throw handheld projectiles with accuracy.",
+        "section": "abilities"
+      },
+      {
+        "title": "Novice Archer",
+        "ep": "3",
+        "xp": "3",
+        "bonusDice": "1",
+        "description": "Allows you to use bows and crossbows.",
+        "section": "abilities"
+      },
+      {
+        "title": "Intermediate Archer",
+        "ep": "6",
+        "xp": "6",
+        "bonusDice": "2",
+        "requirements": "Novice Archer",
+        "description": "Allows you to use more powerful bows and crossbows and shoot very accurately.",
+        "section": "abilities"
+      },
+      {
+        "title": "Master Archer",
+        "ep": "9",
+        "xp": "9",
+        "bonusDice": "3",
+        "requirements": "Intermediate Archer",
+        "description": "Allows you to use any ranged weapon, send out 3 projectiles in the blink of an eye.",
+        "section": "abilities"
+      },
+      {
+        "title": "Novice Gunslinger",
+        "ep": "3",
+        "xp": "3",
+        "bonusDice": "1",
+        "description": "Allows you to use simple guns.",
+        "section": "abilities"
+      }
+    ]
+  },
+  {
+    "title": "Combat Tactics",
+    "powers": [
+      {
+        "title": "Parry",
+        "ep": "2",
+        "xp": "2",
+        "bonusDice": "1",
+        "description": "Enables you to deflect physical attacks from equally skilled opponents using a melee weapon.",
+        "section": "abilities"
+      },
+      {
+        "title": "Dual Wielding",
+        "ep": "2",
+        "xp": "5",
+        "bonusDice": "1",
         "requirements": "Intermediate Swordsman",
-        "description": "You are capable of superhuman, spider-man-level swordsman.",
+        "description": "Allows you to make 2 attacks as 1 action. You must have two one-handed weapons in your inventory.",
+        "section": "abilities"
+      },
+      {
+        "title": "Provoke",
+        "ep": "3",
+        "xp": "3",
+        "bonusDice": "1",
+        "description": "Will attract the attention of your target. They will attempt to attack you until they are hit by someone else or hostilities cease altogether.",
+        "section": "abilities"
+      },
+      {
+        "title": "Intercept",
+        "ep": "4",
+        "xp": "4",
+        "bonusDice": "2",
+        "requirements": "Novice Acrobatics",
+        "description": "Allows you to interrupt an enemy attack on your ally. They immediately end their turn, dealing no damage.",
+        "section": "abilities"
+      },
+      {
+        "title": "Whirldwind",
+        "ep": "4",
+        "xp": "4",
+        "bonusDice": "2",
+        "requirements": "Intermediate Swordsman",
+        "description": "Allows you to make a melee attack to everyone within reach.",
+        "section": "abilities"
+      },
+      {
+        "title": "Knock Down",
+        "ep": "3",
+        "xp": "3",
+        "bonusDice": "1",
+        "requirements": "Novice Athletics",
+        "description": "You charge in a straight line towards the selected enemy and smash into them. The enemy gets knocked down, losing their next turn.",
+        "section": "abilities"
+      },
+      {
+        "title": "Charge",
+        "ep": "6",
+        "xp": "6",
+        "bonusDice": "2",
+        "requirements": "Knock Down",
+        "description": "You charge in a straight line towards the selected enemy and smash into them. The enemy, everyone on your path, and everyone within reach gets knocked down, losing their next turn.",
+        "section": "abilities"
+      },
+      {
+        "title": "Cripple",
+        "ep": "6",
+        "xp": "6",
+        "bonusDice": "2",
+        "requirements": "Intermediate Athletics",
+        "description": "Attack a target within range, rendering them unable to move.",
+        "section": "abilities"
+      },
+      {
+        "title": "Sneak Attack",
+        "ep": "3",
+        "xp": "3",
+        "bonusDice": "2",
+        "requirements": "Intermediate Stealth",
+        "description": "Allows you to deal double damage to the distracted enemy.",
+        "section": "abilities"
+      },
+      {
+        "title": "Farshot",
+        "ep": "2",
+        "xp": "2",
+        "bonusDice": "1",
+        "requirements": "Novice Archer",
+        "description": "Enables you to shoot at a target out of your range.",
+        "section": "abilities"
+      },
+      {
+        "title": "Deadeye",
+        "ep": "6",
+        "xp": "6",
+        "bonusDice": "2",
+        "requirements": "Intermediate Archer",
+        "description": "Allows you to target any coin-size object.",
+        "section": "abilities"
+      }
+    ]
+  },
+  {
+    "title": "Armor",
+    "powers": [
+      {
+        "title": "Light armor",
+        "ep": "",
+        "xp": "3",
+        "bonusDice": "",
+        "requirements": "",
+        "description": "Enables you to wear light armor.",
+        "section": "abilities"
+      },
+      {
+        "title": "Medium Armor armor",
+        "ep": "",
+        "xp": "5",
+        "bonusDice": "",
+        "requirements": "Novice Athletics",
+        "description": "Enables you to wear medium armor.",
+        "section": "abilities"
+      },
+      {
+        "title": "Heavy armor",
+        "ep": "",
+        "xp": "8",
+        "bonusDice": "",
+        "requirements": "Intermediate Athletics",
+        "description": "Enables you to wear heavy armor.",
         "section": "abilities"
       }
     ]
@@ -214,7 +418,7 @@
     "title": "Blank",
     "powers": [
       {
-        "title": "Ability Title",
+        "title": "[Custom Ability Title]",
         "description": "[Create and edit this ability if you need to create a custom one]",
         "section": "abilities"
       }
