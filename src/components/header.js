@@ -76,6 +76,7 @@ export default Header
 export const query = graphql`
   query {
     logo: file(relativePath: { eq: "images/logo.png" }) {
+      name
       childImageSharp {
         fixed(width: 32) {
 	  ...GatsbyImageSharpFixed_withWebp
