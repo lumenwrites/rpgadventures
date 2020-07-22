@@ -63,7 +63,7 @@ class Powers extends Component {
   render() {
     var { npc } = this.props    
     return (
-      <Modal name={`powers-${npc.id}`} className="powers-modal wide">
+      <Modal name={`powers-${npc.id}`} className="powers-modal-npcs wide">
 	  <div className="tabs">
 	      {this.renderTabs()}
 	      <div className="clearfix"/>

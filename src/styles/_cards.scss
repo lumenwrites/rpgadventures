@@ -88,36 +88,42 @@
 	}
     }
 
-	.edit-icons {
-	    svg {
-		float:right;
-		color: $text-dim;
-		margin-right: 5px;
-		height: 15px;
-		&:hover {
-		    cursor: pointer;
-		    color: $text;
-		}
-	    }
-	}
-	
-	
-	.level {
-	    width: 36px;
-	    height: 16px;
-	    margin-left: 5px;
-	    border-radius: 2px;
-	    background: $panel-bg;
+    .edit-icons {
+	svg {
 	    float:right;
-	    color: $text;
-	    display:flex;
-	    align-items: center;
-	    justify-content: center;
-	    cursor:default;
-	    svg {
-		margin-right: 5px;
+	    color: $text-dim;
+	    margin-right: 5px;
+	    height: 15px;
+	    &:hover {
+		cursor: pointer;
+		color: $text;
 	    }
 	}
+    }
+    
+    
+    .level {
+	//width: 36px;
+	padding: 0 4px;
+	height: 16px;
+	margin-right: 5px;
+	border-radius: 2px;
+	background: $panel-bg;
+	float:left;
+	color: $text;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	cursor:default;
+	svg {
+	    margin-right: 5px;
+	}
+    }
+
+    .requirements {
+	float: right;
+	margin-right: 0;
+    }
     
     hr { margin-top: 2px; }
     .textarea-description {
@@ -125,8 +131,8 @@
     }
     .card-footer {
 	border-top: 1px solid $border;
-	margin-top: 4px;
-	padding-top: 4px;
+	margin-top: 5px;
+	padding-top: 5px;
     }
     &:first-child {
 	margin-top: 0;

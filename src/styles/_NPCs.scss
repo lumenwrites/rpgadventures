@@ -154,3 +154,11 @@
     -webkit-column-break-inside: avoid;
 }
 
+.powers-modal-npcs {
+    @extend .powers-modal;
+    .card .level {
+	float: left;
+	margin-left: 0;
+	margin-right: 5px;
+    }
+}

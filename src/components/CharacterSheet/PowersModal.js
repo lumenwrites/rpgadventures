@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 
+import ReactTooltip from 'react-tooltip'
 
 import Modal from '../elements/modal'
 import Power from './Power'
@@ -12,6 +13,12 @@ class PowersModal extends Component {
     filterPowers: true
   }
 
+  componentDidUpdate = (prevProps) => {
+    if (this.props.utils.showModal !== prevProps.utils.showModal) {
+      ReactTooltip.rebuild()
+      console.log("[PowersModal] Modal Opened")
+    }
+  }
   renderCategories = () => {
     var  { powers } = this.props
     /* Powers are passed to it by the appropriate section */

@@ -12,7 +12,6 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 
 import ReactTooltip from 'react-tooltip'
 
-
 library.add(fas, far, fab)
 
 const Layout = ({ location, children, subnav }) => {

@@ -84,6 +84,9 @@ class Power extends Component {
       <div className={`card ${adding ? "adding" : ""}`}
 	   onClick={()=> adding ? this.addPower() : null } >
 	  <div className="card-header">
+	      {/* Edit Icons */}
+	      {this.renderEditIcons()}
+
 	      {/*  Title */}
 	      {this.state.editing ? (
 		<input ref={ref => this.titleInput = ref}
@@ -92,26 +95,6 @@ class Power extends Component {
 		<span className="card-title">{power.title}</span>
 	      )}
 
-	      {/* Show EP cost if it exists */}
-	      {power.ep && (
-		<div className="level" data-tip="Energy Cost (to use)">
-		    <FontAwesomeIcon icon={["fab", "react"]}/>	  
-		    {power.ep}
-		</div>)}
-	      {/* Show XP cost if it exists, and I'm in the PowerModal */}
-	      {adding && power.xp && (
-		<div className="level" data-tip="Experience Cost (to learn)">
-		    <FontAwesomeIcon icon={["fas", "book"]}/>	  		  
-		    {power.xp}
-		</div>
-	      )}
-
-	      {power.bonusDice && (
-		<div className="level" data-tip="When used, adds this many Dice to your roll.">
-		    <FontAwesomeIcon icon={["fas", "dice"]}/>	  
-		    {power.bonusDice}
-		</div>)}
-	      
 	  </div>
 	  
 	  <hr/>
@@ -126,15 +109,35 @@ class Power extends Component {
 	    <div className="description">{power.description}</div>
 	  )}
 	  {(!adding || power.requirements) &&
-	  <div className="card-footer">
-	      {/* Edit Icons */}
-	      {this.renderEditIcons()}
-
-	      {displayRequirements && (
-		<><b>Requires: </b>{power.requirements}</>
-	      )}
-	      <div className="clearfix"/>
-	  </div>
+	   <div className="card-footer">
+	       {/* Show EP cost if it exists */}
+	       {power.ep && (
+		 <div className="level" data-tip="Energy Cost (to use)">
+		     <FontAwesomeIcon icon={["fab", "react"]}/>	  
+		     {power.ep}
+		 </div>)}
+	       {/* Bonus Dice. */}
+	       {power.bonusDice && (
+		 <div className="level" data-tip="When used, adds this many dice to your roll">
+		     <FontAwesomeIcon icon={["fas", "dice"]}/>	  
+		     {power.bonusDice}
+		 </div>)}
+	       {/* Show XP cost if it exists, and I'm in the PowerModal */}
+	       {adding && power.xp && (
+		 <div className="level" data-tip="Experience Cost (to learn)">
+		     <FontAwesomeIcon icon={["fas", "book"]}/>	  		  
+		     {power.xp}
+		 </div>
+	       )}
+	       {/* Requirements. */}
+	       {displayRequirements && (
+		 <div className="level requirements" data-tip="Prerequisites">
+		     <FontAwesomeIcon icon={["fas", "project-diagram"]}/>
+		     {power.requirements}
+		 </div>
+	       )}
+	       <div className="clearfix"/>
+	   </div>
 	  }
       </div>
     )
