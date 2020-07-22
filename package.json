@@ -22,6 +22,7 @@
     "gatsby-plugin-manifest": "^2.4.14",
     "gatsby-plugin-mdx": "^1.2.27",
     "gatsby-plugin-offline": "^3.2.13",
+    "gatsby-plugin-preload-fonts": "^1.2.18",
     "gatsby-plugin-react-helmet": "^3.3.6",
     "gatsby-plugin-sass": "^2.3.12",
     "gatsby-plugin-sharp": "^2.6.19",
@@ -73,6 +74,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "preload-fonts": "gatsby-preload-fonts"
   }
 }
