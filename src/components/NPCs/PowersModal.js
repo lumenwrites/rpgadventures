@@ -4,10 +4,10 @@ import { connect } from 'react-redux'
 import Modal from '../elements/modal'
 import Power from './Power'
 
-import spells from '../../../json/spells.json'
-import abilities from '../../../json/abilities.json'
-import magicItems from '../../../json/magic-items.json'
-import equipment from '../../../json/equipment.json'
+import abilities from '../../../json/powers/abilities.json'
+import spells from '../../../json/powers/spells.json'
+import magicItems from '../../../json/powers/magicItems.json'
+import equipment from '../../../json/powers/equipment.json'
 
 
 const tabs = ["Spells","Abilities","Magic Items", "Equipment"]
@@ -41,8 +41,8 @@ class Powers extends Component {
       return (
 	<div key={i}>
 	    <div className="category-title">{category.title}</div>
-	    <div className="powers columns">
-		{this.renderPowers(category.spells)}
+	    <div className="columns">
+		{this.renderPowers(category.powers)}
 	    </div>
 	    <hr/>
 	</div>

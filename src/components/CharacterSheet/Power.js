@@ -83,9 +83,7 @@ class Power extends Component {
     return (
       <div className={`card ${adding ? "adding" : ""}`}
 	   onClick={()=> adding ? this.addPower() : null } >
-          <div className="card-header">
-	      {/* Edit Icons */}
-	      {this.renderEditIcons()}
+	  <div className="card-header">
 	      {/*  Title */}
 	      {this.state.editing ? (
 		<input ref={ref => this.titleInput = ref}
@@ -93,6 +91,7 @@ class Power extends Component {
 	      ) : (
 		<span className="card-title">{power.title}</span>
 	      )}
+
 	      {/* Show EP cost if it exists */}
 	      {power.ep && (
 		<div className="level" data-tip="Energy Cost (to use)">
@@ -108,29 +107,37 @@ class Power extends Component {
 	      )}
 
 	      {power.bonusDice && (
-	      <div className="level" data-tip="When used, adds this many Dice to your roll.">
-		  <FontAwesomeIcon icon={["fas", "dice"]}/>	  
-		  {power.bonusDice}
-	      </div>)}
+		<div className="level" data-tip="When used, adds this many Dice to your roll.">
+		    <FontAwesomeIcon icon={["fas", "dice"]}/>	  
+		    {power.bonusDice}
+		</div>)}
+	      
 	  </div>
 	  
 	  <hr/>
 	  {/* Description */}
 	  {this.state.editing ? (
-	  <TextareaAutosize
-	    className="textarea-description"
-	    placeholder={"Description"}
-	    ref={ref => this.descriptionInput = ref}
-	    defaultValue={power.description}/>
+	    <TextareaAutosize
+	      className="textarea-description"
+	      placeholder={"Description"}
+	      ref={ref => this.descriptionInput = ref}
+	      defaultValue={power.description}/>
 	  ) : (
-	  <div className="description">{power.description}</div>
+	    <div className="description">{power.description}</div>
 	  )}
-	  {displayRequirements && (
-	  <div className="requirements"><b>Requires: </b>{power.requirements}</div>
-	  )}
+	  {(!adding || power.requirements) &&
+	  <div className="card-footer">
+	      {/* Edit Icons */}
+	      {this.renderEditIcons()}
 
+	      {displayRequirements && (
+		<><b>Requires: </b>{power.requirements}</>
+	      )}
+	      <div className="clearfix"/>
+	  </div>
+	  }
       </div>
-	      )
+    )
   }
 }
 

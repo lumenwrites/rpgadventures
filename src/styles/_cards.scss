@@ -1,4 +1,31 @@
 .powers-modal {
+    .category-title {
+	text-align: center;
+	margin-top: 5px;
+    }
+    .columns {
+	column-gap: 5px;
+	margin-top: 5px;
+    }
+    .tabs {
+	margin: -16px -32px 0 -32px;
+    }
+    .tab {
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	outline: 1px solid $border;
+	width: calc(100% / 4);
+	padding: 5px;
+
+	&.active {
+	    font-weight: bold;
+	    text-decoration: underline;
+	}
+    }
+    
     .title {
 	font-size: 1.5em;
 	font-weight: bold;
@@ -59,10 +86,11 @@
 	    outline: 1px solid $border;
 	    font-weight: bold;
 	}
+    }
 
 	.edit-icons {
 	    svg {
-		float:left;
+		float:right;
 		color: $text-dim;
 		margin-right: 5px;
 		height: 15px;
@@ -85,19 +113,20 @@
 	    display:flex;
 	    align-items: center;
 	    justify-content: center;
-	    cursor:regular;
+	    cursor:default;
 	    svg {
 		margin-right: 5px;
 	    }
 	}
-    }
-
+    
     hr { margin-top: 2px; }
     .textarea-description {
 	outline: 1px solid $border;	
     }
-    .requirements {
-	border-top: 1px solid $border;	
+    .card-footer {
+	border-top: 1px solid $border;
+	margin-top: 4px;
+	padding-top: 4px;
     }
     &:first-child {
 	margin-top: 0;

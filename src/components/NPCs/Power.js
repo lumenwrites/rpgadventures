@@ -21,18 +21,36 @@ class Power extends Component {
   render() {
     const { power, adding } = this.props
     return (
-      <div className={`power ${adding ? "adding" : ""}`}
+      <div className={`card ${adding ? "adding" : ""}`}
 	   onClick={()=> adding ? this.addPower() : null } >
-          <div className="title">
-	      {!adding &&
-	       (<div className="delete-btn" onClick={this.deletePower}>
-		   <FontAwesomeIcon icon={["fas", "trash-alt"]} />
-	       </div>)}
-	      
-              {power.title}
-              <div className="level">{power.level}</div>
+          <div className="card-header">
+	      <span className="card-title">{power.title}</span>
           </div>
+	  <hr/>
           <div className="description">{power.description}</div>
+
+	  <div className="card-footer">
+	      {!adding && (
+		<div className="delete-btn" onClick={this.deletePower}>
+		    <FontAwesomeIcon icon={["fas", "trash-alt"]} />
+		</div>
+	      )}
+	      {power.ep && (
+		<div className="level" data-tip="Energy Cost (to use)">
+		    <FontAwesomeIcon icon={["fab", "react"]}/>	  
+		    {power.ep}
+		</div>)}	  
+	      {power.bonusDice && (
+		<div className="level" data-tip="When used, adds this many Dice to your roll.">
+		    <FontAwesomeIcon icon={["fas", "dice"]}/>	  
+		    {power.bonusDice}
+		</div>)}
+
+	  </div>
+
+
+	  <div className="clearfix"/>
+
       </div>
     )
   }

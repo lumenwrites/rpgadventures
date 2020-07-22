@@ -114,7 +114,8 @@
     .powers {
 	overflow-x: hidden;
 	overflow-y: auto;
-	height: 220px;
+	height: 215px;
+	margin-top: 5px;
 
 	&::-webkit-scrollbar {
 	    width: 6px;
@@ -129,98 +130,27 @@
 	    //border-radius: 9px;
 	    background-clip: content-box;
 	}
+
+	.card {
+	    .card-title {
+		display:block;
+	    }
+	    .delete-btn {
+		width: 12px;
+		height: 12px;
+		//margin-right:5px;
+		line-height: 16px;	    
+		border:none;
+		float:right;
+	    }
+	    .level {
+		float: left;
+		margin-left: 0;
+		margin-right: 5px;
+	    }
+	}
     }
     padding: 10px;
     -webkit-column-break-inside: avoid;
 }
 
-.powers-modal {
-    .category-title {
-	text-align: center;
-	margin-top: 5px;
-    }
-    .columns {
-	column-gap: 5px;
-	margin-top: 5px;
-    }
-    .tabs {
-	margin: -16px -32px 0 -32px;
-    }
-    .tab {
-	float: left;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	cursor: pointer;
-	outline: 1px solid $border;
-	width: calc(100% / 4);
-	padding: 5px;
-
-	&.active {
-	    font-weight: bold;
-	    text-decoration: underline;
-	}
-    }
-    
-}
-
-.power {
-    font-size: 11px;
-    text-align: left;
-    margin-top: 4px;
-    padding: 4px;
-    border: 1px solid $border;
-    background: white;
-    border-radius: 4px;
-    -webkit-column-break-inside: avoid;
-    &.adding {
-	@extend .on-click-animation;
-	cursor: pointer;
-    }
-    .delete-btn {
-	width: 12px;
-	height: 12px;
-	margin-right:5px;
-	line-height: 16px;	    
-	border:none;
-    }
-    
-    .title {
-	font-weight: bold;
-	border-bottom: 1px solid $border;
-    }
-    .level {
-	width: 14px;
-	height: 14px;
-	border-radius: 50%;
-	background: $panel-bg;
-	float: right;
-	color: $text;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	float: right;
-    }
-}
-.append-power {
-    @extend .power;
-
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: $text-dim;
-    background: transparent;
-    svg {
-	margin: 5px;
-	width: 1.5em;
-	height: 1.5em;
-	color: $text-dim;
-    }
-    &:hover {
-	background: white;
-	color: $text;
-	cursor: pointer;
-	svg { color: $text; }
-    }
-}

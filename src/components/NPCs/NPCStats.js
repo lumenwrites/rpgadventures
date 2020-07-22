@@ -58,7 +58,7 @@ class NPCStats extends Component {
               </div>
               <div className="powers">
 		  {this.renderPowers()}
-		  <div className="append-power"
+		  <div className="card append"
 		       onClick={() => { this.props.toggleModal(`powers-${npc.id}`)}}>
 		      Add <FontAwesomeIcon icon={["fas", "plus-circle"]}/>
 		  </div>

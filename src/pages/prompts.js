@@ -1,9 +1,8 @@
 import React, { Component } from "react"
-import { connect } from "react-redux"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 import { Link, graphql } from "gatsby"
-import Img from "gatsby-image"
+//import Img from "gatsby-image"
 
 import ReactMarkdown from 'react-markdown'
 
@@ -20,8 +19,6 @@ import social from "../../json/prompts/social.json"
 import mystery from "../../json/prompts/mystery.json"
 import stealth from "../../json/prompts/stealth.json"
 import villainMoves from "../../json/prompts/villain-moves.json"
-
-import locations from "../../json/prompts/locations.json"
 
 import Layout from "../components/layout"
 
