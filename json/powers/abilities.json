@@ -1,0 +1,223 @@
+[
+  {
+    "title": "Strength",
+    "powers": [
+      {
+        "title": "Novice Athletics",
+        "ep": "3",
+        "xp": "3",
+        "bonusDice": "1",
+        "description": "You’re pretty muscular and athletic.",
+        "section": "abilities"
+      },
+      {
+        "title": "Intermediate Athletics",
+        "ep": "6",
+        "xp": "6",
+        "bonusDice": "2",
+        "requirements": "Novice Athletics",
+        "description": "You're as strong as a good bodybuilder. You can do what a good bodybuilder can do.\nLike lift and throw that big rock or tip over a cow.",
+        "section": "abilities"
+      },
+      {
+        "title": "Advanced Athletics",
+        "ep": "9",
+        "xp": "9",
+        "bonusDice": "3",
+        "requirements": "Intermediate Athletics",
+        "description": "You're as strong as the strongest human in the world.",
+        "section": "abilities"
+      },
+      {
+        "title": "Master Athletics",
+        "ep": "12",
+        "xp": "12",
+        "bonusDice": "4",
+        "requirements": "Intermediate Athletics",
+        "description": "You’re superhumanly strong, like Hulk. You can rip that oak from the earth and snap it in half, you can punch through the solid wall.",
+        "section": "abilities"
+      },
+      {
+        "title": "Grapple",
+        "ep": "2",
+        "xp": "2",
+        "bonusDice": "1",
+        "requirements": "Novice Athletics",
+        "description": "You grapple the opponent of your size and strength or smaller. You can hold them for up to 5 minutes.",
+        "section": "abilities"
+      },
+      {
+        "title": "Pack Mule",
+        "ep": "",
+        "xp": "5",
+        "bonusDice": "",
+        "requirements": "Intermediate Athletics",
+        "description": "Increases the number of items you can carry by 5.",
+        "section": "abilities"
+      }
+    ]
+  },
+  {
+    "title": "Dexterity",
+    "powers": [
+      {
+        "title": "Novice Acrobatics",
+        "ep": "3",
+        "xp": "3",
+        "bonusDice": "1",
+        "description": "You are nimble and flexible.",
+        "section": "abilities"
+      },
+      {
+        "title": "Intermediate Acrobatics",
+        "ep": "6",
+        "xp": "6",
+        "bonusDice": "2",
+        "requirements": "Novice Acrobatics",
+        "description": "You are very flexible and fast. You can do a backflip, jump between buildings.",
+        "section": "abilities"
+      },
+      {
+        "title": "Advanced Acrobatics",
+        "ep": "9",
+        "xp": "9",
+        "bonusDice": "3",
+        "requirements": "Intermediate Acrobatics",
+        "description": "You are ninja-level flexible and fast.",
+        "section": "abilities"
+      },
+      {
+        "title": "Master Acrobatics",
+        "ep": "12",
+        "xp": "12",
+        "bonusDice": "4",
+        "requirements": "Intermediate Acrobatics",
+        "description": "You are capable of superhuman, spider-man-level acrobatics.",
+        "section": "abilities"
+      },
+      {
+        "title": "Novice Stealth",
+        "ep": "3",
+        "xp": "3",
+        "bonusDice": "1",
+        "description": "You are good at sneaking and not being seen.",
+        "section": "abilities"
+      },
+      {
+        "title": "Intermediate Stealth",
+        "ep": "6",
+        "xp": "6",
+        "bonusDice": "2",
+        "requirements": "Novice Stealth",
+        "description": "You are very good at sneaking and not being seen.",
+        "section": "abilities"
+      },
+      {
+        "title": "Advanced Stealth",
+        "ep": "9",
+        "xp": "9",
+        "bonusDice": "3",
+        "requirements": "Intermediate Stealth",
+        "description": "Your ability to sneak and hide is ninja-level, you're borderline invisible.",
+        "section": "abilities"
+      },
+      {
+        "title": "Novice Thief",
+        "ep": "3",
+        "xp": "3",
+        "bonusDice": "1",
+        "description": "You are learning the art of stealing, concealing, smuggling things.",
+        "section": "abilities"
+      },
+      {
+        "title": "Intermediate Thief",
+        "ep": "6",
+        "xp": "6",
+        "bonusDice": "2",
+        "requirements": "Novice Thief",
+        "description": "You are very good at the art of stealing, concealing, smuggling things.",
+        "section": "abilities"
+      },
+      {
+        "title": "Advanced Thief",
+        "ep": "9",
+        "xp": "9",
+        "bonusDice": "3",
+        "requirements": "Intermediate Thief",
+        "description": "You are an expert thief. You can steal, conceal, or smuggle anything.",
+        "section": "abilities"
+      }
+    ]
+  },
+  {
+    "title": "Arcana",
+    "powers": [
+      {
+        "title": "Novice Arcana",
+        "ep": "3",
+        "xp": "3",
+        "bonusDice": "1",
+        "description": "You have a basic understanding of magic and arcane arts.\nEnables you to use more sophisticated magic items.",
+        "section": "abilities"
+      },
+      {
+        "title": "Intermediate Arcana",
+        "ep": "6",
+        "xp": "6",
+        "bonusDice": "2",
+        "description": "You have a solid understaning of magic and it's principles. \nEnables you to use more sophisticated magic items.",
+        "section": "abilities"
+      }
+    ]
+  },
+  {
+    "title": "Combat",
+    "powers": [
+      {
+        "title": "Novice Swordsman",
+        "ep": "3",
+        "xp": "3",
+        "bonusDice": "1",
+        "description": "You are nimble and flexible.",
+        "section": "abilities"
+      },
+      {
+        "title": "Intermediate Swordsman",
+        "ep": "6",
+        "xp": "6",
+        "bonusDice": "2",
+        "requirements": "Novice Swordsman",
+        "description": "You are very flexible and fast. You can do a backflip, jump between buildings.",
+        "section": "abilities"
+      },
+      {
+        "title": "Advanced Swordsman",
+        "ep": "9",
+        "xp": "9",
+        "bonusDice": "3",
+        "requirements": "Intermediate Swordsman",
+        "description": "You are ninja-level flexible and fast.",
+        "section": "abilities"
+      },
+      {
+        "title": "Master Swordsman",
+        "ep": "12",
+        "xp": "12",
+        "bonusDice": "4",
+        "requirements": "Intermediate Swordsman",
+        "description": "You are capable of superhuman, spider-man-level swordsman.",
+        "section": "abilities"
+      }
+    ]
+  },
+  {
+    "title": "Blank",
+    "powers": [
+      {
+        "title": "Ability Title",
+        "description": "[Create and edit this ability if you need to create a custom one]",
+        "section": "abilities"
+      }
+    ]
+  }
+]

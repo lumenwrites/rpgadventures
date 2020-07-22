@@ -3,6 +3,9 @@
    node ./process-powers.mjs spells
    node ./process-powers.mjs magicItems
    node ./process-powers.mjs equipment
+
+   node ./process-powers.mjs abilities && node ./process-powers.mjs spells && node ./process-powers.mjs magicItems && node ./process-powers.mjs equipment
+   
  */
 
 import fs from 'fs'

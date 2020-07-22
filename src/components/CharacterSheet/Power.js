@@ -71,6 +71,10 @@ class Power extends Component {
   
   render() {
     const { power, adding } = this.props
+    /* Show requirements when adding ability/item, or for just the items in the sheet */
+    /* (because you can have an item, but don't know how to use it) */
+    var isItem = power.section == "magicItems" || power.section == "equipment"
+    var displayRequirements = power.requirements && (adding || isItem)
     return (
       <div className={`card ${adding ? "adding" : ""}`}
 	   onClick={()=> adding ? this.addPower() : null } >
@@ -116,7 +120,7 @@ class Power extends Component {
 	  ) : (
 	  <div className="description">{power.description}</div>
 	  )}
-	  {adding && power.requirements && (
+	  {displayRequirements && (
 	  <div className="requirements"><b>Requires: </b>{power.requirements}</div>
 	  )}
 

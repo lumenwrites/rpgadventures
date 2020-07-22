@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Weapons",
+    "powers": [
+      {
+        "title": "Dagger",
+        "ep": "",
+        "description": "For stabbing. Deals 2 damage.",
+        "section": "equipment"
+      },
+      {
+        "title": "Crowbar",
+        "ep": "",
+        "description": "Smashes things, pries things open. Deals 2 damage.",
+        "section": "equipment"
+      },
+      {
+        "title": "Sword",
+        "ep": "",
+        "xp": "",
+        "bonusDice": "",
+        "requirements": "Novice Swordsman",
+        "description": "Regular sword. Deals 4 damage.",
+        "section": "equipment"
+      }
+    ]
+  }
+]
