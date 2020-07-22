@@ -138,7 +138,7 @@ Persuade groups of people.
 > Convince enemy soldiers to defect to your side.  
 > Free a person from the influence of a sinister cult.
 
-Run and improve a society/group/organization.**
+Run and improve a society/group/organization.
 > Run a kingdom, village, sports team, team of agents, organization, business.  
 > Raise morale, lower the crime, stop witch hunts, deal with corruption.
 

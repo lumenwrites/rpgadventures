@@ -27,6 +27,7 @@ class Prompts extends Component {
   state = {
     seeds: Array.from({ length: 20 }, () => Math.random()),
     locationSeed: Math.random(),
+    villainSeed: Math.random(),
   }
 
   renderPrompt = (title, prompts, index) => {
@@ -49,25 +50,29 @@ class Prompts extends Component {
     )
   }
 
-  renderLocation = () => {
-    var locations = this.props.data.allFile.edges
-
-    var location = locations[Math.floor(this.state.locationSeed * locations.length)].node
+  renderImage = (images, index, showTitle) => {
+    var image = images[Math.floor(this.state.seeds[index] * images.length)].node
     return (
       <div className="prompt image-prompt">
           <div
             className="refresh"
             onClick={() => {
-              this.setState({ locationSeed: Math.random() })
+              var seeds = [...this.state.seeds]
+              seeds[index] = Math.random()
+              this.setState({ seeds })
             }}
           >
               <FontAwesomeIcon icon={["fas", "dice"]} />
           </div>
           <div className="clearfix" />	  
-          <span className="prompt-label">{location.name}</span>
+          {showTitle ? (
+	    <span className="prompt-label">{image.name}</span>
+	  ) : (
+	    <span className="prompt-label">Appearance</span>
+	  )}
           <div className="clearfix" />
-          {/* <Img fixed={location.childImageSharp.fixed} />  */}
-          <img src={location.childImageSharp.original.src} />
+          {/* <Img fixed={image.childImageSharp.fixed} />  */}
+          <img src={image.childImageSharp.original.src} />
       </div>
     )
   }
@@ -96,14 +101,19 @@ class Prompts extends Component {
 	      <h3>Antagonist</h3>
 	      {this.renderPrompt("Antagonist", villains, 3)}
 	      {this.renderPrompt("Antagonist's Motivation", villainMotivations, 4)}
-	      {this.renderPrompt("Movie Character", movieCharacters, 5)}
+	      {this.renderPrompt("Movie Character (personality)", movieCharacters, 5)}
 	      <Link className="small" to="/prompts/antagonist-prompts">
 		  [Full list of Antagonist Prompts]
               </Link>
 	      <div className="clearfix" />
 	      (Adapt them to fantasy and use as an Antagonist. For good characters - make an evil/corrupted version of them.)
+	      {this.renderImage(this.props.data.villains.edges, 16, false)}
+              <Link className="small" to="/villain-images">
+		  [Full list of Villain Images]
+              </Link>
+	      <div className="clearfix" />
               <h3>Setting</h3>
-              {this.renderLocation()}
+              {this.renderImage(this.props.data.locations.edges, 15, true)}
               <Link className="small" to="/world">
 		  [Full list of Settings]
               </Link>
@@ -143,10 +153,29 @@ export default Prompts
 
 export const query = graphql`
   query {
-    allFile(
+    locations: allFile(
       filter: {
         extension: { regex: "/(jpg)|(png)|(tif)|(tiff)|(webp)|(jpeg)/" }
         relativeDirectory: { eq: "prompts/locations" }
+      }
+      sort: { order: ASC, fields: id }
+    ) {
+      edges {
+        node {
+          name
+          childImageSharp {
+	    original { src }
+            fixed(width: 400) {
+              ...GatsbyImageSharpFixed
+            }
+          }
+        }
+      }
+    }
+    villains: allFile(
+      filter: {
+        extension: { regex: "/(jpg)|(png)|(tif)|(tiff)|(webp)|(jpeg)/" }
+        relativeDirectory: { eq: "prompts/villains" }
       }
       sort: { order: ASC, fields: id }
     ) {
