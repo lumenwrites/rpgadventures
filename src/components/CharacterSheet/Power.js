@@ -76,12 +76,12 @@ class Power extends Component {
   }
   
   render() {
-    const { power, adding, sample } = this.props
+    const { power, adding, sample, onSheet } = this.props
     /* Show requirements when adding ability/item, or for just the items in the sheet */
     /* (because you can have an item, but don't know how to use it) */
     var isItem = power.section == "magicItems" || power.section == "equipment"
     var displayRequirements = (power.requirements && (adding || isItem || sample))
-    var displayRarity = (power.rarity)
+    var displayRarity = false // power.rarity && !onSheet // doesn't fit
     var displayFooter = displayRequirements || power.xp || power.ep
 		     || power.bonusDice || displayRarity
     return (

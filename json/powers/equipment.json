@@ -40,6 +40,16 @@
         "requirements": "Novice Swordsman",
         "description": "Regular sword. Deals 4 damage.",
         "section": "equipment"
+      },
+      {
+        "title": "Epic Sword",
+        "ep": "2",
+        "xp": "",
+        "bonusDice": "1",
+        "requirements": "Intermediate Swordsman",
+        "description": "Deals 8 damage. Spend 2 energy to add 1 bonus dice to your attack.",
+        "rarity": "Legendary",
+        "section": "equipment"
       }
     ]
   }
