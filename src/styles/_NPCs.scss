@@ -30,7 +30,7 @@
     // Buttons
     .show-stats-btn {
 	font-size: 11px;
-	opacity: 70%;
+	opacity: 0.7;
 	border: 1px solid $border;
 	cursor: pointer;
 	border-radius: 4px;
@@ -42,7 +42,7 @@
 	float:right;
 	&:hover {
 	    background: white;
-	    opacity: 100%;
+	    opacity: 1;
 	}
     }
     .edit-btn, .delete-btn {
