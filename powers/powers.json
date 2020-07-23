@@ -214,11 +214,21 @@
         },
         {
             "title": "Thrown Weapons",
+            "level": "Novice",
             "description": "Allows you to throw handheld projectiles (rocks, darts, daggers).",
             "ep": 3,
             "xp": 3,
             "dice": 1,
-            "req": "Acrobatics",
+            "category": "Weapons"
+        },
+        {
+            "title": "Thrown Weapons",
+            "level": "Adept",
+            "description": "You can throw 2 weapons at once (at different targets, or the same one for double damage). Spend 2 EP per extra weapon you want to throw.",
+            "ep": 6,
+            "xp": 6,
+            "dice": 2,
+            "req": "Thrown Weapons",
             "reqlvl": "Novice",
             "category": "Weapons"
         },
@@ -261,11 +271,171 @@
             "category": "Weapons"
         },
         {
+            "title": "Light armor",
+            "level": "Novice",
+            "ep": 3,
+            "xp": 3,
+            "dice": 1,
+            "category": "Armor"
+        },
+        {
+            "title": "Medium Armor",
+            "level": "Adept",
+            "ep": 6,
+            "xp": 6,
+            "dice": 2,
+            "req": "Light armor",
+            "category": "Armor"
+        },
+        {
+            "title": "Heavy armor",
+            "level": "Expert",
+            "ep": 9,
+            "xp": 9,
+            "dice": 3,
+            "req": "Heavy armor",
+            "category": "Armor"
+        },
+        {
+            "title": "Parry",
+            "description": "Enables you to deflect physical attacks from equally skilled opponents using a melee weapon.",
+            "ep": 3,
+            "xp": 3,
+            "dice": 1,
+            "req": "Swordsman",
+            "reqlvl": "Novice",
+            "category": "Combat"
+        },
+        {
+            "title": "Dual Wielding",
+            "description": "Allows you to make 2 attacks as 1 action. You must have two one-handed weapons in your inventory.",
+            "ep": 3,
+            "xp": 3,
+            "dice": 1,
+            "req": "Swordsman",
+            "reqlvl": "Adept",
+            "category": "Combat"
+        },
+        {
+            "title": "Provoke",
+            "description": "Will attract the attention of your target. They will attempt to attack you until they are hit by someone else or hostilities cease altogether.",
+            "ep": 3,
+            "xp": 3,
+            "dice": 1,
+            "category": "Combat"
+        },
+        {
+            "title": "Intercept",
+            "description": "Allows you to interrupt an enemy attack on your ally. They immediately end their turn, dealing no damage.",
+            "ep": 3,
+            "xp": 3,
+            "dice": 1,
+            "req": "Acrobatics",
+            "reqlvl": "Novice",
+            "category": "Combat"
+        },
+        {
+            "title": "Whirldwind",
+            "description": "Allows you to make a melee attack to everyone within reach.",
+            "ep": 3,
+            "xp": 3,
+            "dice": 1,
+            "req": "Swordsman",
+            "reqlvl": "Adept",
+            "category": "Combat"
+        },
+        {
+            "title": "Knock Down",
+            "description": "You charge in a straight line towards the selected enemy and smash into them. The enemy gets knocked down, losing their next turn.",
+            "ep": 3,
+            "xp": 3,
+            "dice": 1,
+            "req": "Athletics",
+            "reqlvl": "Novice",
+            "category": "Combat"
+        },
+        {
+            "title": "Charge",
+            "description": "You charge in a straight line towards the selected enemy and smash into them. The enemy, everyone on your path, and everyone within reach gets knocked down, losing their next turn.",
+            "ep": 3,
+            "xp": 3,
+            "dice": 1,
+            "req": "Knock Down",
+            "category": "Combat"
+        },
+        {
+            "title": "Cripple",
+            "description": "Attack a target within range, rendering them unable to move.",
+            "ep": 3,
+            "xp": 3,
+            "dice": 1,
+            "req": "Athletics",
+            "reqlvl": "Adept",
+            "category": "Combat"
+        },
+        {
+            "title": "Sneak Attack",
+            "description": "Allows you to deal double damage to the distracted enemy.",
+            "ep": 3,
+            "xp": 3,
+            "dice": 1,
+            "req": "Stealth",
+            "reqlvl": "Novice",
+            "category": "Combat"
+        },
+        {
+            "title": "Farshot",
+            "description": "Enables you to shoot at a target out of your range.",
+            "ep": 3,
+            "xp": 3,
+            "dice": 1,
+            "req": "Archer",
+            "reqlvl": "Novice",
+            "category": "Combat"
+        },
+        {
+            "title": "Deadeye",
+            "description": "Allows you to target any coin-size object.",
+            "ep": 3,
+            "xp": 3,
+            "dice": 1,
+            "req": "Archer",
+            "reqlvl": "Novice",
+            "category": "Combat"
+        },
+        {
+            "title": "Retreat",
+            "description": "You Provoke all nearby enemies to give your allies cover to retreat. Enemy fire will be concentrated on you.",
+            "ep": 3,
+            "xp": 3,
+            "dice": 1,
+            "req": "Provoke"
+        },
+        {
             "title": "Arcana",
+            "level": "Novice",
             "description": "You understand magic and arcane arts.\nEnables you to use more sophisticated magic items.",
             "ep": 3,
             "xp": 3,
             "dice": 1,
+            "category": "Knowledge"
+        },
+        {
+            "title": "Arcana",
+            "level": "Adept",
+            "description": "You have a solid understaning of magic and it's principles. \nEnables you to use more sophisticated magic items.",
+            "ep": 6,
+            "xp": 6,
+            "dice": 2,
+            "category": "Knowledge"
+        },
+        {
+            "title": "Arcana",
+            "level": "Expert",
+            "description": "You have mastered the depth and intricacies of arcane arts.\nYou can identify and use any magic item.",
+            "ep": 9,
+            "xp": 9,
+            "dice": 3,
             "category": "Knowledge"
         },
         {
@@ -277,22 +447,184 @@
             "category": "Knowledge"
         },
         {
-            "title": "Parry",
-            "description": "Enables you to deflect physical attacks from equally skilled opponents using a melee weapon.",
+            "title": "Warfare",
+            "description": "You understand the theoretical fundamentals of combat and warfare.",
             "ep": 3,
             "xp": 3,
             "dice": 1,
-            "category": "Combat Tactics"
+            "category": "Knowledge"
         },
         {
-            "title": "Dual Wielding",
-            "description": "Allows you to make 2 attacks as 1 action. You must have two one-handed weapons in your inventory.",
+            "title": "Medicine",
             "ep": 3,
             "xp": 3,
-            "dice": 1,
-            "req": "Swordsman",
-            "reqlvl": "Adept",
-            "category": "Combat Tactics"
+            "dice": 1
+        },
+        {
+            "title": "Investigation",
+            "ep": 3,
+            "xp": 3,
+            "dice": 1
+        },
+        {
+            "title": "Religion"
+        },
+        {
+            "title": "Survival"
+        },
+        {
+            "title": "Animal Handling"
+        },
+        {
+            "title": "Insight",
+            "level": "Novice",
+            "ep": 3,
+            "xp": 3,
+            "dice": 1
+        },
+        {
+            "level": "Adept",
+            "ep": 6,
+            "xp": 6,
+            "dice": 2,
+            "reqlvl": "Novice"
+        },
+        {
+            "level": "Expert",
+            "ep": 9,
+            "xp": 9,
+            "dice": 3,
+            "reqlvl": "Adept"
+        },
+        {
+            "title": "Persuasion",
+            "level": "Novice",
+            "description": "You are pretty good at convincing people.",
+            "ep": 3,
+            "xp": 3,
+            "dice": 1
+        },
+        {
+            "level": "Adept",
+            "ep": 6,
+            "xp": 6,
+            "dice": 2,
+            "reqlvl": "Novice"
+        },
+        {
+            "level": "Expert",
+            "ep": 9,
+            "xp": 9,
+            "dice": 3,
+            "reqlvl": "Adept"
+        },
+        {
+            "title": "Deception",
+            "level": "Novice",
+            "ep": 3,
+            "xp": 3,
+            "dice": 1
+        },
+        {
+            "level": "Adept",
+            "ep": 6,
+            "xp": 6,
+            "dice": 2,
+            "reqlvl": "Novice"
+        },
+        {
+            "level": "Expert",
+            "ep": 9,
+            "xp": 9,
+            "dice": 3,
+            "reqlvl": "Adept"
+        },
+        {
+            "title": "Intimidation",
+            "level": "Novice",
+            "description": "Make a show of how dangerous you are, making everyone in the vicinity afraid of you.\nRegular people and animals will run away or seek shelter, braver enemies may be able to overcome their fear, but will be more hesitant to mess with you.",
+            "ep": 3,
+            "xp": 3,
+            "dice": 1
+        },
+        {
+            "level": "Adept",
+            "ep": 6,
+            "xp": 6,
+            "dice": 2,
+            "reqlvl": "Novice"
+        },
+        {
+            "level": "Expert",
+            "ep": 9,
+            "xp": 9,
+            "dice": 3,
+            "reqlvl": "Adept"
+        },
+        {
+            "title": "Performance",
+            "ep": 3,
+            "xp": 3,
+            "dice": 1
+        },
+        {
+            "title": "Seduction",
+            "ep": 3,
+            "xp": 3,
+            "dice": 1
+        },
+        {
+            "title": "Act like you belong",
+            "description": "Invent a local saying and use it in your conversation with the NPC. It allows you to blend in and appear as a member of the social group NPC belongs to, gaining their trust.",
+            "ep": 3,
+            "xp": 3,
+            "dice": 1
+        },
+        {
+            "title": "Folk Song",
+            "description": "You sing a song that kindles strong feelings in the friendly/neutral NPCs nearby.(you need to sing a song at the table and describe your performance.) This will influence the mood of the crowd to the one of your choice (happy, somber, proud, indignant, etc.)",
+            "ep": 3,
+            "xp": 3,
+            "dice": 1
+        },
+        {
+            "title": "Tell a Tale",
+            "description": "Tell a local myth to the NPC, and explain what the lesson of it is (\"Give refuge to strangers\", \"Help others\", \"Don't lie\", \"Forgive people\", \"Be a fair dealer\", etc). NPC will likely comply with reasonable requests that are in line with the lesson.",
+            "ep": 3,
+            "xp": 3,
+            "dice": 1
+        },
+        {
+            "title": "Recruit",
+            "description": "Recruit a low-level friendly NPC to help you for the next day.",
+            "ep": 3,
+            "xp": 3,
+            "dice": 1
+        },
+        {
+            "title": "Bartering",
+            "description": "Convince people to trade and get better deals.",
+            "ep": 3,
+            "xp": 3,
+            "dice": 1
+        },
+        {
+            "title": "Aspiring Artist",
+            "description": "You are pretty good at art of your choice(painting, music, theatre, etc)",
+            "ep": 3,
+            "xp": 3,
+            "dice": 1
+        },
+        {
+            "title": "Politics",
+            "ep": 3,
+            "xp": 3,
+            "dice": 1
+        },
+        {
+            "title": "[Custom Ability Title]",
+            "description": "[Create and edit this ability if you need to create a custom one]",
+            "category": "Blank"
         },
         {
             "title": "Kinestetic",
@@ -408,7 +740,7 @@
     "equipment": [
         {
             "title": "Dagger",
-            "description": "A shiny still dagger. Looks ready for violence.",
+            "description": "A shiny steal dagger. Looks ready for violence.",
             "dmg": 3,
             "rarity": "Common",
             "category": "Weapons"
@@ -455,6 +787,21 @@
             "req": "Archer",
             "reqlvl": "Novice",
             "category": "Weapons"
+        },
+        {
+            "title": "Club"
+        },
+        {
+            "title": "Handaxe"
+        },
+        {
+            "title": "Mace"
+        },
+        {
+            "title": "Staff"
+        },
+        {
+            "title": "Spear"
         }
     ],
     "boilerplate": [
