@@ -21,7 +21,7 @@ import stealth from "../../json/prompts/stealth.json"
 import villainMoves from "../../json/prompts/villain-moves.json"
 
 import Layout from "../components/layout"
-
+import SEO from "../components/seo"
 
 class Prompts extends Component {
   state = {
@@ -144,6 +144,8 @@ class Prompts extends Component {
 		  </li>
               </ul>
           </div>
+	  <SEO title={"Adventure Writing Prompts"}
+	       description={"Adventure Writing Prompts. Story ideas, villains, settings."}/>
       </Layout>
     )
   }

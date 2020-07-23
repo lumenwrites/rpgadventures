@@ -7,6 +7,7 @@ import Modal from "../components/elements/modal"
 import { toggleModal } from "../actions/utils"
 
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 import NPCCard from "../components/NPCs/NPCCard"
 import NPCsSubnav from "../components/NPCs/NPCsSubnav"
@@ -35,6 +36,7 @@ class NPCs extends Component {
     return (
       <Layout subnav={subnav}>
           <div className="npcs">{this.renderCards()}</div>
+	  <SEO title={"NPCs App | Mirage"} description={"Create and edit NPC cards."}/>
       </Layout>
     )
   }

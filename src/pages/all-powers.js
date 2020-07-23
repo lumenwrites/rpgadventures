@@ -4,6 +4,8 @@ import { connect } from 'react-redux'
 import ReactTooltip from 'react-tooltip'
 
 import Layout from "../components/layout"
+import SEO from "../components/seo"
+
 import Power from '../components/CharacterSheet/Power'
 
 import abilities from '../../json/powers/abilities.json'
@@ -17,7 +19,6 @@ const tabs = ["Spells","Abilities","Magic Items", "Equipment"]
 class Powers extends Component {
   state = { activeTab: "Spells" }
   componentDidUpdate = () => {
-    console.log("yes")
     ReactTooltip.rebuild()
   }
   renderTabs = () => {
@@ -76,6 +77,7 @@ class Powers extends Component {
 	      </div>
 	      {this.renderCategories()}
 	  </div>
+	  <SEO title={"All Powers | Mirage"} description={"Full list of powers."}/>
       </Layout>
     )
   }

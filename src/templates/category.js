@@ -4,9 +4,11 @@ import Img from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const BlogIndex = ({ data, location }) => {
+const BlogIndex = ({ data, location, pageContext }) => {
   const posts = data.allMdx.edges
-
+  var categoryTitle = pageContext.category
+  /* Capitalize */
+  categoryTitle = categoryTitle.charAt(0).toUpperCase() + categoryTitle.slice(1)
   return (
     <Layout location={location}>
 	<div className="post-grid">
@@ -29,7 +31,7 @@ const BlogIndex = ({ data, location }) => {
               )
             })}
 	</div>
-	<SEO title="All posts" />
+	<SEO title={`${categoryTitle}s | Mirage`} />
     </Layout>
   )
 }

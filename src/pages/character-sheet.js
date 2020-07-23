@@ -4,6 +4,7 @@ import { connect } from "react-redux"
 import ReactTooltip from 'react-tooltip'
 
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 import Subnav from "../components/CharacterSheet/Subnav"
 import Image from "../components/CharacterSheet/Image"
@@ -78,6 +79,7 @@ class Sheet extends Component {
               </div>
               <div className="clearfix" />
           </article>
+	  <SEO title={"Character Sheet | Mirage"} description={"Character Sheet App"}/>
       </Layout>
     )
   }

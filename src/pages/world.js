@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import Img from "gatsby-image"
 
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 class World extends Component {
   renderImages = () => {
@@ -32,6 +33,7 @@ class World extends Component {
 	      <h2>Locations</h2>
 	      <div className="columns">{this.renderImages()}</div>
           </article>
+	  <SEO title={"World of Mirage"} description={"Fantasy Locations"}/>
       </Layout>
     )
   }
