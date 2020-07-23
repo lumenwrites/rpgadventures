@@ -71,3 +71,8 @@
 	text-decoration: none;
     }
 }
+// For world/villain-images pages
+.prompt-image  .gatsby-image-wrapper {
+    overflow: visible!important; // fixing ios bug with images not displaying
+    -webkit-column-break-inside: avoid;
+}

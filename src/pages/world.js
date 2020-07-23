@@ -10,7 +10,7 @@ class World extends Component {
     const { data } = this.props
     return data.allFile.edges.map(({ node }, i) => {
       return (
-        <div className="nobreak" key={i}>
+        <div className="prompt-image"  key={i}>
             <div className="bold">{node.name}</div>
 	    {/* <img src={node.childImageSharp.original.src} /> */}
 	    {/* <a href={node.childImageSharp.original.src}> */}

@@ -10,7 +10,7 @@ class World extends Component {
     const { villains } = this.props.data
     return villains.edges.map(({ node }, i) => {
       return (
-        <div className="nobreak" key={i}>
+        <div className="prompt-image" key={i}>
             <Img alt={node.name} fixed={node.childImageSharp.fixed} />
         </div>
       )
