@@ -23,6 +23,7 @@
 	background: #fafafa;
 	font-weight: bold;
 	width: 164px;
+	border-radius: 0; // corners are rounded in ios. will this fix it?
 	&:hover,&:focus {
 	    outline:none;
 	}
