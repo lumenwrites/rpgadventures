@@ -46,7 +46,7 @@ export const query = graphql`
         extension: { regex: "/(jpg)|(png)|(tif)|(tiff)|(webp)|(jpeg)/" }
         relativeDirectory: { eq: "prompts/villains" }
       }
-      sort: { order: ASC, fields: id }
+      sort: { order: DESC, fields: id }
     ) {
       edges {
         node {
