@@ -6,6 +6,9 @@ main {
     overflow-x: hidden;
     overflow-y: overlay;
     height: calc(100% - 54px);
+    &.has-subnav {
+	height: calc(100% - 54px - 32px);
+    }
 }
 
 .wrapper {

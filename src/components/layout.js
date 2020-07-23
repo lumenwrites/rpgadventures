@@ -1,12 +1,5 @@
 import React from "react"
 
-import '../styles/fonts/RobotoSlab-Regular.ttf'
-import '../styles/fonts/RobotoSlab-Bold.ttf'
-import '../styles/fonts/Cinzel-Bold.ttf'
-import '../styles/fonts/Cinzel-Regular.ttf'
-import '../styles/fonts/OpenSans-Regular.ttf'
-import '../styles/fonts/OpenSans-Light.ttf'
-import '../styles/fonts/OpenSans-Bold.ttf'
 
 import "../styles/style.scss"
 
@@ -27,7 +20,7 @@ const Layout = ({ location, children, subnav }) => {
     <>
 	<Header />
 	{subnav}
-	<main>
+	<main className={subnav ? "has-subnav" : ""}>
             <div className="wrapper">{children}</div>
 	</main>
 	<ReactTooltip className="react-tooltip" type="dark" effect="solid"

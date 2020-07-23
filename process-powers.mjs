@@ -27,7 +27,9 @@ categories.map((category)=>{
   var categoryJson = { title, powers: []}
   powers.map((power)=>{
     var [powerHeader, description] = getFirstLine(power)
-    var [title, ep, xp, bonusDice, requirements, rarity] = powerHeader.split('|').map(s => s.trim())
+    // ## Title | EP | Dice | Damage | XP | Requirements | Rarity
+    var values = powerHeader.split('|').map(s => s.trim())
+    var [title, ep, bonusDice, damage, xp, requirements, rarity] = values
     title = title.substring(3) // remove hashtags
     //console.log([title, ep, xp, bonusDice, requirements])
     var powerJson = {
