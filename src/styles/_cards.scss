@@ -3,9 +3,14 @@
 	text-align: center;
 	margin-top: 5px;
     }
-    .columns {
+
+
+    .powers {
+	// display: grid;
+	// grid-gap: 0 10px;
+	// grid-template-columns: repeat(2, 1fr);
 	column-gap: 5px;
-	margin-top: 5px;
+     	margin-top: 5px;
     }
     .tabs {
 	margin: -16px -32px 0 -32px;
@@ -79,7 +84,7 @@
     -webkit-column-break-inside: avoid;
 
     &.adding {
-	@extend .on-click-animation; //from _elements.scss
+	//@extend .on-click-animation; //from _elements.scss
 	cursor: pointer
     }
 

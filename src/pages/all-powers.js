@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 
-import ReactTooltip from 'react-tooltip'
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -18,9 +16,7 @@ const tabs = ["Spells","Abilities","Magic Items", "Equipment"]
 
 class Powers extends Component {
   state = { activeTab: "Spells" }
-  componentDidUpdate = () => {
-    ReactTooltip.rebuild()
-  }
+
   renderTabs = () => {
     return tabs.map((t,i) => {
       return (

@@ -33,15 +33,17 @@ class Power extends Component {
           </div>
 	  <hr/>
           <div className="description">{power.description}</div>
-	  {(!adding || power.ep || power.bonusDice) &&
+	  {(power.ep || power.bonusDice) &&
 	   <div className="card-footer">
 	       {power.ep && (
-		 <div className="level" data-tip="Energy Cost (to use)">
+		 <div className="level"
+		      data-tip="Energy Cost">
 		     <FontAwesomeIcon icon={["fab", "react"]}/>	  
 		     {power.ep}
 		 </div>)}	  
 	       {power.bonusDice && (
-		 <div className="level" data-tip="When used, adds this many Dice to your roll.">
+		 <div className="level"
+		      data-tip="Adds dice to your roll">
 		     <FontAwesomeIcon icon={["fas", "dice"]}/>	  
 		     {power.bonusDice}
 		 </div>)}

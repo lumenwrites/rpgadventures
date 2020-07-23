@@ -195,7 +195,7 @@ tbody tr:nth-child(even){
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     position:relative;
-    overflow:hidden;
+    //overflow:hidden;
     &:after {
 	content: "";
 	background: white;
@@ -216,6 +216,50 @@ tbody tr:nth-child(even){
     }    
 }
 
-.react-tooltip {
-    z-index: 100;
+// https://www.youtube.com/watch?v=ujlpzTyJp-M
+.tooltip {
+    position: relative;
+    
+    &::before, &::after {
+	position: absolute;
+	top: -5px; //offset it up
+	 //move left edge of tooltip to the middle of the element
+	left: 50%;
+	//move tooltip by half it's width to center it 
+	transform: translateX(-50%) translateY(var(--translate-y,0));
+	--opacity: 0; //css variable to be animated
+	--tooltip-color: black;
+	--arrow-size: 10px;
+	
+	opacity: var(--opacity);
+	transition: 200ms opacity;
+	z-index: 99999999;
+    }
+    &::before {
+	--translate-y: calc(-100% - var(--arrow-size));
+	content: attr(data-tip);
+	padding: 4px 8px;
+	width: max-content;
+	background: var(--tooltip-color);
+	color: white;
+	font-size:12px;
+	text-align: center;
+	line-height: 16px;
+	border-radius: 2px;
+	z-index: 10;
+	//display:none;
+    }
+    // Arrow
+    &::after {
+	--translate-y: calc(-1 * var(--arrow-size) - 1px);
+	content: '';
+	border: var(--arrow-size) solid transparent;
+	border-top-color: var(--tooltip-color);
+	//display:none;
+    }
+    &:hover::before, &:hover::after {
+	display:block;
+	--opacity: 1;
+    }
 }
+

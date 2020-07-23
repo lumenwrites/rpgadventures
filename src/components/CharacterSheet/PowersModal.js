@@ -1,12 +1,8 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 
-import ReactTooltip from 'react-tooltip'
-
 import Modal from '../elements/modal'
 import Power from './Power'
-
-
 
 class PowersModal extends Component {
   state = {
@@ -14,12 +10,6 @@ class PowersModal extends Component {
     rarity: "Common"    
   }
 
-  componentDidUpdate = (prevProps) => {
-    ReactTooltip.rebuild()
-    if (this.props.utils.showModal !== prevProps.utils.showModal) {
-      console.log("[PowersModal] Modal Opened")
-    }
-  }
   renderCategories = () => {
     var  { powers } = this.props
     /* Powers are passed to it by the appropriate section */

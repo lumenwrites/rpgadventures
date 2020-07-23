@@ -1,8 +1,6 @@
 import React, { Component } from "react"
 import { connect } from "react-redux"
 
-import ReactTooltip from 'react-tooltip'
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -27,10 +25,6 @@ class Sheet extends Component {
       this.props.loadSheets(JSON.parse(sheets))
     }
   }
-
-  componentDidUpdate = () => {
-    ReactTooltip.rebuild()
-  }  
 
   render() {
     var { sheets, updateSheet } = this.props

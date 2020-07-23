@@ -11,8 +11,6 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 import { far } from '@fortawesome/free-regular-svg-icons'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 
-import ReactTooltip from 'react-tooltip'
-
 library.add(fas, far, fab)
 
 const Layout = ({ location, children, subnav }) => {
@@ -23,8 +21,6 @@ const Layout = ({ location, children, subnav }) => {
 	<main className={subnav ? "has-subnav" : ""}>
             <div className="wrapper">{children}</div>
 	</main>
-	<ReactTooltip className="react-tooltip" type="dark" effect="solid"
-		      delayShow={0} html={true}/>
     </>
   )
 }

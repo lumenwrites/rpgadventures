@@ -116,40 +116,52 @@ class Power extends Component {
        <div className="card-footer">
 	   {/* Show EP cost if it exists */}
 	   {power.ep && (
-	     <div className="level" data-tip="Energy Cost (to use)">
+	     <div className="level tooltip"
+		  data-tip="Energy Cost">
 		 <FontAwesomeIcon icon={["fab", "react"]}/>	  
 		 {power.ep}
 	     </div>)}
-	   {/* Bonus Dice. */}
-	   {power.bonusDice && (
-	     <div className="level" data-tip="When used, adds this many dice to your roll">
-		 <FontAwesomeIcon icon={["fas", "dice"]}/>	  
-		 {power.bonusDice}
-	     </div>)}
-	   {/* Show XP cost if it exists, and I'm in the PowerModal */}
-	   {(adding || sample) && power.xp && (
-	     <div className="level" data-tip="Experience Cost (to learn)">
-		 <FontAwesomeIcon icon={["fas", "book"]}/>	  		  
-		 {power.xp}
-	     </div>
-	   )}
-	   {/* Requirements. */}
-	   {displayRequirements && (
-	     <div className="level requirements" data-tip="Prerequisites">
-		 <FontAwesomeIcon icon={["fas", "project-diagram"]}/>
-		 {power.requirements}
-	     </div>
-	   )}
-	   {/* Requirements. */}
-	   {displayRarity && (
-	     <div className="level requirements" data-tip="Item Rarity">
-		 <FontAwesomeIcon icon={["far", "gem"]}/>
-		 {power.rarity}
-	     </div>
-	   )}
+	{/* Bonus Dice. */}
+	{power.bonusDice && (
+	  <div className="level tooltip"
+	       data-tip="Adds dice to your roll">
+	      <FontAwesomeIcon icon={["fas", "dice"]}/>	  
+	      {power.bonusDice}
+	  </div>)}
+	{/* Damage. */}
+	{power.damage && (
+	  <div className="level tooltip"
+	       data-tip="Damage">
+	      <FontAwesomeIcon icon={["fas", "bolt"]}/>	  
+	      {power.damage}
+	  </div>)}
+	{/* Show XP cost if it exists, and I'm in the PowerModal */}
+	{(adding || sample) && power.xp && (
+	  <div className="level tooltip"
+	       data-tip="Experience Cost (to learn)">
+	      <FontAwesomeIcon icon={["fas", "book"]}/>	  		  
+	      {power.xp}
+	  </div>
+	)}
+	{/* Requirements. */}
+	{displayRequirements && (
+	  <div className="level tooltip requirements"
+	       data-tip="Prerequisites">
+	      <FontAwesomeIcon icon={["fas", "project-diagram"]}/>
+	      {power.requirements}
+	  </div>
+	)}
+	{/* Requirements. */}
+	{displayRarity && (
+	  <div className="level tooltip requirements"
+	       data-tip="Item Rarity">
+	      <FontAwesomeIcon icon={["far", "gem"]}/>
+	      {power.rarity}
+	  </div>
+	)}
 
-	   <div className="clearfix"/>
-       </div>
+	<div className="clearfix"/>
+      </div>
       }
       </div>
     )
