@@ -1,35 +1,23 @@
 [
-  {
-    "title": "Kinestetic",
-    "powers": [
-      {
+    {
         "title": "Run",
         "description": "For the next hour you can run as fast as a horse.",
         "ep": 3,
         "xp": 3,
         "req": "Kinestetic",
         "reqlvl": "Novice",
-        "category": "Kinestetic",
-        "requirements": "Kinestetic (Novice)",
-        "section": "spells"
-      },
-      {
+        "category": "Kinestetic"
+    },
+    {
         "title": "Walk on walls/ceiling",
         "description": "For the next 20 minutes you can walk on any surface at any angle as if it was regular floor.",
         "ep": 2,
         "xp": 2,
         "req": "Kinestetic",
         "reqlvl": "Adept",
-        "category": "Kinestetic",
-        "requirements": "Kinestetic (Adept)",
-        "section": "spells"
-      }
-    ]
-  },
-  {
-    "title": "Battle Magic",
-    "powers": [
-      {
+        "category": "Kinestetic"
+    },
+    {
         "title": "Small Fireball",
         "description": "Deals 3 damage. Sets stuff on fire. Hold in your hand as a light source.",
         "ep": 2,
@@ -37,11 +25,6 @@
         "dmg": 2,
         "req": "Battle Magic",
         "reqlvl": "Novice",
-        "category": "Battle Magic",
-        "damage": 2,
-        "requirements": "Battle Magic (Novice)",
-        "section": "spells"
-      }
-    ]
-  }
+        "category": "Battle Magic"
+    }
 ]

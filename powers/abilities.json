@@ -1,20 +1,15 @@
 [
-  {
-    "title": "Strength",
-    "powers": [
-      {
-        "title": "Athletics (Novice)",
+    {
+        "title": "Athletics",
         "level": "Novice",
         "description": "You’re pretty muscular and athletic.",
         "ep": 3,
         "xp": 3,
         "dice": 1,
-        "category": "Strength",
-        "bonusDice": 1,
-        "section": "abilities"
-      },
-      {
-        "title": "Athletics (Adept)",
+        "category": "Strength"
+    },
+    {
+        "title": "Athletics",
         "level": "Adept",
         "description": "You're as strong as a good bodybuilder. You can do what a good bodybuilder can do.\nLike lift and throw that big rock or tip over a cow.",
         "ep": 6,
@@ -22,13 +17,10 @@
         "dice": 2,
         "req": "Athletics",
         "reqlvl": "Novice",
-        "category": "Strength",
-        "bonusDice": 2,
-        "requirements": "Athletics (Novice)",
-        "section": "abilities"
-      },
-      {
-        "title": "Athletics (Expert)",
+        "category": "Strength"
+    },
+    {
+        "title": "Athletics",
         "level": "Expert",
         "description": "You're as strong as the strongest human in the world.",
         "ep": 9,
@@ -36,13 +28,10 @@
         "dice": 3,
         "req": "Athletics",
         "reqlvl": "Adept",
-        "category": "Strength",
-        "bonusDice": 3,
-        "requirements": "Athletics (Adept)",
-        "section": "abilities"
-      },
-      {
-        "title": "Athletics (Master)",
+        "category": "Strength"
+    },
+    {
+        "title": "Athletics",
         "level": "Master",
         "description": "You’re superhumanly strong, like Hulk. You can rip that oak from the earth and snap it in half, you can punch through the solid wall.",
         "ep": 12,
@@ -50,12 +39,9 @@
         "dice": 4,
         "req": "Athletics",
         "reqlvl": "Expert",
-        "category": "Strength",
-        "bonusDice": 4,
-        "requirements": "Athletics (Expert)",
-        "section": "abilities"
-      },
-      {
+        "category": "Strength"
+    },
+    {
         "title": "Grapple",
         "description": "You grapple the opponent of your size and strength or smaller. You can hold them for up to 5 minutes.",
         "ep": 2,
@@ -63,39 +49,27 @@
         "dice": 1,
         "req": "Athletics",
         "reqlvl": "Novice",
-        "category": "Strength",
-        "bonusDice": 1,
-        "requirements": "Athletics (Novice)",
-        "section": "abilities"
-      },
-      {
+        "category": "Strength"
+    },
+    {
         "title": "Pack Mule",
         "description": "Increases the number of items you can carry by 5.",
         "xp": 5,
         "req": "Athletics",
         "reqlvl": "Adept",
-        "category": "Strength",
-        "requirements": "Athletics (Adept)",
-        "section": "abilities"
-      }
-    ]
-  },
-  {
-    "title": "Dexterity",
-    "powers": [
-      {
-        "title": "Acrobatics (Novice)",
+        "category": "Strength"
+    },
+    {
+        "title": "Acrobatics",
         "level": "Novice",
         "description": "You are very flexible and fast. You can do a backflip, jump between buildings.",
         "ep": 3,
         "xp": 3,
         "dice": 1,
-        "category": "Dexterity",
-        "bonusDice": 1,
-        "section": "abilities"
-      },
-      {
-        "title": "Acrobatics (Adept)",
+        "category": "Dexterity"
+    },
+    {
+        "title": "Acrobatics",
         "level": "Adept",
         "description": "You are ninja-level flexible and fast. ",
         "ep": 6,
@@ -103,13 +77,10 @@
         "dice": 2,
         "req": "Acrobatics",
         "reqlvl": "Novice",
-        "category": "Dexterity",
-        "bonusDice": 2,
-        "requirements": "Acrobatics (Novice)",
-        "section": "abilities"
-      },
-      {
-        "title": "Acrobatics (Expert)",
+        "category": "Dexterity"
+    },
+    {
+        "title": "Acrobatics",
         "level": "Expert",
         "description": "You are capable of superhuman, spider-man-level acrobatics. ",
         "ep": 9,
@@ -117,24 +88,19 @@
         "dice": 3,
         "req": "Acrobatics",
         "reqlvl": "Adept",
-        "category": "Dexterity",
-        "bonusDice": 3,
-        "requirements": "Acrobatics (Adept)",
-        "section": "abilities"
-      },
-      {
-        "title": "Stealth (Novice)",
+        "category": "Dexterity"
+    },
+    {
+        "title": "Stealth",
         "level": "Novice",
         "description": "You are good at sneaking and not being seen.",
         "ep": 3,
         "xp": 3,
         "dice": 1,
-        "category": "Dexterity",
-        "bonusDice": 1,
-        "section": "abilities"
-      },
-      {
-        "title": "Stealth (Adept)",
+        "category": "Dexterity"
+    },
+    {
+        "title": "Stealth",
         "level": "Adept",
         "description": "You are very good at sneaking and not being seen.",
         "ep": 6,
@@ -142,13 +108,10 @@
         "dice": 2,
         "req": "Stealth",
         "reqlvl": "Novice",
-        "category": "Dexterity",
-        "bonusDice": 2,
-        "requirements": "Stealth (Novice)",
-        "section": "abilities"
-      },
-      {
-        "title": "Stealth (Expert)",
+        "category": "Dexterity"
+    },
+    {
+        "title": "Stealth",
         "level": "Expert",
         "description": "Your ability to sneak and hide is ninja-level, you're borderline invisible in the shadows.",
         "ep": 9,
@@ -156,101 +119,78 @@
         "dice": 3,
         "req": "Stealth",
         "reqlvl": "Adept",
-        "category": "Dexterity",
-        "bonusDice": 3,
-        "requirements": "Stealth (Adept)",
-        "section": "abilities"
-      },
-      {
-        "title": "Thief (Novice)",
+        "category": "Dexterity"
+    },
+    {
+        "title": "Thief",
         "level": "Novice",
         "description": "You are learning the art of stealing, concealing, smuggling things.",
         "ep": 3,
         "xp": 3,
         "dice": 1,
-        "category": "Dexterity",
-        "bonusDice": 1,
-        "section": "abilities"
-      },
-      {
-        "title": "Thief (Adept)",
+        "category": "Dexterity"
+    },
+    {
+        "title": "Thief",
         "level": "Adept",
         "description": "You are very good at the art of stealing, concealing, smuggling things.",
         "ep": 6,
         "xp": 6,
         "dice": 2,
         "reqlvl": "Novice",
-        "category": "Dexterity",
-        "bonusDice": 2,
-        "section": "abilities"
-      },
-      {
-        "title": "Thief (Expert)",
+        "category": "Dexterity"
+    },
+    {
+        "title": "Thief",
         "level": "Expert",
         "description": "You are an expert thief. You can steal, conceal, or smuggle anything.",
         "ep": 9,
         "xp": 9,
         "dice": 3,
         "reqlvl": "Adept",
-        "category": "Dexterity",
-        "bonusDice": 3,
-        "section": "abilities"
-      }
-    ]
-  },
-  {
-    "title": "Weapons",
-    "powers": [
-      {
-        "title": "Swordsman (Novice)",
+        "category": "Dexterity"
+    },
+    {
+        "title": "Swordsman",
         "level": "Novice",
         "description": "You are capable of holding a sword and stabbing things with it. Sometimes you even hit them.",
         "ep": 3,
         "xp": 3,
         "dice": 1,
-        "category": "Weapons",
-        "bonusDice": 1,
-        "section": "abilities"
-      },
-      {
-        "title": "Swordsman (Adept)",
+        "category": "Weapons"
+    },
+    {
+        "title": "Swordsman",
         "level": "Adept",
         "description": "You are quite good with the sword. You can use more powerful and expert swords.",
         "ep": 6,
         "xp": 6,
         "dice": 2,
         "reqlvl": "Novice",
-        "category": "Weapons",
-        "bonusDice": 2,
-        "section": "abilities"
-      },
-      {
-        "title": "Swordsman (Expert)",
+        "category": "Weapons"
+    },
+    {
+        "title": "Swordsman",
         "level": "Expert",
         "description": "You are an expert, your mastery of swordsmanship knows no rivals.",
         "ep": 9,
         "xp": 9,
         "dice": 3,
         "reqlvl": "Adept",
-        "category": "Weapons",
-        "bonusDice": 3,
-        "section": "abilities"
-      },
-      {
-        "title": "Martial Arts (Novice)",
+        "category": "Weapons"
+    },
+    {
+        "title": "Martial Arts",
         "level": "Novice",
         "description": "Your kicks and punches deal damage.",
         "ep": 3,
         "xp": 3,
         "dice": 1,
         "dmg": 3,
-        "category": "Weapons",
-        "bonusDice": 1,
-        "damage": 3,
-        "section": "abilities"
-      },
-      {
-        "title": "Martial Arts (Adept)",
+        "category": "Weapons"
+    },
+    {
+        "title": "Martial Arts",
         "level": "Adept",
         "description": "Your kicks and punches deal more damage.",
         "ep": 6,
@@ -258,13 +198,10 @@
         "dice": 2,
         "dmg": 6,
         "reqlvl": "Novice",
-        "category": "Weapons",
-        "bonusDice": 2,
-        "damage": 6,
-        "section": "abilities"
-      },
-      {
-        "title": "Martial Arts (Expert)",
+        "category": "Weapons"
+    },
+    {
+        "title": "Martial Arts",
         "level": "Expert",
         "description": "Your kicks and punches deal a lot of damage. You're basically Jackie Chan on modafinil.",
         "ep": 9,
@@ -272,12 +209,9 @@
         "dice": 3,
         "dmg": 9,
         "reqlvl": "Adept",
-        "category": "Weapons",
-        "bonusDice": 3,
-        "damage": 9,
-        "section": "abilities"
-      },
-      {
+        "category": "Weapons"
+    },
+    {
         "title": "Thrown Weapons",
         "description": "Allows you to throw handheld projectiles (rocks, darts, daggers).",
         "ep": 3,
@@ -285,98 +219,71 @@
         "dice": 1,
         "req": "Acrobatics",
         "reqlvl": "Novice",
-        "category": "Weapons",
-        "bonusDice": 1,
-        "requirements": "Acrobatics (Novice)",
-        "section": "abilities"
-      },
-      {
-        "title": "Archer (Novice)",
+        "category": "Weapons"
+    },
+    {
+        "title": "Archer",
         "level": "Novice",
         "description": "Allows you to use bows and crossbows.",
         "ep": 3,
         "xp": 3,
         "dice": 1,
-        "category": "Weapons",
-        "bonusDice": 1,
-        "section": "abilities"
-      },
-      {
-        "title": "Archer (Adept)",
+        "category": "Weapons"
+    },
+    {
+        "title": "Archer",
         "level": "Adept",
         "description": "Allows you to use more powerful bows and crossbows and shoot very accurately.",
         "ep": 6,
         "xp": 6,
         "dice": 2,
         "reqlvl": "Novice",
-        "category": "Weapons",
-        "bonusDice": 2,
-        "section": "abilities"
-      },
-      {
-        "title": "Archer (Expert)",
+        "category": "Weapons"
+    },
+    {
+        "title": "Archer",
         "level": "Expert",
         "description": "Allows you to use any ranged weapon, send out 3 projectiles in the blink of an eye.",
         "ep": 9,
         "xp": 9,
         "dice": 3,
         "reqlvl": "Adept",
-        "category": "Weapons",
-        "bonusDice": 3,
-        "section": "abilities"
-      },
-      {
-        "title": "Gunslinger (Novice)",
+        "category": "Weapons"
+    },
+    {
+        "title": "Gunslinger",
         "level": "Novice",
         "description": "Allows you to use simple guns.",
         "ep": 3,
         "xp": 3,
         "dice": 1,
-        "category": "Weapons",
-        "bonusDice": 1,
-        "section": "abilities"
-      }
-    ]
-  },
-  {
-    "title": "Knowledge",
-    "powers": [
-      {
+        "category": "Weapons"
+    },
+    {
         "title": "Arcana",
         "description": "You understand magic and arcane arts.\nEnables you to use more sophisticated magic items.",
         "ep": 3,
         "xp": 3,
         "dice": 1,
-        "category": "Knowledge",
-        "bonusDice": 1,
-        "section": "abilities"
-      },
-      {
+        "category": "Knowledge"
+    },
+    {
         "title": "Technology",
         "description": "You understand technology. Enables you to use items that require technical skills.",
         "ep": 3,
         "xp": 3,
         "dice": 1,
-        "category": "Knowledge",
-        "bonusDice": 1,
-        "section": "abilities"
-      }
-    ]
-  },
-  {
-    "title": "Combat Tactics",
-    "powers": [
-      {
+        "category": "Knowledge"
+    },
+    {
         "title": "Parry",
         "description": "Enables you to deflect physical attacks from equally skilled opponents using a melee weapon.",
         "ep": 3,
         "xp": 3,
         "dice": 1,
-        "category": "Combat Tactics",
-        "bonusDice": 1,
-        "section": "abilities"
-      },
-      {
+        "category": "Combat Tactics"
+    },
+    {
         "title": "Dual Wielding",
         "description": "Allows you to make 2 attacks as 1 action. You must have two one-handed weapons in your inventory.",
         "ep": 3,
@@ -384,29 +291,19 @@
         "dice": 1,
         "req": "Swordsman",
         "reqlvl": "Adept",
-        "category": "Combat Tactics",
-        "bonusDice": 1,
-        "requirements": "Swordsman (Adept)",
-        "section": "abilities"
-      }
-    ]
-  },
-  {
-    "title": "Magic Schools",
-    "powers": [
-      {
-        "title": "Kinestetic (Novice)",
+        "category": "Combat Tactics"
+    },
+    {
+        "title": "Kinestetic",
         "level": "Novice",
         "description": "You know the basics of \"Kinestetic\" Magic School. Allows you to cast spells that modify your physical abilities.",
         "ep": 3,
         "xp": 3,
         "dice": 1,
-        "category": "Magic Schools",
-        "bonusDice": 1,
-        "section": "abilities"
-      },
-      {
-        "title": "Kinestetic (Adept)",
+        "category": "Magic Schools"
+    },
+    {
+        "title": "Kinestetic",
         "level": "Adept",
         "description": "You are good the \"Kinestetic\" Magic School. You can cast more powerful spells.",
         "ep": 6,
@@ -414,13 +311,10 @@
         "dice": 2,
         "req": "Kinestetic",
         "reqlvl": "Novice",
-        "category": "Magic Schools",
-        "bonusDice": 2,
-        "requirements": "Kinestetic (Novice)",
-        "section": "abilities"
-      },
-      {
-        "title": "Kinestetic (Expert)",
+        "category": "Magic Schools"
+    },
+    {
+        "title": "Kinestetic",
         "level": "Expert",
         "description": "You are the expert in Kinestetics. You can cast advanced spells.",
         "ep": 9,
@@ -428,24 +322,19 @@
         "dice": 3,
         "req": "Kinestetic",
         "reqlvl": "Adept",
-        "category": "Magic Schools",
-        "bonusDice": 3,
-        "requirements": "Kinestetic (Adept)",
-        "section": "abilities"
-      },
-      {
-        "title": "Battle Magic (Novice)",
+        "category": "Magic Schools"
+    },
+    {
+        "title": "Battle Magic",
         "level": "Novice",
         "description": "You know the basics of Battle Magic. Allows you to cast offensive spells.",
         "ep": 3,
         "xp": 3,
         "dice": 1,
-        "category": "Magic Schools",
-        "bonusDice": 1,
-        "section": "abilities"
-      },
-      {
-        "title": "Battle Magic (Adept)",
+        "category": "Magic Schools"
+    },
+    {
+        "title": "Battle Magic",
         "level": "Adept",
         "description": "You are good at Battle Magic. You can cast more powerful spells.",
         "ep": 6,
@@ -453,13 +342,10 @@
         "dice": 2,
         "req": "Battle Magic",
         "reqlvl": "Novice",
-        "category": "Magic Schools",
-        "bonusDice": 2,
-        "requirements": "Battle Magic (Novice)",
-        "section": "abilities"
-      },
-      {
-        "title": "Battle Magic (Expert)",
+        "category": "Magic Schools"
+    },
+    {
+        "title": "Battle Magic",
         "level": "Expert",
         "description": "You are the expert of Battle Magic. You can cast advanced spells.",
         "ep": 9,
@@ -467,11 +353,6 @@
         "dice": 3,
         "req": "Battle Magic",
         "reqlvl": "Adept",
-        "category": "Magic Schools",
-        "bonusDice": 3,
-        "requirements": "Battle Magic (Adept)",
-        "section": "abilities"
-      }
-    ]
-  }
+        "category": "Magic Schools"
+    }
 ]

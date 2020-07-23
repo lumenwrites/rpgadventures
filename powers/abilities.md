@@ -50,7 +50,7 @@ You are an expert thief. You can steal, conceal, or smuggle anything.
 
 ---
 
-# Genral Magic
+# General Magic
 
 ## Novice Arcana | 3 | 3 | 1 
 You have a basic understanding of magic and arcane arts.

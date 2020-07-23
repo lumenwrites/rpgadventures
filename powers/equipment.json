@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Dagger",
+        "description": "A shiny still dagger. Looks ready for violence.",
+        "dmg": 3,
+        "rarity": "Common",
+        "category": "Weapons"
+    },
+    {
+        "title": "Crowbar",
+        "description": "Smashes things, pries things open. ",
+        "dmg": 2,
+        "rarity": "Common",
+        "category": "Weapons"
+    },
+    {
+        "title": "Longsword",
+        "description": "Regular sword. Deals 4 damage.",
+        "dmg": 4,
+        "rarity": "Common",
+        "req": "Swordsman",
+        "reqlvl": "Novice",
+        "category": "Weapons"
+    },
+    {
+        "title": "Obsidian Sword",
+        "description": "A pitch black sword. Deals 6 damage, adds bonus dice to your attack rolls.",
+        "dmg": 8,
+        "rarity": "Uncommon",
+        "req": "Swordsman",
+        "reqlvl": "Adept",
+        "category": "Weapons"
+    }
+]

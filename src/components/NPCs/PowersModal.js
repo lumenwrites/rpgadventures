@@ -10,7 +10,7 @@ import magicItems from '../../../json/powers/magicItems.json'
 import equipment from '../../../json/powers/equipment.json'
 
 
-const tabs = ["Spells","Abilities","Magic Items", "Equipment"]
+const tabs = ["Abilities","Spells","Magic Items", "Equipment"]
 
 class Powers extends Component {
   state = { activeTab: "Spells" }

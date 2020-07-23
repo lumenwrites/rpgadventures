@@ -12,10 +12,10 @@ import magicItems from '../../json/powers/magicItems.json'
 import equipment from '../../json/powers/equipment.json'
 
 
-const tabs = ["Spells","Abilities","Magic Items", "Equipment"]
+const tabs = ["Abilities","Spells","Magic Items", "Equipment"]
 
 class Powers extends Component {
-  state = { activeTab: "Spells" }
+  state = { activeTab: "Abilities" }
 
   renderTabs = () => {
     return tabs.map((t,i) => {
@@ -43,7 +43,7 @@ class Powers extends Component {
       return (
 	<div key={i}>
 	    <div className="category-title">{category.title}</div>
-	    <div className="columns">
+	    <div className="powers columns">
 		{this.renderPowers(category.powers)}
 	    </div>
 	    <hr/>
