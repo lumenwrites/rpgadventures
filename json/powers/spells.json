@@ -14,7 +14,7 @@
         "ep": "1",
         "xp": "2",
         "bonusDice": "1",
-        "requirements": "Novice Ninja",
+        "damage": "Novice Ninja",
         "description": "For the next 20 minutes you can walk on any surface at any angle as if it was regular floor.",
         "section": "spells"
       }
@@ -28,7 +28,7 @@
         "ep": "3",
         "xp": "2",
         "bonusDice": "1",
-        "requirements": "Novice Telekinesis",
+        "damage": "Novice Telekinesis",
         "description": "You can target an area (5x5 meter cube) of loose earth, you can instantaneously excavate it, move it along the ground, and deposit it up to 5 meters away.\nYou can cause shapes, colors, or both to appear on the dirt or stone, spelling out words, creating images, or shaping patterns.",
         "section": "spells"
       },

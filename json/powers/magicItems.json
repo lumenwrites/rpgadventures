@@ -17,7 +17,7 @@
         "ep": "8",
         "xp": "",
         "bonusDice": "",
-        "requirements": "Intermediate Arcana",
+        "damage": "Intermediate Arcana",
         "description": "Press a button, name a simple task, it will create a helpful servant. The Meeseek lives until he accomplishes the simple task (up to an hour). If the task proves to be too difficult, he may turn on you out of frustration.",
         "section": "magicItems"
       }

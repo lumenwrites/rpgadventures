@@ -2,7 +2,7 @@
     "title": "Minor Illusion",
     "ep": "2",
     "xp": "3",
-    "requirements": "Novice Illusionism",
+    "requirements": "Illusionism (Novice)",
     "description": "Create an illusion of a sound or an image of a small object.",
     "section": "spells"
 }

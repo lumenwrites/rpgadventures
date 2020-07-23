@@ -83,7 +83,7 @@ class Power extends Component {
     var displayRequirements = (power.requirements && (adding || isItem || sample))
     var displayRarity = false // power.rarity && !onSheet // doesn't fit
     var displayFooter = displayRequirements || power.xp || power.ep
-		     || power.bonusDice || displayRarity
+		     || power.bonusDice  || power.damage || displayRarity
     return (
       <div className={`card ${adding ? "adding" : ""}`}
       onClick={()=> adding ? this.addPower() : null } >

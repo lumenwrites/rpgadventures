@@ -3,7 +3,7 @@
     "title": "Strength",
     "powers": [
       {
-        "title": "Novice Athletics",
+        "title": "Athletics (Novice)",
         "ep": "3",
         "xp": "3",
         "bonusDice": "1",
@@ -11,29 +11,29 @@
         "section": "abilities"
       },
       {
-        "title": "Intermediate Athletics",
+        "title": "Athletics (Adept)",
         "ep": "6",
         "xp": "6",
         "bonusDice": "2",
-        "requirements": "Novice Athletics",
+        "damage": "Novice Athletics",
         "description": "You're as strong as a good bodybuilder. You can do what a good bodybuilder can do.\nLike lift and throw that big rock or tip over a cow.",
         "section": "abilities"
       },
       {
-        "title": "Advanced Athletics",
+        "title": "Athletics (Expert)",
         "ep": "9",
         "xp": "9",
         "bonusDice": "3",
-        "requirements": "Intermediate Athletics",
+        "damage": "Adept Athletics",
         "description": "You're as strong as the strongest human in the world.",
         "section": "abilities"
       },
       {
-        "title": "Master Athletics",
+        "title": "Athletics (Master)",
         "ep": "12",
         "xp": "12",
         "bonusDice": "4",
-        "requirements": "Intermediate Athletics",
+        "damage": "Adept Athletics",
         "description": "You’re superhumanly strong, like Hulk. You can rip that oak from the earth and snap it in half, you can punch through the solid wall.",
         "section": "abilities"
       },
@@ -42,7 +42,7 @@
         "ep": "2",
         "xp": "2",
         "bonusDice": "1",
-        "requirements": "Novice Athletics",
+        "damage": "Novice Athletics",
         "description": "You grapple the opponent of your size and strength or smaller. You can hold them for up to 5 minutes.",
         "section": "abilities"
       },
@@ -51,7 +51,7 @@
         "ep": "",
         "xp": "5",
         "bonusDice": "",
-        "requirements": "Intermediate Athletics",
+        "damage": "Adept Athletics",
         "description": "Increases the number of items you can carry by 5.",
         "section": "abilities"
       }
@@ -69,20 +69,20 @@
         "section": "abilities"
       },
       {
-        "title": "Intermediate Acrobatics",
+        "title": "Adept Acrobatics",
         "ep": "6",
         "xp": "6",
         "bonusDice": "2",
-        "requirements": "Novice Acrobatics",
+        "damage": "Novice Acrobatics",
         "description": "You are ninja-level flexible and fast.",
         "section": "abilities"
       },
       {
-        "title": "Advanced Acrobatics",
+        "title": "Expert Acrobatics",
         "ep": "9",
         "xp": "9",
         "bonusDice": "3",
-        "requirements": "Intermediate Acrobatics",
+        "damage": "Adept Acrobatics",
         "description": "You are capable of superhuman, spider-man-level acrobatics.",
         "section": "abilities"
       },
@@ -95,20 +95,20 @@
         "section": "abilities"
       },
       {
-        "title": "Intermediate Stealth",
+        "title": "Adept Stealth",
         "ep": "6",
         "xp": "6",
         "bonusDice": "2",
-        "requirements": "Novice Stealth",
+        "damage": "Novice Stealth",
         "description": "You are very good at sneaking and not being seen.",
         "section": "abilities"
       },
       {
-        "title": "Advanced Stealth",
+        "title": "Expert Stealth",
         "ep": "9",
         "xp": "9",
         "bonusDice": "3",
-        "requirements": "Intermediate Stealth",
+        "damage": "Adept Stealth",
         "description": "Your ability to sneak and hide is ninja-level, you're borderline invisible in the shadows.",
         "section": "abilities"
       },
@@ -121,20 +121,20 @@
         "section": "abilities"
       },
       {
-        "title": "Intermediate Thief",
+        "title": "Adept Thief",
         "ep": "6",
         "xp": "6",
         "bonusDice": "2",
-        "requirements": "Novice Thief",
+        "damage": "Novice Thief",
         "description": "You are very good at the art of stealing, concealing, smuggling things.",
         "section": "abilities"
       },
       {
-        "title": "Advanced Thief",
+        "title": "Expert Thief",
         "ep": "9",
         "xp": "9",
         "bonusDice": "3",
-        "requirements": "Intermediate Thief",
+        "damage": "Adept Thief",
         "description": "You are an expert thief. You can steal, conceal, or smuggle anything.",
         "section": "abilities"
       }
@@ -152,20 +152,20 @@
         "section": "abilities"
       },
       {
-        "title": "Intermediate Arcana",
+        "title": "Adept Arcana",
         "ep": "6",
         "xp": "6",
         "bonusDice": "2",
-        "requirements": "Novice Arcana",
+        "damage": "Novice Arcana",
         "description": "You have a solid understaning of magic and it's principles. \nEnables you to use more sophisticated magic items.",
         "section": "abilities"
       },
       {
-        "title": "Advanced Arcana",
+        "title": "Expert Arcana",
         "ep": "9",
         "xp": "9",
         "bonusDice": "3",
-        "requirements": "Intermediate Arcana",
+        "damage": "Adept Arcana",
         "description": "You have mastered the depth and intricacies of arcane arts.\nYou can identify and use any magic item.",
         "section": "abilities"
       }
@@ -193,20 +193,20 @@
         "section": "abilities"
       },
       {
-        "title": "Intermediate Swordsman",
+        "title": "Adept Swordsman",
         "ep": "6",
         "xp": "6",
         "bonusDice": "2",
-        "requirements": "Novice Swordsman",
-        "description": "You are quite good with the sword. You can use more powerful and advanced swords.",
+        "damage": "Novice Swordsman",
+        "description": "You are quite good with the sword. You can use more powerful and expert swords.",
         "section": "abilities"
       },
       {
-        "title": "Advanced Swordsman",
+        "title": "Expert Swordsman",
         "ep": "9",
         "xp": "9",
         "bonusDice": "3",
-        "requirements": "Intermediate Swordsman",
+        "damage": "Adept Swordsman",
         "description": "You are an expert, your mastery of swordsmanship knows no rivals.",
         "section": "abilities"
       },
@@ -219,20 +219,20 @@
         "section": "abilities"
       },
       {
-        "title": "Intermediate Martial Arts",
+        "title": "Adept Martial Arts",
         "ep": "6",
         "xp": "6",
         "bonusDice": "2",
-        "requirements": "Novice Martial Arts",
+        "damage": "Novice Martial Arts",
         "description": "Your kicks and punches deal 6 damage.",
         "section": "abilities"
       },
       {
-        "title": "Advanced Martial Arts",
+        "title": "Expert Martial Arts",
         "ep": "9",
         "xp": "9",
         "bonusDice": "3",
-        "requirements": "Intermediate Martial Arts",
+        "damage": "Adept Martial Arts",
         "description": "Your kicks and punches deal 9 damage. You're basically Jackie Chan on modafinil.",
         "section": "abilities"
       },
@@ -253,11 +253,11 @@
         "section": "abilities"
       },
       {
-        "title": "Intermediate Archer",
+        "title": "Adept Archer",
         "ep": "6",
         "xp": "6",
         "bonusDice": "2",
-        "requirements": "Novice Archer",
+        "damage": "Novice Archer",
         "description": "Allows you to use more powerful bows and crossbows and shoot very accurately.",
         "section": "abilities"
       },
@@ -266,7 +266,7 @@
         "ep": "9",
         "xp": "9",
         "bonusDice": "3",
-        "requirements": "Intermediate Archer",
+        "damage": "Adept Archer",
         "description": "Allows you to use any ranged weapon, send out 3 projectiles in the blink of an eye.",
         "section": "abilities"
       },
@@ -296,7 +296,7 @@
         "ep": "2",
         "xp": "5",
         "bonusDice": "1",
-        "requirements": "Intermediate Swordsman",
+        "damage": "Adept Swordsman",
         "description": "Allows you to make 2 attacks as 1 action. You must have two one-handed weapons in your inventory.",
         "section": "abilities"
       },
@@ -313,7 +313,7 @@
         "ep": "4",
         "xp": "4",
         "bonusDice": "2",
-        "requirements": "Novice Acrobatics",
+        "damage": "Novice Acrobatics",
         "description": "Allows you to interrupt an enemy attack on your ally. They immediately end their turn, dealing no damage.",
         "section": "abilities"
       },
@@ -322,7 +322,7 @@
         "ep": "4",
         "xp": "4",
         "bonusDice": "2",
-        "requirements": "Intermediate Swordsman",
+        "damage": "Adept Swordsman",
         "description": "Allows you to make a melee attack to everyone within reach.",
         "section": "abilities"
       },
@@ -331,7 +331,7 @@
         "ep": "3",
         "xp": "3",
         "bonusDice": "1",
-        "requirements": "Novice Athletics",
+        "damage": "Novice Athletics",
         "description": "You charge in a straight line towards the selected enemy and smash into them. The enemy gets knocked down, losing their next turn.",
         "section": "abilities"
       },
@@ -340,7 +340,7 @@
         "ep": "6",
         "xp": "6",
         "bonusDice": "2",
-        "requirements": "Knock Down",
+        "damage": "Knock Down",
         "description": "You charge in a straight line towards the selected enemy and smash into them. The enemy, everyone on your path, and everyone within reach gets knocked down, losing their next turn.",
         "section": "abilities"
       },
@@ -349,7 +349,7 @@
         "ep": "6",
         "xp": "6",
         "bonusDice": "2",
-        "requirements": "Intermediate Athletics",
+        "damage": "Adept Athletics",
         "description": "Attack a target within range, rendering them unable to move.",
         "section": "abilities"
       },
@@ -358,7 +358,7 @@
         "ep": "3",
         "xp": "3",
         "bonusDice": "2",
-        "requirements": "Intermediate Stealth",
+        "damage": "Adept Stealth",
         "description": "Allows you to deal double damage to the distracted enemy.",
         "section": "abilities"
       },
@@ -367,7 +367,7 @@
         "ep": "2",
         "xp": "2",
         "bonusDice": "1",
-        "requirements": "Novice Archer",
+        "damage": "Novice Archer",
         "description": "Enables you to shoot at a target out of your range.",
         "section": "abilities"
       },
@@ -376,7 +376,7 @@
         "ep": "6",
         "xp": "6",
         "bonusDice": "2",
-        "requirements": "Intermediate Archer",
+        "damage": "Adept Archer",
         "description": "Allows you to target any coin-size object.",
         "section": "abilities"
       }
@@ -390,7 +390,7 @@
         "ep": "",
         "xp": "3",
         "bonusDice": "",
-        "requirements": "",
+        "damage": "",
         "description": "Enables you to wear light armor.",
         "section": "abilities"
       },
@@ -399,7 +399,7 @@
         "ep": "",
         "xp": "5",
         "bonusDice": "",
-        "requirements": "Novice Athletics",
+        "damage": "Novice Athletics",
         "description": "Enables you to wear medium armor.",
         "section": "abilities"
       },
@@ -408,7 +408,7 @@
         "ep": "",
         "xp": "8",
         "bonusDice": "",
-        "requirements": "Intermediate Athletics",
+        "damage": "Adept Athletics",
         "description": "Enables you to wear heavy armor.",
         "section": "abilities"
       }

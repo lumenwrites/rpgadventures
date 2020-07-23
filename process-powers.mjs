@@ -27,13 +27,13 @@ categories.map((category)=>{
   var categoryJson = { title, powers: []}
   powers.map((power)=>{
     var [powerHeader, description] = getFirstLine(power)
-    // ## Title | EP | Dice | Damage | XP | Requirements | Rarity
+    // ## Title | EP | XP | Dice | Damage | Requirements | Rarity
     var values = powerHeader.split('|').map(s => s.trim())
-    var [title, ep, bonusDice, damage, xp, requirements, rarity] = values
+    var [title, ep, xp, bonusDice, damage, requirements, rarity] = values
     title = title.substring(3) // remove hashtags
     //console.log([title, ep, xp, bonusDice, requirements])
     var powerJson = {
-      title, ep, xp, bonusDice, requirements,  description, rarity,
+      title, ep, xp, bonusDice, damage, requirements, description, rarity,
       // "spells", where to put it inside the sheet, used when adding powers to the sheet
       section: fileName,
       //category,

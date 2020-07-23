@@ -7,8 +7,9 @@
         "ep": "",
         "xp": "",
         "bonusDice": "",
+        "damage": "3",
         "requirements": "",
-        "description": "For stabbing. Deals 2 damage.",
+        "description": "A shiny still dagger. Looks ready for violence.",
         "rarity": "Common",
         "section": "equipment"
       },
@@ -17,38 +18,43 @@
         "ep": "",
         "xp": "",
         "bonusDice": "",
+        "damage": "3",
         "requirements": "",
         "description": "Smashes things, pries things open. Deals 2 damage.",
         "rarity": "Common",
         "section": "equipment"
       },
       {
-        "title": "Gun",
+        "title": "Novice Swordsman",
         "ep": "",
         "xp": "",
         "bonusDice": "",
-        "requirements": "",
-        "description": "Smashes things, pries things open. Deals 2 damage.",
+        "damage": "4",
+        "requirements": "Swordsman (Novice)",
+        "description": "Regular sword. Deals 4 damage.",
+        "rarity": "Common",
+        "section": "equipment"
+      },
+      {
+        "title": "Old timey gun",
+        "ep": "",
+        "xp": "",
+        "bonusDice": "",
+        "damage": "4",
+        "requirements": "Gunslinger (Novice)",
+        "description": "Shoots bullets. Takes 1 action to reload.",
         "rarity": "Uncommon",
         "section": "equipment"
       },
       {
-        "title": "Sword",
-        "ep": "",
-        "xp": "",
-        "bonusDice": "",
-        "requirements": "Novice Swordsman",
-        "description": "Regular sword. Deals 4 damage.",
-        "section": "equipment"
-      },
-      {
-        "title": "Epic Sword",
+        "title": "Obsidian Sword",
         "ep": "2",
         "xp": "",
         "bonusDice": "1",
-        "requirements": "Intermediate Swordsman",
-        "description": "Deals 8 damage. Spend 2 energy to add 1 bonus dice to your attack.",
-        "rarity": "Legendary",
+        "damage": "6",
+        "requirements": "Swordsman (Adept)",
+        "description": "Deals 6 damage. Spend 2 energy to add 1 bonus dice to your attack.",
+        "rarity": "Uncommon",
         "section": "equipment"
       }
     ]

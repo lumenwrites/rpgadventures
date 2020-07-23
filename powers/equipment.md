@@ -1,16 +1,15 @@
 # Weapons
-## Dagger | | | | | Common
-For stabbing. Deals 2 damage.
+## Dagger                        |    |    |       | 3      |                        | Common
+A shiny still dagger. Looks ready for violence.
 
-## Crowbar | | | | | Common
+## Crowbar                       |    |    |       | 3      |                        | Common
 Smashes things, pries things open. Deals 2 damage.
 
-## Gun | | | | | Uncommon
-Smashes things, pries things open. Deals 2 damage.
-
-
-## Sword | | | | Novice Swordsman
+## Novice Swordsman              |    |    |       | 4      | Swordsman (Novice)     | Common
 Regular sword. Deals 4 damage.
 
-## Epic Sword | 2 | | 1 | Intermediate Swordsman | Legendary
-Deals 8 damage. Spend 2 energy to add 1 bonus dice to your attack.
+## Old timey gun                 |    |    |       | 4      | Gunslinger (Novice)    | Uncommon
+Shoots bullets. Takes 1 action to reload.
+
+## Obsidian Sword                | 2  |    | 1     | 6      | Swordsman (Adept)      | Uncommon
+Deals 6 damage. Spend 2 energy to add 1 bonus dice to your attack.
