@@ -11,7 +11,8 @@ class World extends Component {
       return (
         <div className="nobreak" key={i}>
             <span className="bold">{node.name}</span>
-            <Img alt={node.name} fixed={node.childImageSharp.fixed} />
+	    <img src={node.childImageSharp.original.src} />
+            {/* <Img alt={node.name} fixed={node.childImageSharp.fixed} /> */}
         </div>
       )
     })
@@ -49,6 +50,7 @@ export const query = graphql`
         node {
           name
           childImageSharp {
+	    original { src }
             fixed(width: 290) {
 	      ...GatsbyImageSharpFixed_withWebp
             }
