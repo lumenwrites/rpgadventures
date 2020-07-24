@@ -4,8 +4,7 @@
     "powers": [
       {
         "title": "Dagger",
-        "description": "A shiny still dagger. Looks ready for violence.",
-        "dmg": 3,
+        "description": "A shiny steal dagger. Looks ready for violence.",
         "rarity": "Common",
         "category": "Weapons",
         "damage": 3,
@@ -13,8 +12,7 @@
       },
       {
         "title": "Crowbar",
-        "description": "Smashes things, pries things open. ",
-        "dmg": 2,
+        "description": "Smashes things, pries things open.",
         "rarity": "Common",
         "category": "Weapons",
         "damage": 2,
@@ -23,10 +21,7 @@
       {
         "title": "Longsword",
         "description": "Regular sword. Deals 4 damage.",
-        "dmg": 4,
         "rarity": "Common",
-        "req": "Swordsman",
-        "reqlvl": "Novice",
         "category": "Weapons",
         "damage": 4,
         "requirements": "Swordsman (Novice)",
@@ -35,10 +30,7 @@
       {
         "title": "Obsidian Sword",
         "description": "A pitch black sword. Deals 6 damage, adds bonus dice to your attack rolls.",
-        "dmg": 8,
         "rarity": "Uncommon",
-        "req": "Swordsman",
-        "reqlvl": "Adept",
         "category": "Weapons",
         "damage": 8,
         "requirements": "Swordsman (Adept)",
@@ -47,10 +39,7 @@
       {
         "title": "Light Bow",
         "description": "A small and light bow.",
-        "dmg": 3,
         "rarity": "Common",
-        "req": "Archer",
-        "reqlvl": "Novice",
         "category": "Weapons",
         "damage": 3,
         "requirements": "Archer (Novice)",
@@ -59,13 +48,259 @@
       {
         "title": "Light Crossbow",
         "description": "A small and light crossbow.",
-        "dmg": 4,
         "rarity": "Common",
-        "req": "Archer",
-        "reqlvl": "Novice",
         "category": "Weapons",
         "damage": 4,
         "requirements": "Archer (Novice)",
+        "section": "equipment"
+      },
+      {
+        "title": "Slingshot",
+        "description": "Shoots a small projectile(like a pebble). Deals 3 damage.",
+        "category": "Weapons",
+        "section": "equipment"
+      },
+      {
+        "title": "Old-timey Gun",
+        "description": "Deals 5 damage. Takes a minute to reload.",
+        "category": "Weapons",
+        "section": "equipment"
+      }
+    ]
+  },
+  {
+    "title": "Armor",
+    "powers": [
+      {
+        "title": "Leather Armor",
+        "description": "Basic armor. Increases you max HP by 3 points.",
+        "category": "Armor",
+        "section": "equipment"
+      },
+      {
+        "title": "Ninja Armor",
+        "description": "Suit made out of light black clothes. Increases you max HP by 3 points. Makes you very hard to notice in the dark.",
+        "category": "Armor",
+        "section": "equipment"
+      },
+      {
+        "title": "Steel Armor",
+        "description": "Increases your max HP by 6 points.",
+        "category": "Armor",
+        "section": "equipment"
+      },
+      {
+        "title": "Obsidian Armor",
+        "description": "Increases your max HP by 8 points.",
+        "category": "Armor",
+        "section": "equipment"
+      }
+    ]
+  },
+  {
+    "title": "Gear",
+    "powers": [
+      {
+        "title": "Grappling Hook Gun",
+        "description": "Shoots the grappling hook to the distance of up to 50 meters, reels it back in.",
+        "category": "Gear",
+        "section": "equipment"
+      },
+      {
+        "title": "Rope",
+        "description": "Regular piece of 50ft rope.",
+        "category": "Gear",
+        "section": "equipment"
+      },
+      {
+        "title": "Torches",
+        "description": "Provide light. Set things on fire.",
+        "category": "Gear",
+        "section": "equipment"
+      },
+      {
+        "title": "Glider",
+        "description": "Artificial wings you can use for gliding.",
+        "category": "Gear",
+        "section": "equipment"
+      }
+    ]
+  },
+  {
+    "title": "Potions",
+    "powers": [
+      {
+        "title": "Small Health Potion",
+        "description": "Restores 4 health.",
+        "category": "Potions",
+        "section": "equipment"
+      },
+      {
+        "title": "Small Energy Potion",
+        "description": "Restores 4 energy.",
+        "category": "Potions",
+        "section": "equipment"
+      },
+      {
+        "title": "Potion of Spider Climbing",
+        "description": "Climb walls/ceilings like spider man for 30 minutes.",
+        "category": "Potions",
+        "section": "equipment"
+      },
+      {
+        "title": "Potion of Underwater Breathing",
+        "description": "Lasts for 2 hours.",
+        "category": "Potions",
+        "section": "equipment"
+      },
+      {
+        "title": "Sleeping Potion",
+        "description": "The one who drinks it instantly falls asleep for 1 hour.",
+        "category": "Potions",
+        "section": "equipment"
+      },
+      {
+        "title": "Chloroform",
+        "description": "The one who inhales it instantly falls asleep for 1 hour.",
+        "category": "Potions",
+        "section": "equipment"
+      },
+      {
+        "title": "Poison",
+        "description": "The one who drinks it takes 15 damage.",
+        "category": "Potions",
+        "section": "equipment"
+      },
+      {
+        "title": "Magic Mushroom Potion",
+        "description": "Causes hallucinations",
+        "category": "Potions",
+        "section": "equipment"
+      },
+      {
+        "title": "Singing Potion",
+        "description": "For the next 30 minutes the drinker loses the ability to speak, able only to sing.",
+        "category": "Potions",
+        "section": "equipment"
+      },
+      {
+        "title": "Invisibility Potion",
+        "description": "Turns you invisible for 10 minutes",
+        "category": "Potions",
+        "section": "equipment"
+      },
+      {
+        "title": "Paralyzing Potion",
+        "description": "The one who drinks it is instantly paralyzed for the next day.",
+        "category": "Potions",
+        "section": "equipment"
+      },
+      {
+        "title": "Potion of Animal Friendship",
+        "description": "When you drink this potion, even the meanest non-magical animals will like you, and will be amenable to training.",
+        "category": "Potions",
+        "section": "equipment"
+      },
+      {
+        "title": "Potion of Growth",
+        "description": "The drinker grows to be 10 times larger for 20 minutes.",
+        "category": "Potions",
+        "section": "equipment"
+      },
+      {
+        "title": "Shrinking Potion",
+        "description": "The drinker shrinks to be 20 times smaller for 20 minutes.",
+        "category": "Potions",
+        "section": "equipment"
+      },
+      {
+        "title": "Smoke Potion",
+        "description": "Creates a huge cloud of black smoke when spilled.",
+        "category": "Potions",
+        "section": "equipment"
+      },
+      {
+        "title": "Vial of Acid",
+        "description": "Burns through objects. Deals 4 damage.",
+        "category": "Potions",
+        "section": "equipment"
+      },
+      {
+        "title": "Tree Potion",
+        "description": "Instantly spawns a tree where it was spilled)",
+        "category": "Potions",
+        "section": "equipment"
+      },
+      {
+        "title": "Anti-Gravity Potion",
+        "description": "Drinker isn't affected by gravity for an hour.",
+        "category": "Potions",
+        "section": "equipment"
+      },
+      {
+        "title": "Truth Serum",
+        "description": "One who drinks it can’t tell lies for an hour",
+        "category": "Potions",
+        "section": "equipment"
+      },
+      {
+        "title": "Polyjuice Potion",
+        "description": "Drop someone’s hair into it, and drinking this potion will turn you into that person for 30 minutes.",
+        "category": "Potions",
+        "section": "equipment"
+      },
+      {
+        "title": "Falcon Potion",
+        "description": "Turns you into a falcon for 30 minutes",
+        "category": "Potions",
+        "section": "equipment"
+      },
+      {
+        "title": "Potion of Body Switching",
+        "description": "When two people drink this potion, it swaps their minds freaky-friday style.",
+        "category": "Potions",
+        "section": "equipment"
+      },
+      {
+        "title": "Forget me now Potion",
+        "description": "The one who drinks this potion will completelya lose the memories of everything that happened during the past 24 hours.",
+        "category": "Potions",
+        "section": "equipment"
+      },
+      {
+        "title": "Seduction Potion",
+        "description": "The drinker becomes irresistable to the opposite gender.",
+        "category": "Potions",
+        "section": "equipment"
+      },
+      {
+        "title": "The Ant-Man Potion",
+        "description": "You shrink down to the size of an ant, while retaining the strength of a human. Lasts for 1 hour.",
+        "category": "Potions",
+        "section": "equipment"
+      },
+      {
+        "title": "Love Potion",
+        "description": "Drop your hair into it. The person who drinks it will fall madly in love with you for 5 hours.",
+        "category": "Potions",
+        "section": "equipment"
+      },
+      {
+        "title": "Zombie Raising Potion",
+        "description": "Spill on a grave to raise a zombie.",
+        "category": "Potions",
+        "section": "equipment"
+      },
+      {
+        "title": "Vampire Potion",
+        "description": "Turns you into a vampire for a day. Your current spells and abilities are replaced with what vampire can do (see the Vampire NPC card for the list of powers). You also gain unquenchable thirs for blood (you must kill at least one sentient creature). Sunlight and garlic are deadly to you.",
+        "category": "Potions",
+        "section": "equipment"
+      },
+      {
+        "title": "Potion of Silent Death",
+        "description": "The one who drinks it experiences no symptoms, and then dies within one week, seemingly without a cause.",
+        "category": "Potions",
         "section": "equipment"
       }
     ]

@@ -4,24 +4,18 @@
     "powers": [
       {
         "title": "Athletics (Novice)",
-        "level": "Novice",
         "description": "You’re pretty muscular and athletic.",
         "ep": 3,
         "xp": 3,
-        "dice": 1,
         "category": "Strength",
         "bonusDice": 1,
         "section": "abilities"
       },
       {
         "title": "Athletics (Adept)",
-        "level": "Adept",
         "description": "You're as strong as a good bodybuilder. You can do what a good bodybuilder can do.\nLike lift and throw that big rock or tip over a cow.",
         "ep": 6,
         "xp": 6,
-        "dice": 2,
-        "req": "Athletics",
-        "reqlvl": "Novice",
         "category": "Strength",
         "bonusDice": 2,
         "requirements": "Athletics (Novice)",
@@ -29,13 +23,9 @@
       },
       {
         "title": "Athletics (Expert)",
-        "level": "Expert",
         "description": "You're as strong as the strongest human in the world.",
         "ep": 9,
         "xp": 9,
-        "dice": 3,
-        "req": "Athletics",
-        "reqlvl": "Adept",
         "category": "Strength",
         "bonusDice": 3,
         "requirements": "Athletics (Adept)",
@@ -43,13 +33,9 @@
       },
       {
         "title": "Athletics (Master)",
-        "level": "Master",
         "description": "You’re superhumanly strong, like Hulk. You can rip that oak from the earth and snap it in half, you can punch through the solid wall.",
         "ep": 12,
         "xp": 12,
-        "dice": 4,
-        "req": "Athletics",
-        "reqlvl": "Expert",
         "category": "Strength",
         "bonusDice": 4,
         "requirements": "Athletics (Expert)",
@@ -60,9 +46,6 @@
         "description": "You grapple the opponent of your size and strength or smaller. You can hold them for up to 5 minutes.",
         "ep": 2,
         "xp": 3,
-        "dice": 1,
-        "req": "Athletics",
-        "reqlvl": "Novice",
         "category": "Strength",
         "bonusDice": 1,
         "requirements": "Athletics (Novice)",
@@ -72,8 +55,6 @@
         "title": "Pack Mule",
         "description": "Increases the number of items you can carry by 5.",
         "xp": 5,
-        "req": "Athletics",
-        "reqlvl": "Adept",
         "category": "Strength",
         "requirements": "Athletics (Adept)",
         "section": "abilities"
@@ -85,24 +66,18 @@
     "powers": [
       {
         "title": "Acrobatics (Novice)",
-        "level": "Novice",
         "description": "You are very flexible and fast. You can do a backflip, jump between buildings.",
         "ep": 3,
         "xp": 3,
-        "dice": 1,
         "category": "Dexterity",
         "bonusDice": 1,
         "section": "abilities"
       },
       {
         "title": "Acrobatics (Adept)",
-        "level": "Adept",
-        "description": "You are ninja-level flexible and fast. ",
+        "description": "You are ninja-level flexible and fast.",
         "ep": 6,
         "xp": 6,
-        "dice": 2,
-        "req": "Acrobatics",
-        "reqlvl": "Novice",
         "category": "Dexterity",
         "bonusDice": 2,
         "requirements": "Acrobatics (Novice)",
@@ -110,90 +85,12 @@
       },
       {
         "title": "Acrobatics (Expert)",
-        "level": "Expert",
-        "description": "You are capable of superhuman, spider-man-level acrobatics. ",
+        "description": "You are capable of superhuman, spider-man-level acrobatics.",
         "ep": 9,
         "xp": 9,
-        "dice": 3,
-        "req": "Acrobatics",
-        "reqlvl": "Adept",
         "category": "Dexterity",
         "bonusDice": 3,
         "requirements": "Acrobatics (Adept)",
-        "section": "abilities"
-      },
-      {
-        "title": "Stealth (Novice)",
-        "level": "Novice",
-        "description": "You are good at sneaking and not being seen.",
-        "ep": 3,
-        "xp": 3,
-        "dice": 1,
-        "category": "Dexterity",
-        "bonusDice": 1,
-        "section": "abilities"
-      },
-      {
-        "title": "Stealth (Adept)",
-        "level": "Adept",
-        "description": "You are very good at sneaking and not being seen.",
-        "ep": 6,
-        "xp": 6,
-        "dice": 2,
-        "req": "Stealth",
-        "reqlvl": "Novice",
-        "category": "Dexterity",
-        "bonusDice": 2,
-        "requirements": "Stealth (Novice)",
-        "section": "abilities"
-      },
-      {
-        "title": "Stealth (Expert)",
-        "level": "Expert",
-        "description": "Your ability to sneak and hide is ninja-level, you're borderline invisible in the shadows.",
-        "ep": 9,
-        "xp": 9,
-        "dice": 3,
-        "req": "Stealth",
-        "reqlvl": "Adept",
-        "category": "Dexterity",
-        "bonusDice": 3,
-        "requirements": "Stealth (Adept)",
-        "section": "abilities"
-      },
-      {
-        "title": "Thief (Novice)",
-        "level": "Novice",
-        "description": "You are learning the art of stealing, concealing, smuggling things.",
-        "ep": 3,
-        "xp": 3,
-        "dice": 1,
-        "category": "Dexterity",
-        "bonusDice": 1,
-        "section": "abilities"
-      },
-      {
-        "title": "Thief (Adept)",
-        "level": "Adept",
-        "description": "You are very good at the art of stealing, concealing, smuggling things.",
-        "ep": 6,
-        "xp": 6,
-        "dice": 2,
-        "reqlvl": "Novice",
-        "category": "Dexterity",
-        "bonusDice": 2,
-        "section": "abilities"
-      },
-      {
-        "title": "Thief (Expert)",
-        "level": "Expert",
-        "description": "You are an expert thief. You can steal, conceal, or smuggle anything.",
-        "ep": 9,
-        "xp": 9,
-        "dice": 3,
-        "reqlvl": "Adept",
-        "category": "Dexterity",
-        "bonusDice": 3,
         "section": "abilities"
       }
     ]
@@ -203,47 +100,38 @@
     "powers": [
       {
         "title": "Swordsman (Novice)",
-        "level": "Novice",
         "description": "You are capable of holding a sword and stabbing things with it. Sometimes you even hit them.",
         "ep": 3,
         "xp": 3,
-        "dice": 1,
         "category": "Weapons",
         "bonusDice": 1,
         "section": "abilities"
       },
       {
         "title": "Swordsman (Adept)",
-        "level": "Adept",
         "description": "You are quite good with the sword. You can use more powerful and expert swords.",
         "ep": 6,
         "xp": 6,
-        "dice": 2,
-        "reqlvl": "Novice",
         "category": "Weapons",
         "bonusDice": 2,
+        "requirements": "Swordsman (Novice)",
         "section": "abilities"
       },
       {
         "title": "Swordsman (Expert)",
-        "level": "Expert",
         "description": "You are an expert, your mastery of swordsmanship knows no rivals.",
         "ep": 9,
         "xp": 9,
-        "dice": 3,
-        "reqlvl": "Adept",
         "category": "Weapons",
         "bonusDice": 3,
+        "requirements": "Swordsman (Adept)",
         "section": "abilities"
       },
       {
         "title": "Martial Arts (Novice)",
-        "level": "Novice",
         "description": "Your kicks and punches deal damage.",
         "ep": 3,
         "xp": 3,
-        "dice": 1,
-        "dmg": 3,
         "category": "Weapons",
         "bonusDice": 1,
         "damage": 3,
@@ -251,89 +139,208 @@
       },
       {
         "title": "Martial Arts (Adept)",
-        "level": "Adept",
         "description": "Your kicks and punches deal more damage.",
         "ep": 6,
         "xp": 6,
-        "dice": 2,
-        "dmg": 6,
-        "reqlvl": "Novice",
         "category": "Weapons",
         "bonusDice": 2,
         "damage": 6,
+        "requirements": "Martial Arts (Novice)",
         "section": "abilities"
       },
       {
         "title": "Martial Arts (Expert)",
-        "level": "Expert",
         "description": "Your kicks and punches deal a lot of damage. You're basically Jackie Chan on modafinil.",
         "ep": 9,
         "xp": 9,
-        "dice": 3,
-        "dmg": 9,
-        "reqlvl": "Adept",
         "category": "Weapons",
         "bonusDice": 3,
         "damage": 9,
+        "requirements": "Martial Arts (Adept)",
         "section": "abilities"
       },
       {
-        "title": "Thrown Weapons",
+        "title": "Thrown Weapons (Novice)",
         "description": "Allows you to throw handheld projectiles (rocks, darts, daggers).",
         "ep": 3,
         "xp": 3,
-        "dice": 1,
-        "req": "Acrobatics",
-        "reqlvl": "Novice",
         "category": "Weapons",
         "bonusDice": 1,
-        "requirements": "Acrobatics (Novice)",
+        "section": "abilities"
+      },
+      {
+        "title": "Thrown Weapons (Adept)",
+        "description": "You can throw 2 weapons at once (at different targets, or the same one for double damage). Spend 2 EP per extra weapon you want to throw.",
+        "ep": 6,
+        "xp": 6,
+        "category": "Weapons",
+        "bonusDice": 2,
+        "requirements": "Thrown Weapons (Novice)",
         "section": "abilities"
       },
       {
         "title": "Archer (Novice)",
-        "level": "Novice",
         "description": "Allows you to use bows and crossbows.",
         "ep": 3,
         "xp": 3,
-        "dice": 1,
         "category": "Weapons",
         "bonusDice": 1,
         "section": "abilities"
       },
       {
         "title": "Archer (Adept)",
-        "level": "Adept",
         "description": "Allows you to use more powerful bows and crossbows and shoot very accurately.",
         "ep": 6,
         "xp": 6,
-        "dice": 2,
-        "reqlvl": "Novice",
         "category": "Weapons",
         "bonusDice": 2,
+        "requirements": "Archer (Novice)",
         "section": "abilities"
       },
       {
         "title": "Archer (Expert)",
-        "level": "Expert",
         "description": "Allows you to use any ranged weapon, send out 3 projectiles in the blink of an eye.",
         "ep": 9,
         "xp": 9,
-        "dice": 3,
-        "reqlvl": "Adept",
         "category": "Weapons",
         "bonusDice": 3,
+        "requirements": "Archer (Adept)",
         "section": "abilities"
       },
       {
         "title": "Gunslinger (Novice)",
-        "level": "Novice",
         "description": "Allows you to use simple guns.",
         "ep": 3,
         "xp": 3,
-        "dice": 1,
         "category": "Weapons",
         "bonusDice": 1,
+        "section": "abilities"
+      }
+    ]
+  },
+  {
+    "title": "Combat",
+    "powers": [
+      {
+        "title": "Parry",
+        "description": "Enables you to deflect physical attacks from equally skilled opponents using a melee weapon.",
+        "ep": 3,
+        "xp": 3,
+        "category": "Combat",
+        "bonusDice": 1,
+        "requirements": "Swordsman (Novice)",
+        "section": "abilities"
+      },
+      {
+        "title": "Dual Wielding",
+        "description": "Allows you to make 2 attacks as 1 action. You must have two one-handed weapons in your inventory.",
+        "ep": 3,
+        "xp": 3,
+        "category": "Combat",
+        "bonusDice": 1,
+        "requirements": "Swordsman (Adept)",
+        "section": "abilities"
+      },
+      {
+        "title": "Provoke",
+        "description": "Will attract the attention of your target. They will attempt to attack you until they are hit by someone else or hostilities cease altogether.",
+        "ep": 3,
+        "xp": 3,
+        "category": "Combat",
+        "bonusDice": 1,
+        "section": "abilities"
+      },
+      {
+        "title": "Intercept",
+        "description": "Allows you to interrupt an enemy attack on your ally. They immediately end their turn, dealing no damage.",
+        "ep": 3,
+        "xp": 3,
+        "category": "Combat",
+        "bonusDice": 1,
+        "requirements": "Acrobatics (Novice)",
+        "section": "abilities"
+      },
+      {
+        "title": "Whirldwind",
+        "description": "Allows you to make a melee attack to everyone within reach.",
+        "ep": 3,
+        "xp": 3,
+        "category": "Combat",
+        "bonusDice": 1,
+        "requirements": "Swordsman (Adept)",
+        "section": "abilities"
+      },
+      {
+        "title": "Knock Down",
+        "description": "You charge in a straight line towards the selected enemy and smash into them. The enemy gets knocked down, losing their next turn.",
+        "ep": 3,
+        "xp": 3,
+        "category": "Combat",
+        "bonusDice": 1,
+        "requirements": "Athletics (Novice)",
+        "section": "abilities"
+      },
+      {
+        "title": "Charge",
+        "description": "You charge in a straight line towards the selected enemy and smash into them. The enemy, everyone on your path, and everyone within reach gets knocked down, losing their next turn.",
+        "ep": 3,
+        "xp": 3,
+        "category": "Combat",
+        "bonusDice": 1,
+        "requirements": "Knock Down",
+        "section": "abilities"
+      },
+      {
+        "title": "Cripple",
+        "description": "Attack a target within range, rendering them unable to move.",
+        "ep": 3,
+        "xp": 3,
+        "category": "Combat",
+        "bonusDice": 1,
+        "requirements": "Athletics (Adept)",
+        "section": "abilities"
+      },
+      {
+        "title": "Sneak Attack",
+        "description": "Allows you to deal double damage to the distracted enemy.",
+        "ep": 3,
+        "xp": 3,
+        "category": "Combat",
+        "bonusDice": 1,
+        "requirements": "Stealth (Novice)",
+        "section": "abilities"
+      },
+      {
+        "title": "Farshot",
+        "description": "Enables you to shoot at a target out of your range.",
+        "ep": 3,
+        "xp": 3,
+        "category": "Combat",
+        "bonusDice": 1,
+        "requirements": "Archer (Novice)",
+        "section": "abilities"
+      },
+      {
+        "title": "Deadeye",
+        "description": "Allows you to target any coin-size object.",
+        "ep": 3,
+        "xp": 3,
+        "category": "Combat",
+        "bonusDice": 1,
+        "requirements": "Archer (Novice)",
+        "section": "abilities"
+      }
+    ]
+  },
+  {
+    "powers": [
+      {
+        "title": "Retreat",
+        "description": "You Provoke all nearby enemies to give your allies cover to retreat. Enemy fire will be concentrated on you.",
+        "ep": 3,
+        "xp": 3,
+        "bonusDice": 1,
+        "requirements": "Provoke",
         "section": "abilities"
       }
     ]
@@ -342,13 +349,30 @@
     "title": "Knowledge",
     "powers": [
       {
-        "title": "Arcana",
+        "title": "Arcana (Novice)",
         "description": "You understand magic and arcane arts.\nEnables you to use more sophisticated magic items.",
         "ep": 3,
         "xp": 3,
-        "dice": 1,
         "category": "Knowledge",
         "bonusDice": 1,
+        "section": "abilities"
+      },
+      {
+        "title": "Arcana (Adept)",
+        "description": "You know a lot about magic and its applications. You can identify magic items.\nEnables you to use more sophisticated magic items.",
+        "ep": 6,
+        "xp": 6,
+        "category": "Knowledge",
+        "bonusDice": 2,
+        "section": "abilities"
+      },
+      {
+        "title": "Arcana (Expert)",
+        "description": "You have mastered the depth and intricacies of arcane arts.\nYou can identify and use any magic item.",
+        "ep": 9,
+        "xp": 9,
+        "category": "Knowledge",
+        "bonusDice": 3,
         "section": "abilities"
       },
       {
@@ -356,7 +380,24 @@
         "description": "You understand technology. Enables you to use items that require technical skills.",
         "ep": 3,
         "xp": 3,
-        "dice": 1,
+        "category": "Knowledge",
+        "bonusDice": 1,
+        "section": "abilities"
+      },
+      {
+        "title": "Warfare",
+        "description": "You understand the theoretical fundamentals of combat and warfare.",
+        "ep": 3,
+        "xp": 3,
+        "category": "Knowledge",
+        "bonusDice": 1,
+        "section": "abilities"
+      },
+      {
+        "title": "World",
+        "description": "Recall facts about the world and its history.",
+        "ep": 3,
+        "xp": 3,
         "category": "Knowledge",
         "bonusDice": 1,
         "section": "abilities"
@@ -364,29 +405,369 @@
     ]
   },
   {
-    "title": "Combat Tactics",
+    "title": "Perception",
     "powers": [
       {
-        "title": "Parry",
-        "description": "Enables you to deflect physical attacks from equally skilled opponents using a melee weapon.",
+        "title": "Keen Eye (Novice)",
+        "description": "For the next 10 minutes you can notice things that are hard to see.",
         "ep": 3,
         "xp": 3,
-        "dice": 1,
-        "category": "Combat Tactics",
+        "category": "Perception",
         "bonusDice": 1,
         "section": "abilities"
       },
       {
-        "title": "Dual Wielding",
-        "description": "Allows you to make 2 attacks as 1 action. You must have two one-handed weapons in your inventory.",
+        "title": "Keen Ear (Novice)",
+        "description": "For the next 10 minutes you can hear things that are hard to hear.",
         "ep": 3,
         "xp": 3,
-        "dice": 1,
-        "req": "Swordsman",
-        "reqlvl": "Adept",
-        "category": "Combat Tactics",
+        "category": "Perception",
         "bonusDice": 1,
-        "requirements": "Swordsman (Adept)",
+        "section": "abilities"
+      },
+      {
+        "title": "Darkvision (Novice)",
+        "description": "For the next hour you can see in pitch darkness as if it’s an overcast day.",
+        "ep": 3,
+        "xp": 3,
+        "category": "Perception",
+        "bonusDice": 1,
+        "section": "abilities"
+      },
+      {
+        "title": "Eagle Eye (Novice)",
+        "description": "You gain superhuman vision for the next minute.",
+        "ep": 3,
+        "xp": 3,
+        "category": "Perception",
+        "bonusDice": 1,
+        "section": "abilities"
+      },
+      {
+        "title": "Owl's Ear (Novice)",
+        "description": "Gain hypersensitive hearing for the next minute.",
+        "ep": 3,
+        "xp": 3,
+        "category": "Perception",
+        "bonusDice": 1,
+        "section": "abilities"
+      },
+      {
+        "title": "Investigation (Novice)",
+        "description": "Describe how and where you search, and find subtle clues about what happened at the scene (if they exist).",
+        "ep": 3,
+        "xp": 3,
+        "category": "Perception",
+        "bonusDice": 1,
+        "section": "abilities"
+      },
+      {
+        "title": "Sense Danger (Novice)",
+        "description": "Set your “spidey sense” on high alert. For the next hour you will be able to sense when there’s a person or a creature who is about to attack you.",
+        "ep": 3,
+        "xp": 3,
+        "category": "Perception",
+        "bonusDice": 1,
+        "section": "abilities"
+      }
+    ]
+  },
+  {
+    "title": "Social",
+    "powers": [
+      {
+        "title": "Persuasion (Novice)",
+        "description": "You are pretty good at convincing people.",
+        "ep": 3,
+        "xp": 3,
+        "category": "Social",
+        "bonusDice": 1,
+        "section": "abilities"
+      },
+      {
+        "title": "Deception (Novice)",
+        "description": "You are quite good at lying. You can convince the guard that you totally have an invitation to this party.",
+        "ep": 3,
+        "xp": 3,
+        "category": "Social",
+        "bonusDice": 1,
+        "section": "abilities"
+      },
+      {
+        "title": "Intimidation (Novice)",
+        "description": "Make a show of how dangerous you are, making everyone in the vicinity afraid of you.\nRegular people and animals will run away or seek shelter, braver enemies may be able to overcome their fear, but will be more hesitant to mess with you.",
+        "ep": 3,
+        "xp": 3,
+        "category": "Social",
+        "bonusDice": 1,
+        "section": "abilities"
+      },
+      {
+        "title": "Act like you belong",
+        "description": "Invent a local saying and use it in your conversation with the NPC. It allows you to blend in and appear as a member of the social group NPC belongs to, gaining their trust.",
+        "ep": 3,
+        "xp": 3,
+        "category": "Social",
+        "bonusDice": 1,
+        "section": "abilities"
+      },
+      {
+        "title": "Folk Song",
+        "description": "You sing a song that kindles strong feelings in the friendly/neutral NPCs nearby.(you need to sing a song at the table and describe your performance.) This will influence the mood of the crowd to the one of your choice (happy, somber, proud, indignant, etc.)",
+        "ep": 3,
+        "xp": 3,
+        "category": "Social",
+        "bonusDice": 1,
+        "section": "abilities"
+      },
+      {
+        "title": "Tell a Tale",
+        "description": "Tell a local myth to the NPC, and explain what the lesson of it is (\"Give refuge to strangers\", \"Help others\", \"Don't lie\", \"Forgive people\", \"Be a fair dealer\", etc). NPC will likely comply with reasonable requests that are in line with the lesson.",
+        "ep": 3,
+        "xp": 3,
+        "category": "Social",
+        "bonusDice": 1,
+        "section": "abilities"
+      },
+      {
+        "title": "Recruit",
+        "description": "Recruit a low-level friendly NPC to help you for the next day.",
+        "ep": 3,
+        "xp": 3,
+        "category": "Social",
+        "bonusDice": 1,
+        "section": "abilities"
+      },
+      {
+        "title": "Bartering",
+        "description": "Convince people to trade and get better deals.",
+        "ep": 3,
+        "xp": 3,
+        "category": "Social",
+        "bonusDice": 1,
+        "section": "abilities"
+      },
+      {
+        "title": "Aspiring Artist",
+        "description": "You are pretty good at art of your choice(painting, music, theatre, etc)",
+        "ep": 3,
+        "xp": 3,
+        "category": "Social",
+        "bonusDice": 1,
+        "section": "abilities"
+      }
+    ]
+  },
+  {
+    "title": "Stealth",
+    "powers": [
+      {
+        "title": "Sneaking (Novice)",
+        "description": "You are good at sneaking and not being seen.",
+        "ep": 3,
+        "xp": 3,
+        "category": "Stealth",
+        "bonusDice": 1,
+        "section": "abilities"
+      },
+      {
+        "title": "Sneaking (Adept)",
+        "description": "You are very good at sneaking and not being seen.",
+        "ep": 6,
+        "xp": 6,
+        "category": "Stealth",
+        "bonusDice": 2,
+        "requirements": "Stealth (Novice)",
+        "section": "abilities"
+      },
+      {
+        "title": "Sneaking (Expert)",
+        "description": "Your ability to sneak and hide is ninja-level, you're borderline invisible in the shadows.\nYou're borderline invisible. If the place can be snuk through, you'll sneak it.",
+        "ep": 9,
+        "xp": 9,
+        "category": "Stealth",
+        "bonusDice": 3,
+        "requirements": "Stealth (Adept)",
+        "section": "abilities"
+      },
+      {
+        "title": "Thief (Novice)",
+        "description": "Steal items from unaware or distracted people.",
+        "ep": 3,
+        "xp": 3,
+        "category": "Stealth",
+        "bonusDice": 1,
+        "section": "abilities"
+      },
+      {
+        "title": "Thief (Adept)",
+        "description": "You are very good at the art of stealing, concealing, smuggling things.",
+        "ep": 6,
+        "xp": 6,
+        "category": "Stealth",
+        "bonusDice": 2,
+        "requirements": "Thief (Novice)",
+        "section": "abilities"
+      },
+      {
+        "title": "Thief (Expert)",
+        "description": "You are an expert thief. You can steal, conceal, or smuggle anything.",
+        "ep": 9,
+        "xp": 9,
+        "category": "Stealth",
+        "bonusDice": 3,
+        "requirements": "Thief (Adept)",
+        "section": "abilities"
+      },
+      {
+        "title": "Sneaking",
+        "description": "You are very quiet and hard to notice. You can quietly stalk your target without it noticing you. You can hide very well, especially at night.",
+        "ep": 3,
+        "xp": 3,
+        "category": "Stealth",
+        "bonusDice": 1,
+        "section": "abilities"
+      },
+      {
+        "title": "Subtle Spell",
+        "description": "Use it to cast a spell in a way not detectable by the people around you.",
+        "ep": 3,
+        "xp": 3,
+        "category": "Stealth",
+        "bonusDice": 1,
+        "section": "abilities"
+      },
+      {
+        "title": "Concealment",
+        "description": "Unless you are actively searched, you can conceal up to 2 weapons or magic items on you.",
+        "ep": 3,
+        "xp": 3,
+        "category": "Stealth",
+        "bonusDice": 1,
+        "section": "abilities"
+      },
+      {
+        "title": "Disguise",
+        "description": "Craft a convincing disguise out of the clothes, make up, or objects you posess.",
+        "category": "Stealth",
+        "section": "abilities"
+      },
+      {
+        "title": "Criminal Underworld",
+        "description": "You have connections in the criminal underworld.",
+        "category": "Stealth",
+        "section": "abilities"
+      },
+      {
+        "title": "Forgery",
+        "description": "Forge items, documents, or art.",
+        "category": "Stealth",
+        "section": "abilities"
+      },
+      {
+        "title": "Lock Picking",
+        "description": "Pick simple locks.",
+        "category": "Stealth",
+        "section": "abilities"
+      },
+      {
+        "title": "Gather Intel",
+        "description": "Infiltrate the person's office or home, and use your skills to reveal one of those things: The identity of an important associate, a location they will travel to (with the time and date), a secret that would embarrass them if revealed, their financial situation (including debts), their true feelings about you or your party, their strongest allegiance (to a government, guild, or other organization).",
+        "category": "Stealth",
+        "section": "abilities"
+      }
+    ]
+  },
+  {
+    "title": "Survival",
+    "powers": [
+      {
+        "title": "Tracking",
+        "description": "You can follow tracks and identify what kind of creature has left them.",
+        "category": "Survival",
+        "section": "abilities"
+      },
+      {
+        "title": "Build Shelter",
+        "description": "When camping in the wilderness, use the nearby flora to build a shelter. It hides your presence from the hostile creatures, and gives you an early warning about their approach.",
+        "category": "Survival",
+        "section": "abilities"
+      },
+      {
+        "title": "Navigation",
+        "description": "You can’t get lost in the wilderness. You can find your way to the closest oasis, shelter, nest of an animal.",
+        "category": "Survival",
+        "section": "abilities"
+      },
+      {
+        "title": "Echolocation",
+        "description": "When you are in a cave or a dungeon, make a loud sound, and you will sense the general shape of nearby passageways and locations.",
+        "category": "Survival",
+        "section": "abilities"
+      },
+      {
+        "title": "Remedy",
+        "description": "Scavenge a nearby area and find a plant-based remedy for an ailment. You find enough for a single dose. The remedy cures temporary illness and eliminates poison.",
+        "category": "Survival",
+        "section": "abilities"
+      },
+      {
+        "title": "Distress Signal",
+        "description": "Build a distress signal that can be seen by other Rangers. Within the next day, you will meet an NPC Ranger who comes to your aid.",
+        "category": "Survival",
+        "section": "abilities"
+      }
+    ]
+  },
+  {
+    "title": "Crafting",
+    "powers": [
+      {
+        "title": "Craftsman",
+        "description": "Enables you to spend 3 XP to craft any common item.",
+        "category": "Crafting",
+        "section": "abilities"
+      },
+      {
+        "title": "Craftsman",
+        "description": "Enables you to spend 5 XP to craft any uncommon item.",
+        "category": "Crafting",
+        "section": "abilities"
+      },
+      {
+        "title": "Craftsman",
+        "description": "Enables you to spend 9 XP to craft any rare item.",
+        "category": "Crafting",
+        "section": "abilities"
+      },
+      {
+        "title": "Potion Maker",
+        "description": "Enables you to spend 2 XP to brew any uncommon potion.",
+        "category": "Crafting",
+        "section": "abilities"
+      },
+      {
+        "title": "Potion Maker",
+        "description": "Enables you to spend 5 XP to brew any rare potion.",
+        "category": "Crafting",
+        "section": "abilities"
+      },
+      {
+        "title": "Potion Maker",
+        "description": "Enables you to spend 9 XP to brew any legendary potion.",
+        "category": "Crafting",
+        "section": "abilities"
+      },
+      {
+        "title": "Enchanter",
+        "description": "Enables you to spend 1 XP to imbue a mundane item with a spell (one-time use).",
+        "category": "Crafting",
+        "section": "abilities"
+      },
+      {
+        "title": "Enchanter",
+        "description": "Enables you to spend 5 XP to permanently imbue a mundane item with any spell.",
+        "category": "Crafting",
         "section": "abilities"
       }
     ]
@@ -396,24 +777,18 @@
     "powers": [
       {
         "title": "Kinestetic (Novice)",
-        "level": "Novice",
         "description": "You know the basics of \"Kinestetic\" Magic School. Allows you to cast spells that modify your physical abilities.",
         "ep": 3,
         "xp": 3,
-        "dice": 1,
         "category": "Magic Schools",
         "bonusDice": 1,
         "section": "abilities"
       },
       {
         "title": "Kinestetic (Adept)",
-        "level": "Adept",
         "description": "You are good the \"Kinestetic\" Magic School. You can cast more powerful spells.",
         "ep": 6,
         "xp": 6,
-        "dice": 2,
-        "req": "Kinestetic",
-        "reqlvl": "Novice",
         "category": "Magic Schools",
         "bonusDice": 2,
         "requirements": "Kinestetic (Novice)",
@@ -421,13 +796,9 @@
       },
       {
         "title": "Kinestetic (Expert)",
-        "level": "Expert",
         "description": "You are the expert in Kinestetics. You can cast advanced spells.",
         "ep": 9,
         "xp": 9,
-        "dice": 3,
-        "req": "Kinestetic",
-        "reqlvl": "Adept",
         "category": "Magic Schools",
         "bonusDice": 3,
         "requirements": "Kinestetic (Adept)",
@@ -435,24 +806,18 @@
       },
       {
         "title": "Battle Magic (Novice)",
-        "level": "Novice",
         "description": "You know the basics of Battle Magic. Allows you to cast offensive spells.",
         "ep": 3,
         "xp": 3,
-        "dice": 1,
         "category": "Magic Schools",
         "bonusDice": 1,
         "section": "abilities"
       },
       {
         "title": "Battle Magic (Adept)",
-        "level": "Adept",
         "description": "You are good at Battle Magic. You can cast more powerful spells.",
         "ep": 6,
         "xp": 6,
-        "dice": 2,
-        "req": "Battle Magic",
-        "reqlvl": "Novice",
         "category": "Magic Schools",
         "bonusDice": 2,
         "requirements": "Battle Magic (Novice)",
@@ -460,16 +825,23 @@
       },
       {
         "title": "Battle Magic (Expert)",
-        "level": "Expert",
         "description": "You are the expert of Battle Magic. You can cast advanced spells.",
         "ep": 9,
         "xp": 9,
-        "dice": 3,
-        "req": "Battle Magic",
-        "reqlvl": "Adept",
         "category": "Magic Schools",
         "bonusDice": 3,
         "requirements": "Battle Magic (Adept)",
+        "section": "abilities"
+      }
+    ]
+  },
+  {
+    "title": "Blank",
+    "powers": [
+      {
+        "title": "[Custom Ability Title]",
+        "description": "[Create and edit this ability if you need to create a custom one]",
+        "category": "Blank",
         "section": "abilities"
       }
     ]

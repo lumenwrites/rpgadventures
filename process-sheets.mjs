@@ -18,13 +18,17 @@ for (var powerType in data) {
   // ignore the boilerplate sheet
   if (powerType === 'boilerplate') continue
 
-  /
   /* Process powers */
   var powers = data[powerType]
   /* Remove  powers without title/description (drafts in google sheets) */
-  powers.filter(p => p.title && p.description)
+  powers = powers.filter(p => p.title && p.description)
   /* Edit fields */
   powers = powers.map(p => {
+    /* Remove accidental spaces */
+    for (var key in p) {
+      if (typeof p[key] === "string") p[key] = p[key].trim()
+    }
+
     if (p.level) {
       p.title = `${p.title} (${p.level})` // Athletics (Adept)
     }
@@ -39,12 +43,20 @@ for (var powerType in data) {
     }
     /* abilities, spells, magicItems, equipment */
     p.section = powerType
+
+    /* Delete unused and empty fields */
+    var unusedFields = ['level','req','reqlvl','dice','dmg']
+    for (var key in p) {
+      if (!p[key])  delete p[key] // delete empty fields
+      if (unusedFields.includes(key))  delete p[key] // delete unused fields
+    }
+    
     return p
   })
 
 
 
-    //console.log(powers[3],null, 2)
+  //console.log(powers[3],null, 2)
 
   /* Create list of categories */
   const categorySet = new Set()
