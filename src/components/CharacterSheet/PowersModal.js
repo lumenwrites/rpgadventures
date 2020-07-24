@@ -18,9 +18,8 @@ class PowersModal extends Component {
       // If the power was filtered out, renderPowers() will return undefined
       var countRenderedPowers = renderedPowers.filter(p => p).length
       // if all powers have been learned - don't display the empty category
-      if (!countRenderedPowers) {
-	return (<div key={i}>{this.renderNoPowersAvailableWarning(category)}</div>)
-      }
+      if (!countRenderedPowers) return
+      
       return (
 	<div key={i}>
 	    <div className="category-title">{category.title}</div>
@@ -33,16 +32,17 @@ class PowersModal extends Component {
     })
   }
 
-  renderNoPowersAvailableWarning = (category) => {
+  renderNoPowersAvailableWarning = () => {
+    var title = this.props.name
+    if (title === "magicItems") { title = "Magic Items" }
     return (
       <div>
-	  <div className="category-title">{category.title}</div>
 	  <div className="no-powers-available">
-	      No items available in this category. Why?
+	      No more {title} available. Why?
 	      <ul>
 		  <li>You don't have enough experience.</li>
 		  <li>You don't have the prerequisite abilities.</li>
-		  <li>You have already learned all available {this.props.name}.</li>
+		  <li>You have already learned all available {title}.</li>
 	      </ul>
 	  </div>
       </div>
@@ -123,7 +123,7 @@ class PowersModal extends Component {
 	  <div className="menu-handle btn">
 	      Rarity: {this.state.rarity}
 	  </div>
-	  <div className="menu">
+	  <div className="menu left">
 	      {rarities}
 	  </div>
       </div>
@@ -136,6 +136,11 @@ class PowersModal extends Component {
     var showRarityFilter = name == "magicItems" || name == "equipment"
     var title = name
     if (name === "magicItems") { title = "Magic Items" }
+
+    var renderedCategories = this.renderCategories()
+    // 1 because you always have the blank card
+    var countRenderedCategories = renderedCategories.filter(c => c).length 
+
     return (
       <Modal name={this.props.name} className="powers-modal wide">
 	  <div className="title"> Add {title} </div>
@@ -143,7 +148,16 @@ class PowersModal extends Component {
 	  {showRarityFilter && this.renderRarityFilter()}
 	  <div className="clearfix"/>
 	  <hr/>
-	  {this.renderCategories()}
+	  {countRenderedCategories <= 2 && showFilterToggle ?(
+	    <>
+		{renderedCategories}
+		{this.renderNoPowersAvailableWarning()}
+	    </>
+	  ):(
+	    <>
+		{renderedCategories}
+	    </>
+	  )}
       </Modal>
     )
   }

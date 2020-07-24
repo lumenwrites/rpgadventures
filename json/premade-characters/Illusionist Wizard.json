@@ -1,0 +1,96 @@
+{
+  "name": "",
+  "image": "",
+  "currentHealth": 10,
+  "maxHealth": 10,
+  "currentEnergy": 10,
+  "maxEnergy": 10,
+  "experience": 0,
+  "level": 1,
+  "cards": [],
+  "abilities": [
+    {
+      "title": "Illusionism (Novice)",
+      "description": "You know the basics of Illusionism. Allows you to cast basic spells.",
+      "ep": 3,
+      "xp": 3,
+      "category": "Magic Schools",
+      "bonusDice": 1,
+      "section": "abilities",
+      "id": "pc0lm7"
+    },
+    {
+      "title": "Enchantment (Novice)",
+      "description": "You know the basics of Enchantment. Allows you to cast basic spells.",
+      "ep": 3,
+      "xp": 3,
+      "category": "Magic Schools",
+      "bonusDice": 1,
+      "section": "abilities",
+      "id": "jccce"
+    }
+  ],
+  "spells": [
+    {
+      "title": "Minor Illusion",
+      "description": "Create an illusion of an object (no larger than a person) or a sound within 50 meters and your line of sight.",
+      "ep": 3,
+      "xp": 3,
+      "category": "Illusionism",
+      "requirements": "Illusionism (Novice)",
+      "section": "spells",
+      "id": "03mj2w"
+    },
+    {
+      "title": "Charm Person",
+      "description": "The person regards you as their friend for 1 hour. When the spell ends, they know they’ve been charmed.",
+      "ep": 3,
+      "xp": 3,
+      "category": "Enchantment",
+      "requirements": "Enchantment (Novice)",
+      "section": "spells",
+      "id": "7r83gi"
+    }
+  ],
+  "magicItems": [
+    {
+      "title": "Holocrystal",
+      "description": "Records 3D holographic images and videos of the things in 10 meter radius around it (can also take regular photos/videos). Can send these recordings to other crystals.",
+      "rarity": "Uncommon",
+      "category": "Utility",
+      "section": "magicItems",
+      "id": "m55ntg"
+    },
+    {
+      "title": "Sending Stones",
+      "description": "Magical walkie-talkie. Communicate telepathically within 300 meters of each other.",
+      "rarity": "Uncommon",
+      "category": "Information",
+      "section": "magicItems",
+      "id": "sbt6jo"
+    }
+  ],
+  "equipment": [
+    {
+      "title": "Torches",
+      "description": "Provide light. Set things on fire.",
+      "rarity": "Common",
+      "category": "Gear",
+      "section": "equipment",
+      "id": "8bdwtr"
+    },
+    {
+      "title": "10 foot pole",
+      "description": "A regular 10 foot pole. Useful whenever you need a 10 foot pole.",
+      "rarity": "Common",
+      "category": "Gear",
+      "section": "equipment",
+      "id": "okpnw"
+    }
+  ],
+  "id": "12",
+  "appearance": "",
+  "ambitions": "",
+  "personality": "",
+  "backstory": ""
+}

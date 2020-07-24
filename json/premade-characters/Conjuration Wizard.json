@@ -1,0 +1,106 @@
+{
+  "name": "",
+  "image": "",
+  "currentHealth": 10,
+  "maxHealth": 10,
+  "currentEnergy": 10,
+  "maxEnergy": 10,
+  "experience": 0,
+  "level": 1,
+  "cards": [],
+  "abilities": [
+    {
+      "title": "Arcana (Novice)",
+      "description": "You understand magic and arcane arts.\nEnables you to use more sophisticated magic items.",
+      "ep": 3,
+      "xp": 3,
+      "category": "Knowledge",
+      "bonusDice": 1,
+      "section": "abilities",
+      "id": "zqgyq"
+    },
+    {
+      "title": "Conjuration (Novice)",
+      "description": "You know the basics of Conjuration. Allows you to cast basic spells.",
+      "ep": 3,
+      "xp": 3,
+      "category": "Magic Schools",
+      "bonusDice": 1,
+      "section": "abilities",
+      "id": "9hoadh"
+    }
+  ],
+  "spells": [
+    {
+      "title": "Conjure a Mundane Item",
+      "description": "Create a small non-magical item you’re familiar with (like a hammer, a spyglass, or a candle). No larger than 3 feet cube, no heavier than 10 pounds.\nThe object is visibly magical, disappears after 1 hour, or if it takes any damage.",
+      "ep": 3,
+      "xp": 3,
+      "category": "Conjuration",
+      "requirements": "Conjuration (Novice)",
+      "section": "spells",
+      "id": "8hewe4"
+    },
+    {
+      "title": "Summon Familiar",
+      "description": "Summon a small creature who will be your pet and a friend. You can communicate with it telepathically, give it commands, see through its eyes, hear what it hears, cast spells through it. If the creature takes damage it disappears, but you can resummon it.",
+      "ep": 3,
+      "xp": 3,
+      "category": "Conjuration",
+      "requirements": "Conjuration (Novice)",
+      "section": "spells",
+      "id": "68wvb"
+    },
+    {
+      "title": "Fire hose",
+      "description": "For the next minute, a stream of water shoots from your hand like from a fire hose.",
+      "ep": 3,
+      "xp": 3,
+      "category": "Conjuration",
+      "requirements": "Conjuration (Novice)",
+      "section": "spells",
+      "id": "8uu1hh"
+    }
+  ],
+  "magicItems": [
+    {
+      "title": "Small Health Potion",
+      "description": "Restores 4 health.",
+      "rarity": "Common",
+      "category": "Potions",
+      "section": "magicItems",
+      "id": "d6lfac"
+    },
+    {
+      "title": "Small Energy Potion",
+      "description": "Restores 4 energy.",
+      "rarity": "Common",
+      "category": "Potions",
+      "section": "magicItems",
+      "id": "bs9zy5"
+    }
+  ],
+  "equipment": [
+    {
+      "title": "Torches",
+      "description": "Provide light. Set things on fire.",
+      "rarity": "Common",
+      "category": "Gear",
+      "section": "equipment",
+      "id": "01hvy"
+    },
+    {
+      "title": "10 foot pole",
+      "description": "A regular 10 foot pole. Useful whenever you need a 10 foot pole.",
+      "rarity": "Common",
+      "category": "Gear",
+      "section": "equipment",
+      "id": "cm0lxc"
+    }
+  ],
+  "id": "12",
+  "appearance": "",
+  "ambitions": "",
+  "personality": "",
+  "backstory": ""
+}

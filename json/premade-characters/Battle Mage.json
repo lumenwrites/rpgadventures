@@ -1,0 +1,111 @@
+{
+  "name": "",
+  "image": "",
+  "currentHealth": 10,
+  "maxHealth": 10,
+  "currentEnergy": 10,
+  "maxEnergy": 10,
+  "experience": 0,
+  "level": 1,
+  "cards": [],
+  "abilities": [
+    {
+      "title": "Battle Magic (Novice)",
+      "description": "You know the basics of Battle Magic. Allows you to cast offensive spells.",
+      "ep": 3,
+      "xp": 3,
+      "category": "Magic Schools",
+      "bonusDice": 1,
+      "section": "abilities",
+      "id": "4302co"
+    },
+    {
+      "title": "Arcana (Novice)",
+      "description": "You understand magic and arcane arts.\nEnables you to use more sophisticated magic items.",
+      "ep": 3,
+      "xp": 3,
+      "category": "Knowledge",
+      "bonusDice": 1,
+      "section": "abilities",
+      "id": "6xezib"
+    }
+  ],
+  "spells": [
+    {
+      "title": "Small Fireball",
+      "description": "Sets stuff on fire. Hold in your hand as a light source.",
+      "ep": 3,
+      "xp": 3,
+      "category": "Battle Magic",
+      "damage": 3,
+      "requirements": "Battle Magic (Novice)",
+      "section": "spells",
+      "id": "2f6std"
+    },
+    {
+      "title": "Freeze Pulse",
+      "description": "Freezes liquids, covers objects with ice, creates ice on the ground (can do what Frozone from Incredibles can do).",
+      "ep": 3,
+      "xp": 3,
+      "category": "Battle Magic",
+      "damage": 3,
+      "requirements": "Battle Magic (Novice)",
+      "section": "spells",
+      "id": "i2oeci"
+    },
+    {
+      "title": "Stun",
+      "description": "Stun the target creature for 1 minute. It's unable to move or do anything.",
+      "ep": 3,
+      "xp": 3,
+      "category": "Battle Magic",
+      "damage": 3,
+      "requirements": "Battle Magic (Adept)",
+      "section": "spells",
+      "id": "ngy1fp"
+    }
+  ],
+  "magicItems": [
+    {
+      "title": "Small Health Potion",
+      "description": "Restores 4 health.",
+      "rarity": "Common",
+      "category": "Potions",
+      "section": "magicItems",
+      "id": "deqkfr"
+    },
+    {
+      "title": "Small Energy Potion",
+      "description": "Restores 4 energy.",
+      "rarity": "Common",
+      "category": "Potions",
+      "section": "magicItems",
+      "id": "wx0i64t"
+    }
+  ],
+  "equipment": [
+    {
+      "title": "Staff",
+      "description": "A wooden staff",
+      "rarity": "Common",
+      "category": "Weapons",
+      "damage": 3,
+      "section": "equipment",
+      "id": "wmem9"
+    },
+    {
+      "title": "Dagger",
+      "description": "A shiny steal dagger. Looks ready for violence.",
+      "rarity": "Common",
+      "category": "Weapons",
+      "damage": 3,
+      "section": "equipment",
+      "id": "r1mgap"
+    }
+  ],
+  "id": "ih6zn",
+  "appearance": "",
+  "ambitions": "",
+  "personality": "",
+  "backstory": ""
+}

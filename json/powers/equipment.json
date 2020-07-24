@@ -63,6 +63,14 @@
         "section": "equipment"
       },
       {
+        "title": "Staff",
+        "description": "A wooden staff",
+        "rarity": "Common",
+        "category": "Weapons",
+        "damage": 3,
+        "section": "equipment"
+      },
+      {
         "title": "Slingshot",
         "description": "Shoots a small projectile(like a pebble). Deals 3 damage.",
         "rarity": "Common",

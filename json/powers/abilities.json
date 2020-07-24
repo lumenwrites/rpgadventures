@@ -103,7 +103,7 @@
     "title": "Perception",
     "powers": [
       {
-        "title": "Keen Eye (Novice)",
+        "title": "Keen Eye",
         "description": "For the next 10 minutes you can notice things that are hard to see.",
         "ep": 3,
         "xp": 3,
@@ -112,7 +112,7 @@
         "section": "abilities"
       },
       {
-        "title": "Keen Ear (Novice)",
+        "title": "Keen Ear",
         "description": "For the next 10 minutes you can hear things that are hard to hear.",
         "ep": 3,
         "xp": 3,
@@ -121,7 +121,7 @@
         "section": "abilities"
       },
       {
-        "title": "Darkvision (Novice)",
+        "title": "Darkvision",
         "description": "For the next hour you can see in pitch darkness as if it’s an overcast day.",
         "ep": 3,
         "xp": 3,
@@ -130,8 +130,8 @@
         "section": "abilities"
       },
       {
-        "title": "Eagle Eye (Novice)",
-        "description": "You gain superhuman vision for the next minute.",
+        "title": "Eagle Eye",
+        "description": "You gain superhuman vision for the next minute, you can see the tiniest objects extremely far away.",
         "ep": 3,
         "xp": 3,
         "category": "Perception",
@@ -139,7 +139,7 @@
         "section": "abilities"
       },
       {
-        "title": "Owl's Ear (Novice)",
+        "title": "Owl's Ear",
         "description": "Gain hypersensitive hearing for the next minute.",
         "ep": 3,
         "xp": 3,
@@ -148,7 +148,7 @@
         "section": "abilities"
       },
       {
-        "title": "Investigation (Novice)",
+        "title": "Investigation",
         "description": "Describe how and where you search, and find subtle clues about what happened at the scene (if they exist).",
         "ep": 3,
         "xp": 3,
@@ -157,7 +157,7 @@
         "section": "abilities"
       },
       {
-        "title": "Sense Danger (Novice)",
+        "title": "Sense Danger",
         "description": "Set your “spidey sense” on high alert. For the next hour you will be able to sense when there’s a person or a creature who is about to attack you.",
         "ep": 3,
         "xp": 3,
@@ -575,7 +575,10 @@
       {
         "title": "Gather Intel",
         "description": "Infiltrate the person's office or home, and use your skills to reveal one of those things: The identity of an important associate, a location they will travel to (with the time and date), a secret that would embarrass them if revealed, their financial situation (including debts), their true feelings about you or your party, their strongest allegiance (to a government, guild, or other organization).",
+        "ep": 5,
+        "xp": 5,
         "category": "Stealth",
+        "bonusDice": 1,
         "section": "abilities"
       }
     ]

@@ -84,7 +84,7 @@
     -webkit-column-break-inside: avoid;
 
     &.adding {
-	//@extend .on-click-animation; //from _elements.scss
+	@extend .on-click-animation; //from _elements.scss
 	cursor: pointer
     }
 

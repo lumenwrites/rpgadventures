@@ -53,12 +53,11 @@ main {
 	top: 100%;
 	left: 0;
 	right: auto;
-
 	&.left {
 	    right: 0;
 	    left: auto;
 	}
-	z-index: 10;
+	z-index: 20;
 	background-color:$panel-bg;
 	box-shadow:2px 2px 10px 0 #191b22;
 
@@ -206,9 +205,12 @@ tbody tr:nth-child(even){
 	width: 100%;
 	height: 100%;	
 	opacity: 0;
-	transition: all 0.8s
+	transition: all 0.8s;
+	display:none;
+
     }
     &:active:after {
+	display:block;
 	padding: 0;
 	margin: 0;
 	opacity: 1;
@@ -233,7 +235,8 @@ tbody tr:nth-child(even){
 	
 	opacity: var(--opacity);
 	transition: 200ms opacity;
-	z-index: 99999999;
+	display:none;
+//	z-index: 5;
     }
     &::before {
 	--translate-y: calc(-100% - var(--arrow-size));
@@ -246,7 +249,6 @@ tbody tr:nth-child(even){
 	text-align: center;
 	line-height: 16px;
 	border-radius: 2px;
-	z-index: 10;
 	//display:none;
     }
     // Arrow

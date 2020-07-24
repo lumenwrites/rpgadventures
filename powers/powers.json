@@ -101,7 +101,6 @@
         },
         {
             "title": "Keen Eye",
-            "level": "Novice",
             "description": "For the next 10 minutes you can notice things that are hard to see.",
             "ep": 3,
             "xp": 3,
@@ -110,7 +109,6 @@
         },
         {
             "title": "Keen Ear",
-            "level": "Novice",
             "description": "For the next 10 minutes you can hear things that are hard to hear.",
             "ep": 3,
             "xp": 3,
@@ -119,7 +117,6 @@
         },
         {
             "title": "Darkvision",
-            "level": "Novice",
             "description": "For the next hour you can see in pitch darkness as if it’s an overcast day.",
             "ep": 3,
             "xp": 3,
@@ -128,8 +125,7 @@
         },
         {
             "title": "Eagle Eye",
-            "level": "Novice",
-            "description": "You gain superhuman vision for the next minute.",
+            "description": "You gain superhuman vision for the next minute, you can see the tiniest objects extremely far away.",
             "ep": 3,
             "xp": 3,
             "dice": 1,
@@ -137,7 +133,6 @@
         },
         {
             "title": "Owl's Ear",
-            "level": "Novice",
             "description": "Gain hypersensitive hearing for the next minute.",
             "ep": 3,
             "xp": 3,
@@ -146,7 +141,6 @@
         },
         {
             "title": "Investigation",
-            "level": "Novice",
             "description": "Describe how and where you search, and find subtle clues about what happened at the scene (if they exist).",
             "ep": 3,
             "xp": 3,
@@ -155,7 +149,6 @@
         },
         {
             "title": "Sense Danger",
-            "level": "Novice",
             "description": "Set your “spidey sense” on high alert. For the next hour you will be able to sense when there’s a person or a creature who is about to attack you.",
             "ep": 3,
             "xp": 3,
@@ -550,6 +543,9 @@
         {
             "title": "Gather Intel",
             "description": "Infiltrate the person's office or home, and use your skills to reveal one of those things: The identity of an important associate, a location they will travel to (with the time and date), a secret that would embarrass them if revealed, their financial situation (including debts), their true feelings about you or your party, their strongest allegiance (to a government, guild, or other organization).",
+            "ep": 5,
+            "xp": 5,
+            "dice": 1,
             "category": "Stealth"
         },
         {
@@ -3231,6 +3227,8 @@
         },
         {
             "title": "Staff",
+            "description": "A wooden staff",
+            "dmg": 3,
             "rarity": "Common",
             "category": "Weapons"
         },

@@ -3,12 +3,13 @@ import { connect } from "react-redux"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 import blankSheet from "../../../json/premade-characters/sheet-blank.json"
-import Wizard from "../../../json/premade-characters/Wizard.json"
+import ConjurationWizard from "../../../json/premade-characters/Conjuration Wizard.json"
+import IllusionistWizard from "../../../json/premade-characters/Illusionist Wizard.json"
+import BattleMage from "../../../json/premade-characters/Battle Mage.json"
 import Warrior from "../../../json/premade-characters/Warrior.json"
 import Ranger from "../../../json/premade-characters/Ranger.json"
 import Ninja from "../../../json/premade-characters/Ninja.json"
 import Druid from "../../../json/premade-characters/Druid.json"
-import Charmer from "../../../json/premade-characters/Charmer.json"
 
 import { downloadFile } from "../../utils"
 /* Actions */
@@ -73,7 +74,8 @@ class Subnav extends Component {
   }
   downloadSheet = () => {
     var sheet = this.props.sheets[0]
-    downloadFile(sheet.name + ".json", JSON.stringify(sheet))
+    var fileName = sheet.name || "character"
+    downloadFile(fileName + ".json", JSON.stringify(sheet, null, 2))
   }
   downloadSheets = () => {
     var { sheets } = this.props
@@ -98,28 +100,28 @@ class Subnav extends Component {
 		      Create
 		  </div>
 		  <div className="menu">
-		      <div
-			  className="item btn"
-			  onClick={() => this.createSheet(blankSheet)}
-		      >
+		      <div className="item btn"
+			   onClick={() => this.createSheet(blankSheet)}>
 			  Blank
 		      </div>
-		      <div
-			  className="item btn"
-			  onClick={() => this.createSheet(Wizard)}
-		      >
-			  Wizard
+		      <div className="item btn"
+			   onClick={() => this.createSheet(ConjurationWizard)}>
+			  Conjuration Wizard
 		      </div>
-		      <div
-			  className="item btn"
-			  onClick={() => this.createSheet(Warrior)}
-		      >
+		      <div className="item btn"
+			   onClick={() => this.createSheet(IllusionistWizard)}>
+			  Illusionist Wizard
+		      </div>
+		      <div className="item btn"
+			   onClick={() => this.createSheet(BattleMage)}>
+			  Battle Mage
+		      </div>
+		      <div className="item btn"
+			  onClick={() => this.createSheet(Warrior)}>
 			  Warrior
 		      </div>
-		      <div
-			  className="item btn"
-			  onClick={() => this.createSheet(Ranger)}
-		      >
+		      <div className="item btn"
+			  onClick={() => this.createSheet(Ranger)}>
 			  Ranger
 		      </div>
 		      <div className="item btn" onClick={() => this.createSheet(Ninja)}>
@@ -127,12 +129,6 @@ class Subnav extends Component {
 		      </div>
 		      <div className="item btn" onClick={() => this.createSheet(Druid)}>
 			  Druid
-		      </div>
-		      <div
-			  className="item btn"
-			  onClick={() => this.createSheet(Charmer)}
-		      >
-			  Charmer
 		      </div>
 		  </div>
               </div>
@@ -164,11 +160,11 @@ class Subnav extends Component {
 		  <div className="menu">
 		      {/* Hidden html5 file input */}
 		      <input
-		      type="file"
-		      id="file-input"
-		      accept=".json"
-		      ref={ref => (this.fileInput = ref)}
-		      onChange={this.openFile}
+			type="file"
+			id="file-input"
+			accept=".json"
+			ref={ref => (this.fileInput = ref)}
+			onChange={this.openFile}
 		      />
 		      {/* Just triggers click on file input */}
 		      <div className="item btn" onClick={() => this.fileInput.click()}>
