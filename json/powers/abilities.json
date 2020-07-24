@@ -238,7 +238,10 @@
       {
         "title": "Religion",
         "description": "You understand religions and gods of the world.",
+        "ep": 3,
+        "xp": 3,
         "category": "Knowledge",
+        "bonusDice": 1,
         "section": "abilities"
       }
     ]
@@ -536,25 +539,37 @@
       {
         "title": "Disguise",
         "description": "Craft a convincing disguise out of the clothes, make up, or objects you posess.",
+        "ep": 3,
+        "xp": 3,
         "category": "Stealth",
+        "bonusDice": 1,
         "section": "abilities"
       },
       {
         "title": "Criminal Underworld",
         "description": "You have connections in the criminal underworld.",
+        "ep": 3,
+        "xp": 3,
         "category": "Stealth",
+        "bonusDice": 1,
         "section": "abilities"
       },
       {
         "title": "Forgery",
         "description": "Forge items, documents, or art.",
+        "ep": 3,
+        "xp": 3,
         "category": "Stealth",
+        "bonusDice": 1,
         "section": "abilities"
       },
       {
         "title": "Lock Picking",
         "description": "Pick simple locks.",
+        "ep": 3,
+        "xp": 3,
         "category": "Stealth",
+        "bonusDice": 1,
         "section": "abilities"
       },
       {
@@ -574,6 +589,7 @@
         "ep": 3,
         "xp": 3,
         "category": "Survival",
+        "bonusDice": 1,
         "section": "abilities"
       },
       {
@@ -582,6 +598,7 @@
         "ep": 3,
         "xp": 3,
         "category": "Survival",
+        "bonusDice": 1,
         "section": "abilities"
       },
       {
@@ -590,6 +607,7 @@
         "ep": 3,
         "xp": 3,
         "category": "Survival",
+        "bonusDice": 1,
         "section": "abilities"
       },
       {
@@ -598,6 +616,7 @@
         "ep": 3,
         "xp": 3,
         "category": "Survival",
+        "bonusDice": 1,
         "section": "abilities"
       },
       {
@@ -606,6 +625,7 @@
         "ep": 3,
         "xp": 3,
         "category": "Survival",
+        "bonusDice": 1,
         "section": "abilities"
       },
       {
@@ -614,6 +634,7 @@
         "ep": 3,
         "xp": 3,
         "category": "Survival",
+        "bonusDice": 1,
         "section": "abilities"
       },
       {
@@ -622,6 +643,7 @@
         "ep": 3,
         "xp": 3,
         "category": "Survival",
+        "bonusDice": 1,
         "section": "abilities"
       },
       {
@@ -630,6 +652,7 @@
         "ep": 3,
         "xp": 3,
         "category": "Survival",
+        "bonusDice": 1,
         "section": "abilities"
       }
     ]
@@ -1234,18 +1257,13 @@
         "category": "Weapons",
         "bonusDice": 1,
         "section": "abilities"
-      }
-    ]
-  },
-  {
-    "title": "Armor",
-    "powers": [
+      },
       {
         "title": "Light Armor",
         "description": "Allows you to wear Light Armor",
         "ep": 3,
         "xp": 3,
-        "category": "Armor",
+        "category": "Weapons",
         "bonusDice": 1,
         "section": "abilities"
       },
@@ -1254,7 +1272,7 @@
         "description": "Allows you to wear Medium Armor",
         "ep": 6,
         "xp": 6,
-        "category": "Armor",
+        "category": "Weapons",
         "bonusDice": 2,
         "requirements": "Light armor",
         "section": "abilities"
@@ -1264,7 +1282,7 @@
         "description": "Allows you to wear Heavy Armor",
         "ep": 9,
         "xp": 9,
-        "category": "Armor",
+        "category": "Weapons",
         "bonusDice": 3,
         "requirements": "Heavy armor",
         "section": "abilities"
@@ -1391,6 +1409,17 @@
         "category": "Combat",
         "bonusDice": 1,
         "requirements": "Archer (Novice)",
+        "section": "abilities"
+      }
+    ]
+  },
+  {
+    "title": "Blank",
+    "powers": [
+      {
+        "title": "[Custom Title]",
+        "description": "[Create and edit this card if you need to create a custom one]",
+        "category": "Blank",
         "section": "abilities"
       }
     ]

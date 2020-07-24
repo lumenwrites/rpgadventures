@@ -1247,5 +1247,16 @@
         "section": "spells"
       }
     ]
+  },
+  {
+    "title": "Blank",
+    "powers": [
+      {
+        "title": "[Custom Title]",
+        "description": "[Create and edit this card if you need to create a custom one]",
+        "category": "Blank",
+        "section": "spells"
+      }
+    ]
   }
 ]

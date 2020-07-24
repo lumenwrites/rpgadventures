@@ -228,6 +228,9 @@
         {
             "title": "Religion",
             "description": "You understand religions and gods of the world.",
+            "ep": 3,
+            "xp": 3,
+            "dice": 1,
             "category": "Knowledge"
         },
         {
@@ -515,21 +518,33 @@
         {
             "title": "Disguise",
             "description": "Craft a convincing disguise out of the clothes, make up, or objects you posess.",
+            "ep": 3,
+            "xp": 3,
+            "dice": 1,
             "category": "Stealth"
         },
         {
             "title": "Criminal Underworld",
             "description": "You have connections in the criminal underworld.",
+            "ep": 3,
+            "xp": 3,
+            "dice": 1,
             "category": "Stealth"
         },
         {
             "title": "Forgery",
             "description": "Forge items, documents, or art.",
+            "ep": 3,
+            "xp": 3,
+            "dice": 1,
             "category": "Stealth"
         },
         {
             "title": "Lock Picking",
             "description": "Pick simple locks.",
+            "ep": 3,
+            "xp": 3,
+            "dice": 1,
             "category": "Stealth"
         },
         {
@@ -542,6 +557,7 @@
             "description": "You are good at dealing with animals.",
             "ep": 3,
             "xp": 3,
+            "dice": 1,
             "category": "Survival"
         },
         {
@@ -549,6 +565,7 @@
             "description": "You can follow tracks and identify what kind of creature has left them.",
             "ep": 3,
             "xp": 3,
+            "dice": 1,
             "category": "Survival"
         },
         {
@@ -556,6 +573,7 @@
             "description": "When camping in the wilderness, use the nearby flora to build a shelter. It hides your presence from the hostile creatures, and gives you an early warning about their approach.",
             "ep": 3,
             "xp": 3,
+            "dice": 1,
             "category": "Survival"
         },
         {
@@ -563,6 +581,7 @@
             "description": "You can disarm traps.",
             "ep": 3,
             "xp": 3,
+            "dice": 1,
             "category": "Survival"
         },
         {
@@ -570,6 +589,7 @@
             "description": "You can’t get lost in the wilderness. You can find your way to the closest oasis, shelter, nest of an animal.",
             "ep": 3,
             "xp": 3,
+            "dice": 1,
             "category": "Survival"
         },
         {
@@ -577,6 +597,7 @@
             "description": "When you are in a cave or a dungeon, make a loud sound, and you will sense the general shape of nearby passageways and locations.",
             "ep": 3,
             "xp": 3,
+            "dice": 1,
             "category": "Survival"
         },
         {
@@ -584,6 +605,7 @@
             "description": "Scavenge a nearby area and find a plant-based remedy for an ailment. You find enough for a single dose. The remedy cures temporary illness and eliminates poison.",
             "ep": 3,
             "xp": 3,
+            "dice": 1,
             "category": "Survival"
         },
         {
@@ -591,6 +613,7 @@
             "description": "Build a distress signal that can be seen by other Rangers. Within the next day, you will meet an NPC Ranger who comes to your aid.",
             "ep": 3,
             "xp": 3,
+            "dice": 1,
             "category": "Survival"
         },
         {
@@ -1222,7 +1245,7 @@
             "ep": 3,
             "xp": 3,
             "dice": 1,
-            "category": "Armor"
+            "category": "Weapons"
         },
         {
             "title": "Medium Armor",
@@ -1231,7 +1254,7 @@
             "xp": 6,
             "dice": 2,
             "req": "Light armor",
-            "category": "Armor"
+            "category": "Weapons"
         },
         {
             "title": "Heavy armor",
@@ -1240,7 +1263,7 @@
             "xp": 9,
             "dice": 3,
             "req": "Heavy armor",
-            "category": "Armor"
+            "category": "Weapons"
         },
         {
             "title": "Parry",
@@ -1357,6 +1380,11 @@
             "req": "Archer",
             "reqlvl": "Novice",
             "category": "Combat"
+        },
+        {
+            "title": "[Custom Title]",
+            "description": "[Create and edit this card if you need to create a custom one]",
+            "category": "Blank"
         }
     ],
     "spells": [
@@ -2628,8 +2656,8 @@
             "category": "Other"
         },
         {
-            "title": "[Custom Ability Title]",
-            "ep": "[Create and edit this ability if you need to create a custom one]",
+            "title": "[Custom Title]",
+            "description": "[Create and edit this card if you need to create a custom one]",
             "category": "Blank"
         }
     ],
@@ -3123,8 +3151,8 @@
             "category": "Potions"
         },
         {
-            "title": "[Custom Ability Title]",
-            "ep": "[Create and edit this ability if you need to create a custom one]",
+            "title": "[Custom Title]",
+            "description": "[Create and edit this card if you need to create a custom one]",
             "undefined": "Blank"
         }
     ],
@@ -3317,6 +3345,11 @@
         },
         {
             "rarity": "Common"
+        },
+        {
+            "title": "[Custom Title]",
+            "description": "[Create and edit this card if you need to create a custom one]",
+            "undefined": "Blank"
         },
         {
             "title": "[Custom Ability Title]",

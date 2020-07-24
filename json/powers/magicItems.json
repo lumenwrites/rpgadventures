@@ -583,5 +583,15 @@
         "section": "magicItems"
       }
     ]
+  },
+  {
+    "powers": [
+      {
+        "title": "[Custom Title]",
+        "description": "[Create and edit this card if you need to create a custom one]",
+        "undefined": "Blank",
+        "section": "magicItems"
+      }
+    ]
   }
 ]
