@@ -3,6 +3,8 @@ import React from "react"
 
 import "../styles/style.scss"
 
+import ReactTooltip from "react-tooltip"
+
 import Header from "./header"
 
 /* FontAwesome */
@@ -21,6 +23,8 @@ const Layout = ({ location, children, subnav }) => {
 	<main className={subnav ? "has-subnav" : ""}>
             <div className="wrapper">{children}</div>
 	</main>
+	<ReactTooltip className="react-tooltip" type="dark" effect="solid"
+		      delayShow={0} html={true}/>
     </>
   )
 }

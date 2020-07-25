@@ -3,6 +3,7 @@ import { connect } from "react-redux"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import ReactTooltip from "react-tooltip"
 
 import Subnav from "../components/CharacterSheet/Subnav"
 import Image from "../components/CharacterSheet/Image"
@@ -26,6 +27,10 @@ class Sheet extends Component {
     }
   }
 
+  componentDidUpdate() {
+    ReactTooltip.rebuild()
+  }
+  
   render() {
     var { sheets, updateSheet } = this.props
     var sheet = sheets[0]
@@ -37,11 +42,11 @@ class Sheet extends Component {
       <Layout subnav={subnav}>
           <article className="character-sheet" id="character-sheet">
               <input
-		type="text"
-		className="character-name"
-		placeholder="Character's Name"
-		value={sheet.name}
-		onChange={e => updateSheet({ ...sheet, name: e.target.value })}
+	      type="text"
+	      className="character-name"
+	      placeholder="Character's Name"
+	      value={sheet.name}
+	      onChange={e => updateSheet({ ...sheet, name: e.target.value })}
               />
               <div className="clearfix" />
               <Image />

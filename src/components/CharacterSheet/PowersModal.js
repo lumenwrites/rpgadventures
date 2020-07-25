@@ -4,10 +4,15 @@ import { connect } from 'react-redux'
 import Modal from '../elements/modal'
 import Power from './Power'
 
+import ReactTooltip from "react-tooltip"
+
 class PowersModal extends Component {
   state = {
     filterPowers: false,
     rarity: "Any"    
+  }
+  componentDidUpdate() {
+    ReactTooltip.rebuild()
   }
 
   renderCategories = () => {
@@ -49,9 +54,12 @@ class PowersModal extends Component {
     )
   }
   renderFilterPowersToggle = () => {
+    
+
     if (this.state.filterPowers) {
       return (
 	<div className="btn filter-powers-toggle"
+	     data-tip={`Filter based on your experience and prerequisite abilities you know.`} 
 	     onClick={()=> this.setState({filterPowers: false}) }>
 	    Showing only {this.props.name} you can learn. <br/>
 	    Show all available {this.props.name}?
@@ -59,6 +67,7 @@ class PowersModal extends Component {
     )} else {
       return (
 	<div className="btn filter-powers-toggle"
+	     data-tip={`Filter based on your experience and prerequisite abilities you know.`} 
 	     onClick={()=> this.setState({filterPowers: true}) }>
 	    Showing all available {this.props.name}. <br/>
 	    Show only  {this.props.name} you can learn?
