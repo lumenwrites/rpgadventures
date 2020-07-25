@@ -22,6 +22,11 @@ export default function (state = INITIAL_STATE, action) {
     case "LOAD_NPCS":
       npcs = action.payload
       return npcs
+    case "LOAD_NPC":
+      npc = action.payload
+      var randomId = Math.random().toString(36).substring(7)
+      npc.id = randomId
+      return [npc, ...state]
     default:
       return state
   }

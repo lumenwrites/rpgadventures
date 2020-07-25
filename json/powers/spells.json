@@ -569,6 +569,14 @@
         "section": "spells"
       },
       {
+        "title": "Technomancy",
+        "description": "Ability to control electrical/mechanical devices from a distance. Activate/deactivate them, make them perform their functions.",
+        "ep": 3,
+        "xp": 3,
+        "category": "Telepathy",
+        "section": "spells"
+      },
+      {
         "title": "Mind Stealer",
         "description": "Eat a person’s brain, and for the next hour you have access to their skills and memories.",
         "ep": 3,
@@ -1004,42 +1012,6 @@
     "title": "Nature",
     "powers": [
       {
-        "title": "Reverse Gravity",
-        "description": "Reverse gravity inside 10x10 meter cube.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Nature",
-        "requirements": "Nature (Novice)",
-        "section": "spells"
-      },
-      {
-        "title": "Slow Time",
-        "description": "Makes time run 10x slower. 5x5 meter cube",
-        "ep": 3,
-        "xp": 3,
-        "category": "Nature",
-        "requirements": "Nature (Novice)",
-        "section": "spells"
-      },
-      {
-        "title": "Still Magic",
-        "description": "Stop time for a selected object for 1 minute.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Nature",
-        "requirements": "Nature (Novice)",
-        "section": "spells"
-      },
-      {
-        "title": "Revision Magic",
-        "description": "Pick an object, creature, or 3x3 meter area, and rewind it's time for up to 1 minute. Revising a person causes them to lose all their memories of what happened during revision time.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Nature",
-        "requirements": "Nature (Novice)",
-        "section": "spells"
-      },
-      {
         "title": "Luck",
         "description": "Cast this spell when someone performs an action, and it will be influenced by the supernaturally good (or bad) luck.",
         "ep": 3,
@@ -1155,6 +1127,42 @@
         "category": "Nature",
         "requirements": "Nature (Novice)",
         "section": "spells"
+      },
+      {
+        "title": "Reverse Gravity",
+        "description": "Reverse gravity inside 10x10 meter cube.",
+        "ep": 5,
+        "xp": 5,
+        "category": "Nature",
+        "requirements": "Nature (Adept)",
+        "section": "spells"
+      },
+      {
+        "title": "Slow Time",
+        "description": "Makes time run 10x slower. 5x5 meter cube",
+        "ep": 5,
+        "xp": 5,
+        "category": "Nature",
+        "requirements": "Nature (Adept)",
+        "section": "spells"
+      },
+      {
+        "title": "Still Magic",
+        "description": "Stop time for a selected object for 1 minute.",
+        "ep": 5,
+        "xp": 5,
+        "category": "Nature",
+        "requirements": "Nature (Adept)",
+        "section": "spells"
+      },
+      {
+        "title": "Revision Magic",
+        "description": "Pick an object, creature, or 3x3 meter area, and rewind it's time for up to 1 minute. Revising a person causes them to lose all their memories of what happened during revision time.",
+        "ep": 5,
+        "xp": 5,
+        "category": "Nature",
+        "requirements": "Nature (Adept)",
+        "section": "spells"
       }
     ]
   },
@@ -1231,19 +1239,6 @@
         "xp": 3,
         "category": "Necromancy",
         "requirements": "Necromancy (Novice)",
-        "section": "spells"
-      }
-    ]
-  },
-  {
-    "title": "Other",
-    "powers": [
-      {
-        "title": "Technomancy",
-        "description": "Ability to control electrical/mechanical devices from a distance. Activate/deactivate them, make them perform their functions.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Other",
         "section": "spells"
       }
     ]

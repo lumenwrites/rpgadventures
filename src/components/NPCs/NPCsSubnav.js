@@ -6,7 +6,7 @@ import blankNpc from "../../../json/premade-npcs/blank-npc.json"
 
 import { downloadFile } from "../../utils"
 /* Actions */
-import { createNpc, loadNpcs } from "../../actions/npcsActions"
+import { createNpc, loadNpcs, loadNpc } from "../../actions/npcsActions"
 
 class Subnav extends Component {
   createNpc = (archetype) => {
@@ -21,20 +21,24 @@ class Subnav extends Component {
 
     var reader = new FileReader()
     reader.readAsText(file)
-    reader.onload = function (e) {
+    reader.onload = (e) => {
       /* Once reading has completed */
       var contents = e.target.result
       var json = JSON.parse(contents)
       console.log("Opened file", file.name, json)
       if (Array.isArray(json)) {
+	/* Load a set of NPCs */
         this.props.loadNpcs(json)
+      } else {
+	/* Load a single NPC */
+        this.props.loadNpc(json)
       }
-    }.bind(this)
+    }
   }
 
   downloadNpcs = () => {
     var { npcs } = this.props
-    downloadFile("npcs.json", JSON.stringify(npcs))
+    downloadFile("npcs.json", JSON.stringify(npcs, null, 2))
   }
 
   render() {
@@ -80,4 +84,4 @@ class Subnav extends Component {
 }
 }
 
-export default connect(({ npcs }) => ({ npcs }), {createNpc, loadNpcs})(Subnav)
+export default connect(({ npcs }) => ({ npcs }), {createNpc, loadNpcs, loadNpc})(Subnav)

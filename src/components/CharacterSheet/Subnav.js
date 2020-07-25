@@ -79,7 +79,7 @@ class Subnav extends Component {
   }
   downloadSheets = () => {
     var { sheets } = this.props
-    downloadFile("character-sheets.json", JSON.stringify(sheets))
+    downloadFile("character-sheets.json", JSON.stringify(sheets, null, 2))
   }
 
   render() {
@@ -117,11 +117,11 @@ class Subnav extends Component {
 			  Battle Mage
 		      </div>
 		      <div className="item btn"
-			  onClick={() => this.createSheet(Warrior)}>
+			   onClick={() => this.createSheet(Warrior)}>
 			  Warrior
 		      </div>
 		      <div className="item btn"
-			  onClick={() => this.createSheet(Ranger)}>
+			   onClick={() => this.createSheet(Ranger)}>
 			  Ranger
 		      </div>
 		      <div className="item btn" onClick={() => this.createSheet(Ninja)}>
@@ -160,11 +160,11 @@ class Subnav extends Component {
 		  <div className="menu">
 		      {/* Hidden html5 file input */}
 		      <input
-			type="file"
-			id="file-input"
-			accept=".json"
-			ref={ref => (this.fileInput = ref)}
-			onChange={this.openFile}
+		      type="file"
+		      id="file-input"
+		      accept=".json"
+		      ref={ref => (this.fileInput = ref)}
+		      onChange={this.openFile}
 		      />
 		      {/* Just triggers click on file input */}
 		      <div className="item btn" onClick={() => this.fileInput.click()}>

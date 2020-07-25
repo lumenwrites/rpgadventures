@@ -169,6 +169,14 @@
         "category": "Weapons",
         "damage": 4,
         "section": "magicItems"
+      },
+      {
+        "title": "Flaming Whip",
+        "description": "An epic whip made out of pure fire, energy, and rage. The one Indiana Jones would have, if he was a demon.",
+        "rarity": "Legendary",
+        "category": "Weapons",
+        "damage": 10,
+        "section": "magicItems"
       }
     ]
   },
@@ -297,34 +305,15 @@
     ]
   },
   {
-    "title": "Locomotion",
-    "powers": [
-      {
-        "title": "Teleportation pyramids",
-        "description": "2 small pyramids. Activating one pyramid teleports anyone who touches it to the location of the other pyramid.",
-        "rarity": "Legendary",
-        "category": "Locomotion",
-        "section": "magicItems"
-      },
-      {
-        "title": "Teleportation Key",
-        "description": "Teleports you and up to 5 people who are touching it to any location you have ever personally visited. 1 hour cooldown.",
-        "rarity": "Legendary",
-        "category": "Locomotion",
-        "section": "magicItems"
-      },
-      {
-        "title": "Dimensional Gate",
-        "description": "A pair of portals (large obsidian circles) connected by a wormhole.",
-        "rarity": "Legendary",
-        "category": "Locomotion",
-        "section": "magicItems"
-      }
-    ]
-  },
-  {
     "title": "Other",
     "powers": [
+      {
+        "title": "Unlabeled package",
+        "description": "Mysterious package. When you unwrap it, you can declare what was contained inside. It can be anything, as long as it's no more valuable than a horse or a good sword. If you name something too valuable/powerful, the box returns the closest thing that fits into the value range (if you ask for a potion of immortality, it might return a health potion or a spell scroll).",
+        "rarity": "Legendary",
+        "category": "Other",
+        "section": "magicItems"
+      },
       {
         "title": "The ring of tiny-beast master",
         "description": "Allows you to sense and control all the insects within 100 meter radius around you.",
@@ -372,6 +361,32 @@
         "description": "If you know the person's name and face, write their name in this black notebook, describing the time (within the next month) and manner of death (something that could realistically happen to them), and they will die in a described manner. Works once per day.",
         "rarity": "Supreme",
         "category": "Other",
+        "section": "magicItems"
+      }
+    ]
+  },
+  {
+    "title": "Locomotion",
+    "powers": [
+      {
+        "title": "Teleportation pyramids",
+        "description": "2 small pyramids. Activating one pyramid teleports anyone who touches it to the location of the other pyramid.",
+        "rarity": "Legendary",
+        "category": "Locomotion",
+        "section": "magicItems"
+      },
+      {
+        "title": "Teleportation Key",
+        "description": "Teleports you and up to 5 people who are touching it to any location you have ever personally visited. 1 hour cooldown.",
+        "rarity": "Legendary",
+        "category": "Locomotion",
+        "section": "magicItems"
+      },
+      {
+        "title": "Dimensional Gate",
+        "description": "A pair of portals (large obsidian circles) connected by a wormhole.",
+        "rarity": "Legendary",
+        "category": "Locomotion",
         "section": "magicItems"
       }
     ]

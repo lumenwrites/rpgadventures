@@ -1842,6 +1842,13 @@
             "category": "Telepathy"
         },
         {
+            "title": "Technomancy",
+            "description": "Ability to control electrical/mechanical devices from a distance. Activate/deactivate them, make them perform their functions.",
+            "ep": 3,
+            "xp": 3,
+            "category": "Telepathy"
+        },
+        {
             "title": "Mind Stealer",
             "description": "Eat a person’s brain, and for the next hour you have access to their skills and memories.",
             "ep": 3,
@@ -2401,47 +2408,6 @@
             "category": "Warding"
         },
         {
-            "ep": 3,
-            "xp": 3,
-            "reqlvl": "Novice"
-        },
-        {
-            "title": "Reverse Gravity",
-            "description": "Reverse gravity inside 10x10 meter cube.",
-            "ep": 3,
-            "xp": 3,
-            "req": "Nature",
-            "reqlvl": "Novice",
-            "category": "Nature"
-        },
-        {
-            "title": "Slow Time",
-            "description": "Makes time run 10x slower. 5x5 meter cube",
-            "ep": 3,
-            "xp": 3,
-            "req": "Nature",
-            "reqlvl": "Novice",
-            "category": "Nature"
-        },
-        {
-            "title": "Still Magic",
-            "description": "Stop time for a selected object for 1 minute.",
-            "ep": 3,
-            "xp": 3,
-            "req": "Nature",
-            "reqlvl": "Novice",
-            "category": "Nature"
-        },
-        {
-            "title": "Revision Magic",
-            "description": "Pick an object, creature, or 3x3 meter area, and rewind it's time for up to 1 minute. Revising a person causes them to lose all their memories of what happened during revision time.",
-            "ep": 3,
-            "xp": 3,
-            "req": "Nature",
-            "reqlvl": "Novice",
-            "category": "Nature"
-        },
-        {
             "title": "Luck",
             "description": "Cast this spell when someone performs an action, and it will be influenced by the supernaturally good (or bad) luck.",
             "ep": 3,
@@ -2566,6 +2532,47 @@
         {
             "ep": 3,
             "xp": 3,
+            "reqlvl": "Adept"
+        },
+        {
+            "title": "Reverse Gravity",
+            "description": "Reverse gravity inside 10x10 meter cube.",
+            "ep": 5,
+            "xp": 5,
+            "req": "Nature",
+            "reqlvl": "Adept",
+            "category": "Nature"
+        },
+        {
+            "title": "Slow Time",
+            "description": "Makes time run 10x slower. 5x5 meter cube",
+            "ep": 5,
+            "xp": 5,
+            "req": "Nature",
+            "reqlvl": "Adept",
+            "category": "Nature"
+        },
+        {
+            "title": "Still Magic",
+            "description": "Stop time for a selected object for 1 minute.",
+            "ep": 5,
+            "xp": 5,
+            "req": "Nature",
+            "reqlvl": "Adept",
+            "category": "Nature"
+        },
+        {
+            "title": "Revision Magic",
+            "description": "Pick an object, creature, or 3x3 meter area, and rewind it's time for up to 1 minute. Revising a person causes them to lose all their memories of what happened during revision time.",
+            "ep": 5,
+            "xp": 5,
+            "req": "Nature",
+            "reqlvl": "Adept",
+            "category": "Nature"
+        },
+        {
+            "ep": 3,
+            "xp": 3,
             "reqlvl": "Novice"
         },
         {
@@ -2643,13 +2650,6 @@
         {
             "ep": 3,
             "xp": 3
-        },
-        {
-            "title": "Technomancy",
-            "description": "Ability to control electrical/mechanical devices from a distance. Activate/deactivate them, make them perform their functions.",
-            "ep": 3,
-            "xp": 3,
-            "category": "Other"
         },
         {
             "title": "[Custom Title]",
@@ -2796,6 +2796,13 @@
             "category": "Weapons"
         },
         {
+            "title": "Flaming Whip",
+            "description": "An epic whip made out of pure fire, energy, and rage. The one Indiana Jones would have, if he was a demon.",
+            "dmg": 10,
+            "rarity": "Legendary",
+            "category": "Weapons"
+        },
+        {
             "title": "Sending Stones",
             "description": "Magical walkie-talkie. Communicate telepathically within 300 meters of each other.",
             "rarity": "Uncommon",
@@ -2905,7 +2912,10 @@
             "category": "Information"
         },
         {
-            "rarity": "Legendary"
+            "title": "Unlabeled package",
+            "description": "Mysterious package. When you unwrap it, you can declare what was contained inside. It can be anything, as long as it's no more valuable than a horse or a good sword. If you name something too valuable/powerful, the box returns the closest thing that fits into the value range (if you ask for a potion of immortality, it might return a health potion or a spell scroll).",
+            "rarity": "Legendary",
+            "category": "Other"
         },
         {
             "title": "Teleportation pyramids",
@@ -3356,6 +3366,64 @@
         }
     ],
     "boilerplate": [
+        {
+            "level": "Novice",
+            "ep": 3,
+            "xp": 3,
+            "dice": 1
+        },
+        {
+            "level": "Adept",
+            "ep": 6,
+            "xp": 6,
+            "dice": 2,
+            "reqlvl": "Novice"
+        },
+        {
+            "level": "Expert",
+            "ep": 9,
+            "xp": 9,
+            "dice": 3,
+            "reqlvl": "Adept"
+        },
+        {
+            "level": "Master",
+            "ep": 12,
+            "xp": 12,
+            "dice": 4,
+            "reqlvl": "Expert"
+        }
+    ],
+    "villainPowers": [
+        {
+            "level": "Novice",
+            "ep": 3,
+            "xp": 3,
+            "dice": 1
+        },
+        {
+            "level": "Adept",
+            "ep": 6,
+            "xp": 6,
+            "dice": 2,
+            "reqlvl": "Novice"
+        },
+        {
+            "level": "Expert",
+            "ep": 9,
+            "xp": 9,
+            "dice": 3,
+            "reqlvl": "Adept"
+        },
+        {
+            "level": "Master",
+            "ep": 12,
+            "xp": 12,
+            "dice": 4,
+            "reqlvl": "Expert"
+        }
+    ],
+    "creaturePowers": [
         {
             "level": "Novice",
             "ep": 3,

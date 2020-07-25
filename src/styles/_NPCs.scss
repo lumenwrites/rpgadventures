@@ -22,34 +22,38 @@
 	border-bottom: 1px solid $border;
 	background: #fafafa;
 	font-weight: bold;
-	width: 164px;
+	width: 100%;
 	border-radius: 0; // corners are rounded in ios. will this fix it?
 	&:hover,&:focus {
 	    outline:none;
 	}
     }  
     // Buttons
-    .show-stats-btn {
+    .dropdown {
 	font-size: 11px;
-	opacity: 0.7;
-	border: 1px solid $border;
-	cursor: pointer;
-	border-radius: 4px;
-	width: 20px;
-	height: 20px;
-	padding: 0;
-	line-height: 20px;
-	text-align: center;
-	float:right;
-	&:hover {
-	    background: white;
-	    opacity: 1;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	.menu-handle {
+	    width: 20px;
+	    height: 20px;
+	    line-height: 20px;
+	    padding: 0;
+	    text-align: center;
 	}
+	.menu .btn {
+	    opacity: 0.7;
+	    padding: 4px;
+	    line-height: 20px;
+	    svg {
+		margin-right: 5px;
+	    }
+	}	
     }
-    .edit-btn, .delete-btn {
-	@extend .show-stats-btn;
-	float: left;
-    }
+    // .edit-btn, .delete-btn {
+    // 	@extend .show-stats-btn;
+    // 	float: left;
+    // }
     
     // Image
     .character-image {
