@@ -40,13 +40,15 @@ class Power extends Component {
 		      data-tip="Energy Cost">
 		     <FontAwesomeIcon icon={["fab", "react"]}/>	  
 		     {power.ep}
-		 </div>)}	  
-	       {power.bonusDice && (
-		 <div className="level"
-		      data-tip="Adds dice to your roll">
-		     <FontAwesomeIcon icon={["fas", "dice"]}/>	  
-		     {power.bonusDice}
 		 </div>)}
+	       {/*  
+		   {power.bonusDice && (
+		   <div className="level"
+		   data-tip="Adds dice to your roll">
+		   <FontAwesomeIcon icon={["fas", "dice"]}/>	  
+		   {power.bonusDice}
+		   </div>)}
+		 */}
 	       <div className="clearfix"/>
 	   </div>}
       </div>

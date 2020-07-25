@@ -34,6 +34,7 @@ for (var powerType in data) {
     }
     p.bonusDice = p.dice //rename the field
     p.damage = p.dmg //rename the field
+    
     /* Requirements */
     if (p.req) {
       p.requirements = p.req
@@ -45,7 +46,7 @@ for (var powerType in data) {
     p.section = powerType
 
     /* Delete unused and empty fields */
-    var unusedFields = ['level','req','reqlvl','dice','dmg']
+    var unusedFields = ['level','req','reqlvl','dice','dmg', 'bonusDice']
     for (var key in p) {
       if (!p[key])  delete p[key] // delete empty fields
       if (unusedFields.includes(key))  delete p[key] // delete unused fields

@@ -106,7 +106,6 @@
         "description": "Intentionally roll with disadvantage, \"storing\" the luck, which you can later use to roll with advantage.",
         "rarity": "Uncommon",
         "category": "Utility",
-        "bonusDice": 1,
         "section": "magicItems"
       },
       {

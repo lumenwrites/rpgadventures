@@ -102,7 +102,6 @@
         "description": "Suit made out of light black clothes. Increases you max HP by 3 points. Makes you very hard to notice in the dark.",
         "rarity": "Uncommon",
         "category": "Armor",
-        "bonusDice": 1,
         "section": "equipment"
       },
       {

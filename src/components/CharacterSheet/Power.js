@@ -122,12 +122,14 @@ class Power extends Component {
 		 {power.ep}
 	     </div>)}
 	{/* Bonus Dice. */}
+	{/*  
 	{power.bonusDice && (
 	  <div className="level tooltip"
 	       data-tip="Adds dice to your roll">
 	      <FontAwesomeIcon icon={["fas", "dice"]}/>	  
 	      {power.bonusDice}
 	  </div>)}
+	  */}
 	{/* Damage. */}
 	{power.damage && (
 	  <div className="level tooltip"
