@@ -12,7 +12,9 @@
     height: 315px;
     width: 226px;
     position: relative;
-
+    svg {
+	max-height: 16px;
+    }
     // Name
     .name {
 	text-align: center;
