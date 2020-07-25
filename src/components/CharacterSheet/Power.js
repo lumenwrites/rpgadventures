@@ -16,7 +16,7 @@ class Power extends Component {
     power.id = Math.random().toString(36).substring(7)
 
     /* Don't add if you don't have enough XP */
-    if (power.xp && (sheets[0].experience < power.xp)) return 
+    //if (power.xp && (sheets[0].experience < power.xp)) return 
     /* You can have multiple items, but not abilities/spells*/
     /* If the ability/spell with this title already exists - don't add it */
     if (section == 'abilities' || section == 'spells') {
@@ -28,7 +28,7 @@ class Power extends Component {
     updatedSheet[section] = [...updatedSheet[section], power]
 
     // Subtract the power from current XP
-    if (power.xp) { updatedSheet.experience -= power.xp }
+    //if (power.xp) { updatedSheet.experience -= power.xp }
     updateSheet(updatedSheet)
   }
 

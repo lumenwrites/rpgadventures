@@ -6,8 +6,8 @@ import Power from './Power'
 
 class PowersModal extends Component {
   state = {
-    filterPowers: true,
-    rarity: "Common"    
+    filterPowers: false,
+    rarity: "Any"    
   }
 
   renderCategories = () => {
@@ -91,20 +91,24 @@ class PowersModal extends Component {
 	if (!meetsTheRequirements) return true
       }
     }
+    return false    
+  }
 
+  filterItems = (power) => {
     /* Filter common items */
     var isItem = power.section == "magicItems" || power.section == "equipment"
     var { rarity }  = this.state
     if (isItem && rarity !== "Any") {
       if (power.rarity !== rarity) return true
     }
-    return false
+    return false    
   }
   
   renderPowers = (powers) => {
     return powers.map((power,i)=> {
       /* Hide the power if checkbox is on and it doesn't meet the requirements */
       if (this.state.filterPowers && this.filterPower(power)) return
+      if (this.filterItems(power)) return
       return (
 	<Power power={power} key={i} adding/>
       )
@@ -112,7 +116,7 @@ class PowersModal extends Component {
   }
 
   renderRarityFilter = () => {
-    var raritiesList = ["Any", "Common", "Uncommon", "Rare", "Legendary", "Supreme"]
+    var raritiesList = ["Any", "Common", "Uncommon", "Legendary", "Supreme"] //"Rare",
     var rarities = raritiesList.map((rarity,i)=>(
       <div className="item btn" key={i} onClick={()=> this.setState({rarity})}>
 	  {rarity}
