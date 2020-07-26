@@ -42,11 +42,11 @@ class Sheet extends Component {
       <Layout subnav={subnav}>
           <article className="character-sheet" id="character-sheet">
               <input
-	      type="text"
-	      className="character-name"
-	      placeholder="Character's Name"
-	      value={sheet.name}
-	      onChange={e => updateSheet({ ...sheet, name: e.target.value })}
+		type="text"
+		className="character-name"
+		placeholder="Character's Name"
+		value={sheet.name}
+		onChange={e => updateSheet({ ...sheet, name: e.target.value })}
               />
               <div className="clearfix" />
               <Image />
@@ -66,16 +66,19 @@ class Sheet extends Component {
 
               <div className="clearfix" />
 
-              <hr />
-              <div className="col-1">
-		  <Description type={0} />
-		  <Description type={2} />
-              </div>
-              <div className="col-2">
-		  <Description type={1} />
+	      <div className="character-description">
+		  <hr />
 
-		  <Description type={3} />
-              </div>
+		  <div className="col-1">
+		      <Description type={0} />
+		      <Description type={2} />
+		  </div>
+		  <div className="col-2">
+		      <Description type={1} />
+
+		      <Description type={3} />
+		  </div>
+	      </div>
               <div className="clearfix" />
           </article>
 	  <SEO title={"Character Sheet | Mirage"} description={"Character Sheet App"}/>
