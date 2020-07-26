@@ -6,7 +6,7 @@ module.exports = {
       summary: `who lives and works in San Francisco building useful things.`,
     },
     description: `Lighthearted, social, easy to learn roleplaying game focused on storytelling, improvisation, imagination and creativity.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    siteUrl: `https://playmirage.io`,
     social: {
       twitter: `lumenwrites`,
     },
@@ -68,6 +68,7 @@ module.exports = {
     `gatsby-plugin-remove-trailing-slashes`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-preload-fonts`,
+    `gatsby-plugin-sitemap`
     //'gatsby-plugin-draft',
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
