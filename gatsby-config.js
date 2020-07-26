@@ -56,9 +56,9 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        short_name: `Mirage`,
         start_url: `/`,
-        background_color: `#ffffff`,
+        background_color: `#f66314`,
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `static/logo.png`,
@@ -72,6 +72,17 @@ module.exports = {
     //'gatsby-plugin-draft',
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-     `gatsby-plugin-offline`
+    {	
+      resolve: `gatsby-plugin-offline`,	
+     options: {
+       importWorkboxFrom: `local`,
+       globDirectory: 'public',
+       globPatterns: ['*/**'],
+       cacheId: `gatsby-plugin-offline`,
+       skipWaiting: true,
+       clientsClaim: true,
+       directoryIndex: 'index.html',
+     }
+    }
   ],
 }
