@@ -59,7 +59,7 @@ module.exports = {
         short_name: `Mirage`,
         start_url: `/`,
         background_color: `#f66314`,
-        theme_color: `##ffffff`,
+        theme_color: `#3d454b`,
         display: `minimal-ui`,
         icon: `static/logo.png`,
 	cache_busting_mode: 'none'
