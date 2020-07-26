@@ -55,13 +55,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `Mirage`,
         short_name: `Mirage`,
         start_url: `/`,
         background_color: `#f66314`,
-        theme_color: `#663399`,
+        theme_color: `##ffffff`,
         display: `minimal-ui`,
         icon: `static/logo.png`,
+	cache_busting_mode: 'none'
       },
     },
     `gatsby-plugin-react-helmet`,
@@ -73,14 +74,9 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     {	
-      resolve: `gatsby-plugin-offline`,	
+      resolve: `gatsby-plugin-offline`,
      options: {
-       importWorkboxFrom: `local`,
-       globDirectory: 'public',
        globPatterns: ['*/**'],
-       cacheId: `gatsby-plugin-offline`,
-       skipWaiting: true,
-       clientsClaim: true,
        directoryIndex: 'index.html',
      }
     }
