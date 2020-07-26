@@ -68,10 +68,10 @@ module.exports = {
     `gatsby-plugin-remove-trailing-slashes`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-preload-fonts`,
-    `gatsby-plugin-sitemap`
+    `gatsby-plugin-sitemap`,
     //'gatsby-plugin-draft',
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-     `gatsby-plugin-offline`,
+     `gatsby-plugin-offline`
   ],
 }
