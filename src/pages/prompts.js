@@ -114,7 +114,7 @@ class Prompts extends Component {
 	      <div className="clearfix" />
               <h3>Setting</h3>
               {this.renderImage(this.props.data.locations.edges, 15, true)}
-              <Link className="small" to="/world">
+              <Link className="small" to="/prompts/locations">
 		  [Full list of Settings]
               </Link>
               <div className="clearfix" />
