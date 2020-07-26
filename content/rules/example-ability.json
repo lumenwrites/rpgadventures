@@ -5,5 +5,7 @@
     "xp": "3",
     "requirements": "Knowledge of Nature",
     "description": "You can follow tracks and identify what kind of creature has left them.",
-    "section": "abilities"
+    "section": "abilities",
+    "level": 2,
+    "category": "Survival"
 }

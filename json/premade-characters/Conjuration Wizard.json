@@ -1,65 +1,58 @@
 {
   "name": "",
   "image": "",
-  "currentHealth": 10,
-  "maxHealth": 10,
-  "currentEnergy": 10,
-  "maxEnergy": 10,
+  "currentHealth": 12,
+  "maxHealth": 12,
+  "currentEnergy": 12,
+  "maxEnergy": 12,
   "experience": 0,
   "level": 1,
   "cards": [],
   "abilities": [
     {
-      "title": "Arcana (Novice)",
-      "description": "You understand magic and arcane arts.\nEnables you to use more sophisticated magic items.",
-      "ep": 3,
-      "xp": 3,
+      "title": "Arcana Student",
+      "description": "You know a lot about magic and arcane arts. You can identify magic items.",
+      "ep": 4,
+      "xp": 4,
       "category": "Knowledge",
-      "bonusDice": 1,
+      "level": 0,
+      "school": "Knowledge (0)",
       "section": "abilities",
-      "id": "zqgyq"
+      "id": "9731u"
     },
     {
-      "title": "Conjuration (Novice)",
-      "description": "You know the basics of Conjuration. Allows you to cast basic spells.",
-      "ep": 3,
-      "xp": 3,
-      "category": "Magic Schools",
-      "bonusDice": 1,
+      "title": "Potion Maker",
+      "description": "Enables you to spend 2 XP to brew any common or uncommon potion.",
+      "xp": 6,
+      "category": "Crafting",
+      "level": 0,
+      "school": "Crafting (0)",
       "section": "abilities",
-      "id": "9hoadh"
+      "id": "5les99"
     }
   ],
   "spells": [
     {
+      "title": "Mend",
+      "description": "Fix a broken non-magical item (broken cup, torn clothes).",
+      "ep": 3,
+      "xp": 3,
+      "category": "Conjuration",
+      "level": 0,
+      "school": "Conjuration (0)",
+      "section": "spells",
+      "id": "x019gn"
+    },
+    {
       "title": "Conjure a Mundane Item",
-      "description": "Create a small non-magical item you’re familiar with (like a hammer, a spyglass, or a candle). No larger than 3 feet cube, no heavier than 10 pounds.\nThe object is visibly magical, disappears after 1 hour, or if it takes any damage.",
+      "description": "Create a small non-magical item you’re familiar with (like a hammer, a spyglass, or a candle). No larger than 3 feet cube, no heavier than 10 pounds. The object is visibly magical, disappears after 1 hour, or if it takes any damage.",
       "ep": 3,
       "xp": 3,
       "category": "Conjuration",
-      "requirements": "Conjuration (Novice)",
+      "level": 0,
+      "school": "Conjuration (0)",
       "section": "spells",
-      "id": "8hewe4"
-    },
-    {
-      "title": "Summon Familiar",
-      "description": "Summon a small creature who will be your pet and a friend. You can communicate with it telepathically, give it commands, see through its eyes, hear what it hears, cast spells through it. If the creature takes damage it disappears, but you can resummon it.",
-      "ep": 3,
-      "xp": 3,
-      "category": "Conjuration",
-      "requirements": "Conjuration (Novice)",
-      "section": "spells",
-      "id": "68wvb"
-    },
-    {
-      "title": "Fire hose",
-      "description": "For the next minute, a stream of water shoots from your hand like from a fire hose.",
-      "ep": 3,
-      "xp": 3,
-      "category": "Conjuration",
-      "requirements": "Conjuration (Novice)",
-      "section": "spells",
-      "id": "8uu1hh"
+      "id": "fw0q6i"
     }
   ],
   "magicItems": [
@@ -68,16 +61,18 @@
       "description": "Restores 4 health.",
       "rarity": "Common",
       "category": "Potions",
+      "school": "Potions (undefined)",
       "section": "magicItems",
-      "id": "d6lfac"
+      "id": "edm2p"
     },
     {
       "title": "Small Energy Potion",
       "description": "Restores 4 energy.",
       "rarity": "Common",
       "category": "Potions",
+      "school": "Potions (undefined)",
       "section": "magicItems",
-      "id": "bs9zy5"
+      "id": "7qb338"
     }
   ],
   "equipment": [
@@ -86,16 +81,19 @@
       "description": "Provide light. Set things on fire.",
       "rarity": "Common",
       "category": "Gear",
+      "school": "Gear (undefined)",
       "section": "equipment",
-      "id": "01hvy"
+      "id": "03vlbl"
     },
     {
-      "title": "10 foot pole",
-      "description": "A regular 10 foot pole. Useful whenever you need a 10 foot pole.",
+      "title": "Staff",
+      "description": "A wooden staff",
+      "damage": 3,
       "rarity": "Common",
-      "category": "Gear",
+      "category": "Weapons",
+      "school": "Weapons (undefined)",
       "section": "equipment",
-      "id": "cm0lxc"
+      "id": "r5q8ge"
     }
   ],
   "id": "12",

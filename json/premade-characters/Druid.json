@@ -1,33 +1,22 @@
 {
   "name": "",
   "image": "",
-  "currentHealth": 10,
-  "maxHealth": 10,
-  "currentEnergy": 10,
-  "maxEnergy": 10,
+  "currentHealth": 12,
+  "maxHealth": 12,
+  "currentEnergy": 12,
+  "maxEnergy": 12,
   "experience": 0,
-  "level": 1,
-  "cards": [],
   "abilities": [
     {
-      "title": "Nature (Novice)",
-      "description": "You know the basics of Environmental Magic. Allows you to cast basic spells.",
+      "title": "Tracking",
+      "description": "You can follow tracks and identify what kind of creature has left them.",
       "ep": 3,
       "xp": 3,
-      "category": "Magic Schools",
-      "bonusDice": 1,
+      "category": "Survival",
+      "level": 0,
+      "school": "Survival (0)",
       "section": "abilities",
-      "id": "unaopl"
-    },
-    {
-      "title": "Keen Eye",
-      "description": "For the next 10 minutes you can notice things that are hard to see.",
-      "ep": 3,
-      "xp": 3,
-      "category": "Perception",
-      "bonusDice": 1,
-      "section": "abilities",
-      "id": "fzutp8"
+      "id": "ibkb64"
     }
   ],
   "spells": [
@@ -37,19 +26,32 @@
       "ep": 3,
       "xp": 3,
       "category": "Nature",
-      "requirements": "Nature (Novice)",
+      "level": 0,
+      "school": "Nature (0)",
       "section": "spells",
-      "id": "1om63i"
+      "id": "lhdttq"
+    },
+    {
+      "title": "Animal Courier",
+      "description": "You can ask a nearby animal to deliver a small item. The destination must be within 3 day’s travel time.",
+      "ep": 3,
+      "xp": 3,
+      "category": "Nature",
+      "level": 0,
+      "school": "Nature (0)",
+      "section": "spells",
+      "id": "en59up"
     },
     {
       "title": "Intwine",
       "description": "Use grass, wines, and tree branches as if they were your own limbs.",
-      "ep": 3,
-      "xp": 3,
+      "ep": 6,
+      "xp": 6,
       "category": "Nature",
-      "requirements": "Nature (Novice)",
+      "level": 1,
+      "school": "Nature (1)",
       "section": "spells",
-      "id": "bddk2s"
+      "id": "6pxbpi"
     }
   ],
   "magicItems": [
@@ -58,30 +60,42 @@
       "description": "Restores 4 health.",
       "rarity": "Common",
       "category": "Potions",
+      "school": "Potions (undefined)",
       "section": "magicItems",
-      "id": "th103jb"
+      "id": "h7i51u"
     },
     {
       "title": "Small Energy Potion",
       "description": "Restores 4 energy.",
       "rarity": "Common",
       "category": "Potions",
+      "school": "Potions (undefined)",
       "section": "magicItems",
-      "id": "3qmgyh"
+      "id": "0i548c"
     }
   ],
   "equipment": [
     {
       "title": "Staff",
       "description": "A wooden staff",
+      "damage": 3,
       "rarity": "Common",
       "category": "Weapons",
-      "damage": 3,
+      "school": "Weapons (undefined)",
       "section": "equipment",
-      "id": "yk4ex"
+      "id": "dfm3kl"
+    },
+    {
+      "title": "Rope",
+      "description": "Regular piece of 50ft rope.",
+      "rarity": "Common",
+      "category": "Gear",
+      "school": "Gear (undefined)",
+      "section": "equipment",
+      "id": "i4fr89"
     }
   ],
-  "id": "vpmd9f",
+  "id": "7hybh8",
   "appearance": "",
   "ambitions": "",
   "personality": "",

@@ -1,87 +1,90 @@
 {
   "name": "",
   "image": "",
-  "currentHealth": 10,
-  "maxHealth": 10,
-  "currentEnergy": 10,
-  "maxEnergy": 10,
+  "currentHealth": 12,
+  "maxHealth": 12,
+  "currentEnergy": 12,
+  "maxEnergy": 12,
   "experience": 0,
-  "level": 1,
-  "cards": [],
   "abilities": [
     {
-      "title": "Archer (Novice)",
-      "description": "Allows you to use bows and crossbows.",
+      "title": "Farshot",
+      "description": "Enables you to shoot at a target out of your range.",
       "ep": 3,
       "xp": 3,
-      "category": "Weapons",
-      "bonusDice": 1,
+      "category": "Warfare",
+      "level": 0,
+      "school": "Warfare (0)",
       "section": "abilities",
-      "id": "8nvvfg"
+      "id": "5x0eeo"
     },
     {
-      "title": "Acrobatics (Novice)",
-      "description": "You are very flexible and fast. You can do a backflip, jump between buildings.",
-      "ep": 3,
-      "xp": 3,
-      "category": "Physical",
-      "bonusDice": 1,
+      "title": "Barrage",
+      "description": "Allows you to shoot 3 arrows at once (at the same target).",
+      "ep": 6,
+      "xp": 6,
+      "category": "Warfare",
+      "level": 1,
+      "school": "Warfare (1)",
       "section": "abilities",
-      "id": "yzqi"
-    }
-  ],
-  "spells": [
+      "id": "xbuvgw"
+    },
     {
-      "title": "Leap",
-      "description": "Jump up to 6 meters forward and 4 meters upward in any direction.",
+      "title": "Animal Handling",
+      "description": "You are good at dealing with animals.",
       "ep": 3,
       "xp": 3,
-      "category": "Kinestetic",
-      "requirements": "Kinestetic (Novice)",
-      "section": "spells",
-      "id": "lg1pzj"
+      "category": "Survival",
+      "level": 0,
+      "school": "Survival (0)",
+      "section": "abilities",
+      "id": "h56p05"
     }
   ],
+  "spells": [],
   "magicItems": [
     {
       "title": "Small Health Potion",
       "description": "Restores 4 health.",
       "rarity": "Common",
       "category": "Potions",
+      "school": "Potions (undefined)",
       "section": "magicItems",
-      "id": "ec1ay"
+      "id": "yjkafi"
     },
     {
       "title": "Small Energy Potion",
       "description": "Restores 4 energy.",
       "rarity": "Common",
       "category": "Potions",
+      "school": "Potions (undefined)",
       "section": "magicItems",
-      "id": "6d478j"
+      "id": "pjq0r"
     }
   ],
   "equipment": [
     {
       "title": "Light Bow",
       "description": "A small and light bow.",
+      "damage": 3,
       "rarity": "Common",
       "category": "Weapons",
-      "damage": 3,
-      "requirements": "Archer (Novice)",
+      "school": "Weapons (undefined)",
       "section": "equipment",
-      "id": "of3ygi"
+      "id": "dw5l2"
     },
     {
       "title": "Dagger",
       "description": "A shiny steal dagger. Looks ready for violence.",
+      "damage": 3,
       "rarity": "Common",
       "category": "Weapons",
-      "damage": 3,
+      "school": "Weapons (undefined)",
       "section": "equipment",
-      "id": "wef86"
+      "id": "8i3siv"
     }
   ],
-  "id": "12",
+  "id": "rvu1qh",
   "appearance": "",
   "ambitions": "",
   "personality": "",

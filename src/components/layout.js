@@ -23,8 +23,8 @@ const Layout = ({ location, children, subnav }) => {
 	<main className={subnav ? "has-subnav" : ""}>
             <div className="wrapper">{children}</div>
 	</main>
-	<ReactTooltip className="react-tooltip" type="dark" effect="solid"
-		      delayShow={0} html={true}/>
+	<ReactTooltip className="react-tooltip center-text" type="dark" effect="solid"
+		      delayShow={0} html={true} />
     </>
   )
 }

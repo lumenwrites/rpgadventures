@@ -29,33 +29,19 @@ for (var powerType in data) {
       if (typeof p[key] === "string") p[key] = p[key].trim()
     }
 
-    if (p.level) {
-      p.title = `${p.title} (${p.level})` // Athletics (Adept)
-    }
-    p.bonusDice = p.dice //rename the field
-    p.damage = p.dmg //rename the field
-    
-    /* Requirements */
-    if (p.req) {
-      p.requirements = p.req
-      if (p.reqlvl) {
-	p.requirements += ` (${p.reqlvl})`
-      }
-    }
+    p.school = `${p.category} (${p.level})` // Athletics (Adept)
     /* abilities, spells, magicItems, equipment */
     p.section = powerType
 
     /* Delete unused and empty fields */
-    var unusedFields = ['level','req','reqlvl','dice','dmg', 'bonusDice']
+    var unusedFields = ['req','reqlvl']
     for (var key in p) {
-      if (!p[key])  delete p[key] // delete empty fields
+//      if (!p[key])  delete p[key] // delete empty fields
       if (unusedFields.includes(key))  delete p[key] // delete unused fields
     }
     
     return p
   })
-
-
 
   //console.log(powers[3],null, 2)
 

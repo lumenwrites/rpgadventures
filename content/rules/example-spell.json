@@ -1,8 +1,9 @@
 {
-    "title": "Minor Illusion",
-    "ep": "2",
-    "xp": "3",
-    "requirements": "Illusionism (Novice)",
-    "description": "Create an illusion of a sound or an image of a small object.",
+    "title": "Major Illusion",
+    "ep": "4",
+    "xp": "5",
+    "description": "Create an illusory object no larger than an elephant. The object seems completely real, including sounds, smells, and realistic movement.",
+    "category": "Illusionism",
+    "level": 3,
     "section": "spells"
 }

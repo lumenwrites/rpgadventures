@@ -8,7 +8,7 @@ import ReactTooltip from "react-tooltip"
 
 class PowersModal extends Component {
   state = {
-    filterPowers: false,
+    filterPowers: true,
     rarity: "Any"    
   }
   componentDidUpdate() {
@@ -75,12 +75,14 @@ class PowersModal extends Component {
     )}
   }
   
-  filterPower = (power) => {
+  filterPowers = (power) => {
+    var isPower = power.section == "abilities" || power.section == "spells"
+    if (!isPower || !this.state.filterPowers) return false
     var { sheets } = this.props
     var abilities = sheets[0].abilities
     var spells = sheets[0].spells
     var currentXP = sheets[0].experience
-    var abilitiesAndSpells = abilities.concat(spells)
+    var learnedPowers = abilities.concat(spells)
 
     /* Hide the power if you don't have enough XP learn it */
     if (power.xp && (currentXP < power.xp)) return true
@@ -88,17 +90,20 @@ class PowersModal extends Component {
     /* Hide already learned abilities/spells (but not items, they can have duplicates) */
     var isAbilityOrSpell = power.section == 'abilities' || power.section == 'spells'
     if (isAbilityOrSpell) {
-      var alreadyLearned = abilitiesAndSpells.find(p => p.title == power.title)
+      var alreadyLearned = learnedPowers.find(p => p.title == power.title)
       if (alreadyLearned) return true
     }
 
     /* Hide the power if you don't have prerequisite abilities */
-    /* (not hiding items, you can have one without being able to use it */
-    if (isAbilityOrSpell) {
-      if (power.requirements) {
-	var meetsTheRequirements = abilities.find(p => p.title == power.requirements)
-	if (!meetsTheRequirements) return true
-      }
+    /* (not hiding items, you can have one without being able to use it) */
+    var levels = ["Novice", "Initiate", "Adept", "Expert", "Master"]
+    if (isAbilityOrSpell && power.level > 0) {
+      var prerequisites = learnedPowers.filter(p => {
+	var sameSchool = p.category === power.category
+	var oneLevelLower = p.level === power.level - 1
+	return sameSchool && oneLevelLower
+      })
+      if (prerequisites.length < 1) return true
     }
     return false    
   }
@@ -106,18 +111,15 @@ class PowersModal extends Component {
   filterItems = (power) => {
     /* Filter common items */
     var isItem = power.section == "magicItems" || power.section == "equipment"
-    var { rarity }  = this.state
-    if (isItem && rarity !== "Any") {
-      if (power.rarity !== rarity) return true
-    }
+    if (!isItem || this.state.rarity === "Any") return false
+    if (power.rarity !== this.state.rarity) return true
     return false    
   }
   
   renderPowers = (powers) => {
     return powers.map((power,i)=> {
       /* Hide the power if checkbox is on and it doesn't meet the requirements */
-      if (this.state.filterPowers && this.filterPower(power)) return
-      if (this.filterItems(power)) return
+      if (this.filterPowers(power) || this.filterItems(power)) return
       return (
 	<Power power={power} key={i} adding/>
       )
@@ -125,7 +127,7 @@ class PowersModal extends Component {
   }
 
   renderRarityFilter = () => {
-    var raritiesList = ["Any", "Common", "Uncommon", "Legendary", "Supreme"] //"Rare",
+    var raritiesList = ["Any", "Common", "Uncommon", "Rare", "Legendary", "Supreme"]
     var rarities = raritiesList.map((rarity,i)=>(
       <div className="item btn" key={i} onClick={()=> this.setState({rarity})}>
 	  {rarity}

@@ -1,96 +1,100 @@
 {
   "name": "",
   "image": "",
-  "currentHealth": "13",
-  "maxHealth": "13",
-  "currentEnergy": 10,
-  "maxEnergy": 10,
+  "currentHealth": 15,
+  "maxHealth": 15,
+  "currentEnergy": 12,
+  "maxEnergy": 12,
   "experience": 0,
-  "level": 1,
-  "cards": [],
   "abilities": [
     {
-      "title": "Swordsman (Novice)",
-      "description": "You are capable of holding a sword and stabbing things with it. Sometimes you even hit them.",
+      "title": "Body Builder",
+      "description": "You're as strong as a good bodybuilder. You can do what a good bodybuilder can do.\nLike lift and throw that big rock or tip over a cow.",
       "ep": 3,
       "xp": 3,
-      "category": "Weapons",
-      "bonusDice": 1,
+      "category": "Physique",
+      "level": 0,
+      "school": "Physique (0)",
       "section": "abilities",
-      "id": "vka9u"
+      "id": "93qva"
     },
     {
-      "title": "Kinestetic (Novice)",
-      "description": "You know the basics of \"Kinestetic\" Magic School. Allows you to cast spells that modify your physical abilities.",
-      "ep": 3,
-      "xp": 3,
-      "category": "Magic Schools",
-      "bonusDice": 1,
+      "title": "Reckless Attack",
+      "description": "Attack without concern for your life - deals double damage but makes you vulnerable to a counterattack.",
+      "ep": 9,
+      "xp": 9,
+      "category": "Warfare",
+      "level": 0,
+      "school": "Warfare (0)",
       "section": "abilities",
-      "id": "jyc53c"
+      "id": "s8orgi"
     },
     {
-      "title": "Light Armor",
-      "description": "Allows you to wear Light Armor",
+      "title": "Parry",
+      "description": "Deflect melee attack from an equally skilled opponent.",
       "ep": 3,
       "xp": 3,
-      "category": "Weapons",
-      "bonusDice": 1,
+      "category": "Warfare",
+      "level": 0,
+      "school": "Warfare (0)",
       "section": "abilities",
-      "id": "detgve"
-    }
-  ],
-  "spells": [
+      "id": "wrsee9"
+    },
     {
-      "title": "Shockwave",
-      "description": "Thunderous shockwave in the direction you are facing. The wave knocks up to three creatures backward and hits them each for 2 damage.",
-      "ep": 3,
-      "xp": 3,
-      "category": "Kinestetic",
-      "requirements": "Kinestetic (Novice)",
-      "section": "spells",
-      "id": "57cx5s"
+      "title": "Grapple",
+      "description": "You grapple the opponent of your size or smaller. You can hold them for up to 5 minutes.",
+      "ep": 6,
+      "xp": 6,
+      "category": "Physique",
+      "level": 1,
+      "school": "Physique (1)",
+      "section": "abilities",
+      "id": "noa3u"
     }
   ],
+  "spells": [],
   "magicItems": [
     {
       "title": "Small Health Potion",
       "description": "Restores 4 health.",
       "rarity": "Common",
       "category": "Potions",
+      "school": "Potions (undefined)",
       "section": "magicItems",
-      "id": "6lgx1r"
+      "id": "l5xlgq"
     },
     {
-      "title": "Small Energy Potion",
-      "description": "Restores 4 energy.",
+      "title": "Small Health Potion",
+      "description": "Restores 4 health.",
       "rarity": "Common",
       "category": "Potions",
+      "school": "Potions (undefined)",
       "section": "magicItems",
-      "id": "1ko1cb"
+      "id": "l5xlgq"
     }
   ],
   "equipment": [
     {
       "title": "Longsword",
       "description": "Regular sword. Deals 4 damage.",
+      "damage": 4,
       "rarity": "Common",
       "category": "Weapons",
-      "damage": 4,
-      "requirements": "Swordsman (Novice)",
+      "school": "Weapons (undefined)",
       "section": "equipment",
-      "id": "ciawmf"
+      "id": "mfboo"
     },
     {
       "title": "Leather Armor",
       "description": "Basic armor. Increases you max HP by 3 points.",
       "rarity": "Common",
       "category": "Armor",
+      "school": "Armor (undefined)",
       "section": "equipment",
-      "id": "u0d0g4"
+      "id": "rmxuep"
     }
   ],
-  "id": "12",
+  "id": "",
   "appearance": "",
   "ambitions": "",
   "personality": "",

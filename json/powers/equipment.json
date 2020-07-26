@@ -5,69 +5,73 @@
       {
         "title": "Dagger",
         "description": "A shiny steal dagger. Looks ready for violence.",
+        "damage": 3,
         "rarity": "Common",
         "category": "Weapons",
-        "damage": 3,
+        "school": "Weapons (undefined)",
         "section": "equipment"
       },
       {
         "title": "Crowbar",
         "description": "Smashes things, pries things open.",
+        "damage": 2,
         "rarity": "Common",
         "category": "Weapons",
-        "damage": 2,
+        "school": "Weapons (undefined)",
         "section": "equipment"
       },
       {
         "title": "Longsword",
         "description": "Regular sword. Deals 4 damage.",
+        "damage": 4,
         "rarity": "Common",
         "category": "Weapons",
-        "damage": 4,
-        "requirements": "Swordsman (Novice)",
+        "school": "Weapons (undefined)",
         "section": "equipment"
       },
       {
         "title": "Obsidian Sword",
         "description": "A pitch black sword. Deals 6 damage, adds bonus dice to your attack rolls.",
+        "damage": 8,
         "rarity": "Legendary",
         "category": "Weapons",
-        "damage": 8,
-        "requirements": "Swordsman (Adept)",
+        "school": "Weapons (undefined)",
         "section": "equipment"
       },
       {
         "title": "Light Bow",
         "description": "A small and light bow.",
+        "damage": 3,
         "rarity": "Common",
         "category": "Weapons",
-        "damage": 3,
-        "requirements": "Archer (Novice)",
+        "school": "Weapons (undefined)",
         "section": "equipment"
       },
       {
         "title": "Light Crossbow",
         "description": "A small and light crossbow.",
+        "damage": 3,
         "rarity": "Common",
         "category": "Weapons",
-        "damage": 3,
-        "requirements": "Archer (Novice)",
+        "school": "Weapons (undefined)",
         "section": "equipment"
       },
       {
         "title": "Throwing Dagger",
         "description": "Angular black throwing dagger.",
+        "damage": 3,
         "rarity": "Common",
         "category": "Weapons",
-        "damage": 3,
+        "school": "Weapons (undefined)",
         "section": "equipment"
       },
       {
         "title": "Staff",
         "description": "A wooden staff",
+        "damage": 3,
         "rarity": "Common",
         "category": "Weapons",
-        "damage": 3,
+        "school": "Weapons (undefined)",
         "section": "equipment"
       },
       {
@@ -75,14 +79,16 @@
         "description": "Shoots a small projectile(like a pebble). Deals 3 damage.",
         "rarity": "Common",
         "category": "Weapons",
+        "school": "Weapons (undefined)",
         "section": "equipment"
       },
       {
         "title": "Blunderbuss",
         "description": "Old-timey Gun. Takes a minute to reload.",
+        "damage": 5,
         "rarity": "Uncommon",
         "category": "Weapons",
-        "damage": 5,
+        "school": "Weapons (undefined)",
         "section": "equipment"
       }
     ]
@@ -95,13 +101,16 @@
         "description": "Basic armor. Increases you max HP by 3 points.",
         "rarity": "Common",
         "category": "Armor",
+        "school": "Armor (undefined)",
         "section": "equipment"
       },
       {
         "title": "Ninja Armor",
         "description": "Suit made out of light black clothes. Increases you max HP by 3 points. Makes you very hard to notice in the dark.",
+        "dice": 1,
         "rarity": "Uncommon",
         "category": "Armor",
+        "school": "Armor (undefined)",
         "section": "equipment"
       },
       {
@@ -109,6 +118,7 @@
         "description": "Increases your max HP by 6 points.",
         "rarity": "Uncommon",
         "category": "Armor",
+        "school": "Armor (undefined)",
         "section": "equipment"
       },
       {
@@ -116,6 +126,7 @@
         "description": "Increases your max HP by 8 points.",
         "rarity": "Legendary",
         "category": "Armor",
+        "school": "Armor (undefined)",
         "section": "equipment"
       }
     ]
@@ -126,8 +137,9 @@
       {
         "title": "Grappling Hook Gun",
         "description": "Shoots the grappling hook to the distance of up to 50 meters, reels it back in.",
-        "rarity": "Common",
+        "rarity": "Uncommon",
         "category": "Gear",
+        "school": "Gear (undefined)",
         "section": "equipment"
       },
       {
@@ -135,6 +147,7 @@
         "description": "Perfect for setting traps (not just for bears).",
         "rarity": "Common",
         "category": "Gear",
+        "school": "Gear (undefined)",
         "section": "equipment"
       },
       {
@@ -142,6 +155,7 @@
         "description": "Regular piece of 50ft rope.",
         "rarity": "Common",
         "category": "Gear",
+        "school": "Gear (undefined)",
         "section": "equipment"
       },
       {
@@ -149,6 +163,7 @@
         "description": "A regular 10 foot pole. Useful whenever you need a 10 foot pole.",
         "rarity": "Common",
         "category": "Gear",
+        "school": "Gear (undefined)",
         "section": "equipment"
       },
       {
@@ -156,13 +171,15 @@
         "description": "Provide light. Set things on fire.",
         "rarity": "Common",
         "category": "Gear",
+        "school": "Gear (undefined)",
         "section": "equipment"
       },
       {
         "title": "Spyglass",
         "description": "Helps you see farther.",
-        "rarity": "Common",
+        "rarity": "Rare",
         "category": "Gear",
+        "school": "Gear (undefined)",
         "section": "equipment"
       },
       {
@@ -170,6 +187,7 @@
         "description": "Holds liquids.",
         "rarity": "Common",
         "category": "Gear",
+        "school": "Gear (undefined)",
         "section": "equipment"
       },
       {
@@ -177,6 +195,7 @@
         "description": "Great for setting traps for the enemies.",
         "rarity": "Common",
         "category": "Gear",
+        "school": "Gear (undefined)",
         "section": "equipment"
       },
       {
@@ -184,6 +203,7 @@
         "description": "You know, digging stuff.",
         "rarity": "Common",
         "category": "Gear",
+        "school": "Gear (undefined)",
         "section": "equipment"
       },
       {
@@ -191,6 +211,28 @@
         "description": "Artificial wings you can use for gliding.",
         "rarity": "Legendary",
         "category": "Gear",
+        "school": "Gear (undefined)",
+        "section": "equipment"
+      }
+    ]
+  },
+  {
+    "title": "Valuables",
+    "powers": [
+      {
+        "title": "Bag of Gold",
+        "description": "Can be used to live a lavish lifestyle for a month, or traded for something valuable.",
+        "rarity": "Rare",
+        "category": "Valuables",
+        "school": "Valuables (undefined)",
+        "section": "equipment"
+      },
+      {
+        "title": "A big Ruby",
+        "description": "A big shiny gem. Trade it for something useful.",
+        "rarity": "Uncommon",
+        "category": "Valuables",
+        "school": "Valuables (undefined)",
         "section": "equipment"
       }
     ]
@@ -201,6 +243,7 @@
         "title": "[Custom Title]",
         "description": "[Create and edit this card if you need to create a custom one]",
         "undefined": "Blank",
+        "school": "undefined (undefined)",
         "section": "equipment"
       }
     ]

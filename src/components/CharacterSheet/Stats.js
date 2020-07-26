@@ -10,7 +10,7 @@ class Stats extends Component {
   update = (value, key)=> {
     var sheet = this.props.sheets[0]
     sheet = {...sheet}
-    sheet[key] = value
+    sheet[key] = parseInt(value)
     this.props.updateSheet(sheet)
   }
   render() {

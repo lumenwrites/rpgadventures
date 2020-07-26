@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import blankSheet from "../../../json/premade-characters/sheet-blank.json"
 import ConjurationWizard from "../../../json/premade-characters/Conjuration Wizard.json"
 import IllusionistWizard from "../../../json/premade-characters/Illusionist Wizard.json"
+import EnchantmentWizard from "../../../json/premade-characters/Enchantment Wizard.json"
 import BattleMage from "../../../json/premade-characters/Battle Mage.json"
 import Warrior from "../../../json/premade-characters/Warrior.json"
 import Ranger from "../../../json/premade-characters/Ranger.json"
@@ -113,6 +114,10 @@ class Subnav extends Component {
 			  Illusionist Wizard
 		      </div>
 		      <div className="item btn"
+			   onClick={() => this.createSheet(EnchantmentWizard)}>
+			  Enchanter
+		      </div>
+		      <div className="item btn"
 			   onClick={() => this.createSheet(BattleMage)}>
 			  Battle Mage
 		      </div>
@@ -160,11 +165,11 @@ class Subnav extends Component {
 		  <div className="menu">
 		      {/* Hidden html5 file input */}
 		      <input
-		      type="file"
-		      id="file-input"
-		      accept=".json"
-		      ref={ref => (this.fileInput = ref)}
-		      onChange={this.openFile}
+			type="file"
+			id="file-input"
+			accept=".json"
+			ref={ref => (this.fileInput = ref)}
+			onChange={this.openFile}
 		      />
 		      {/* Just triggers click on file input */}
 		      <div className="item btn" onClick={() => this.fileInput.click()}>

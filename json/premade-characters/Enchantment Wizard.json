@@ -8,15 +8,15 @@
   "experience": 0,
   "abilities": [
     {
-      "title": "Liar",
-      "description": "You are remarkably good at lying and pretending someone you're not.",
+      "title": "Insightful",
+      "description": "You are very good at understanding people, reading social cues, figuring out their intentions.",
       "ep": 3,
       "xp": 3,
       "category": "Charm",
       "level": 0,
       "school": "Charm (0)",
       "section": "abilities",
-      "id": "gxg39vc"
+      "id": "caa0q"
     },
     {
       "title": "Persuasive",
@@ -27,34 +27,43 @@
       "level": 0,
       "school": "Charm (0)",
       "section": "abilities",
-      "id": "h13f8t"
+      "id": "1cyqiw"
     }
   ],
   "spells": [
     {
-      "title": "Minor Illusion",
-      "description": "Create an illusion of an object (no larger than a person) or a sound within 50 meters and your line of sight.",
+      "title": "Charm Person",
+      "description": "The person regards you as their friend for 1 hour. When the spell ends, they know they’ve been charmed.",
       "ep": 3,
       "xp": 3,
-      "category": "Illusionism",
+      "category": "Enchantment",
       "level": 0,
-      "school": "Illusionism (0)",
+      "school": "Enchantment (0)",
       "section": "spells",
-      "id": "0nhnnp"
+      "id": "ee6vlj"
     },
     {
-      "title": "Darkness",
-      "description": "Create a field of magical darkness 10 meters in diameter.",
+      "title": "Influence",
+      "description": "Speak to the person and influence their state of mind for the next hour. Choose one of the psychological effects (increased confidence, anxiety, euphoria, fear, paranoia, calm, irritability, etc).",
       "ep": 3,
       "xp": 3,
-      "category": "Illusionism",
+      "category": "Enchantment",
       "level": 0,
-      "school": "Illusionism (0)",
+      "school": "Enchantment (0)",
       "section": "spells",
-      "id": "qa2f7"
+      "id": "29p0lq"
     }
   ],
   "magicItems": [
+    {
+      "title": "Sending Stones",
+      "description": "Magical walkie-talkie. Communicate telepathically within 300 meters of each other.",
+      "rarity": "Common",
+      "category": "Information",
+      "school": "Information (undefined)",
+      "section": "magicItems",
+      "id": "8saqmfh"
+    },
     {
       "title": "Small Energy Potion",
       "description": "Restores 4 energy.",
@@ -62,40 +71,31 @@
       "category": "Potions",
       "school": "Potions (undefined)",
       "section": "magicItems",
-      "id": "5c8s2k"
-    },
-    {
-      "title": "Chloroform",
-      "description": "The one who inhales it instantly falls asleep for 1 hour.",
-      "rarity": "Common",
-      "category": "Potions",
-      "school": "Potions (undefined)",
-      "section": "magicItems",
-      "id": "7taizj"
+      "id": "kh447c"
     }
   ],
   "equipment": [
     {
-      "title": "Staff",
-      "description": "A wooden staff. Deals 3 damage.",
+      "title": "Dagger",
+      "description": "A shiny steal dagger. Looks ready for violence.",
       "damage": 3,
       "rarity": "Common",
       "category": "Weapons",
       "school": "Weapons (undefined)",
       "section": "equipment",
-      "id": "bglhe"
+      "id": "xfs7am"
     },
     {
-      "title": "Torches",
-      "description": "Provide light. Set things on fire.",
+      "title": "Rope",
+      "description": "Regular piece of 50ft rope.",
       "rarity": "Common",
       "category": "Gear",
       "school": "Gear (undefined)",
       "section": "equipment",
-      "id": "cu71or"
+      "id": "4muqn"
     }
   ],
-  "id": "h2g88q",
+  "id": "jl84we",
   "appearance": "",
   "ambitions": "",
   "personality": "",

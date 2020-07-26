@@ -80,91 +80,94 @@ class Power extends Component {
     /* Show requirements when adding ability/item, or for just the items in the sheet */
     /* (because you can have an item, but don't know how to use it) */
     var isItem = power.section == "magicItems" || power.section == "equipment"
-    var displayRequirements = (power.requirements && (adding || isItem || sample))
-    var displayRarity = false // power.rarity && !onSheet // doesn't fit
-    var displayFooter = displayRequirements || power.xp || power.ep
+    var displaySchool = !isItem
+    var displayRarity = power.rarity
+    var displayFooter = displaySchool || power.xp || power.ep
 		     || power.bonusDice  || power.damage || displayRarity
+    var levels = ["Novice", "Initiate", "Adept", "Expert", "Master"]
     return (
       <div className={`card ${adding ? "adding" : ""}`}
-      onClick={()=> adding ? this.addPower() : null } >
-      <div className="card-header">
-      {/* Edit Icons */}
-      {this.renderEditIcons()}
+	   onClick={()=> adding ? this.addPower() : null } >
+	  <div className="card-header">
+	      {/* Edit Icons */}
+	      {this.renderEditIcons()}
 
-      {/*  Title */}
-      {this.state.editing ? (
-	<input ref={ref => this.titleInput = ref}
-	       defaultValue={power.title}/>
-      ) : (
-	<span className="card-title">{power.title}</span>
-      )}
+	      {/*  Title */}
+	      {this.state.editing ? (
+		<input ref={ref => this.titleInput = ref}
+		       defaultValue={power.title}/>
+	      ) : (
+		<span className="card-title">{power.title}</span>
+	      )}
 
-      </div>
-      
-      <hr/>
-      {/* Description */}
-      {this.state.editing ? (
-	<TextareaAutosize
-	  className="textarea-description"
-	  placeholder={"Description"}
-	  ref={ref => this.descriptionInput = ref}
-	  defaultValue={power.description}/>
-      ) : (
-	<div className="description">{power.description}</div>
-      )}
-      {(displayFooter) &&
-       <div className="card-footer">
-	   {/* Show EP cost if it exists */}
-	   {power.ep && (
-	     <div className="level tooltip"
-		  data-tip="Energy Cost">
-		 <FontAwesomeIcon icon={["fab", "react"]}/>	  
-		 {power.ep}
-	     </div>)}
-	{/* Bonus Dice. */}
-	{/*  
-	{power.bonusDice && (
-	  <div className="level tooltip"
-	       data-tip="Adds dice to your roll">
-	      <FontAwesomeIcon icon={["fas", "dice"]}/>	  
-	      {power.bonusDice}
-	  </div>)}
-	  */}
-	{/* Damage. */}
-	{power.damage && (
-	  <div className="level tooltip"
-	       data-tip="Damage">
-	      <FontAwesomeIcon icon={["fas", "bolt"]}/>	  
-	      {power.damage}
-	  </div>)}
-	{/* Show XP cost if it exists, and I'm in the PowerModal */}
-	{(adding || sample) && power.xp && (
-	  <div className="level tooltip"
-	       data-tip="Experience Cost (to learn)">
-	      <FontAwesomeIcon icon={["fas", "book"]}/>	  		  
-	      {power.xp}
 	  </div>
-	)}
-	{/* Requirements. */}
-	{displayRequirements && (
-	  <div className="level tooltip requirements"
-	       data-tip="Prerequisites">
-	      <FontAwesomeIcon icon={["fas", "project-diagram"]}/>
-	      {power.requirements}
-	  </div>
-	)}
-	{/* Requirements. */}
-	{displayRarity && (
-	  <div className="level tooltip requirements"
-	       data-tip="Item Rarity">
-	      <FontAwesomeIcon icon={["far", "gem"]}/>
-	      {power.rarity}
-	  </div>
-	)}
+	  
+	  <hr/>
+	  {/* Description */}
+	  {this.state.editing ? (
+	    <TextareaAutosize
+	      className="textarea-description"
+	      placeholder={"Description"}
+	      ref={ref => this.descriptionInput = ref}
+	      defaultValue={power.description}/>
+	  ) : (
+	    <div className="description">{power.description}</div>
+	  )}
+	  {(displayFooter) &&
+	   <div className="card-footer">
+	       {/* Show EP cost if it exists */}
+	       {power.ep && (
+		 <div className="level" data-tip={`Costs ${power.ep} Energy <br/> to ${power.section ==="spells" ? "cast" : "use" }`}>
+		     <FontAwesomeIcon icon={["fab", "react"]}/>	  
+		     {power.ep}
+		 </div>)}
+	       {/* Bonus Dice. */}
+	       {/*  
+		   {power.bonusDice && (
+		   <div className="level tooltip"
+		   data-tip="Adds dice to your roll">
+		   <FontAwesomeIcon icon={["fas", "dice"]}/>	  
+		   {power.bonusDice}
+		   </div>)}
+		 */}
+	       {/* Damage. */}
+	       {power.damage && (
+		 <div className="level" data-tip={`Deals ${power.damage} <br/> Damage`}>
+		     <FontAwesomeIcon icon={["fas", "bolt"]}/>	  
+		     {power.damage}
+		 </div>)}
+	       {/* Show XP cost if it exists, and I'm in the PowerModal */}
+	       {(adding || sample) && power.xp && (
+		 <div className="level" data-tip={`Costs ${power.xp} XP <br/> to learn`}>
+		     <FontAwesomeIcon icon={["fas", "book"]}/>	  		  
+		     {power.xp}
+		 </div>
+	       )}
+	       {/* Requirements. */}
+	       {displaySchool && (
+		 <>
+		     <div className="level requirements" data-tip="School">
+			 <FontAwesomeIcon icon={["fas", "graduation-cap"]}/>
+			 {power.category}
+		     </div>
+		     <div className="level requirements"
+			  data-tip={`Skill Level`}>
+			 <FontAwesomeIcon icon={["fas", "chart-line"]}/>
+			 {levels[power.level]}
+		     </div>
+		 </>
+	       )}
+	       {/* Requirements. */}
+	       {displayRarity && (
+		 <div className="level requirements" data-tip="Item Rarity">
+		     <FontAwesomeIcon icon={["far", "gem"]}/>
+		     {power.rarity}
+		 </div>
+	       )}
 
-	<div className="clearfix"/>
-      </div>
-      }
+	       <div className="clearfix"/>
+	   </div>
+	  }
       </div>
     )
   }

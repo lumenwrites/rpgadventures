@@ -25,7 +25,9 @@ Go to our [discord community](https://discord.gg/zt4N23d) and find a game you ca
 
 ---
 
-# Rules for Players
+# Character Sheet
+
+All you need to know about your character is stored on your <Link to="/character-sheet">character sheet</Link>.
 
 <div className="columns">
 
@@ -36,6 +38,8 @@ Your character has 3 stats - **Health**, **Energy**, and **Experience**. You als
 You lose Health Points when you get hurt. Recover points by drinking a potion, using a spell, or taking a rest.
 - **Short rest** (1 hour in a safe environment) recovers 5 points.
 - **Long rest** (8 hours in a safe environment) restores you to full health.
+
+<div className="column-break"/>
 
 ### Energy Points (EP)
 Spend them to cast spells and use abilities.
@@ -49,67 +53,91 @@ Spend 2 points to increase your max Health or Energy by 1 point.
 
 Gain XP as a reward for overcoming challenges, completing quests, teamwork, and awesome roleplay moments.
 
-### Indulging
-You can also recover Energy Points when you indulge in your character's flaw or succumb to their weakness in a way that makes you vulnerable, introduces a complication, sacrifices your relationships, or otherwise puts you at a risk/disadvantage. For example: get angry, act reckless, get caught lying, forget something important, surrender, run away, act lazy, get high at the worst possible moment, trigger the memory of a past trauma, antagonize an NPC, threaten someone too powerful, etc. Depending on the severity of the complication it causes, GM will award you  1-10 EP.
+</div>
 
-### Inventory
-You can carry and use up to 10 Items. Mundane and tiny items don’t count (a note, a pen, regular clothes). Ammo doesn’t count.
+---
 
-During the short rest, you can unequip items and stash them somewhere (at your house, on a horse, etc). Stashed items can’t be used until re-equipped.
+# Powers
 
-### Trading
-There’s no gold. There’s no need to micromanage paying for meals, a simple room in an inn, or buying mundane items (arrows, ink) - they cost nothing. For the powerful and valuable items, you trade.
-
-You can trade items in your inventory with friendly NPCs and other players. Items don’t have a predetermined price. It all depends on how much the NPC likes you, and how much they want what you have to offer in exchange. Negotiate and bargain to get a better deal.
-
-
-<div className="column-break"/>
+<div className="columns">
 
 ### Abilities
 You use abilities to do things that are difficult or require expertise. For example, lifting heavy things, picking locks, sneaking, climbing, investigating, seducing, lying. Without the relevant ability, your character is as good at doing things as an average person.
 
 There's no dice. You can assume that you will succeed if you try to do something that any regular person is capable of. But if you want to attempt doing something really difficult or risky, the GM can say that it would require a relevant ability (you would need an “Athletics” ability to lift a super heavy rock, “Diplomacy” to talk the king out of starting a war).
 
-Abilities can enable you to use certain items (for example throwing daggers), learn spells from specific Magic Schools (like Necromancy), and unlock other abilities (you need "Intermediate Swordsman" ability to learn "Dual Wielding"). Example of an ability:
-
-<!-- , or add some perks (like being able to carry more equipment). -->
-<!-- , and add bonus dice to your rolls (see the dice rolling rules below). -->
-
-
+Example of an ability:
 
 <Power power={exampleAbility} sample />
 
-This ability takes **2** Energy Points to cast. It costs **3** experience points to learn, and requires the "Knowledge of Nature" ability.
+Using this ability costs **2** Energy points. To learn it, you need to spend **3** Experience points, and you must have **Adept** skill level in **Survival** school.
 
-<!-- This ability takes **2** Energy Points to cast and adds **1** bonus dice to your roll. To learn it, you need **3** experience points, and the "Knowledge of Nature" ability. -->
+<div className="column-break"/>
 
+### Schools and Spells
+Abilities and Spells are organized into Schools (like Warfare, Stealth, Charm, Necromancy) and Skill Levels  (Novice, Initiate, Adept, Expert, Master).
 
-
-### Spells
-Spells are organized in Magic Schools. To learn more powerful spells you need deeper knowledge of a magic school. For example, you need an "Advanced Telekinesis" ability to cast a "Fly" spell.
-
-Example of a spell:
+You can learn "Novice" level powers right away. To progress to the more advanced level in the school, you need to learn at least one power from the previous level. So if you want to be able to learn Adept-level Illusionism spells, you need to know one Initiate-level Illusionism spells.
 
 <Power power={exampleSpell} sample />
 
-This spell costs **2** Energy Points to cast, **3** Experience Points to learn, and requires "Novice Illusionism" ability.
-
-### Magic Items and Equipment
-Using items works much like using spells and abilities does. Using equipment usually costs no energy points, but often requires a specialized ability. Example:
-
-
-
-<Power power={exampleItem} sample />
-
-
-### Combat
-In combat, the GM will tell you when it's your turn to act. During your turn, your character can move around and do one thing (for example, cast a spell). If you have something that can help you evade the damage (a shield, a spell, a  dodge skill), you can use it when you're attacked. 
-
-If you run out of Health, you pass out. If someone hits you when you’re passed out - you die and turn into a ghost. You can haunt your fellow players until they find a resurrection scroll, or make a new character.
-
+This spell costs **4** Energy Points to cast, **5** Experience Points to learn, and requires **Expert** level skills in **Illusionism** school.
 
 </div>
 
+---
+
+# Items
+
+<div className="columns">
+
+### Magic Items and Equipment
+Items are classified based on how rare, valuable, and powerful they are (Common, Uncommon, Rare, Legendary, Supreme). Example item:
+
+<Power power={exampleItem} sample />
+
+This is a **rare** item, it deals **6** damage.
+
+### Inventory
+You can carry and use up to 10 Items. Mundane and tiny items don’t count (a note, a pen, regular clothes). Ammo doesn’t count.
+
+During the short rest, you can unequip items and stash them somewhere (at your house, on a horse, etc). Stashed items can’t be used until re-equipped.
+
+<div className="column-break"/>
+
+### Trading
+There’s no currency. There’s no need to micromanage paying for meals, a simple room in an inn, or buying mundane items (arrows, ink) - they cost nothing. For the powerful and valuable items, you trade.
+
+You can trade items in your inventory with friendly NPCs and other players. Items don’t have a predetermined price. More powerful/rare items tend to be more valuable, but it all depends on how much the NPC likes you, and how much they want what you have to offer in exchange (a waterskin might be priceless in the desert).
+
+Negotiate and bargain to get a better deal.
+
+</div>
+
+---
+
+# Action Scenes
+
+<div className="columns">
+
+### Combat
+During action scenes (usually combat), the GM will tell you when it's your turn to act. During your turn, your character can **move** and take **one action** (attack, cast a spell, drink a potion, etc).
+
+If you have something that can help you evade the damage (a shield, a spell, a  dodge skill), you can use it when you're attacked.
+
+All attacks hit automatically unless there's a reason they don't (such as enemy using a shield spell). Weapons and spells deal the damage written on their card.
+
+<div className="column-break"/>
+
+### Distances
+
+There are two distances. When something is **In Reach**, it means you can use it, reach it with a melee weapon, or cast a spell that requires touch. When something is **In Range** - you can hit it with a ranged weapon or a spell, or run up to it during your turn.
+
+### Death
+If you run out of Health, you pass out. If someone hits you when you’re passed out - you die. and turn into a ghost. You can haunt your fellow players until they find a resurrection scroll, or make a new character.
+
+
+</div>
 
 ---
 
@@ -125,7 +153,7 @@ If you’re not sure what kind of character to create - use your favorite charac
 ### Custom Character Creation
 Players more familiar with their favorite spells and items can create a custom character.
 
-You start with 10 Max Health, 10 Max Energy, and 10 Experience.
+You start with 12 Max Health, 12 Max Energy, and 12 Experience.
 
 Create a blank character sheet and:
 
@@ -135,6 +163,10 @@ Create a blank character sheet and:
 
 Then fill in appearance/presonality/ambitions/backstory, and you're ready to play.
 
+<!--
+- Select up to 2 novice-level abilities.
+- Select up to 2 novice-level spells.
+-->
 
 ---
 

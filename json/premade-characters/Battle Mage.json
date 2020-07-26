@@ -1,33 +1,33 @@
 {
   "name": "",
   "image": "",
-  "currentHealth": 10,
-  "maxHealth": 10,
-  "currentEnergy": 10,
-  "maxEnergy": 10,
+  "currentHealth": 15,
+  "maxHealth": 15,
+  "currentEnergy": 12,
+  "maxEnergy": 12,
   "experience": 0,
-  "level": 1,
-  "cards": [],
   "abilities": [
     {
-      "title": "Battle Magic (Novice)",
-      "description": "You know the basics of Battle Magic. Allows you to cast offensive spells.",
-      "ep": 3,
-      "xp": 3,
-      "category": "Magic Schools",
-      "bonusDice": 1,
+      "title": "Arcana Student",
+      "description": "You know a lot about magic and arcane arts. You can identify magic items.",
+      "ep": 4,
+      "xp": 4,
+      "category": "Knowledge",
+      "level": 0,
+      "school": "Knowledge (0)",
       "section": "abilities",
-      "id": "4302co"
+      "id": "uxzno"
     },
     {
-      "title": "Arcana (Novice)",
-      "description": "You understand magic and arcane arts.\nEnables you to use more sophisticated magic items.",
+      "title": "Keen Ear",
+      "description": "For the next 10 minutes you can hear things that are hard to hear.",
       "ep": 3,
       "xp": 3,
-      "category": "Knowledge",
-      "bonusDice": 1,
+      "category": "Physique",
+      "level": 0,
+      "school": "Physique (0)",
       "section": "abilities",
-      "id": "6xezib"
+      "id": "qhyshy"
     }
   ],
   "spells": [
@@ -36,33 +36,23 @@
       "description": "Sets stuff on fire. Hold in your hand as a light source.",
       "ep": 3,
       "xp": 3,
-      "category": "Battle Magic",
       "damage": 3,
-      "requirements": "Battle Magic (Novice)",
+      "category": "Elementalism",
+      "level": 0,
+      "school": "Elementalism (0)",
       "section": "spells",
-      "id": "2f6std"
+      "id": "zwlhpi"
     },
     {
-      "title": "Freeze Pulse",
-      "description": "Freezes liquids, covers objects with ice, creates ice on the ground (can do what Frozone from Incredibles can do).",
+      "title": "Fire hose",
+      "description": "For the next minute, a stream of water shoots from your hand like from a fire hose.",
       "ep": 3,
       "xp": 3,
-      "category": "Battle Magic",
-      "damage": 3,
-      "requirements": "Battle Magic (Novice)",
+      "category": "Elementalism",
+      "level": 0,
+      "school": "Elementalism (0)",
       "section": "spells",
-      "id": "i2oeci"
-    },
-    {
-      "title": "Stun",
-      "description": "Stun the target creature for 1 minute. It's unable to move or do anything.",
-      "ep": 3,
-      "xp": 3,
-      "category": "Battle Magic",
-      "damage": 3,
-      "requirements": "Battle Magic (Adept)",
-      "section": "spells",
-      "id": "ngy1fp"
+      "id": "k5ikhk"
     }
   ],
   "magicItems": [
@@ -71,39 +61,42 @@
       "description": "Restores 4 health.",
       "rarity": "Common",
       "category": "Potions",
+      "school": "Potions (undefined)",
       "section": "magicItems",
-      "id": "deqkfr"
+      "id": "argqh"
     },
     {
       "title": "Small Energy Potion",
       "description": "Restores 4 energy.",
       "rarity": "Common",
       "category": "Potions",
+      "school": "Potions (undefined)",
       "section": "magicItems",
-      "id": "wx0i64t"
+      "id": "koz9n5"
     }
   ],
   "equipment": [
     {
-      "title": "Staff",
-      "description": "A wooden staff",
+      "title": "Light Crossbow",
+      "description": "A small and light crossbow.",
+      "damage": 3,
       "rarity": "Common",
       "category": "Weapons",
-      "damage": 3,
+      "school": "Weapons (undefined)",
       "section": "equipment",
-      "id": "wmem9"
+      "id": "2h7v6f"
     },
     {
-      "title": "Dagger",
-      "description": "A shiny steal dagger. Looks ready for violence.",
+      "title": "Leather Armor",
+      "description": "Basic armor. Increases you max HP by 3 points.",
       "rarity": "Common",
-      "category": "Weapons",
-      "damage": 3,
+      "category": "Armor",
+      "school": "Armor (undefined)",
       "section": "equipment",
-      "id": "r1mgap"
+      "id": "77o38o"
     }
   ],
-  "id": "ih6zn",
+  "id": "36578",
   "appearance": "",
   "ambitions": "",
   "personality": "",

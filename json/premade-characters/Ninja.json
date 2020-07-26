@@ -1,85 +1,101 @@
 {
   "name": "",
   "image": "",
-  "currentHealth": 10,
-  "maxHealth": 10,
-  "currentEnergy": 10,
-  "maxEnergy": 10,
+  "currentHealth": 12,
+  "maxHealth": 12,
+  "currentEnergy": 12,
+  "maxEnergy": 12,
   "experience": 0,
-  "level": 1,
-  "cards": [],
   "abilities": [
     {
-      "title": "Sneaking (Novice)",
-      "description": "You are good at sneaking and not being seen.",
+      "title": "Acrobat",
+      "description": "You are very flexible and fast. You can do a backflip, jump between buildings, dodge attacks.",
       "ep": 3,
       "xp": 3,
-      "category": "Stealth",
-      "bonusDice": 1,
+      "category": "Physique",
+      "level": 0,
+      "school": "Physique (0)",
       "section": "abilities",
-      "id": "g4lghq"
+      "id": "mo4j1u"
     },
     {
-      "title": "Lock Picking",
-      "description": "Pick simple locks.",
+      "title": "Sneaky",
+      "description": "You are very good at sneaking and not being seen, especially at night.",
       "ep": 3,
       "xp": 3,
       "category": "Stealth",
-      "bonusDice": 1,
+      "level": 0,
+      "school": "Stealth (0)",
       "section": "abilities",
-      "id": "xcf2nb"
+      "id": "c0bvkt"
     }
   ],
   "spells": [
     {
-      "title": "Run",
-      "description": "For the next hour you can run as fast as a horse.",
+      "title": "Minor Telekinesis",
+      "description": "Slowly levitate small objects.",
       "ep": 3,
       "xp": 3,
-      "category": "Kinestetic",
-      "requirements": "Kinestetic (Novice)",
+      "category": "Telekinesis",
+      "level": 0,
+      "school": "Telekinesis (0)",
       "section": "spells",
-      "id": "uhc8d"
+      "id": "4m8vo"
+    },
+    {
+      "title": "Message",
+      "description": "Telepathically send a message to the nearby creature, they can respond back.",
+      "ep": 3,
+      "xp": 3,
+      "category": "Telepathy",
+      "level": 0,
+      "school": "Telepathy (0)",
+      "section": "spells",
+      "id": "7lsuos"
     }
   ],
   "magicItems": [
-    {
-      "title": "Small Health Potion",
-      "description": "Restores 4 health.",
-      "rarity": "Common",
-      "category": "Potions",
-      "section": "magicItems",
-      "id": "72imto"
-    },
     {
       "title": "Small Energy Potion",
       "description": "Restores 4 energy.",
       "rarity": "Common",
       "category": "Potions",
+      "school": "Potions (undefined)",
       "section": "magicItems",
-      "id": "phtmq"
+      "id": "s6bjhn"
+    },
+    {
+      "title": "Potion of Spider Climbing",
+      "description": "Climb walls/ceilings like spider man for 30 minutes.",
+      "rarity": "Common",
+      "category": "Potions",
+      "school": "Potions (undefined)",
+      "section": "magicItems",
+      "id": "ur20fg"
     }
   ],
   "equipment": [
     {
       "title": "Throwing Dagger",
       "description": "Angular black throwing dagger.",
+      "damage": 3,
       "rarity": "Common",
       "category": "Weapons",
-      "damage": 3,
+      "school": "Weapons (undefined)",
       "section": "equipment",
-      "id": "l2u7g9"
+      "id": "kmzlf"
     },
     {
       "title": "Grappling Hook Gun",
       "description": "Shoots the grappling hook to the distance of up to 50 meters, reels it back in.",
-      "rarity": "Common",
+      "rarity": "Uncommon",
       "category": "Gear",
+      "school": "Gear (undefined)",
       "section": "equipment",
-      "id": "648vbo"
+      "id": "icf9lc"
     }
   ],
-  "id": "12",
+  "id": "a91ure",
   "appearance": "",
   "ambitions": "",
   "personality": "",

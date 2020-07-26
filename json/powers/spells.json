@@ -1,114 +1,226 @@
 [
   {
-    "title": "Kinestetic",
-    "powers": [
-      {
-        "title": "Run",
-        "description": "For the next hour you can run as fast as a horse.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Kinestetic",
-        "requirements": "Kinestetic (Novice)",
-        "section": "spells"
-      },
-      {
-        "title": "Walk on walls/ceiling",
-        "description": "For the next 20 minutes you can walk on any surface at any angle as if it was regular floor.",
-        "ep": 2,
-        "xp": 2,
-        "category": "Kinestetic",
-        "requirements": "Kinestetic (Adept)",
-        "section": "spells"
-      },
-      {
-        "title": "Speed",
-        "description": "For the next 2 seconds the time flows 100 times slower for you, so it feels to you like 3 minutes (Quicksilver powers).",
-        "ep": 2,
-        "xp": 2,
-        "category": "Kinestetic",
-        "requirements": "Kinestetic (Novice)",
-        "section": "spells"
-      },
-      {
-        "title": "Shockwave",
-        "description": "Thunderous shockwave in the direction you are facing. The wave knocks up to three creatures backward and hits them each for 2 damage.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Kinestetic",
-        "requirements": "Kinestetic (Novice)",
-        "section": "spells"
-      },
-      {
-        "title": "Leap",
-        "description": "Jump up to 6 meters forward and 4 meters upward in any direction.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Kinestetic",
-        "requirements": "Kinestetic (Novice)",
-        "section": "spells"
-      },
-      {
-        "title": "Intangibility",
-        "description": "Become immaterial (like a ghost) for the next 10 minutes. Walk through doors, let attacks pass through you.",
-        "ep": 5,
-        "xp": 5,
-        "category": "Kinestetic",
-        "requirements": "Kinestetic (Novice)",
-        "section": "spells"
-      }
-    ]
-  },
-  {
-    "title": "Battle Magic",
+    "title": "Elementalism",
     "powers": [
       {
         "title": "Small Fireball",
         "description": "Sets stuff on fire. Hold in your hand as a light source.",
         "ep": 3,
         "xp": 3,
-        "category": "Battle Magic",
         "damage": 3,
-        "requirements": "Battle Magic (Novice)",
+        "category": "Elementalism",
+        "level": 0,
+        "school": "Elementalism (0)",
         "section": "spells"
       },
       {
-        "title": "Freeze Pulse",
-        "description": "Freezes liquids, covers objects with ice, creates ice on the ground (can do what Frozone from Incredibles can do).",
+        "title": "Fire hose",
+        "description": "For the next minute, a stream of water shoots from your hand like from a fire hose.",
         "ep": 3,
         "xp": 3,
-        "category": "Battle Magic",
+        "category": "Elementalism",
+        "level": 0,
+        "school": "Elementalism (0)",
+        "section": "spells"
+      },
+      {
+        "title": "Annoying Cloud",
+        "description": "Summon a cloud that will float above the target's head, rain on them, distracting them and impairing their vision for the next hour.",
+        "ep": 3,
+        "xp": 3,
         "damage": 3,
-        "requirements": "Battle Magic (Novice)",
+        "category": "Elementalism",
+        "level": 0,
+        "school": "Elementalism (0)",
+        "section": "spells"
+      },
+      {
+        "title": "Shockwave",
+        "description": "Thunderous shockwave in the direction you are facing. The wave knocks up to three creatures backward and hits them each for 3 damage.",
+        "ep": 6,
+        "xp": 6,
+        "damage": 3,
+        "category": "Elementalism",
+        "level": 1,
+        "school": "Elementalism (1)",
         "section": "spells"
       },
       {
         "title": "Electricute",
         "description": "A bolt of lightning strikes it from the sky or from your hands, dealing damage and melting metallic objects.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Battle Magic",
+        "ep": 6,
+        "xp": 6,
         "damage": 3,
-        "requirements": "Battle Magic (Adept)",
+        "category": "Elementalism",
+        "level": 1,
+        "school": "Elementalism (1)",
         "section": "spells"
       },
       {
-        "title": "Impair Senses",
-        "description": "Impair the person's/creature's sight or hearing for the next hour.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Battle Magic",
-        "damage": 3,
-        "requirements": "Battle Magic (Adept)",
+        "title": "Mold Earth",
+        "description": "You can target an area (5x5 meter cube) of loose earth, you can instantaneously excavate it, move it along the ground, and deposit it up to 5 meters away. You can cause shapes, colors, or both to appear on the dirt or stone, spelling out words, creating images, or shaping patterns.",
+        "ep": 9,
+        "xp": 9,
+        "category": "Elementalism",
+        "level": 2,
+        "school": "Elementalism (2)",
         "section": "spells"
       },
       {
         "title": "Stun",
         "description": "Stun the target creature for 1 minute. It's unable to move or do anything.",
+        "ep": 9,
+        "xp": 9,
+        "damage": 3,
+        "category": "Elementalism",
+        "level": 2,
+        "school": "Elementalism (2)",
+        "section": "spells"
+      },
+      {
+        "title": "Freeze Pulse",
+        "description": "Freezes liquids, covers objects with ice, creates ice on the ground (can do what Frozone from Incredibles can do).",
+        "ep": 12,
+        "xp": 12,
+        "damage": 6,
+        "category": "Elementalism",
+        "level": 3,
+        "school": "Elementalism (3)",
+        "section": "spells"
+      },
+      {
+        "title": "Big Fireball",
+        "description": "Creates a big explosion",
+        "ep": 12,
+        "xp": 12,
+        "damage": 6,
+        "category": "Elementalism",
+        "level": 3,
+        "school": "Elementalism (3)",
+        "section": "spells"
+      }
+    ]
+  },
+  {
+    "title": "Abjuration",
+    "powers": [
+      {
+        "title": "Gift Health",
+        "description": "Drains 3 points of your health, giving 2 health points it to another person/creature.",
+        "xp": 3,
+        "category": "Abjuration",
+        "level": 0,
+        "school": "Abjuration (0)",
+        "section": "spells"
+      },
+      {
+        "title": "Gift Energy",
+        "description": "Drains 3 points of your energy, giving 2 points of energy to another person/creature.",
         "ep": 3,
         "xp": 3,
-        "category": "Battle Magic",
-        "damage": 3,
-        "requirements": "Battle Magic (Adept)",
+        "category": "Abjuration",
+        "level": 0,
+        "school": "Abjuration (0)",
+        "section": "spells"
+      },
+      {
+        "title": "Heal",
+        "description": "Heal the target person/creature (can use on yourself) by 2 hit points for every 3 energy points you spend.",
+        "ep": 6,
+        "xp": 6,
+        "category": "Abjuration",
+        "level": 1,
+        "school": "Abjuration (1)",
+        "section": "spells"
+      },
+      {
+        "title": "Shield",
+        "description": "Create a force field around a target creature or an object. Resists up to 8 damage.  Always has clean air inside. Lasts for an hour, or until it takes more than 8 damage.",
+        "ep": 6,
+        "xp": 6,
+        "category": "Abjuration",
+        "level": 1,
+        "school": "Abjuration (1)",
+        "section": "spells"
+      },
+      {
+        "title": "Trigger",
+        "description": "Pick one of the spells you know that will activate when a certain condition is met. Whenever that happens within the designated area(15-meter-radius) the spell will be cast.",
+        "ep": 9,
+        "xp": 9,
+        "category": "Abjuration",
+        "level": 2,
+        "school": "Abjuration (2)",
+        "section": "spells"
+      },
+      {
+        "title": "Recharge",
+        "description": "Sacrifice 3 points of your health to grant 2 energy points to the target person/creature (can use on yourself).",
+        "ep": 9,
+        "xp": 9,
+        "category": "Abjuration",
+        "level": 2,
+        "school": "Abjuration (2)",
+        "section": "spells"
+      },
+      {
+        "title": "Plane of Force",
+        "description": "Create 10x10 meters invisible wall of force(at any angle). Lasts for 30 minutes or until it takes 10 damage. Can support up to 500kg of weight.",
+        "ep": 9,
+        "xp": 9,
+        "category": "Abjuration",
+        "level": 2,
+        "school": "Abjuration (2)",
+        "section": "spells"
+      },
+      {
+        "title": "Sight ward",
+        "description": "Nobody can see what’s going on inside a sphere of 15 meter radius",
+        "ep": 12,
+        "xp": 12,
+        "category": "Abjuration",
+        "level": 3,
+        "school": "Abjuration (3)",
+        "section": "spells"
+      },
+      {
+        "title": "Bestow Spell",
+        "description": "Give the target an ability to use one of the spells you know once.",
+        "ep": 12,
+        "xp": 12,
+        "category": "Abjuration",
+        "level": 3,
+        "school": "Abjuration (3)",
+        "section": "spells"
+      },
+      {
+        "title": "Evil Ward",
+        "description": "No evil can cross the circle of 15 meter radius. Lasts for 1 hour.",
+        "ep": 12,
+        "xp": 12,
+        "category": "Abjuration",
+        "level": 3,
+        "school": "Abjuration (3)",
+        "section": "spells"
+      },
+      {
+        "title": "Anti-magic ward",
+        "description": "Magic doesn’t work within a sphere of 15 meter radius",
+        "ep": 15,
+        "xp": 15,
+        "category": "Abjuration",
+        "level": 4,
+        "school": "Abjuration (4)",
+        "section": "spells"
+      },
+      {
+        "title": "Velocity ward",
+        "description": "Nothing can move faster than a falling feather within a sphere of 15 meter radius",
+        "ep": 15,
+        "xp": 15,
+        "category": "Abjuration",
+        "level": 4,
+        "school": "Abjuration (4)",
         "section": "spells"
       }
     ]
@@ -122,129 +234,68 @@
         "ep": 3,
         "xp": 3,
         "category": "Telekinesis",
-        "requirements": "Telekinesis (Novice)",
-        "section": "spells"
-      },
-      {
-        "title": "Mold Earth",
-        "description": "You can target an area (5x5 meter cube) of loose earth, you can instantaneously excavate it, move it along the ground, and deposit it up to 5 meters away. You can cause shapes, colors, or both to appear on the dirt or stone, spelling out words, creating images, or shaping patterns.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Telekinesis",
-        "requirements": "Telekinesis (Novice)",
+        "level": 0,
+        "school": "Telekinesis (0)",
         "section": "spells"
       },
       {
         "title": "Push/Pull metal",
         "description": "Push metal directly away from you, or pull it towards you. If the object is lighter than you, the object moves, if it’s heavier - you move. If an object is thrown at a speed, deals 4 damage.",
-        "ep": 3,
-        "xp": 3,
+        "ep": 6,
+        "xp": 6,
         "category": "Telekinesis",
-        "requirements": "Telekinesis (Novice)",
+        "level": 1,
+        "school": "Telekinesis (1)",
         "section": "spells"
       },
       {
         "title": "Force field",
         "description": "Stationary transparent physical barrier, sphere of 15 meter radius. Anything can get out, nothing can go in.",
-        "ep": 3,
-        "xp": 3,
+        "ep": 9,
+        "xp": 9,
         "category": "Telekinesis",
-        "requirements": "Telekinesis (Adept)",
+        "level": 2,
+        "school": "Telekinesis (2)",
+        "section": "spells"
+      },
+      {
+        "title": "Walk on walls/ceiling",
+        "description": "For the next 20 minutes you can walk on any surface at any angle as if it was regular floor.",
+        "ep": 9,
+        "xp": 9,
+        "category": "Telekinesis",
+        "level": 2,
+        "school": "Telekinesis (2)",
         "section": "spells"
       },
       {
         "title": "Levitate",
         "description": "Slowly lifts the target (object, creature, including yourself) vertically above the ground, up to 10 meters. The target can weight up to 300 kg.",
-        "ep": 3,
-        "xp": 3,
+        "ep": 12,
+        "xp": 12,
         "category": "Telekinesis",
-        "requirements": "Telekinesis (Adept)",
+        "level": 3,
+        "school": "Telekinesis (3)",
         "section": "spells"
       },
       {
         "title": "Greater Telekinesis",
-        "description": "Levitate human-sized objects and creatures. Throwing an object/creature deals 5 damage to the target and to the object.",
-        "ep": 3,
-        "xp": 3,
+        "description": "Levitate human-sized objects and creatures (not including yourself). Throwing an object/creature deals 5 damage to the target and to the object.",
+        "ep": 15,
+        "xp": 15,
         "category": "Telekinesis",
-        "requirements": "Telekinesis (Expert)",
+        "level": 4,
+        "school": "Telekinesis (4)",
         "section": "spells"
       },
       {
         "title": "Fly",
         "description": "Grant the power of flight to the target creature(including yourself). The target can fly at a speed of a bird for the next 10 minutes.",
-        "ep": 3,
-        "xp": 3,
+        "ep": 15,
+        "xp": 15,
         "category": "Telekinesis",
-        "requirements": "Telekinesis (Expert)",
-        "section": "spells"
-      }
-    ]
-  },
-  {
-    "title": "Support",
-    "powers": [
-      {
-        "title": "Gift Health",
-        "description": "Drains your health, giving it to another person/creature.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Support",
-        "requirements": "Support (Novice)",
-        "section": "spells"
-      },
-      {
-        "title": "Gift Energy",
-        "description": "Drains your energy, giving it to another person/creature.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Support",
-        "requirements": "Support (Novice)",
-        "section": "spells"
-      },
-      {
-        "title": "Heal",
-        "description": "Heal the target person/creature (can use on yourself) by 2 hit points for every 3 energy points you spend.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Support",
-        "requirements": "Support (Novice)",
-        "section": "spells"
-      },
-      {
-        "title": "Recharge",
-        "description": "Sacrifice 3 points of your health to grant 2 energy points to the target person/creature (can use on yourself).",
-        "ep": 3,
-        "xp": 3,
-        "category": "Support",
-        "requirements": "Support (Novice)",
-        "section": "spells"
-      },
-      {
-        "title": "Inspire",
-        "description": "Give an inspiring speech or tell a war story, and all your allies will gain 4 Energy Points.\n(The player actually has to tell the speech/story.)",
-        "ep": 3,
-        "xp": 3,
-        "category": "Support",
-        "requirements": "Support (Adept)",
-        "section": "spells"
-      },
-      {
-        "title": "Bestow Spell",
-        "description": "Give the target an ability to use one of the spells you know once.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Support",
-        "requirements": "Support (Expert)",
-        "section": "spells"
-      },
-      {
-        "title": "Vampirism",
-        "description": "Recover up to 10 HP or EP by drinking the blood of a sentient creature you've just killed. If you have this perk, you can't walk into houses uninvited, and you lose 1 HP for every hour you are under direct sunlight.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Support",
-        "requirements": "Support (Master)",
+        "level": 4,
+        "school": "Telekinesis (4)",
         "section": "spells"
       }
     ]
@@ -254,223 +305,72 @@
     "powers": [
       {
         "title": "Minor Illusion",
-        "description": "Create an illusion of an object (no larger than a person) or a sound within 50 meters and your line of sight.",
+        "description": "Create an illusion of an object (no larger than a barrel) or a sound within 50 meters and your line of sight.",
         "ep": 3,
         "xp": 3,
         "category": "Illusionism",
-        "requirements": "Illusionism (Novice)",
+        "level": 0,
+        "school": "Illusionism (0)",
         "section": "spells"
       },
       {
-        "title": "Fake Death",
-        "description": "Appear to be dead for the next 30 minutes.",
+        "title": "Darkness",
+        "description": "Create a field of magical darkness 10 meters in diameter.",
         "ep": 3,
         "xp": 3,
         "category": "Illusionism",
-        "requirements": "Illusionism (Adept)",
-        "section": "spells"
-      },
-      {
-        "title": "Invisibility",
-        "description": "Turn yourself, a willing creature, or an object (no larger than a horse) invisible for the next 20 minutes. When they take damage they reappear.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Illusionism",
-        "requirements": "Illusionism (Adept)",
-        "section": "spells"
-      },
-      {
-        "title": "Embody fear",
-        "description": "The target person/creature see the image of whatever they fear the most.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Illusionism",
-        "requirements": "Illusionism (Adept)",
-        "section": "spells"
-      },
-      {
-        "title": "Illusory Automaton",
-        "description": "Create an illusory person or a creature that can perform simple tasks you give it. It has 5 hit points, lives for a day, and can travel any distance away from you. When it's nearby, you can control it telepathically.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Illusionism",
-        "requirements": "Illusionism (Adept)",
+        "level": 0,
+        "school": "Illusionism (0)",
         "section": "spells"
       },
       {
         "title": "Veil",
         "description": "Create a static illusion no larger than 100 meters in any direction. Like a building, an oasis, a pile of treasure, etc. When a creature touches the illusion they can no longer see it.",
-        "ep": 3,
-        "xp": 3,
+        "ep": 6,
+        "xp": 6,
         "category": "Illusionism",
-        "requirements": "Illusionism (Adept)",
+        "level": 1,
+        "school": "Illusionism (1)",
+        "section": "spells"
+      },
+      {
+        "title": "Invisibility",
+        "description": "Turn yourself, a willing creature, or an object (no larger than a horse) invisible for the next 20 minutes. When they take damage they reappear.",
+        "ep": 9,
+        "xp": 9,
+        "category": "Illusionism",
+        "level": 2,
+        "school": "Illusionism (2)",
+        "section": "spells"
+      },
+      {
+        "title": "Embody fear",
+        "description": "The target person/creature see the image of whatever they fear the most.",
+        "ep": 9,
+        "xp": 9,
+        "category": "Illusionism",
+        "level": 2,
+        "school": "Illusionism (2)",
         "section": "spells"
       },
       {
         "title": "Major Illusion",
         "description": "Create an object no larger than an elephant, complete with sounds, smells, movement.",
-        "ep": 3,
-        "xp": 3,
+        "ep": 12,
+        "xp": 12,
         "category": "Illusionism",
-        "requirements": "Illusionism (Adept)",
-        "section": "spells"
-      }
-    ]
-  },
-  {
-    "title": "Enchantment",
-    "powers": [
-      {
-        "title": "Charm Person",
-        "description": "The person regards you as their friend for 1 hour. When the spell ends, they know they’ve been charmed.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Enchantment",
-        "requirements": "Enchantment (Novice)",
+        "level": 3,
+        "school": "Illusionism (3)",
         "section": "spells"
       },
       {
-        "title": "Influence",
-        "description": "Speak to the person and influence their state of mind for the next hour. Choose one of the psychological effects (increased confidence, anxiety, euphoria, fear, paranoia, calm, irritability, etc).",
-        "ep": 3,
-        "xp": 3,
-        "category": "Enchantment",
-        "requirements": "Enchantment (Novice)",
-        "section": "spells"
-      },
-      {
-        "title": "No Secrets",
-        "description": "Find out if an ally is keeping an important secret from you. You’ll learn who they are but not what the secret is.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Enchantment",
-        "requirements": "Enchantment (Adept)",
-        "section": "spells"
-      },
-      {
-        "title": "Redirect Feelings",
-        "description": "When an NPCs has some strong feelings toward you (love, anger, etc), you can redirect that feeling to a different target for a day.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Enchantment",
-        "requirements": "Enchantment (Adept)",
-        "section": "spells"
-      },
-      {
-        "title": "Sleep",
-        "description": "Sing the lullaby, causing the target creatures within 30 meters around you to fall asleep. (you actually need to come up with and sing a lullaby).",
-        "ep": 3,
-        "xp": 3,
-        "category": "Enchantment",
-        "requirements": "Enchantment (Adept)",
-        "section": "spells"
-      },
-      {
-        "title": "Calm/Intensify Emotions",
-        "description": "Reduce or amplify the emotion the target is feeling.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Enchantment",
-        "requirements": "Enchantment (Adept)",
-        "section": "spells"
-      },
-      {
-        "title": "Captivate",
-        "description": "Conjure a dazzling image in the air (describe the image), captivating anyone who looks at it. Image hangs in the air for 10 minutes then dissipates.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Enchantment",
-        "requirements": "Enchantment (Adept)",
-        "section": "spells"
-      },
-      {
-        "title": "Alter Senses",
-        "description": "Change the way the target will experience the world for the next day. Cause them to perceive a specific thing or a category of things falsely (make them see all wolves as puppies, the king as a clown, see all the doors shifted 5 paces away from where they actually are, have them think that freshly baked bread smells like fire. etc). The spell lasts until you cancel it or until the creature is harmed by the effects of the deception.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Enchantment",
-        "requirements": "Enchantment (Expert)",
-        "section": "spells"
-      },
-      {
-        "title": "Command",
-        "description": "Speak a simple two-word command  (Approach me, Drop item, Flee, Fall down, Halt, etc) to a creature you can see within 50 meters, and it will be forced to obey.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Enchantment",
-        "requirements": "Enchantment (Adept)",
-        "section": "spells"
-      },
-      {
-        "title": "Suggestion",
-        "description": "Influence target's thoughts and behaviors. Making them trust someone they otherwise wouldn't, look away, feel an emotion they would not normally be inclined to feel, calm or intensify what they feel.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Enchantment",
-        "requirements": "Enchantment (Adept)",
-        "section": "spells"
-      },
-      {
-        "title": "Puppeteering",
-        "description": "Compel the target to physically take an action that lasts no longer than 5 seconds  - jump, kick, throw something, release an arrow, etc.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Enchantment",
-        "requirements": "Enchantment (Expert)",
-        "section": "spells"
-      },
-      {
-        "title": "Remoralization",
-        "description": "Until the end of the day, the NPC shapes their behavior around their ideal",
-        "ep": 3,
-        "xp": 3,
-        "category": "Enchantment",
-        "requirements": "Enchantment (Novice)",
-        "section": "spells"
-      },
-      {
-        "title": "Compel Truth",
-        "description": "The target is compelled to answer all questions truthfully for the next 5 minutes.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Enchantment",
-        "requirements": "Enchantment (Expert)",
-        "section": "spells"
-      },
-      {
-        "title": "Mind wiping",
-        "description": "Touch an unconscious person/creature, and erase any 15 minutes of their memory, or all their recent memories up to 1 month ago.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Enchantment",
-        "requirements": "Enchantment (Expert)",
-        "section": "spells"
-      },
-      {
-        "title": "Alter Memory",
-        "description": "Change any 15 minutes of the character’s memory.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Enchantment",
-        "requirements": "Enchantment (Expert)",
-        "section": "spells"
-      },
-      {
-        "title": "Value Change",
-        "description": "You reach deep into the person’s soul, and change what they value the most in life. Lasts for 1 hour. After it’s dispelled, the person knows you’ve done it to them. Highly illegal, punishable by death in all civilized societies. Possess a creature. You control a possessed creature, can read it’s mind and use it’s skills.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Enchantment",
-        "requirements": "Enchantment (Master)",
-        "section": "spells"
-      },
-      {
-        "title": "Dominate",
-        "description": "You gain full control over the person for an hour. You can issue commands, or take control over their mind directly - see through their senses and control their body, but during that time you lose awareness of your own body and what's going on around you. The spell lasts 1 hour, spend 2 energy per hour to extend the duration.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Enchantment",
-        "requirements": "Enchantment (Master)",
+        "title": "Illusory Automaton",
+        "description": "Create an illusory person or a creature that can perform simple tasks you give it. It has 5 hit points, lives for a day, and can travel any distance away from you. When it's nearby, you can control it telepathically.",
+        "ep": 15,
+        "xp": 15,
+        "category": "Illusionism",
+        "level": 4,
+        "school": "Illusionism (4)",
         "section": "spells"
       }
     ]
@@ -484,7 +384,8 @@
         "ep": 3,
         "xp": 3,
         "category": "Telepathy",
-        "requirements": "Telepathy (Novice)",
+        "level": 0,
+        "school": "Telepathy (0)",
         "section": "spells"
       },
       {
@@ -493,96 +394,283 @@
         "ep": 3,
         "xp": 3,
         "category": "Telepathy",
-        "requirements": "Telepathy (Novice)",
+        "level": 0,
+        "school": "Telepathy (0)",
+        "section": "spells"
+      },
+      {
+        "title": "Translate",
+        "description": "Understand the language of the person you're speaking to.",
+        "ep": 6,
+        "xp": 6,
+        "category": "Telepathy",
+        "level": 1,
+        "school": "Telepathy (1)",
         "section": "spells"
       },
       {
         "title": "Share Dreams",
         "description": "Fall asleep and enter the dream of a sleeping creature within 50 meters around you.",
-        "ep": 3,
-        "xp": 3,
+        "ep": 9,
+        "xp": 9,
         "category": "Telepathy",
-        "requirements": "Telepathy (Adept)",
+        "level": 2,
+        "school": "Telepathy (2)",
         "section": "spells"
       },
       {
         "title": "Mind Sense",
         "description": "Sense minds in 30 meter radius around you. Get some basic information about each mind – how complex their thoughts are, their species, their gender, their mood.",
-        "ep": 3,
-        "xp": 3,
+        "ep": 9,
+        "xp": 9,
         "category": "Telepathy",
-        "requirements": "Telepathy (Adept)",
+        "level": 2,
+        "school": "Telepathy (2)",
         "section": "spells"
       },
       {
         "title": "Mind Melt",
         "description": "Create telepathic connection with a willing creature. Both of you will see/hear through the other one's senses, and read each other's surface thoughts.",
-        "ep": 3,
-        "xp": 3,
+        "ep": 9,
+        "xp": 9,
         "category": "Telepathy",
-        "requirements": "Telepathy (Adept)",
+        "level": 2,
+        "school": "Telepathy (2)",
         "section": "spells"
       },
       {
         "title": "Intent",
         "description": "You look into the mind of the creature, learning about their most prominent short-term goal (what they want to accomplish within the next 10 minutes), long term goal, or what their intentions are towards a specific creature or an object.",
-        "ep": 3,
-        "xp": 3,
+        "ep": 9,
+        "xp": 9,
         "category": "Telepathy",
-        "requirements": "Telepathy (Adept)",
-        "section": "spells"
-      },
-      {
-        "title": "Comprehend Languages",
-        "description": "Understand the language of the person you're speaking to.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Telepathy",
-        "requirements": "Telepathy (Novice)",
-        "section": "spells"
-      },
-      {
-        "title": "Read Surface Thoughts",
-        "description": "For the next 10 minutes you can hear and understand what a target creature within 50 meters is thinking.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Telepathy",
-        "requirements": "Telepathy (Adept)",
-        "section": "spells"
-      },
-      {
-        "title": "Read Memories",
-        "description": "Search through unconscious creature's mind, pulling out 15 minutes of memories.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Telepathy",
-        "requirements": "Telepathy (Adept)",
-        "section": "spells"
-      },
-      {
-        "title": "Lie Detector",
-        "description": "For the next 10 minutes you know when you hear lying.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Telepathy",
-        "requirements": "Telepathy (Master)",
+        "level": 2,
+        "school": "Telepathy (2)",
         "section": "spells"
       },
       {
         "title": "Technomancy",
         "description": "Ability to control electrical/mechanical devices from a distance. Activate/deactivate them, make them perform their functions.",
-        "ep": 3,
-        "xp": 3,
+        "ep": 12,
+        "xp": 12,
         "category": "Telepathy",
+        "level": 3,
+        "school": "Telepathy (3)",
+        "section": "spells"
+      },
+      {
+        "title": "Read Surface Thoughts",
+        "description": "For the next 10 minutes you can hear and understand what a target creature within 50 meters is thinking.",
+        "ep": 12,
+        "xp": 12,
+        "category": "Telepathy",
+        "level": 3,
+        "school": "Telepathy (3)",
+        "section": "spells"
+      },
+      {
+        "title": "Read Memories",
+        "description": "Search through unconscious creature's mind, pulling out 15 minutes of memories.",
+        "ep": 12,
+        "xp": 12,
+        "category": "Telepathy",
+        "level": 3,
+        "school": "Telepathy (3)",
+        "section": "spells"
+      },
+      {
+        "title": "Lie Detector",
+        "description": "For the next 10 minutes you know when you hear lying.",
+        "ep": 12,
+        "xp": 12,
+        "category": "Telepathy",
+        "level": 3,
+        "school": "Telepathy (3)",
         "section": "spells"
       },
       {
         "title": "Mind Stealer",
         "description": "Eat a person’s brain, and for the next hour you have access to their skills and memories.",
+        "ep": 15,
+        "xp": 15,
+        "category": "Telepathy",
+        "level": 4,
+        "school": "Telepathy (4)",
+        "section": "spells"
+      }
+    ]
+  },
+  {
+    "title": "Enchantment",
+    "powers": [
+      {
+        "title": "Charm Person",
+        "description": "The person regards you as their friend for 1 hour. When the spell ends, they know they’ve been charmed.",
         "ep": 3,
         "xp": 3,
-        "category": "Telepathy",
-        "requirements": "Telepathy (Master)",
+        "category": "Enchantment",
+        "level": 0,
+        "school": "Enchantment (0)",
+        "section": "spells"
+      },
+      {
+        "title": "Influence",
+        "description": "Speak to the person and influence their state of mind for the next hour. Choose one of the psychological effects (increased confidence, anxiety, euphoria, fear, paranoia, calm, irritability, etc).",
+        "ep": 3,
+        "xp": 3,
+        "category": "Enchantment",
+        "level": 0,
+        "school": "Enchantment (0)",
+        "section": "spells"
+      },
+      {
+        "title": "Suggestion",
+        "description": "Influence target's thoughts and behaviors. Making them trust someone they otherwise wouldn't, look away, feel an emotion they would not normally be inclined to feel, calm or intensify what they feel.",
+        "ep": 6,
+        "xp": 6,
+        "category": "Enchantment",
+        "level": 1,
+        "school": "Enchantment (1)",
+        "section": "spells"
+      },
+      {
+        "title": "Sleep",
+        "description": "Sing the lullaby, causing the target creatures within 30 meters around you to fall asleep. (you actually need to come up with and sing a lullaby).",
+        "ep": 6,
+        "xp": 6,
+        "category": "Enchantment",
+        "level": 1,
+        "school": "Enchantment (1)",
+        "section": "spells"
+      },
+      {
+        "title": "No Secrets",
+        "description": "Find out if an ally is keeping an important secret from you. You’ll learn who they are but not what the secret is.",
+        "ep": 9,
+        "xp": 9,
+        "category": "Enchantment",
+        "level": 2,
+        "school": "Enchantment (2)",
+        "section": "spells"
+      },
+      {
+        "title": "Redirect Feelings",
+        "description": "When an NPCs has some strong feelings toward you (love, anger, etc), you can redirect that feeling to a different target for a day.",
+        "ep": 9,
+        "xp": 9,
+        "category": "Enchantment",
+        "level": 2,
+        "school": "Enchantment (2)",
+        "section": "spells"
+      },
+      {
+        "title": "Command",
+        "description": "Speak a simple two-word command  (Approach me, Drop item, Flee, Fall down, Halt, etc) to a creature you can see within 50 meters, and it will be forced to obey.",
+        "ep": 9,
+        "xp": 9,
+        "category": "Enchantment",
+        "level": 2,
+        "school": "Enchantment (2)",
+        "section": "spells"
+      },
+      {
+        "title": "Calm/Intensify Emotions",
+        "description": "Reduce or amplify the emotion the target is feeling.",
+        "ep": 9,
+        "xp": 9,
+        "category": "Enchantment",
+        "level": 2,
+        "school": "Enchantment (2)",
+        "section": "spells"
+      },
+      {
+        "title": "Captivate",
+        "description": "Conjure a dazzling image in the air (describe the image), captivating anyone who looks at it. Image hangs in the air for 10 minutes then dissipates.",
+        "ep": 9,
+        "xp": 9,
+        "category": "Enchantment",
+        "level": 2,
+        "school": "Enchantment (2)",
+        "section": "spells"
+      },
+      {
+        "title": "Remoralization",
+        "description": "Until the end of the day, the NPC shapes their behavior around their ideal",
+        "ep": 9,
+        "xp": 9,
+        "category": "Enchantment",
+        "level": 2,
+        "school": "Enchantment (2)",
+        "section": "spells"
+      },
+      {
+        "title": "Alter Senses",
+        "description": "Change the way the target will experience the world for the next day. Cause them to perceive a specific thing or a category of things falsely (make them see all wolves as puppies, the king as a clown, see all the doors shifted 5 paces away from where they actually are, have them think that freshly baked bread smells like fire. etc). The spell lasts until you cancel it or until the creature is harmed by the effects of the deception.",
+        "ep": 12,
+        "xp": 12,
+        "category": "Enchantment",
+        "level": 3,
+        "school": "Enchantment (3)",
+        "section": "spells"
+      },
+      {
+        "title": "Puppeteering",
+        "description": "Compel the target to physically take an action that lasts no longer than 5 seconds  - jump, kick, throw something, release an arrow, etc.",
+        "ep": 12,
+        "xp": 12,
+        "category": "Enchantment",
+        "level": 3,
+        "school": "Enchantment (3)",
+        "section": "spells"
+      },
+      {
+        "title": "Compel Truth",
+        "description": "The target is compelled to answer all questions truthfully for the next 5 minutes.",
+        "ep": 12,
+        "xp": 12,
+        "category": "Enchantment",
+        "level": 3,
+        "school": "Enchantment (3)",
+        "section": "spells"
+      },
+      {
+        "title": "Mind wiping",
+        "description": "Touch an unconscious person/creature, and erase any 15 minutes of their memory, or all their recent memories up to 1 month ago.",
+        "ep": 12,
+        "xp": 12,
+        "category": "Enchantment",
+        "level": 3,
+        "school": "Enchantment (3)",
+        "section": "spells"
+      },
+      {
+        "title": "Alter Memory",
+        "description": "Change any 15 minutes of the character’s memory.",
+        "ep": 12,
+        "xp": 12,
+        "category": "Enchantment",
+        "level": 3,
+        "school": "Enchantment (3)",
+        "section": "spells"
+      },
+      {
+        "title": "Value Change",
+        "description": "You reach deep into the person’s soul, and change what they value the most in life. Lasts for 1 hour. After it’s dispelled, the person knows you’ve done it to them. Highly illegal, punishable by death in all civilized societies. Possess a creature. You control a possessed creature, can read it’s mind and use it’s skills.",
+        "ep": 15,
+        "xp": 15,
+        "category": "Enchantment",
+        "level": 4,
+        "school": "Enchantment (4)",
+        "section": "spells"
+      },
+      {
+        "title": "Dominate",
+        "description": "You gain full control over the person for an hour. You can issue commands, or take control over their mind directly - see through their senses and control their body, but during that time you lose awareness of your own body and what's going on around you. The spell lasts 1 hour, spend 2 energy per hour to extend the duration.",
+        "ep": 15,
+        "xp": 15,
+        "category": "Enchantment",
+        "level": 4,
+        "school": "Enchantment (4)",
         "section": "spells"
       }
     ]
@@ -591,30 +679,13 @@
     "title": "Divination",
     "powers": [
       {
-        "title": "Evil Eye",
-        "description": "You pause, closing your eyes and quieting your mind. You sense the worst thing that  happened nearby within the last day.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Divination",
-        "requirements": "Divination (Novice)",
-        "section": "spells"
-      },
-      {
         "title": "Query",
         "description": "Pick an object, learn about 3 important events in its history.",
         "ep": 3,
         "xp": 3,
         "category": "Divination",
-        "requirements": "Divination (Novice)",
-        "section": "spells"
-      },
-      {
-        "title": "Sense Danger",
-        "description": "Activate your 'spidey sense', for the next 30 minutes you'll be able to sense imminent danger.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Divination",
-        "requirements": "Divination (Novice)",
+        "level": 0,
+        "school": "Divination (0)",
         "section": "spells"
       },
       {
@@ -623,79 +694,108 @@
         "ep": 3,
         "xp": 3,
         "category": "Divination",
-        "requirements": "Divination (Novice)",
+        "level": 0,
+        "school": "Divination (0)",
+        "section": "spells"
+      },
+      {
+        "title": "Evil Eye",
+        "description": "You pause, closing your eyes and quieting your mind. You sense the worst thing that  happened nearby within the last day.",
+        "ep": 6,
+        "xp": 6,
+        "category": "Divination",
+        "level": 1,
+        "school": "Divination (1)",
+        "section": "spells"
+      },
+      {
+        "title": "Sense Danger",
+        "description": "Activate your 'spidey sense', for the next 30 minutes you'll be able to sense imminent danger.",
+        "ep": 9,
+        "xp": 9,
+        "category": "Divination",
+        "level": 2,
+        "school": "Divination (2)",
         "section": "spells"
       },
       {
         "title": "Infrasight",
         "description": "Sense heat emanating from creatures. You can sense it through walls.",
-        "ep": 3,
-        "xp": 3,
+        "ep": 9,
+        "xp": 9,
         "category": "Divination",
-        "requirements": "Divination (Novice)",
+        "level": 2,
+        "school": "Divination (2)",
         "section": "spells"
       },
       {
         "title": "Probability Lanes",
         "description": "You see the most likely short-term outcomes of the action you're about to take.",
-        "ep": 3,
-        "xp": 3,
+        "ep": 9,
+        "xp": 9,
         "category": "Divination",
-        "requirements": "Divination (Novice)",
-        "section": "spells"
-      },
-      {
-        "title": "X-Ray Vision",
-        "description": "See through solid objects in 30 meter radius for the next 5 minutes.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Divination",
-        "requirements": "Divination (Novice)",
-        "section": "spells"
-      },
-      {
-        "title": "Seek",
-        "description": "You glimpse the target in real time, can see its surroundings, and may watch it for the next minute.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Divination",
-        "requirements": "Divination (Novice)",
+        "level": 2,
+        "school": "Divination (2)",
         "section": "spells"
       },
       {
         "title": "Nemesis",
         "description": "Mark a creature you can see as your nemesis(you can have only one at a time). Now you will always sense when the nemesis is nearby, and the direction they’re in (even if they’re invisible).",
-        "ep": 3,
-        "xp": 3,
+        "ep": 9,
+        "xp": 9,
         "category": "Divination",
-        "requirements": "Divination (Novice)",
-        "section": "spells"
-      },
-      {
-        "title": "Astral Projection",
-        "description": "Create an astral body (like a ghost), it's transparent, glows faint blue light, it's invulnerable to damage and can pass through walls. It lasts an hour, spend 2EP to extend the duration by an hour.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Divination",
-        "requirements": "Divination (Novice)",
+        "level": 2,
+        "school": "Divination (2)",
         "section": "spells"
       },
       {
         "title": "Find Nemesis",
         "description": "You see the vision of a place your nemesis has visited in the past day.",
-        "ep": 3,
-        "xp": 3,
+        "ep": 9,
+        "xp": 9,
         "category": "Divination",
-        "requirements": "Divination (Novice)",
+        "level": 2,
+        "school": "Divination (2)",
+        "section": "spells"
+      },
+      {
+        "title": "X-Ray Vision",
+        "description": "See through solid objects in 30 meter radius for the next 5 minutes.",
+        "ep": 12,
+        "xp": 12,
+        "category": "Divination",
+        "level": 3,
+        "school": "Divination (3)",
+        "section": "spells"
+      },
+      {
+        "title": "Seek",
+        "description": "You glimpse the target in real time, can see its surroundings, and may watch it for the next minute.",
+        "ep": 12,
+        "xp": 12,
+        "category": "Divination",
+        "level": 3,
+        "school": "Divination (3)",
+        "section": "spells"
+      },
+      {
+        "title": "Astral Projection",
+        "description": "Create an astral body (like a ghost), it's transparent, glows faint blue light, it's invulnerable to damage and can pass through walls. It lasts an hour, spend 2EP to extend the duration by an hour.",
+        "ep": 12,
+        "xp": 12,
+        "category": "Divination",
+        "level": 3,
+        "school": "Divination (3)",
         "section": "spells"
       },
       {
         "title": "Oracle",
         "description": "Get a correct yes or no answer to any question that can be answered.",
-        "ep": 3,
-        "xp": 3,
+        "ep": 15,
+        "xp": 15,
         "category": "Divination",
-        "requirements": "Divination (Novice)",
+        "level": 4,
+        "school": "Divination (4)",
         "section": "spells"
       }
     ]
@@ -709,61 +809,58 @@
         "ep": 3,
         "xp": 3,
         "category": "Teleportation",
-        "requirements": "Teleportation (Novice)",
+        "level": 0,
+        "school": "Teleportation (0)",
         "section": "spells"
       },
       {
         "title": "Summon Item",
         "description": "Mark an object or an item (no larger than 2x2 meters). Whenever you cast this spell, it will teleport to your hand (or in front of you) from wherever it is.",
-        "ep": 3,
-        "xp": 3,
+        "ep": 6,
+        "xp": 6,
         "category": "Teleportation",
-        "requirements": "Teleportation (Novice)",
-        "section": "spells"
-      },
-      {
-        "title": "Misty Step",
-        "description": "Instantly telepot a short-distance (a stone's throw, line of sight. Think Nightcrawler from X-Men).",
-        "ep": 3,
-        "xp": 3,
-        "category": "Teleportation",
-        "requirements": "Teleportation (Novice)",
-        "section": "spells"
-      },
-      {
-        "title": "Portal",
-        "description": "Open 2 connected portals (within 50 meter radius, line of sight, like in Portal game). Portals have custom radius (up to 2 meters), stay open for up to 5 minutes (spend 1 EP per minute to extend the duration), and can transport up to 10 elephants worth of mass.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Teleportation",
-        "requirements": "Teleportation (Novice)",
+        "level": 1,
+        "school": "Teleportation (1)",
         "section": "spells"
       },
       {
         "title": "Rewind",
         "description": "Teleport where you physically were 5 minutes ago(doesn’t take you back in time)",
-        "ep": 3,
-        "xp": 3,
+        "ep": 9,
+        "xp": 9,
         "category": "Teleportation",
-        "requirements": "Teleportation (Novice)",
+        "level": 2,
+        "school": "Teleportation (2)",
         "section": "spells"
       },
       {
-        "title": "Open Portal",
-        "description": "From where you are to anything within line of sight.",
-        "ep": 3,
-        "xp": 3,
+        "title": "Misty Step",
+        "description": "Instantly telepot a short-distance (a stone's throw, line of sight. Think Nightcrawler from X-Men).",
+        "ep": 12,
+        "xp": 12,
         "category": "Teleportation",
-        "requirements": "Teleportation (Novice)",
+        "level": 3,
+        "school": "Teleportation (3)",
+        "section": "spells"
+      },
+      {
+        "title": "Portal",
+        "description": "Open 2 connected portals (within 50 meter radius, line of sight, like in Portal game). Portals have custom radius (up to 2 meters), stay open for up to 5 minutes (spend 1 EP per minute to extend the duration), and can transport up to 10 elephants worth of mass.",
+        "ep": 15,
+        "xp": 15,
+        "category": "Teleportation",
+        "level": 4,
+        "school": "Teleportation (4)",
         "section": "spells"
       },
       {
         "title": "Greater Teleportation",
         "description": "Teleport any object, willing or unwilling creature, within 100 meters to another point within 100 meters.",
-        "ep": 3,
-        "xp": 3,
+        "ep": 15,
+        "xp": 15,
         "category": "Teleportation",
-        "requirements": "Teleportation (Novice)",
+        "level": 4,
+        "school": "Teleportation (4)",
         "section": "spells"
       }
     ]
@@ -772,75 +869,43 @@
     "title": "Conjuration",
     "powers": [
       {
-        "title": "Summon Familiar",
-        "description": "Summon a small creature who will be your pet and a friend. You can communicate with it telepathically, give it commands, see through its eyes, hear what it hears, cast spells through it. If the creature takes damage it disappears, but you can resummon it.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Conjuration",
-        "requirements": "Conjuration (Novice)",
-        "section": "spells"
-      },
-      {
-        "title": "Fire hose",
-        "description": "For the next minute, a stream of water shoots from your hand like from a fire hose.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Conjuration",
-        "requirements": "Conjuration (Novice)",
-        "section": "spells"
-      },
-      {
-        "title": "Summon a creature",
-        "description": "Summon an animal or a monster. It obeys your commands. Disappears within an hour.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Conjuration",
-        "requirements": "Conjuration (Novice)",
-        "section": "spells"
-      },
-      {
-        "title": "Summon a swarm",
-        "description": "Summon a swarm of insects that obeys your telepathic orders.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Conjuration",
-        "requirements": "Conjuration (Novice)",
-        "section": "spells"
-      },
-      {
-        "title": "Summon an Evil Twin",
-        "description": "Create a copy of a target person/creature that has the opposite values and will do it's best to achieve the outcome opposite from what they want.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Conjuration",
-        "requirements": "Conjuration (Novice)",
-        "section": "spells"
-      },
-      {
         "title": "Mend",
-        "description": "Fix mundane objects (broken cup, torn clothes).",
+        "description": "Fix a broken non-magical item (broken cup, torn clothes).",
         "ep": 3,
         "xp": 3,
         "category": "Conjuration",
-        "requirements": "Conjuration (Novice)",
+        "level": 0,
+        "school": "Conjuration (0)",
         "section": "spells"
       },
       {
         "title": "Conjure a Mundane Item",
-        "description": "Create a small non-magical item you’re familiar with (like a hammer, a spyglass, or a candle). No larger than 3 feet cube, no heavier than 10 pounds.\nThe object is visibly magical, disappears after 1 hour, or if it takes any damage.",
+        "description": "Create a small non-magical item you’re familiar with (like a hammer, a spyglass, or a candle). No larger than 3 feet cube, no heavier than 10 pounds. The object is visibly magical, disappears after 1 hour, or if it takes or deals any damage.",
         "ep": 3,
         "xp": 3,
         "category": "Conjuration",
-        "requirements": "Conjuration (Novice)",
+        "level": 0,
+        "school": "Conjuration (0)",
         "section": "spells"
       },
       {
         "title": "Create a wall",
         "description": "Creates a stone wall, 10x10 meters. Window is optional.",
-        "ep": 3,
-        "xp": 3,
+        "ep": 5,
+        "xp": 5,
         "category": "Conjuration",
-        "requirements": "Conjuration (Novice)",
+        "level": 0,
+        "school": "Conjuration (0)",
+        "section": "spells"
+      },
+      {
+        "title": "Summon Familiar",
+        "description": "Summon a small creature who will be your pet and a friend. You can communicate with it telepathically, give it commands, see through its eyes, hear what it hears, cast spells through it. If the creature takes damage it disappears, but you can resummon it.",
+        "ep": 10,
+        "xp": 6,
+        "category": "Conjuration",
+        "level": 1,
+        "school": "Conjuration (1)",
         "section": "spells"
       },
       {
@@ -849,25 +914,48 @@
         "ep": 3,
         "xp": 3,
         "category": "Conjuration",
-        "requirements": "Conjuration (Novice)",
+        "level": 2,
+        "school": "Conjuration (2)",
         "section": "spells"
       },
       {
-        "title": "Mending",
-        "description": "Fix a broken non-magical item.",
-        "ep": 3,
-        "xp": 3,
+        "title": "Summon a creature",
+        "description": "Summon a non-magical animal no larger than a cow. It obeys your commands. Disappears within an hour.",
+        "ep": 6,
+        "xp": 6,
         "category": "Conjuration",
-        "requirements": "Conjuration (Novice)",
+        "level": 3,
+        "school": "Conjuration (3)",
+        "section": "spells"
+      },
+      {
+        "title": "Summon a swarm",
+        "description": "Summon a swarm of insects that obeys your telepathic orders.",
+        "ep": 6,
+        "xp": 6,
+        "category": "Conjuration",
+        "level": 3,
+        "school": "Conjuration (3)",
+        "section": "spells"
+      },
+      {
+        "title": "Summon an Evil Twin",
+        "description": "Create a copy of a target person/creature that has the opposite values and will do it's best to achieve the outcome opposite from what they want.",
+        "ep": 15,
+        "xp": 15,
+        "category": "Conjuration",
+        "level": 4,
+        "school": "Conjuration (4)",
         "section": "spells"
       },
       {
         "title": "Split",
         "description": "Splits you into two identical clones. Each clone has 50% of your energy points. Sustaining a clone takes 2 EP per hour. The clones can fight and use magic (including splitting into more clones). When a clone takes any damage or runs out of energy points, it disappears, it's memories instantly merged into the remaining clones. When there's only one remains - it becomes the \"original\" you, keeping the memories of all the copies.",
-        "ep": 3,
-        "xp": 3,
+        "ep": 15,
+        "xp": 15,
         "category": "Conjuration",
-        "requirements": "Conjuration (Novice)",
+        "level": 4,
+        "school": "Conjuration (4)",
         "section": "spells"
       }
     ]
@@ -876,134 +964,73 @@
     "title": "Shapeshifting",
     "powers": [
       {
-        "title": "Petrify",
-        "description": "Turns the creature or object you’re touching into stone for the next 5 minutes.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Shapeshifting",
-        "requirements": "Shapeshifting (Novice)",
-        "section": "spells"
-      },
-      {
         "title": "Grow gills",
         "description": "Touch a willing creature, and they grow gills allowing them to breathe underwater for up to 1 hour.",
         "ep": 3,
         "xp": 3,
         "category": "Shapeshifting",
-        "requirements": "Shapeshifting (Novice)",
+        "level": 0,
+        "school": "Shapeshifting (0)",
+        "section": "spells"
+      },
+      {
+        "title": "Petrify",
+        "description": "Turns a non-magical creature or an object (no larger than a barrel) you’re touching into stone for the next 5 minutes.",
+        "ep": 6,
+        "xp": 6,
+        "category": "Shapeshifting",
+        "level": 1,
+        "school": "Shapeshifting (1)",
         "section": "spells"
       },
       {
         "title": "Elasticity",
         "description": "For the next 10 minutes you can do what Elastigirl from Incredibles can do.",
-        "ep": 3,
-        "xp": 3,
+        "ep": 9,
+        "xp": 9,
         "category": "Shapeshifting",
-        "requirements": "Shapeshifting (Novice)",
+        "level": 2,
+        "school": "Shapeshifting (2)",
         "section": "spells"
       },
       {
         "title": "Turn into Creature",
         "description": "Touch a willing non-magical creature and spend an Experience point to “acquire” it. Now you can turn into this creature for up to an hour.",
-        "ep": 3,
-        "xp": 3,
+        "ep": 12,
+        "xp": 12,
         "category": "Shapeshifting",
-        "requirements": "Shapeshifting (Novice)",
+        "level": 3,
+        "school": "Shapeshifting (3)",
         "section": "spells"
       },
       {
         "title": "Turn into Person",
         "description": "Touch a willing person and spend an Experience point to “acquire” them. Now you can turn into this person for up to an hour.",
-        "ep": 3,
-        "xp": 3,
+        "ep": 12,
+        "xp": 12,
         "category": "Shapeshifting",
-        "requirements": "Shapeshifting (Novice)",
+        "level": 3,
+        "school": "Shapeshifting (3)",
         "section": "spells"
       },
       {
         "title": "Shapeshift Target",
         "description": "Touch a willing or unconscious creature or a person, turning them into a creature/person you have acquired.",
-        "ep": 3,
-        "xp": 3,
+        "ep": 15,
+        "xp": 15,
         "category": "Shapeshifting",
-        "requirements": "Shapeshifting (Novice)",
+        "level": 4,
+        "school": "Shapeshifting (4)",
         "section": "spells"
       },
       {
         "title": "Turn into a Magical Creature",
         "description": "Works like Turn into Creature, but works on magical creatures.",
-        "ep": 3,
-        "xp": 3,
+        "ep": 15,
+        "xp": 15,
         "category": "Shapeshifting",
-        "requirements": "Shapeshifting (Novice)",
-        "section": "spells"
-      }
-    ]
-  },
-  {
-    "title": "Warding",
-    "powers": [
-      {
-        "title": "Shield",
-        "description": "Create a force field around a target creature or an object. Resists up to 8 damage.  Always has clean air inside. Lasts for an hour, or until it takes more than 8 damage.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Warding",
-        "requirements": "Warding (Novice)",
-        "section": "spells"
-      },
-      {
-        "title": "Plane of Force",
-        "description": "Create 10x10 meters invisible wall of force(at any angle). Lasts for 30 minutes or until it takes 10 damage. Can support up to 500kg of weight.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Warding",
-        "requirements": "Warding (Novice)",
-        "section": "spells"
-      },
-      {
-        "title": "Anti-magic ward",
-        "description": "Magic doesn’t work within a sphere of 15 meter radius",
-        "ep": 3,
-        "xp": 3,
-        "category": "Warding",
-        "requirements": "Warding (Novice)",
-        "section": "spells"
-      },
-      {
-        "title": "Sight ward",
-        "description": "Nobody can see what’s going on inside a sphere of 15 meter radius",
-        "ep": 3,
-        "xp": 3,
-        "category": "Warding",
-        "requirements": "Warding (Novice)",
-        "section": "spells"
-      },
-      {
-        "title": "Velocity ward",
-        "description": "Nothing can move faster than a falling feather within a sphere of 15 meter radius",
-        "ep": 3,
-        "xp": 3,
-        "category": "Warding",
-        "requirements": "Warding (Novice)",
-        "section": "spells"
-      },
-      {
-        "title": "Evil Ward",
-        "description": "No evil can cross the circle of 15 meter radius. Lasts for 1 hour.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Warding",
-        "requirements": "Warding (Novice)",
-        "section": "spells"
-      },
-      {
-        "title": "Trigger",
-        "description": "Pick one of the spells you know that will activate when a certain condition is met. Whenever that happens within the designated area(15-meter-radius) the spell will be cast.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Warding",
-        "requirements": "Warding (Novice)",
+        "level": 4,
+        "school": "Shapeshifting (4)",
         "section": "spells"
       }
     ]
@@ -1012,21 +1039,13 @@
     "title": "Nature",
     "powers": [
       {
-        "title": "Luck",
-        "description": "Cast this spell when someone performs an action, and it will be influenced by the supernaturally good (or bad) luck.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Nature",
-        "requirements": "Nature (Novice)",
-        "section": "spells"
-      },
-      {
         "title": "Speak with Animals",
         "description": "For the next hour you can speak with animals.",
         "ep": 3,
         "xp": 3,
         "category": "Nature",
-        "requirements": "Nature (Novice)",
+        "level": 0,
+        "school": "Nature (0)",
         "section": "spells"
       },
       {
@@ -1035,133 +1054,118 @@
         "ep": 3,
         "xp": 3,
         "category": "Nature",
-        "requirements": "Nature (Novice)",
-        "section": "spells"
-      },
-      {
-        "title": "Animal Buddy",
-        "description": "Recruit a nearby animal, they will follow your orders to the best of their ability. It can't be smaller than a mouse or bigger than a horse. You can have only one animal partner at a time. If you get separated, it will try to find you. They have 6 HP and can make basic attacks for 2 damage.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Nature",
-        "requirements": "Nature (Novice)",
+        "level": 0,
+        "school": "Nature (0)",
         "section": "spells"
       },
       {
         "title": "Fog",
         "description": "Produce fog between your hands, it's quickly covering the nearby area, making everyone unable to see beyond their reach.",
-        "ep": 3,
-        "xp": 3,
+        "ep": 5,
+        "xp": 5,
         "category": "Nature",
-        "requirements": "Nature (Novice)",
+        "level": 0,
+        "school": "Nature (0)",
+        "section": "spells"
+      },
+      {
+        "title": "Animal Buddy",
+        "description": "Recruit a nearby animal, they will follow your orders to the best of their ability. It can't be smaller than a mouse or bigger than a horse. You can have only one animal partner at a time. If you get separated, it will try to find you. They have 6 HP and can make basic attacks for 2 damage.",
+        "ep": 6,
+        "xp": 6,
+        "category": "Nature",
+        "level": 1,
+        "school": "Nature (1)",
         "section": "spells"
       },
       {
         "title": "Intwine",
         "description": "Use grass, wines, and tree branches as if they were your own limbs.",
-        "ep": 3,
-        "xp": 3,
+        "ep": 6,
+        "xp": 6,
         "category": "Nature",
-        "requirements": "Nature (Novice)",
+        "level": 1,
+        "school": "Nature (1)",
         "section": "spells"
       },
       {
         "title": "Speak with Trees",
         "description": "Touch a tree trunk, connecting yourself to the nearby forest. It can help you find a creature or an object located in the forest, a path to a location, or warn you about the nearby danger.",
-        "ep": 3,
-        "xp": 3,
+        "ep": 6,
+        "xp": 6,
         "category": "Nature",
-        "requirements": "Nature (Novice)",
+        "level": 1,
+        "school": "Nature (1)",
         "section": "spells"
       },
       {
         "title": "Change weather",
         "description": "Summon a storm, a fog, a heatwave, calm the weather, etc. You can’t cause lightning or natural-disaster level events(tornado, tsunami, etc).",
-        "ep": 3,
-        "xp": 3,
+        "ep": 9,
+        "xp": 9,
         "category": "Nature",
-        "requirements": "Nature (Novice)",
-        "section": "spells"
-      },
-      {
-        "title": "Change Season",
-        "description": "You change the season in the area of 1km around you for the next day.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Nature",
-        "requirements": "Nature (Novice)",
+        "level": 2,
+        "school": "Nature (2)",
         "section": "spells"
       },
       {
         "title": "Bond",
         "description": "You develop a telepathic connection with an animal. You can see/hear through their senses. You can enter a trance to leave your body and take control of your partner. You remain dimly aware of what's happening around your own body.",
-        "ep": 3,
-        "xp": 3,
+        "ep": 9,
+        "xp": 9,
         "category": "Nature",
-        "requirements": "Nature (Novice)",
+        "level": 2,
+        "school": "Nature (2)",
+        "section": "spells"
+      },
+      {
+        "title": "Change Season",
+        "description": "You change the season in the area of 1km around you for the next day.",
+        "ep": 12,
+        "xp": 12,
+        "category": "Nature",
+        "level": 3,
+        "school": "Nature (3)",
         "section": "spells"
       },
       {
         "title": "Control Bugs",
-        "description": "You can control all the insects within 100 meter radius.",
-        "ep": 3,
-        "xp": 3,
+        "description": "You can sense and control all the insects within 100 meter radius.",
+        "ep": 12,
+        "xp": 12,
         "category": "Nature",
-        "requirements": "Nature (Novice)",
+        "level": 3,
+        "school": "Nature (3)",
         "section": "spells"
       },
       {
         "title": "Beastmaster",
-        "description": "Once per week you can gather an army of up to 50 nearby animals.",
-        "ep": 3,
-        "xp": 3,
+        "description": "Gather an army of up to 50 nearby animals who will follow your commands.",
+        "ep": 18,
+        "xp": 18,
         "category": "Nature",
-        "requirements": "Nature (Novice)",
+        "level": 4,
+        "school": "Nature (4)",
         "section": "spells"
       },
       {
         "title": "Natural Disaster",
         "description": "Summon a natural disaster like tornado, hurricane, tsunami, etc.",
-        "ep": 3,
-        "xp": 3,
+        "ep": 18,
+        "xp": 18,
         "category": "Nature",
-        "requirements": "Nature (Novice)",
+        "level": 4,
+        "school": "Nature (4)",
         "section": "spells"
       },
       {
-        "title": "Reverse Gravity",
-        "description": "Reverse gravity inside 10x10 meter cube.",
-        "ep": 5,
-        "xp": 5,
+        "title": "Bestow Sentience",
+        "description": "Touch a non-sentient creature, and bestow the gift of sentience and intelligence onto it.",
+        "ep": 18,
+        "xp": 18,
         "category": "Nature",
-        "requirements": "Nature (Adept)",
-        "section": "spells"
-      },
-      {
-        "title": "Slow Time",
-        "description": "Makes time run 10x slower. 5x5 meter cube",
-        "ep": 5,
-        "xp": 5,
-        "category": "Nature",
-        "requirements": "Nature (Adept)",
-        "section": "spells"
-      },
-      {
-        "title": "Still Magic",
-        "description": "Stop time for a selected object for 1 minute.",
-        "ep": 5,
-        "xp": 5,
-        "category": "Nature",
-        "requirements": "Nature (Adept)",
-        "section": "spells"
-      },
-      {
-        "title": "Revision Magic",
-        "description": "Pick an object, creature, or 3x3 meter area, and rewind it's time for up to 1 minute. Revising a person causes them to lose all their memories of what happened during revision time.",
-        "ep": 5,
-        "xp": 5,
-        "category": "Nature",
-        "requirements": "Nature (Adept)",
+        "level": 4,
+        "school": "Nature (4)",
         "section": "spells"
       }
     ]
@@ -1170,75 +1174,167 @@
     "title": "Necromancy",
     "powers": [
       {
+        "title": "Fake Death",
+        "description": "Appear to be dead for the next 30 minutes.",
+        "ep": 3,
+        "xp": 3,
+        "category": "Necromancy",
+        "level": 0,
+        "school": "Necromancy (0)",
+        "section": "spells"
+      },
+      {
         "title": "Sense Death",
         "description": "Sense whether any remnants of the dead are nearby, their location, and the nature of their death (natural causes, accident, or a faul play).",
         "ep": 3,
         "xp": 3,
         "category": "Necromancy",
-        "requirements": "Necromancy (Novice)",
+        "level": 0,
+        "school": "Necromancy (0)",
+        "section": "spells"
+      },
+      {
+        "title": "Steal Life",
+        "description": "Steal one person's/creature's life force and give it to another. Aging the source and making the target proportionally younger. Transfers 8 HP.",
+        "ep": 9,
+        "xp": 9,
+        "category": "Necromancy",
+        "level": 2,
+        "school": "Necromancy (2)",
         "section": "spells"
       },
       {
         "title": "Last Moments",
         "description": "Touch a dead person/creature, and see what they have seen during the last 5 seconds of their life.",
-        "ep": 3,
-        "xp": 3,
+        "ep": 12,
+        "xp": 12,
         "category": "Necromancy",
-        "requirements": "Necromancy (Novice)",
+        "level": 3,
+        "school": "Necromancy (3)",
         "section": "spells"
       },
       {
         "title": "Speak to the Dead",
         "description": "Touch a dead person/creature to summon their ghost. You can talk/communicate with it for the next 10 minutes.",
-        "ep": 3,
-        "xp": 3,
+        "ep": 12,
+        "xp": 12,
         "category": "Necromancy",
-        "requirements": "Necromancy (Novice)",
+        "level": 3,
+        "school": "Necromancy (3)",
         "section": "spells"
       },
       {
         "title": "Raise a zombie",
         "description": "Turns a dead body into a zombie. It obeys your commands and can attack enemies.\nRaise undead. The raised person has their memories and is able to speak.",
-        "ep": 3,
-        "xp": 3,
+        "ep": 12,
+        "xp": 12,
         "category": "Necromancy",
-        "requirements": "Necromancy (Novice)",
+        "level": 3,
+        "school": "Necromancy (3)",
         "section": "spells"
       },
       {
-        "title": "Posess",
-        "description": "Touch any dead creature, and make it the host of the nearby ghost. The ghost can now use it's body, and remember fragments of their memories.",
-        "ep": 3,
-        "xp": 3,
+        "title": "Vampirism",
+        "description": "Recover up to 5 HP or EP by drinking the blood of a sentient creature you've just killed. If you have this perk, you can't walk into houses uninvited, and you lose 1 HP for every hour you are under direct sunlight.",
+        "xp": 12,
         "category": "Necromancy",
-        "requirements": "Necromancy (Novice)",
+        "level": 3,
+        "school": "Necromancy (3)",
         "section": "spells"
       },
       {
         "title": "Ticking Bomb",
         "description": "Curse the person's/creature's heart, causing it to explode instantly, or at any point within the next year.",
-        "ep": 3,
-        "xp": 3,
+        "ep": 18,
+        "xp": 18,
         "category": "Necromancy",
-        "requirements": "Necromancy (Novice)",
+        "level": 4,
+        "school": "Necromancy (4)",
         "section": "spells"
       },
       {
-        "title": "Steal Life",
-        "description": "Steal one person's/creature's life force and give it to another. Aging the source and making the target proportionally younger.",
-        "ep": 3,
-        "xp": 3,
+        "title": "Posess",
+        "description": "Touch any dead creature, and make it the host of the nearby ghost. The ghost can now use it's body, and remember fragments of their memories.",
+        "ep": 18,
+        "xp": 18,
         "category": "Necromancy",
-        "requirements": "Necromancy (Novice)",
+        "level": 4,
+        "school": "Necromancy (4)",
+        "section": "spells"
+      }
+    ]
+  },
+  {
+    "title": "Time and Space",
+    "powers": [
+      {
+        "title": "Reverse Gravity",
+        "description": "Reverse gravity inside 10x10 meter cube.",
+        "ep": 9,
+        "xp": 9,
+        "category": "Time and Space",
+        "level": 0,
+        "school": "Time and Space (0)",
         "section": "spells"
       },
       {
-        "title": "Bestow Sentience",
-        "description": "Touch a non-sentient creature, and bestow the gift of sentience and intelligence onto it.",
-        "ep": 3,
-        "xp": 3,
-        "category": "Necromancy",
-        "requirements": "Necromancy (Novice)",
+        "title": "Luck",
+        "description": "Cast this spell when someone performs an action, and it will be influenced by the supernaturally good (or bad) luck.",
+        "ep": 9,
+        "xp": 9,
+        "category": "Time and Space",
+        "level": 0,
+        "school": "Time and Space (0)",
+        "section": "spells"
+      },
+      {
+        "title": "Intangibility",
+        "description": "Become immaterial (like a ghost) for the next 10 minutes. Walk through doors, let attacks pass through you.",
+        "ep": 12,
+        "xp": 12,
+        "category": "Time and Space",
+        "level": 1,
+        "school": "Time and Space (1)",
+        "section": "spells"
+      },
+      {
+        "title": "Slow Time",
+        "description": "Makes time run 10x slower. 5x5 meter cube",
+        "ep": 12,
+        "xp": 12,
+        "category": "Time and Space",
+        "level": 1,
+        "school": "Time and Space (1)",
+        "section": "spells"
+      },
+      {
+        "title": "Still Magic",
+        "description": "Stop time for a selected object for 1 minute.",
+        "ep": 15,
+        "xp": 15,
+        "category": "Time and Space",
+        "level": 2,
+        "school": "Time and Space (2)",
+        "section": "spells"
+      },
+      {
+        "title": "Speed",
+        "description": "For the next 2 seconds the time flows 100 times slower for you, so it feels to you like 3 minutes (Quicksilver powers).",
+        "ep": 15,
+        "xp": 15,
+        "category": "Time and Space",
+        "level": 2,
+        "school": "Time and Space (2)",
+        "section": "spells"
+      },
+      {
+        "title": "Revision Magic",
+        "description": "Pick an object, creature, or 3x3 meter area, and rewind it's time for up to 1 minute. Revising a person causes them to lose all their memories of what happened during revision time, and all the damage they took.",
+        "ep": 18,
+        "xp": 18,
+        "category": "Time and Space",
+        "level": 3,
+        "school": "Time and Space (3)",
         "section": "spells"
       }
     ]
@@ -1250,6 +1346,7 @@
         "title": "[Custom Title]",
         "description": "[Create and edit this card if you need to create a custom one]",
         "category": "Blank",
+        "school": "Blank (undefined)",
         "section": "spells"
       }
     ]
