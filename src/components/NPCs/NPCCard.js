@@ -8,7 +8,7 @@ import NPCStats from "./NPCStats"
 import NPCDescription from "./NPCDescription"
 //import spells from '../../../json/spells.json'
 
-import { updateNpc, deleteNpc } from "../../actions/npcsActions"
+import { updateNpc, deleteNpc, createNpc } from "../../actions/npcsActions"
 
 class NPCCard extends Component {
   state = {
@@ -19,11 +19,18 @@ class NPCCard extends Component {
   toggleStats = () => {
     this.setState({showStats:!this.state.showStats})
   }
+
   update = (value) => {
     var { npc, updateNpc } = this.props
     this.props.updateNpc({...npc, ...value})
   }
 
+  moveToTop = (value) => {
+    var { npc } = this.props
+    this.props.deleteNpc(npc)
+    this.props.createNpc(npc)
+  }
+  
   downloadNpc = () => {
     var { npc } = this.props
     downloadFile(`${npc.name}.json`, JSON.stringify(npc, null, 2))
@@ -63,6 +70,10 @@ class NPCCard extends Component {
 		      <FontAwesomeIcon icon={["fas", "download"]} />
 		      Download
 		  </div>
+		  <div className="item btn" onClick={this.moveToTop}>
+		      <FontAwesomeIcon icon={["fas", "arrow-up"]} />
+		      Move to Top
+		  </div>
 		  <div className="item btn" onClick={()=>deleteNpc(npc)}>
 		      <FontAwesomeIcon icon={["fas", "trash-alt"]} />
 		      Delete
@@ -83,4 +94,4 @@ class NPCCard extends Component {
 }
 }
 
-export default connect(({ }) => ({ }), { updateNpc, deleteNpc })(NPCCard)
+export default connect(({ }) => ({ }), { updateNpc, deleteNpc, createNpc })(NPCCard)
