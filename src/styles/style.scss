@@ -12,7 +12,7 @@ $panel-bg: #eeeeee;
 $subnav-bg: #fafaf9;
 
 @import "./_fonts.scss";
-@import "./fonts/_phb-fonts.css";
+//@import "./fonts/_phb-fonts.css"; // imported in templates/blog-post.js
 @import "./_reset.scss";
 @import "./_global.scss";
 @import "./_helpers.scss";

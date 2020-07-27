@@ -79,6 +79,15 @@ module.exports = {
        globPatterns: ['*/**'],
        directoryIndex: 'index.html',
      }
-    }
+    },
+    /* https://www.gatsbyjs.org/packages/gatsby-plugin-webpack-bundle-analyzer/ */
+    {
+      resolve: 'gatsby-plugin-webpack-bundle-analyzer',
+      options: {
+	analyzerPort: 3000,
+	disable: false,
+	production: false
+      },
+    },
   ],
 }

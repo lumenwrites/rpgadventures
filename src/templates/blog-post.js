@@ -4,6 +4,8 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+//import '../../src/styles/fonts/_phb-fonts.css'
+
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.mdx
   const adventure = post.fields.category === "adventure"
