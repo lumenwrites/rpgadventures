@@ -1,0 +1,11 @@
+{
+  "type": "Villain",
+  "name": "Boss",
+  "description": "",
+  "image": "",
+  "health": "18",
+  "energy": "18",
+  "attack": "6",
+  "powers": [],
+  "id": "wx19wr"
+}

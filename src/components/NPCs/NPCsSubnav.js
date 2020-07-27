@@ -3,6 +3,10 @@ import { connect } from "react-redux"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 import blankNpc from "../../../json/premade-npcs/blank-npc.json"
+import Commoner from "../../../json/premade-npcs/Commoner.json"
+import Minion from "../../../json/premade-npcs/Minion.json"
+import Boss from "../../../json/premade-npcs/Boss.json"
+import Guard from "../../../json/premade-npcs/Guard.json"
 
 import { downloadFile } from "../../utils"
 /* Actions */
@@ -57,6 +61,22 @@ class Subnav extends Component {
 			   onClick={() => this.createNpc(blankNpc)}>
 			  Blank
 		      </div>
+		      <div className="item btn"
+			   onClick={() => this.createNpc(Commoner)}>
+			  Blank Commoner
+		      </div>
+		      <div className="item btn"
+			   onClick={() => this.createNpc(Minion)}>
+			  Blank Minion
+		      </div>
+		      <div className="item btn"
+			   onClick={() => this.createNpc(Boss)}>
+			  Blank Boss
+		      </div>
+		      <div className="item btn"
+			   onClick={() => this.createNpc(Guard)}>
+			  Guard
+		      </div>		      
 		  </div>
 	      </div>
 
@@ -67,11 +87,11 @@ class Subnav extends Component {
 
 	      {/* Hidden html5 file input */}
 	      <input
-		type="file"
-		id="file-input"
-		accept=".json"
-		ref={ref => (this.fileInput = ref)}
-		onChange={this.openFile}
+	      type="file"
+	      id="file-input"
+	      accept=".json"
+	      ref={ref => (this.fileInput = ref)}
+	      onChange={this.openFile}
 	      />
 	      {/* Just triggers click on file input */}
 	      <div className="btn" onClick={() => this.fileInput.click()}>
@@ -81,7 +101,7 @@ class Subnav extends Component {
 	  </div>
       </div>
     )
-}
+  }
 }
 
 export default connect(({ npcs }) => ({ npcs }), {createNpc, loadNpcs, loadNpc})(Subnav)

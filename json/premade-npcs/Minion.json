@@ -1,0 +1,11 @@
+{
+  "type": "Villain",
+  "name": "Minion",
+  "description": "",
+  "image": "",
+  "health": 10,
+  "energy": 10,
+  "attack": 4,
+  "powers": [],
+  "id": "mvkdse"
+}

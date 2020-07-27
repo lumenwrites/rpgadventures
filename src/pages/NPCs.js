@@ -27,7 +27,7 @@ class NPCs extends Component {
     var { npcs } = this.props
     if (!npcs) return //remove it later
     return npcs.map((npc, i) => {
-      return <NPCCard npc={npc} key={i} />
+      return <NPCCard npc={npc} key={npc.id} />
     })
   }
 

@@ -1,0 +1,45 @@
+{
+  "type": "Villain",
+  "name": "Guard",
+  "description": "",
+  "image": "NPCs/neutral/guard5.png",
+  "health": 10,
+  "energy": 10,
+  "attack": 4,
+  "powers": [
+    {
+      "title": "Reckless Attack",
+      "description": "Attack without concern for your life - deals double damage but makes you vulnerable to a counterattack.",
+      "ep": 9,
+      "xp": 9,
+      "category": "Warfare",
+      "level": 0,
+      "school": "Warfare (0)",
+      "section": "abilities",
+      "id": "s6i75u"
+    },
+    {
+      "title": "Parry",
+      "description": "Deflect melee attack from an equally skilled opponent.",
+      "ep": 3,
+      "xp": 3,
+      "category": "Warfare",
+      "level": 0,
+      "school": "Warfare (0)",
+      "section": "abilities",
+      "id": "hzi8k"
+    },
+    {
+      "title": "Knock Down",
+      "description": "You charge in a straight line towards the selected enemy and smash into them. The enemy gets knocked down, losing their next turn.",
+      "ep": 3,
+      "xp": 3,
+      "category": "Warfare",
+      "level": 0,
+      "school": "Warfare (0)",
+      "section": "abilities",
+      "id": "42i1ga"
+    }
+  ],
+  "id": "t97gqo"
+}
