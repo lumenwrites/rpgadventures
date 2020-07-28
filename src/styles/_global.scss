@@ -121,6 +121,14 @@ code {
     padding: 0 4px;
     border-radius: 3px;
 }
+
+pre code {
+    border-radius: 3px;
+    display: block;
+    padding: 10px;
+    margin-top: 10px;    
+}
+
 blockquote {
     border-left: 3px solid $border;
     background: #fafafa;

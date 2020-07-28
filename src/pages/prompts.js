@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 import { Link, graphql } from "gatsby"
+
 //import Img from "gatsby-image"
 
 import ReactMarkdown from 'react-markdown'

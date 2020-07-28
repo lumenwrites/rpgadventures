@@ -45,6 +45,9 @@ const Header = () => {
 				  <Link to="/pen-and-paper" className="item btn">
 				      Pen & Paper
 				  </Link>
+				  <Link to="/dice-rolling" className="item btn">
+				      Dice Rolling
+				  </Link>
 			      </div>
 			  </div>
 			  
