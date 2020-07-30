@@ -288,6 +288,7 @@ tbody tr:nth-child(even){
 	float: left;
 	width: calc(100% - 100px - 35px - 35px);
 	&:focus{ outline: none; }
+	border-radius: 0;
     }
     .btn-subscribe {
 	background: #f66303;
