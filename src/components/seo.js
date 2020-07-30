@@ -9,6 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import defaultOpenGraphImage from '../../static/social.png'
 
 const SEO = ({ description, lang, meta, title }) => {
   const { site } = useStaticQuery(
@@ -55,7 +56,7 @@ const SEO = ({ description, lang, meta, title }) => {
         },
         {
           name: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
         },
         {
           name: `twitter:creator`,
@@ -69,6 +70,14 @@ const SEO = ({ description, lang, meta, title }) => {
           name: `twitter:description`,
           content: metaDescription,
         },
+	{
+	  name: `twitter:image`,
+	  content: `https://playmirage.io/social.png`
+	},
+	{
+	  name: `og:image`,
+	  content: `https://playmirage.io/social.png`
+	},	
       ].concat(meta)}
     />
   )
