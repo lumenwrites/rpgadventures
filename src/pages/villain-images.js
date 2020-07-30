@@ -4,6 +4,7 @@ import Img from "gatsby-image"
 
 import { Link } from "gatsby"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 class World extends Component {
   renderImages = () => {
@@ -32,6 +33,7 @@ class World extends Component {
 	      </span>
 	      <div className="columns">{this.renderImages()}</div>
           </article>
+	  <SEO title={"Villain Images"} description={"Fantasy Locations"}/>
       </Layout>
     )
   }

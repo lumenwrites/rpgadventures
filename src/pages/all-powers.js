@@ -73,7 +73,7 @@ class Powers extends Component {
 	      </div>
 	      {this.renderCategories()}
 	  </div>
-	  <SEO title={"All Powers | Mirage"} description={"Full list of powers."}/>
+	  <SEO title={"All Powers"} description={"Full list of powers."}/>
       </Layout>
     )
   }

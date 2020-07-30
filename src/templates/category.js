@@ -33,7 +33,7 @@ const BlogIndex = ({ data, location, pageContext }) => {
             })}
 	</div>
 	<SignUp />	
-	<SEO title={`${categoryTitle}s | Mirage`} />
+	<SEO title={`${categoryTitle}s`} />
     </Layout>
   )
 }

@@ -7,6 +7,8 @@ module.exports = {
     },
     description: `Lighthearted, social, easy to learn roleplaying game focused on storytelling, improvisation, imagination and creativity.`,
     siteUrl: `https://playmirage.io`,
+    image: `/social.png`,
+    twitterUsername: "@lumenwrites",
     social: {
       twitter: `lumenwrites`,
     },

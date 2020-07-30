@@ -36,7 +36,7 @@ class NPCs extends Component {
     return (
       <Layout subnav={subnav}>
           <div className="npcs">{this.renderCards()}</div>
-	  <SEO title={"NPCs App | Mirage"} description={"Create and edit NPC cards."}/>
+	  <SEO title={"NPCs App"} description={"Create and edit NPC cards."}/>
       </Layout>
     )
   }
