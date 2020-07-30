@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import SignUp from "../components/elements/SignUp"
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.mdx
@@ -14,6 +15,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             <MDXRenderer>{post.body}</MDXRenderer>
             <footer></footer>
 	</article>
+	<SignUp/>
 	<SEO title={post.frontmatter.title} description={post.frontmatter.description || post.excerpt}/>
     </Layout>
   )

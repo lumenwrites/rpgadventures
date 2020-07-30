@@ -272,3 +272,39 @@ tbody tr:nth-child(even){
 .react-tooltip {
     padding: 4px 8px!important;
 }
+
+.mailchimp-pixel {
+    position: absolute; left: -5000px;
+}
+
+.mailing-list {
+    margin-top: 10px;
+    padding: 20px 40px;    
+    background: white;
+    border: 1px solid $border;
+    font-size: 14px;
+    input {
+	height: 30px;
+	float: left;
+	width: calc(100% - 100px - 35px - 35px);
+	&:focus{ outline: none; }
+    }
+    .btn-subscribe {
+	background: #f66303;
+	color: white;
+	height: 30px;
+	float: left;
+	width: 100px;
+    }
+    .btn-square {
+	background: #f66303;
+	width: 30px; height: 30px;
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	float: left;
+	margin-left: 5px;
+	svg path { fill: white; }
+    }
+}
