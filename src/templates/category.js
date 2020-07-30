@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 import Img from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import SignUp from "../components/elements/SignUp"
 
 const BlogIndex = ({ data, location, pageContext }) => {
   const posts = data.allMdx.edges
@@ -31,6 +32,7 @@ const BlogIndex = ({ data, location, pageContext }) => {
               )
             })}
 	</div>
+	<SignUp />	
 	<SEO title={`${categoryTitle}s | Mirage`} />
     </Layout>
   )

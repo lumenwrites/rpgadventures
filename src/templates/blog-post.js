@@ -15,7 +15,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             <MDXRenderer>{post.body}</MDXRenderer>
             <footer></footer>
 	</article>
-	<SignUp/>
+	<SignUp adventure={adventure} />
 	<SEO title={post.frontmatter.title} description={post.frontmatter.description || post.excerpt}/>
     </Layout>
   )

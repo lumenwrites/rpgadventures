@@ -295,6 +295,7 @@ tbody tr:nth-child(even){
 	height: 30px;
 	float: left;
 	width: 100px;
+	//outline: 1px solid #f66303;
     }
     .btn-square {
 	background: #f66303;
@@ -305,6 +306,16 @@ tbody tr:nth-child(even){
 	justify-content: center;
 	float: left;
 	margin-left: 5px;
+	//outline: 1px solid #f66303;
 	svg path { fill: white; }
+    }
+}
+
+.adventure.mailing-list {
+    input {
+	background: #faf7ea;
+	border: none;
+	//border: 1px solid $border;
+	&:focus{ outline: none; }
     }
 }

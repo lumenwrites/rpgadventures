@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 class SignUp extends Component {
   render() {
     return (
-      <div className="mailing-list">
+      <div className={`mailing-list ${this.props.adventure ? "adventure" : ""}`}>
 	  Receive updates  on my future posts (free adventures, roleplaying guides, writing, GM advice):
 	  {/* , adventure design  */}
 	  {/* MailChimp */}
