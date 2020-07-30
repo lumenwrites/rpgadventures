@@ -287,8 +287,10 @@ tbody tr:nth-child(even){
 	height: 30px;
 	float: left;
 	width: calc(100% - 100px - 35px - 35px);
-	&:focus{ outline: none; }
 	border-radius: 0;
+	border:none;
+	outline: 1px solid $border;
+	outline-offset: 0px;
     }
     .btn-subscribe {
 	background: #f66303;
@@ -296,7 +298,7 @@ tbody tr:nth-child(even){
 	height: 30px;
 	float: left;
 	width: 100px;
-	//outline: 1px solid #f66303;
+	outline: 1px solid #f66303;
     }
     .btn-square {
 	background: #f66303;
@@ -307,7 +309,7 @@ tbody tr:nth-child(even){
 	justify-content: center;
 	float: left;
 	margin-left: 5px;
-	//outline: 1px solid #f66303;
+	outline: 1px solid #f66303;
 	svg path { fill: white; }
     }
 }
@@ -316,7 +318,7 @@ tbody tr:nth-child(even){
     input {
 	background: #faf7ea;
 	border: none;
+	outline: 1px solid $border;
 	//border: 1px solid $border;
-	&:focus{ outline: none; }
     }
 }
