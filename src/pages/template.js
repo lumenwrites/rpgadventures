@@ -5,8 +5,10 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const TemplateRedirect = () => {
-  window.location.replace("https://docs.google.com/document/d/1R7bOixB-1tN7U3lEi47L-NDA91CibDJ0VTgrbKO2nlQ/")
-  
+  if (window) {
+    window.location.replace("https://docs.google.com/document/d/1R7bOixB-1tN7U3lEi47L-NDA91CibDJ0VTgrbKO2nlQ/")
+  }
+
   return (
     <Layout location={location} title={siteTitle}>
 	<article>
