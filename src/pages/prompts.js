@@ -143,6 +143,13 @@ class Prompts extends Component {
 		      </Link>{" "}
 		      to develop these prompts into a complete adventure.
 		  </li>
+		  <li>
+		      Join our{" "}
+		      <a href="https://discord.gg/UVNxeQE">
+			  Adventure Writer's Room
+		      </a>{" "}
+		      - Our goal is to brainstorm fun ideas and improvise stories together in a chill, lighthearted, no-pressure environment. We meet in the discord voice chat, and we challenge ourselves to improvise a one-shot adventure in 2 hours. It works, it really helps with writing, and it is super fun. We also exchange advice and feedback, and help each other with brainstorming ideas and solving creative problems. We're looking for some friendly and creative people to join us!
+		  </li>
               </ul>
           </div>
 	  <SEO title={"Adventure Writing Prompts"}
