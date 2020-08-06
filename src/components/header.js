@@ -66,6 +66,10 @@ const Header = () => {
 				  <Link to="/prompts" className="item btn">
 				      Prompts
 				  </Link>
+				  <Link to="/guide/writers-room"
+					className="item btn">
+				      Writer's Room
+				  </Link>
 			      </div>
 			  </div>
 
