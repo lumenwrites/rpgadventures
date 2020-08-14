@@ -139,20 +139,17 @@ class Subnav extends Component {
               </div>
 
               <div className="dropdown">
-		  <div className="menu-handle btn">
+		  <div className="menu-handle btn"
+		       onClick={this.downloadSheet}>
 		      <FontAwesomeIcon icon={["fas", "download"]} />
 		      Save
 		  </div>
 		  <div className="menu">
 		      <div className="item btn" onClick={this.downloadSheet}>
-			  Sheet
-		      </div>
-		      <div className="item btn" onClick={this.print}>
-			  {/*<FontAwesomeIcon icon={["fas", "file-pdf"]}/>*/}
-			  PDF
+			  Save Sheet
 		      </div>
 		      <div className="item btn" onClick={this.downloadSheets}>
-			  Backup
+			  Save All Sheets
 		      </div>
 		  </div>
               </div>
@@ -165,18 +162,18 @@ class Subnav extends Component {
 		  <div className="menu">
 		      {/* Hidden html5 file input */}
 		      <input
-			type="file"
-			id="file-input"
-			accept=".json"
-			ref={ref => (this.fileInput = ref)}
-			onChange={this.openFile}
+		      type="file"
+		      id="file-input"
+		      accept=".json"
+		      ref={ref => (this.fileInput = ref)}
+		      onChange={this.openFile}
 		      />
 		      {/* Just triggers click on file input */}
 		      <div className="item btn" onClick={() => this.fileInput.click()}>
 			  Sheet
 		      </div>
 		      <div className="item btn" onClick={() => this.fileInput.click()}>
-			  Backup
+			  All Sheets
 		      </div>
 		  </div>
               </div>

@@ -61,6 +61,19 @@ Gain XP as a reward for overcoming challenges, completing quests, teamwork, and 
 
 <div className="columns">
 
+### Abilities
+You use abilities to do things that are difficult or require expertise. For example, lifting heavy things, picking locks, sneaking, climbing, investigating, seducing, lying. Without the relevant ability, your character is as good at doing things as an average person.
+
+There's no dice. You can assume that you will succeed if you try to do something that any regular person is capable of. But if you want to attempt doing something really difficult or risky, the GM can say that it would require a relevant ability (you would need an “Athletics” ability to lift a super heavy rock, “Diplomacy” to talk the king out of starting a war).
+
+Example of an ability:
+
+<Power power={exampleAbility} sample />
+
+Using this ability costs **2** Energy points. To learn it, you need to spend **3** Experience points, and you must have **Adept** skill level in **Survival** school.
+
+<div className="column-break"/>
+
 ### Schools and Spells
 Abilities and Spells are organized into Schools (like Warfare, Stealth, Charm, Necromancy) and Skill Levels  (Novice, Initiate, Adept, Expert, Master).
 
@@ -69,19 +82,6 @@ You can learn "Novice" level powers right away. To progress to the more advanced
 <Power power={exampleSpell} sample />
 
 This spell costs **4** Energy Points to cast, **5** Experience Points to learn, and requires **Expert** level skills in **Illusionism** school.
-
-<div className="column-break"/>
-
-
-### Abilities
-You use abilities to do things that are difficult or require expertise. For example, lifting heavy things, picking locks, sneaking, climbing, investigating, seducing, lying. Without the relevant ability, your character is as good at doing things as an average person.
-
-Example of an ability:
-
-<Power power={exampleAbility} sample />
-
-Using this ability costs **2** Energy points. To learn it, you need to spend **3** Experience points, and you must have **Adept** skill level in **Survival** school.
-
 
 </div>
 
@@ -138,27 +138,6 @@ If you run out of Health, you pass out. If someone hits you when you’re passed
 
 
 </div>
-
----
-
-## Rolling Dice
-
-When you attempt to do something difficult or risky, the GM can tell you to roll a 20-sided die. If you roll above a certain target number (set by the GM depending on the difficulty of the task) - you succeed, otherwise you fail. 
-
-The GM can also set a second, lower number. Beating it will result in success, but at a cost of suffering some negative consequence, complication, or a setback.
-
-For example:
-
-> Player: I walk the tight rope over the abyss.  
-> GM: Roll the dice. If you beat 17 - you succeed. If you beat 13 - you succeed, but one of your items falls out of your pocket and drops into the abyss. If you roll below 13 - you fall into the abyss.
-
-Whenever you roll 20 - you succeed in an exceptionally spectacular way, the outcome is extremely favorable to you. Whenever you roll 1 - you fail and suffer a severe setback (lose equipment, take damage, or face some other misfortune).
-
-You can improve your chances by rolling with **advantage**. That means you roll two dice, and take the highest number. You gain advantage if you use an ability or a spell relevant to the task you are attempting (for example, use "Deception" ability to roll with advantage when attempting to lie to someone).
-
-You can also gain advantage for creative ideas and excellent roleplaying. Creatively use the world around you, find some clever way to approach the task to maximize your chances, or use teamwork to accomplish the task together with other players (describe how you're helping each other out). Act out a dramatic moment, make a speech, describe what you do in an exceptionally vivid and awesome way.
-
-To roll the dice on our discord server, type `!roll` in the chat. Type `!adv` to roll with advantage.
 
 ---
 

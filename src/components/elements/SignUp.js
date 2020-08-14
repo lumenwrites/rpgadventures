@@ -5,19 +5,16 @@ class SignUp extends Component {
   render() {
     return (
       <div className={`mailing-list ${this.props.adventure ? "adventure" : ""}`}>
-	  Receive updates  on my future posts (free adventures, roleplaying guides, writing, GM advice):
+	  Receive updates  on my future posts (free adventures, roleplaying guides, writing advice):
 	  {/* , adventure design  */}
 	  {/* MailChimp */}
 	  <form action="https://playmirage.us7.list-manage.com/subscribe/post?u=0f23c7984541d915d1108a16e&amp;id=22b9dcc98a" method="post">
 	      <input type="email" name="EMAIL" className="form-control-cta"
 		     placeholder="Enter your email..." />
-	      {/* Meta */}
-	      <input type="hidden" name="thankyou_url" value="https://playmirage.io/thank-you"/>
-	      <input type="hidden" name="SRC" value="" />
 	      {/* Antibot */}
 	      <div className="mailchimp-pixel" aria-hidden="true">
 		  <input type="text" name="b_0f23c7984541d915d1108a16e_22b9dcc98a"
-			 tabindex="-1" value=""/>
+			 tabIndex="-1" defaultValue=""/>
 	      </div>
 	      {/* Subscribe button */}
 	      <button className="btn-subscribe"  type="submit">

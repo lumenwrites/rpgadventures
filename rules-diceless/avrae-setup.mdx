@@ -1,0 +1,235 @@
+---
+title: Avrae Setup
+date: "2015-05-01"
+description: "Avrae Setup"
+slug: "/avrae-setup"
+---
+
+import { Link } from "gatsby"
+
+# Avrae Setup
+
+If you want to play with the <Link to="/dice-rolling">dice rolling rules</Link> on Discord, you can set up an [Avrae bot](https://avrae.io/) to roll the dice automatically for you (the official [Mirage discord server](https://discord.gg/zt4N23d) has these commands already set up).
+
+To set up these commands on your own server:
+
+First, [click here](https://invite.avrae.io/) to invite the bot to your server (you need to be an Admin). Select your server from the dropdown menu and click "Continue".
+
+Then, copy-paste the following commands into chat (each command as a separate message):
+
+```
+!servalias rl embed
+<drac2>
+args=["1","adv"]
+a = argparse(args)
+arg = args
+
+num = 1
+for x in arg:
+ if x.isdigit():
+  num = x
+  break
+ROLL=vroll(["1d20",f"{num}d20kh1",f"{num}d20kl1"][a.adv()])
+
+if ROLL.total == 20:
+    out = f'-f Result|"Triumph!"'
+elif ROLL.total <= 19 and ROLL.total >= 15:
+    out = f'-f Result|"Success."'
+elif ROLL.total <= 14 and ROLL.total >= 7:
+    out = f'-f Result|"Success, but with a cost."'
+elif ROLL.total <= 6 and ROLL.total >= 2:
+    out = f'-f Result|"Failure."'
+else:
+    out = f'-f Result|"Disaster!"'
+return out
+</drac2>
+-desc "You have rolled `{{ROLL.total}}`"
+```
+
+
+```
+!servalias adv2 embed
+<drac2>
+args=["2","adv"]
+a = argparse(args)
+arg = args
+
+num = 1
+for x in arg:
+ if x.isdigit():
+  num = x
+  break
+ROLL=vroll(["1d20",f"{num}d20kh1",f"{num}d20kl1"][a.adv()])
+
+if ROLL.total == 20:
+    out = f'-f Result|"Triumph!"'
+elif ROLL.total <= 19 and ROLL.total >= 15:
+    out = f'-f Result|"Success."'
+elif ROLL.total <= 14 and ROLL.total >= 7:
+    out = f'-f Result|"Success, but with a cost."'
+elif ROLL.total <= 6 and ROLL.total >= 2:
+    out = f'-f Result|"Failure."'
+else:
+    out = f'-f Result|"Disaster!"'
+return out
+</drac2>
+-desc "You have rolled {{ROLL.dice[ROLL.dice.index('('):]}} = `{{ROLL.total}}`"
+```
+
+```
+!servalias adv3 embed
+<drac2>
+args=["3","adv"]
+a = argparse(args)
+arg = args
+
+num = 1
+for x in arg:
+ if x.isdigit():
+  num = x
+  break
+ROLL=vroll(["1d20",f"{num}d20kh1",f"{num}d20kl1"][a.adv()])
+
+if ROLL.total == 20:
+    out = f'-f Result|"Triumph!"'
+elif ROLL.total <= 19 and ROLL.total >= 15:
+    out = f'-f Result|"Success."'
+elif ROLL.total <= 14 and ROLL.total >= 7:
+    out = f'-f Result|"Success, but with a cost."'
+elif ROLL.total <= 6 and ROLL.total >= 2:
+    out = f'-f Result|"Failure."'
+else:
+    out = f'-f Result|"Disaster!"'
+return out
+</drac2>
+-desc "You have rolled {{ROLL.dice[ROLL.dice.index('('):]}} = `{{ROLL.total}}`"
+```
+
+```
+!servalias adv4 embed
+<drac2>
+args=["4","adv"]
+a = argparse(args)
+arg = args
+
+num = 1
+for x in arg:
+ if x.isdigit():
+  num = x
+  break
+ROLL=vroll(["1d20",f"{num}d20kh1",f"{num}d20kl1"][a.adv()])
+
+if ROLL.total == 20:
+    out = f'-f Result|"Triumph!"'
+elif ROLL.total <= 19 and ROLL.total >= 15:
+    out = f'-f Result|"Success."'
+elif ROLL.total <= 14 and ROLL.total >= 7:
+    out = f'-f Result|"Success, but with a cost."'
+elif ROLL.total <= 6 and ROLL.total >= 2:
+    out = f'-f Result|"Failure."'
+else:
+    out = f'-f Result|"Disaster!"'
+return out
+</drac2>
+-desc "You have rolled {{ROLL.dice[ROLL.dice.index('('):]}} = `{{ROLL.total}}`"
+```
+
+```
+!servalias dis2 embed
+<drac2>
+args=["2","dis"]
+a = argparse(args)
+arg = args
+
+num = 1
+for x in arg:
+ if x.isdigit():
+  num = x
+  break
+ROLL=vroll(["1d20",f"{num}d20kh1",f"{num}d20kl1"][a.adv()])
+
+if ROLL.total == 20:
+    out = f'-f Result|"Triumph!"'
+elif ROLL.total <= 19 and ROLL.total >= 15:
+    out = f'-f Result|"Success."'
+elif ROLL.total <= 14 and ROLL.total >= 7:
+    out = f'-f Result|"Success, but with a cost."'
+elif ROLL.total <= 6 and ROLL.total >= 2:
+    out = f'-f Result|"Failure."'
+else:
+    out = f'-f Result|"Disaster!"'
+return out
+</drac2>
+-desc "You have rolled {{ROLL.dice[ROLL.dice.index('('):]}} = `{{ROLL.total}}`"
+```
+
+```
+!servalias dis3 embed
+<drac2>
+args=["3","dis"]
+a = argparse(args)
+arg = args
+
+num = 1
+for x in arg:
+ if x.isdigit():
+  num = x
+  break
+ROLL=vroll(["1d20",f"{num}d20kh1",f"{num}d20kl1"][a.adv()])
+
+if ROLL.total == 20:
+    out = f'-f Result|"Triumph!"'
+elif ROLL.total <= 19 and ROLL.total >= 15:
+    out = f'-f Result|"Success."'
+elif ROLL.total <= 14 and ROLL.total >= 7:
+    out = f'-f Result|"Success, but with a cost."'
+elif ROLL.total <= 6 and ROLL.total >= 2:
+    out = f'-f Result|"Failure."'
+else:
+    out = f'-f Result|"Disaster!"'
+return out
+</drac2>
+-desc "You have rolled {{ROLL.dice[ROLL.dice.index('('):]}} = `{{ROLL.total}}`"
+```
+
+
+```
+!servalias dis4 embed
+<drac2>
+args=["4","dis"]
+a = argparse(args)
+arg = args
+
+num = 1
+for x in arg:
+ if x.isdigit():
+  num = x
+  break
+ROLL=vroll(["1d20",f"{num}d20kh1",f"{num}d20kl1"][a.adv()])
+
+if ROLL.total == 20:
+    out = f'-f Result|"Triumph!"'
+elif ROLL.total <= 19 and ROLL.total >= 15:
+    out = f'-f Result|"Success."'
+elif ROLL.total <= 14 and ROLL.total >= 7:
+    out = f'-f Result|"Success, but with a cost."'
+elif ROLL.total <= 6 and ROLL.total >= 2:
+    out = f'-f Result|"Failure."'
+else:
+    out = f'-f Result|"Disaster!"'
+return out
+</drac2>
+-desc "You have rolled {{ROLL.dice[ROLL.dice.index('('):]}} = `{{ROLL.total}}`"
+```
+
+(7 messages in total)
+
+That's it, now you can roll dice in your discord by using the following commands:
+
+- `!rl` - roll 1 die
+- `!adv2` - roll 2 dice with advantage
+- `!adv3` - roll 3 dice with advantage
+- `!adv4` - roll 4 dice with advantage  
+- `!dis2` - roll 2 dice with disadvantage
+- `!dis3` - roll 3 dice with disadvantage
+- `!dis4` - roll 4 dice with disadvantage  

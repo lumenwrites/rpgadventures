@@ -19,8 +19,9 @@
 	padding:0; //will this fix ipad display issue?
     }
     input:focus {
-	outline: 1px solid $border;
-	//outline: none;
+	//outline: 1px solid $border;
+	outline: none;
+	border-bottom: 1px solid $border;
     }
 }
 
@@ -65,11 +66,14 @@ textarea {
 	    font-weight: bold;
 	}
 	.value {
-	    line-height: 32px;
+	    //line-height: 32px;
 	    width: 26px;
 	    text-align: center;
 	    border: none;
 	    background: #fafafa;
+	    &:focus {
+		border-bottom: 1px solid $border;
+	    }
 	}
 	.inputs-wrapper {
 	    width: 100px;

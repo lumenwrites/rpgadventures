@@ -1,3 +1,8 @@
+body {
+    @media print {
+	background: white;
+    }
+}
 header, .subnav {
     @media print {
 	display:none;
@@ -9,7 +14,7 @@ header, .subnav {
 	overflow-y: visible;
     }
 }
-.main-wrapper {
+.wrapper {
     @media print {
 	max-width: 100%;
     }
@@ -19,6 +24,11 @@ header, .subnav {
 	width: 100%;
 	margin:0;
 	overflow: visible;
+	box-shadow: none;
+	.stat .value:first-child {
+	    //opacity: 0;
+	    //border-bottom: 1px solid $border;
+	}
 	.add-image, .character-description, .append {
 	    display: none;
 	}
