@@ -2430,32 +2430,32 @@
         },
         {
             "title": "Leather Armor",
-            "description": "Basic armor. Increases you max HP by 3 points.",
+            "description": "Basic armor. Reduces damage from physical attacks by 1.",
             "rarity": "Common",
             "category": "Armor"
         },
         {
             "title": "Ninja Armor",
-            "description": "Suit made out of light black clothes. Increases you max HP by 3 points. Makes you very hard to notice in the dark.",
+            "description": "Suit made out of light black clothes. Reduces damage from physical attacks by 2. Makes you very hard to notice in the dark (gives advantage to stealth rolls at night).",
             "dice": 1,
             "rarity": "Uncommon",
             "category": "Armor"
         },
         {
             "title": "Steel Armor",
-            "description": "Increases your max HP by 6 points.",
+            "description": "Reduces damage from physical attacks by 2.",
             "rarity": "Uncommon",
             "category": "Armor"
         },
         {
             "title": "Obsidian Armor",
-            "description": "Increases your max HP by 8 points.",
+            "description": "Reduces damage from physical attacks by 3.",
             "rarity": "Legendary",
             "category": "Armor"
         },
         {
             "title": "Wizard's Robes",
-            "description": "Increases your max Energy by 4 points",
+            "description": "Reduces damage from spells by 1. When you wear it, energy potions recover 2 extra EP.",
             "rarity": "Rare",
             "category": "Armor"
         },
