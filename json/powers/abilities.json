@@ -5,7 +5,7 @@
       {
         "title": "Body Builder",
         "description": "You're as strong as a good bodybuilder. You can do what a good bodybuilder can do.\nLike lift and throw that big rock or tip over a cow.",
-        "ep": 3,
+        "ep": 1,
         "xp": 3,
         "category": "Physique",
         "level": 0,
@@ -15,7 +15,7 @@
       {
         "title": "Acrobat",
         "description": "You are very flexible and fast. You can do a backflip, jump between buildings, dodge attacks.",
-        "ep": 3,
+        "ep": 1,
         "xp": 3,
         "category": "Physique",
         "level": 0,
@@ -25,7 +25,7 @@
       {
         "title": "Tough",
         "description": "You are tough. You have unbendable will and can survive in difficult situations (without sleep, in toxic environment, etc).",
-        "ep": 3,
+        "ep": 1,
         "xp": 3,
         "category": "Physique",
         "level": 0,
@@ -35,7 +35,7 @@
       {
         "title": "Keen Ear",
         "description": "For the next 10 minutes you can hear things that are hard to hear.",
-        "ep": 3,
+        "ep": 1,
         "xp": 3,
         "category": "Physique",
         "level": 0,
@@ -45,7 +45,7 @@
       {
         "title": "Grapple",
         "description": "You grapple the opponent of your size or smaller. You can hold them for up to 5 minutes.",
-        "ep": 6,
+        "ep": 3,
         "xp": 6,
         "category": "Physique",
         "level": 1,
@@ -55,7 +55,7 @@
       {
         "title": "Keen Eye",
         "description": "For the next 10 minutes you can notice things that are hard to see.",
-        "ep": 6,
+        "ep": 3,
         "xp": 6,
         "category": "Physique",
         "level": 1,
@@ -65,7 +65,7 @@
       {
         "title": "Darkvision",
         "description": "For the next hour you can see in pitch darkness as if it’s an overcast day.",
-        "ep": 6,
+        "ep": 3,
         "xp": 6,
         "category": "Physique",
         "level": 1,
@@ -75,7 +75,7 @@
       {
         "title": "Eagle Eye",
         "description": "You gain superhuman vision for the next minute, you can see the tiniest objects extremely far away.",
-        "ep": 9,
+        "ep": 4,
         "xp": 9,
         "category": "Physique",
         "level": 2,
@@ -85,7 +85,7 @@
       {
         "title": "Owl's Ear",
         "description": "Gain hypersensitive hearing for the next minute. Hear things that are very far away, hear through walls.",
-        "ep": 9,
+        "ep": 4,
         "xp": 9,
         "category": "Physique",
         "level": 2,
@@ -104,7 +104,7 @@
       {
         "title": "Hulk",
         "description": "You’re superhumanly strong, like Hulk or Mr. Incredible. You can rip that oak from the earth and snap it in half, you can punch through the solid wall.",
-        "ep": 15,
+        "ep": 6,
         "xp": 15,
         "category": "Physique",
         "level": 4,
@@ -114,7 +114,7 @@
       {
         "title": "Spider Man",
         "description": "You are capable of superhuman, spider-man-level acrobatics.",
-        "ep": 15,
+        "ep": 6,
         "xp": 15,
         "category": "Physique",
         "level": 4,
@@ -128,7 +128,7 @@
       {
         "title": "Run",
         "description": "For the next hour you can run as fast as a horse.",
-        "ep": 12,
+        "ep": 6,
         "xp": 12,
         "level": 3,
         "school": "undefined (3)",
@@ -137,7 +137,7 @@
       {
         "title": "Leap",
         "description": "Jump up to 6 meters forward and 4 meters upward in any direction.",
-        "ep": 12,
+        "ep": 6,
         "xp": 12,
         "level": 3,
         "school": "undefined (3)",
@@ -155,12 +155,80 @@
     ]
   },
   {
+    "title": "Traits",
+    "powers": [
+      {
+        "title": "Peacemaker",
+        "description": "Every time you find a non-combat resolution, you gain 2 EP.",
+        "xp": 3,
+        "category": "Traits",
+        "level": 0,
+        "school": "Traits (0)",
+        "section": "abilities"
+      },
+      {
+        "title": "Guardian",
+        "description": "Every time you spare a life or rescue someone, you gain 3 EP.",
+        "xp": 3,
+        "category": "Traits",
+        "level": 0,
+        "school": "Traits (0)",
+        "section": "abilities"
+      },
+      {
+        "title": "Comedian",
+        "description": "Every time you make a joke that gets a laugh from the group, you gain 2 EP.",
+        "xp": 3,
+        "category": "Traits",
+        "level": 0,
+        "school": "Traits (0)",
+        "section": "abilities"
+      },
+      {
+        "title": "Detective",
+        "description": "Every time you solve a difficult puzzle, you gain 3EP.",
+        "xp": 3,
+        "category": "Traits",
+        "level": 0,
+        "school": "Traits (0)",
+        "section": "abilities"
+      },
+      {
+        "title": "Hero",
+        "description": "When you put yourself at risk to protect someone, you gain 3 EP.",
+        "xp": 3,
+        "category": "Traits",
+        "level": 0,
+        "school": "Traits (0)",
+        "section": "abilities"
+      },
+      {
+        "title": "Celebrity",
+        "description": "Every time you draw attention of a crowd, you gain 3 EP.",
+        "xp": 3,
+        "category": "Traits",
+        "level": 0,
+        "school": "Traits (0)",
+        "section": "abilities"
+      },
+      {
+        "title": "Fearless",
+        "description": "When you do something your character fears the most, you gain 3 EP.",
+        "xp": 3,
+        "category": "Traits",
+        "level": 0,
+        "school": "Traits (0)",
+        "section": "abilities"
+      }
+    ]
+  },
+  {
     "title": "Charm",
     "powers": [
       {
         "title": "Insightful",
         "description": "You are very good at understanding people, reading social cues, figuring out their intentions.",
-        "ep": 3,
+        "ep": 1,
         "xp": 3,
         "category": "Charm",
         "level": 0,
@@ -170,7 +238,7 @@
       {
         "title": "Persuasive",
         "description": "You are very good at convincing people. You can talk your way out of the most difficult situations, you can convince the guard that you totally have an invitation to this party.",
-        "ep": 3,
+        "ep": 1,
         "xp": 3,
         "category": "Charm",
         "level": 0,
@@ -180,7 +248,7 @@
       {
         "title": "Liar",
         "description": "You are remarkably good at lying and pretending someone you're not.",
-        "ep": 3,
+        "ep": 1,
         "xp": 3,
         "category": "Charm",
         "level": 0,
@@ -190,7 +258,7 @@
       {
         "title": "Intimidating",
         "description": "You can make a show of how dangerous you are, making everyone in the vicinity afraid of you.\nRegular people and animals will run away or seek shelter, braver enemies may be able to overcome their fear, but will be more hesitant to mess with you.",
-        "ep": 6,
+        "ep": 3,
         "xp": 6,
         "category": "Charm",
         "level": 1,
@@ -200,7 +268,7 @@
       {
         "title": "Performance",
         "description": "You are good at putting on a show, pretending, playing a role.",
-        "ep": 6,
+        "ep": 3,
         "xp": 6,
         "category": "Charm",
         "level": 1,
@@ -210,7 +278,7 @@
       {
         "title": "Seduction",
         "description": "You've got good game.",
-        "ep": 6,
+        "ep": 3,
         "xp": 6,
         "category": "Charm",
         "level": 1,
@@ -220,7 +288,7 @@
       {
         "title": "Politics",
         "description": "You understand how to play the game of thrones. You have good insight into political alliances, motivations, plots.",
-        "ep": 6,
+        "ep": 3,
         "xp": 6,
         "category": "Charm",
         "level": 1,
@@ -230,7 +298,7 @@
       {
         "title": "Act like you belong",
         "description": "Invent a local saying and use it in your conversation with the NPC. It allows you to blend in and appear as a member of the social group NPC belongs to, gaining their trust.",
-        "ep": 6,
+        "ep": 3,
         "xp": 6,
         "category": "Charm",
         "level": 1,
@@ -240,7 +308,7 @@
       {
         "title": "Bartering",
         "description": "Convince people to trade and get better deals.",
-        "ep": 6,
+        "ep": 3,
         "xp": 6,
         "category": "Charm",
         "level": 1,
@@ -250,7 +318,7 @@
       {
         "title": "Folk Song",
         "description": "You sing a song that kindles strong feelings in the friendly/neutral NPCs nearby.(you need to sing a song at the table and describe your performance.) This will influence the mood of the crowd to the one of your choice (happy, somber, proud, indignant, etc.)",
-        "ep": 6,
+        "ep": 3,
         "xp": 6,
         "category": "Charm",
         "level": 1,
@@ -260,7 +328,7 @@
       {
         "title": "Aspiring Artist",
         "description": "You are pretty good at art of your choice(painting, music, theatre, etc)",
-        "ep": 9,
+        "ep": 4,
         "xp": 9,
         "category": "Charm",
         "level": 2,
@@ -270,7 +338,7 @@
       {
         "title": "Insight Expert",
         "description": "You are amazing at understanding people, reading social cues, figuring out their intentions.",
-        "ep": 9,
+        "ep": 4,
         "xp": 9,
         "category": "Charm",
         "level": 2,
@@ -280,7 +348,7 @@
       {
         "title": "Tell a Tale",
         "description": "Tell a local myth to the NPC, and explain what the lesson of it is (\"Give refuge to strangers\", \"Help others\", \"Don't lie\", \"Forgive people\", \"Be a fair dealer\", etc). NPC will likely comply with reasonable requests that are in line with the lesson.",
-        "ep": 9,
+        "ep": 4,
         "xp": 9,
         "category": "Charm",
         "level": 2,
@@ -290,7 +358,7 @@
       {
         "title": "Recruit",
         "description": "Recruit a low-level friendly NPC to help you for the next day.",
-        "ep": 9,
+        "ep": 4,
         "xp": 9,
         "category": "Charm",
         "level": 2,
@@ -300,7 +368,7 @@
       {
         "title": "Inspire",
         "description": "Give an inspiring speech or tell a war story, and all your allies will gain 4 Energy Points.\n(You actually need to tell the speech/story)",
-        "ep": 12,
+        "ep": 6,
         "xp": 12,
         "category": "Charm",
         "level": 3,
@@ -310,7 +378,7 @@
       {
         "title": "Deception Master",
         "description": "You are the world’s best liar. You can convince the Queen of England that you’re the King of England.",
-        "ep": 12,
+        "ep": 6,
         "xp": 12,
         "category": "Charm",
         "level": 3,
@@ -320,7 +388,7 @@
       {
         "title": "Persuasion Master",
         "description": "You are a master persuader. You can convince a grumpy pirate to let you hold onto his treasure map for a bit.",
-        "ep": 12,
+        "ep": 6,
         "xp": 12,
         "category": "Charm",
         "level": 3,
@@ -330,7 +398,7 @@
       {
         "title": "Horrifying",
         "description": "You can become embodiment of the person's worst nightmare, the deepest fear. Make yourself look very horrifying, breaking the wills of most people and creatures.",
-        "ep": 12,
+        "ep": 6,
         "xp": 12,
         "category": "Charm",
         "level": 3,
@@ -345,7 +413,7 @@
       {
         "title": "Sneaky",
         "description": "You are very good at sneaking and not being seen, especially at night.",
-        "ep": 3,
+        "ep": 1,
         "xp": 3,
         "category": "Stealth",
         "level": 0,
@@ -355,7 +423,7 @@
       {
         "title": "Thief",
         "description": "You are very good at the art of stealing, concealing, smuggling things, especially when people are unaware or distracted.",
-        "ep": 3,
+        "ep": 1,
         "xp": 3,
         "category": "Stealth",
         "level": 0,
@@ -365,7 +433,7 @@
       {
         "title": "Criminal Underworld",
         "description": "You have connections in the criminal underworld.",
-        "ep": 3,
+        "ep": 1,
         "xp": 3,
         "category": "Stealth",
         "level": 0,
@@ -375,7 +443,7 @@
       {
         "title": "Lock Picking",
         "description": "Pick simple locks.",
-        "ep": 6,
+        "ep": 3,
         "xp": 6,
         "category": "Stealth",
         "level": 1,
@@ -385,7 +453,7 @@
       {
         "title": "Subtle Spell",
         "description": "Use it to cast a spell in a way not detectable by the people around you.",
-        "ep": 6,
+        "ep": 3,
         "xp": 6,
         "category": "Stealth",
         "level": 1,
@@ -395,7 +463,7 @@
       {
         "title": "Concealment",
         "description": "Unless you are actively searched, you can conceal up to 2 weapons or magic items on you.",
-        "ep": 6,
+        "ep": 3,
         "xp": 6,
         "category": "Stealth",
         "level": 1,
@@ -405,7 +473,7 @@
       {
         "title": "Disguise",
         "description": "Craft a convincing disguise out of the clothes, make up, or objects you posess.",
-        "ep": 6,
+        "ep": 3,
         "xp": 6,
         "category": "Stealth",
         "level": 1,
@@ -415,7 +483,7 @@
       {
         "title": "Forgery",
         "description": "Forge items, documents, or art.",
-        "ep": 9,
+        "ep": 4,
         "xp": 9,
         "category": "Stealth",
         "level": 2,
@@ -425,7 +493,7 @@
       {
         "title": "Gather Intel",
         "description": "Infiltrate the person's office or home, and use your skills to reveal one of those things: The identity of an important associate, a location they will travel to (with the time and date), a secret that would embarrass them if revealed, their financial situation (including debts), their true feelings about you or your party, their strongest allegiance (to a government, guild, or other organization).",
-        "ep": 9,
+        "ep": 4,
         "xp": 9,
         "category": "Stealth",
         "level": 2,
@@ -435,7 +503,7 @@
       {
         "title": "Ninja",
         "description": "Your ability to sneak and hide is ninja-level, you're borderline invisible in the shadows.\nYou're borderline invisible. If the place can be snuk through, you'll sneak it.",
-        "ep": 12,
+        "ep": 6,
         "xp": 12,
         "category": "Stealth",
         "level": 3,
@@ -445,7 +513,7 @@
       {
         "title": "Master Thief",
         "description": "You are an expert thief. You can steal, conceal, or smuggle anything.",
-        "ep": 12,
+        "ep": 6,
         "xp": 12,
         "category": "Stealth",
         "level": 3,
@@ -460,7 +528,7 @@
       {
         "title": "Animal Handling",
         "description": "You are good at dealing with animals.",
-        "ep": 3,
+        "ep": 1,
         "xp": 3,
         "category": "Survival",
         "level": 0,
@@ -470,7 +538,7 @@
       {
         "title": "Tracking",
         "description": "You can follow tracks and identify what kind of creature has left them.",
-        "ep": 3,
+        "ep": 1,
         "xp": 3,
         "category": "Survival",
         "level": 0,
@@ -480,7 +548,7 @@
       {
         "title": "Build Shelter",
         "description": "When camping in the wilderness, use the nearby flora to build a shelter. It hides your presence from the hostile creatures, and gives you an early warning about their approach.",
-        "ep": 6,
+        "ep": 3,
         "xp": 6,
         "category": "Survival",
         "level": 1,
@@ -490,7 +558,7 @@
       {
         "title": "Disarm Traps",
         "description": "You can disarm traps.",
-        "ep": 6,
+        "ep": 3,
         "xp": 6,
         "category": "Survival",
         "level": 1,
@@ -500,7 +568,7 @@
       {
         "title": "Navigation",
         "description": "You can’t get lost in the wilderness. You can find your way to the closest oasis, shelter, nest of an animal.",
-        "ep": 6,
+        "ep": 3,
         "xp": 6,
         "category": "Survival",
         "level": 1,
@@ -510,7 +578,7 @@
       {
         "title": "Echolocation",
         "description": "When you are in a cave or a dungeon, make a loud sound, and you will sense the general shape of nearby passageways and locations.",
-        "ep": 9,
+        "ep": 4,
         "xp": 9,
         "category": "Survival",
         "level": 2,
@@ -520,7 +588,7 @@
       {
         "title": "Remedy",
         "description": "Scavenge a nearby area and find a plant-based remedy for an ailment. You find enough for a single dose. The remedy cures temporary illness and eliminates poison.",
-        "ep": 9,
+        "ep": 4,
         "xp": 9,
         "category": "Survival",
         "level": 2,
@@ -530,7 +598,7 @@
       {
         "title": "Distress Signal",
         "description": "Build a distress signal that can be seen by other Rangers. Within the next day, you will meet an NPC Ranger who comes to your aid.",
-        "ep": 12,
+        "ep": 6,
         "xp": 12,
         "category": "Survival",
         "level": 3,
@@ -613,7 +681,7 @@
       {
         "title": "Arcana Student",
         "description": "You know a lot about magic and arcane arts. You can identify magic items.",
-        "ep": 4,
+        "ep": 2,
         "xp": 4,
         "category": "Knowledge",
         "level": 0,
@@ -623,7 +691,7 @@
       {
         "title": "Technology",
         "description": "You understand technology. Enables you to use items that require technical skills.",
-        "ep": 4,
+        "ep": 2,
         "xp": 4,
         "category": "Knowledge",
         "level": 0,
@@ -633,7 +701,7 @@
       {
         "title": "Investigation",
         "description": "Describe how and where you search, and find subtle clues about what happened at the scene (if they exist).",
-        "ep": 4,
+        "ep": 2,
         "xp": 4,
         "category": "Knowledge",
         "level": 0,
@@ -643,7 +711,7 @@
       {
         "title": "Warfare",
         "description": "You understand the theoretical fundamentals of combat and warfare.",
-        "ep": 4,
+        "ep": 2,
         "xp": 4,
         "category": "Knowledge",
         "level": 0,
@@ -653,7 +721,7 @@
       {
         "title": "Medicine",
         "description": "You understand medicine, know how to treat wounds and diseases.",
-        "ep": 4,
+        "ep": 2,
         "xp": 4,
         "category": "Knowledge",
         "level": 0,
@@ -663,7 +731,7 @@
       {
         "title": "World",
         "description": "Recall facts about the world and its history.",
-        "ep": 4,
+        "ep": 2,
         "xp": 4,
         "category": "Knowledge",
         "level": 0,
@@ -673,7 +741,7 @@
       {
         "title": "Religion",
         "description": "You understand religions and gods of the world.",
-        "ep": 4,
+        "ep": 2,
         "xp": 4,
         "category": "Knowledge",
         "level": 0,
@@ -683,7 +751,7 @@
       {
         "title": "Arcana Master",
         "description": "You have mastered the depth and intricacies of arcane arts.\nYou can identify and use any magic item.",
-        "ep": 9,
+        "ep": 4,
         "xp": 9,
         "category": "Knowledge",
         "level": 3,

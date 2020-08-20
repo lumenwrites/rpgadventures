@@ -128,6 +128,14 @@
         "category": "Armor",
         "school": "Armor (undefined)",
         "section": "equipment"
+      },
+      {
+        "title": "Wizard's Robes",
+        "description": "Increases your max Energy by 4 points",
+        "rarity": "Rare",
+        "category": "Armor",
+        "school": "Armor (undefined)",
+        "section": "equipment"
       }
     ]
   },

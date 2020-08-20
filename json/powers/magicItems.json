@@ -99,10 +99,17 @@
         "section": "magicItems"
       },
       {
-        "title": "Energy Crystal",
-        "description": "Stores up to 5 Energy Points. Spend energy points to charge it, increases your max energy by 5.",
-        "ep": 5,
+        "title": "Small Energy Crystal",
+        "description": "Automatically accumulates energy, stores up to 4 Energy Points, recharges once per day. Use it once per day to recover 4EP.",
         "rarity": "Uncommon",
+        "category": "Utility",
+        "school": "Utility (undefined)",
+        "section": "magicItems"
+      },
+      {
+        "title": "Large Energy Crystal",
+        "description": "Automatically accumulates energy, stores up to 8 Energy Points, recharges once per day. Use it once per day to recover 8EP.",
+        "rarity": "Legendary",
         "category": "Utility",
         "school": "Utility (undefined)",
         "section": "magicItems"
@@ -457,6 +464,22 @@
         "title": "Small Energy Potion",
         "description": "Restores 4 energy.",
         "rarity": "Common",
+        "category": "Potions",
+        "school": "Potions (undefined)",
+        "section": "magicItems"
+      },
+      {
+        "title": "Large Health Potion",
+        "description": "Restores 8 health.",
+        "rarity": "Rare",
+        "category": "Potions",
+        "school": "Potions (undefined)",
+        "section": "magicItems"
+      },
+      {
+        "title": "Large Energy Potion",
+        "description": "Restores 8 energy.",
+        "rarity": "Rare",
         "category": "Potions",
         "school": "Potions (undefined)",
         "section": "magicItems"

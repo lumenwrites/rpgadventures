@@ -3,7 +3,7 @@
         {
             "title": "Body Builder",
             "description": "You're as strong as a good bodybuilder. You can do what a good bodybuilder can do.\nLike lift and throw that big rock or tip over a cow.",
-            "ep": 3,
+            "ep": 1,
             "xp": 3,
             "category": "Physique",
             "level": 0
@@ -11,7 +11,7 @@
         {
             "title": "Acrobat",
             "description": "You are very flexible and fast. You can do a backflip, jump between buildings, dodge attacks.",
-            "ep": 3,
+            "ep": 1,
             "xp": 3,
             "category": "Physique",
             "level": 0
@@ -19,7 +19,7 @@
         {
             "title": "Tough",
             "description": "You are tough. You have unbendable will and can survive in difficult situations (without sleep, in toxic environment, etc). ",
-            "ep": 3,
+            "ep": 1,
             "xp": 3,
             "category": "Physique",
             "level": 0
@@ -27,7 +27,7 @@
         {
             "title": "Keen Ear",
             "description": "For the next 10 minutes you can hear things that are hard to hear.",
-            "ep": 3,
+            "ep": 1,
             "xp": 3,
             "category": "Physique",
             "level": 0
@@ -35,7 +35,7 @@
         {
             "title": "Grapple",
             "description": "You grapple the opponent of your size or smaller. You can hold them for up to 5 minutes.",
-            "ep": 6,
+            "ep": 3,
             "xp": 6,
             "category": "Physique",
             "level": 1
@@ -43,7 +43,7 @@
         {
             "title": "Keen Eye",
             "description": "For the next 10 minutes you can notice things that are hard to see.",
-            "ep": 6,
+            "ep": 3,
             "xp": 6,
             "category": "Physique",
             "level": 1
@@ -51,7 +51,7 @@
         {
             "title": "Darkvision",
             "description": "For the next hour you can see in pitch darkness as if it’s an overcast day.",
-            "ep": 6,
+            "ep": 3,
             "xp": 6,
             "category": "Physique",
             "level": 1
@@ -62,7 +62,7 @@
         {
             "title": "Eagle Eye",
             "description": "You gain superhuman vision for the next minute, you can see the tiniest objects extremely far away.",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Physique",
             "level": 2
@@ -70,7 +70,7 @@
         {
             "title": "Owl's Ear",
             "description": "Gain hypersensitive hearing for the next minute. Hear things that are very far away, hear through walls.",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Physique",
             "level": 2
@@ -85,21 +85,21 @@
         {
             "title": "Run",
             "description": "For the next hour you can run as fast as a horse.",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "level": 3
         },
         {
             "title": "Leap",
             "description": "Jump up to 6 meters forward and 4 meters upward in any direction.",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "level": 3
         },
         {
             "title": "Hulk",
             "description": "You’re superhumanly strong, like Hulk or Mr. Incredible. You can rip that oak from the earth and snap it in half, you can punch through the solid wall.",
-            "ep": 15,
+            "ep": 6,
             "xp": 15,
             "category": "Physique",
             "level": 4
@@ -107,15 +107,64 @@
         {
             "title": "Spider Man",
             "description": "You are capable of superhuman, spider-man-level acrobatics. ",
-            "ep": 15,
+            "ep": 6,
             "xp": 15,
             "category": "Physique",
             "level": 4
         },
         {
+            "title": "Peacemaker",
+            "description": "Every time you find a non-combat resolution, you gain 2 EP.",
+            "xp": 3,
+            "category": "Traits",
+            "level": 0
+        },
+        {
+            "title": "Guardian",
+            "description": "Every time you spare a life or rescue someone, you gain 3 EP.",
+            "xp": 3,
+            "category": "Traits",
+            "level": 0
+        },
+        {
+            "title": "Comedian",
+            "description": "Every time you make a joke that gets a laugh from the group, you gain 2 EP.",
+            "xp": 3,
+            "category": "Traits",
+            "level": 0
+        },
+        {
+            "title": "Detective",
+            "description": "Every time you solve a difficult puzzle, you gain 3EP.",
+            "xp": 3,
+            "category": "Traits",
+            "level": 0
+        },
+        {
+            "title": "Hero",
+            "description": "When you put yourself at risk to protect someone, you gain 3 EP.",
+            "xp": 3,
+            "category": "Traits",
+            "level": 0
+        },
+        {
+            "title": "Celebrity",
+            "description": "Every time you draw attention of a crowd, you gain 3 EP.",
+            "xp": 3,
+            "category": "Traits",
+            "level": 0
+        },
+        {
+            "title": "Fearless",
+            "description": "When you do something your character fears the most, you gain 3 EP.",
+            "xp": 3,
+            "category": "Traits",
+            "level": 0
+        },
+        {
             "title": "Insightful",
             "description": "You are very good at understanding people, reading social cues, figuring out their intentions.",
-            "ep": 3,
+            "ep": 1,
             "xp": 3,
             "category": "Charm",
             "level": 0
@@ -123,7 +172,7 @@
         {
             "title": "Persuasive",
             "description": "You are very good at convincing people. You can talk your way out of the most difficult situations, you can convince the guard that you totally have an invitation to this party.",
-            "ep": 3,
+            "ep": 1,
             "xp": 3,
             "category": "Charm",
             "level": 0
@@ -131,7 +180,7 @@
         {
             "title": "Liar",
             "description": "You are remarkably good at lying and pretending someone you're not.",
-            "ep": 3,
+            "ep": 1,
             "xp": 3,
             "category": "Charm",
             "level": 0
@@ -139,7 +188,7 @@
         {
             "title": "Intimidating",
             "description": "You can make a show of how dangerous you are, making everyone in the vicinity afraid of you.\nRegular people and animals will run away or seek shelter, braver enemies may be able to overcome their fear, but will be more hesitant to mess with you.",
-            "ep": 6,
+            "ep": 3,
             "xp": 6,
             "category": "Charm",
             "level": 1
@@ -147,7 +196,7 @@
         {
             "title": "Performance",
             "description": "You are good at putting on a show, pretending, playing a role.",
-            "ep": 6,
+            "ep": 3,
             "xp": 6,
             "category": "Charm",
             "level": 1
@@ -155,7 +204,7 @@
         {
             "title": "Seduction",
             "description": "You've got good game.",
-            "ep": 6,
+            "ep": 3,
             "xp": 6,
             "category": "Charm",
             "level": 1
@@ -163,7 +212,7 @@
         {
             "title": "Politics",
             "description": "You understand how to play the game of thrones. You have good insight into political alliances, motivations, plots.",
-            "ep": 6,
+            "ep": 3,
             "xp": 6,
             "category": "Charm",
             "level": 1
@@ -171,7 +220,7 @@
         {
             "title": "Act like you belong",
             "description": "Invent a local saying and use it in your conversation with the NPC. It allows you to blend in and appear as a member of the social group NPC belongs to, gaining their trust.",
-            "ep": 6,
+            "ep": 3,
             "xp": 6,
             "category": "Charm",
             "level": 1
@@ -179,7 +228,7 @@
         {
             "title": "Bartering",
             "description": "Convince people to trade and get better deals.",
-            "ep": 6,
+            "ep": 3,
             "xp": 6,
             "category": "Charm",
             "level": 1
@@ -187,7 +236,7 @@
         {
             "title": "Folk Song",
             "description": "You sing a song that kindles strong feelings in the friendly/neutral NPCs nearby.(you need to sing a song at the table and describe your performance.) This will influence the mood of the crowd to the one of your choice (happy, somber, proud, indignant, etc.)",
-            "ep": 6,
+            "ep": 3,
             "xp": 6,
             "category": "Charm",
             "level": 1
@@ -195,7 +244,7 @@
         {
             "title": "Aspiring Artist",
             "description": "You are pretty good at art of your choice(painting, music, theatre, etc)",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Charm",
             "level": 2
@@ -203,7 +252,7 @@
         {
             "title": "Insight Expert",
             "description": "You are amazing at understanding people, reading social cues, figuring out their intentions.",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Charm",
             "level": 2
@@ -211,7 +260,7 @@
         {
             "title": "Tell a Tale",
             "description": "Tell a local myth to the NPC, and explain what the lesson of it is (\"Give refuge to strangers\", \"Help others\", \"Don't lie\", \"Forgive people\", \"Be a fair dealer\", etc). NPC will likely comply with reasonable requests that are in line with the lesson.",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Charm",
             "level": 2
@@ -219,7 +268,7 @@
         {
             "title": "Recruit",
             "description": "Recruit a low-level friendly NPC to help you for the next day.",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Charm",
             "level": 2
@@ -227,7 +276,7 @@
         {
             "title": "Inspire",
             "description": "Give an inspiring speech or tell a war story, and all your allies will gain 4 Energy Points.\n(You actually need to tell the speech/story)",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "category": "Charm",
             "level": 3
@@ -235,7 +284,7 @@
         {
             "title": "Deception Master",
             "description": "You are the world’s best liar. You can convince the Queen of England that you’re the King of England.",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "category": "Charm",
             "level": 3
@@ -243,7 +292,7 @@
         {
             "title": "Persuasion Master",
             "description": "You are a master persuader. You can convince a grumpy pirate to let you hold onto his treasure map for a bit.",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "category": "Charm",
             "level": 3
@@ -251,7 +300,7 @@
         {
             "title": "Horrifying",
             "description": "You can become embodiment of the person's worst nightmare, the deepest fear. Make yourself look very horrifying, breaking the wills of most people and creatures. ",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "category": "Charm",
             "level": 3
@@ -259,7 +308,7 @@
         {
             "title": "Sneaky",
             "description": "You are very good at sneaking and not being seen, especially at night.",
-            "ep": 3,
+            "ep": 1,
             "xp": 3,
             "category": "Stealth",
             "level": 0
@@ -267,7 +316,7 @@
         {
             "title": "Thief",
             "description": "You are very good at the art of stealing, concealing, smuggling things, especially when people are unaware or distracted.",
-            "ep": 3,
+            "ep": 1,
             "xp": 3,
             "category": "Stealth",
             "level": 0
@@ -275,7 +324,7 @@
         {
             "title": "Criminal Underworld",
             "description": "You have connections in the criminal underworld.",
-            "ep": 3,
+            "ep": 1,
             "xp": 3,
             "category": "Stealth",
             "level": 0
@@ -283,7 +332,7 @@
         {
             "title": "Lock Picking",
             "description": "Pick simple locks.",
-            "ep": 6,
+            "ep": 3,
             "xp": 6,
             "category": "Stealth",
             "level": 1
@@ -291,7 +340,7 @@
         {
             "title": "Subtle Spell",
             "description": "Use it to cast a spell in a way not detectable by the people around you.",
-            "ep": 6,
+            "ep": 3,
             "xp": 6,
             "category": "Stealth",
             "level": 1
@@ -299,7 +348,7 @@
         {
             "title": "Concealment",
             "description": "Unless you are actively searched, you can conceal up to 2 weapons or magic items on you.",
-            "ep": 6,
+            "ep": 3,
             "xp": 6,
             "category": "Stealth",
             "level": 1
@@ -307,7 +356,7 @@
         {
             "title": "Disguise",
             "description": "Craft a convincing disguise out of the clothes, make up, or objects you posess.",
-            "ep": 6,
+            "ep": 3,
             "xp": 6,
             "category": "Stealth",
             "level": 1
@@ -315,7 +364,7 @@
         {
             "title": "Forgery",
             "description": "Forge items, documents, or art.",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Stealth",
             "level": 2
@@ -323,7 +372,7 @@
         {
             "title": "Gather Intel",
             "description": "Infiltrate the person's office or home, and use your skills to reveal one of those things: The identity of an important associate, a location they will travel to (with the time and date), a secret that would embarrass them if revealed, their financial situation (including debts), their true feelings about you or your party, their strongest allegiance (to a government, guild, or other organization).",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Stealth",
             "level": 2
@@ -331,7 +380,7 @@
         {
             "title": "Ninja",
             "description": "Your ability to sneak and hide is ninja-level, you're borderline invisible in the shadows.\nYou're borderline invisible. If the place can be snuk through, you'll sneak it.",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "category": "Stealth",
             "level": 3
@@ -339,7 +388,7 @@
         {
             "title": "Master Thief",
             "description": "You are an expert thief. You can steal, conceal, or smuggle anything.",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "category": "Stealth",
             "level": 3
@@ -350,7 +399,7 @@
         {
             "title": "Animal Handling",
             "description": "You are good at dealing with animals.",
-            "ep": 3,
+            "ep": 1,
             "xp": 3,
             "category": "Survival",
             "level": 0
@@ -358,7 +407,7 @@
         {
             "title": "Tracking",
             "description": "You can follow tracks and identify what kind of creature has left them.",
-            "ep": 3,
+            "ep": 1,
             "xp": 3,
             "category": "Survival",
             "level": 0
@@ -366,7 +415,7 @@
         {
             "title": "Build Shelter",
             "description": "When camping in the wilderness, use the nearby flora to build a shelter. It hides your presence from the hostile creatures, and gives you an early warning about their approach.",
-            "ep": 6,
+            "ep": 3,
             "xp": 6,
             "category": "Survival",
             "level": 1
@@ -374,7 +423,7 @@
         {
             "title": "Disarm Traps",
             "description": "You can disarm traps.",
-            "ep": 6,
+            "ep": 3,
             "xp": 6,
             "category": "Survival",
             "level": 1
@@ -382,7 +431,7 @@
         {
             "title": "Navigation",
             "description": "You can’t get lost in the wilderness. You can find your way to the closest oasis, shelter, nest of an animal.",
-            "ep": 6,
+            "ep": 3,
             "xp": 6,
             "category": "Survival",
             "level": 1
@@ -390,7 +439,7 @@
         {
             "title": "Echolocation",
             "description": "When you are in a cave or a dungeon, make a loud sound, and you will sense the general shape of nearby passageways and locations.",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Survival",
             "level": 2
@@ -398,7 +447,7 @@
         {
             "title": "Remedy",
             "description": "Scavenge a nearby area and find a plant-based remedy for an ailment. You find enough for a single dose. The remedy cures temporary illness and eliminates poison.",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Survival",
             "level": 2
@@ -406,7 +455,7 @@
         {
             "title": "Distress Signal",
             "description": "Build a distress signal that can be seen by other Rangers. Within the next day, you will meet an NPC Ranger who comes to your aid.",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "category": "Survival",
             "level": 3
@@ -463,7 +512,7 @@
         {
             "title": "Arcana Student",
             "description": "You know a lot about magic and arcane arts. You can identify magic items.",
-            "ep": 4,
+            "ep": 2,
             "xp": 4,
             "category": "Knowledge",
             "level": 0
@@ -471,7 +520,7 @@
         {
             "title": "Technology",
             "description": "You understand technology. Enables you to use items that require technical skills.",
-            "ep": 4,
+            "ep": 2,
             "xp": 4,
             "category": "Knowledge",
             "level": 0
@@ -479,7 +528,7 @@
         {
             "title": "Investigation",
             "description": "Describe how and where you search, and find subtle clues about what happened at the scene (if they exist).",
-            "ep": 4,
+            "ep": 2,
             "xp": 4,
             "category": "Knowledge",
             "level": 0
@@ -487,7 +536,7 @@
         {
             "title": "Warfare",
             "description": "You understand the theoretical fundamentals of combat and warfare.",
-            "ep": 4,
+            "ep": 2,
             "xp": 4,
             "category": "Knowledge",
             "level": 0
@@ -495,7 +544,7 @@
         {
             "title": "Medicine",
             "description": "You understand medicine, know how to treat wounds and diseases.",
-            "ep": 4,
+            "ep": 2,
             "xp": 4,
             "category": "Knowledge",
             "level": 0
@@ -503,7 +552,7 @@
         {
             "title": "World",
             "description": "Recall facts about the world and its history.",
-            "ep": 4,
+            "ep": 2,
             "xp": 4,
             "category": "Knowledge",
             "level": 0
@@ -511,7 +560,7 @@
         {
             "title": "Religion",
             "description": "You understand religions and gods of the world.",
-            "ep": 4,
+            "ep": 2,
             "xp": 4,
             "category": "Knowledge",
             "level": 0
@@ -519,7 +568,7 @@
         {
             "title": "Arcana Master",
             "description": "You have mastered the depth and intricacies of arcane arts.\nYou can identify and use any magic item.",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Knowledge",
             "level": 3
@@ -726,7 +775,7 @@
         {
             "title": "Small Fireball",
             "description": "Sets stuff on fire. Hold in your hand as a light source.",
-            "ep": 3,
+            "ep": 1,
             "xp": 3,
             "damage": 3,
             "category": "Elementalism",
@@ -735,7 +784,7 @@
         {
             "title": "Fire hose",
             "description": "For the next minute, a stream of water shoots from your hand like from a fire hose.",
-            "ep": 3,
+            "ep": 1,
             "xp": 3,
             "category": "Elementalism",
             "level": 0
@@ -743,7 +792,7 @@
         {
             "title": "Annoying Cloud",
             "description": "Summon a cloud that will float above the target's head, rain on them, distracting them and impairing their vision for the next hour.",
-            "ep": 3,
+            "ep": 1,
             "xp": 3,
             "damage": 3,
             "category": "Elementalism",
@@ -752,7 +801,7 @@
         {
             "title": "Shockwave",
             "description": "Thunderous shockwave in the direction you are facing. The wave knocks up to three creatures backward and hits them each for 3 damage.",
-            "ep": 6,
+            "ep": 1,
             "xp": 6,
             "damage": 3,
             "category": "Elementalism",
@@ -761,7 +810,7 @@
         {
             "title": "Electricute",
             "description": "A bolt of lightning strikes it from the sky or from your hands, dealing damage and melting metallic objects.",
-            "ep": 6,
+            "ep": 1,
             "xp": 6,
             "damage": 3,
             "category": "Elementalism",
@@ -770,7 +819,7 @@
         {
             "title": "Mold Earth",
             "description": "You can target an area (5x5 meter cube) of loose earth, you can instantaneously excavate it, move it along the ground, and deposit it up to 5 meters away. You can cause shapes, colors, or both to appear on the dirt or stone, spelling out words, creating images, or shaping patterns. ",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Elementalism",
             "level": 2
@@ -778,7 +827,7 @@
         {
             "title": "Stun",
             "description": "Stun the target creature for 1 minute. It's unable to move or do anything.",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "damage": 3,
             "category": "Elementalism",
@@ -787,7 +836,7 @@
         {
             "title": "Freeze Pulse",
             "description": "Freezes liquids, covers objects with ice, creates ice on the ground (can do what Frozone from Incredibles can do).",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "damage": 6,
             "category": "Elementalism",
@@ -796,39 +845,39 @@
         {
             "title": "Big Fireball",
             "description": "Creates a big explosion",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "damage": 6,
             "category": "Elementalism",
             "level": 3
         },
         {
-            "title": "Gift Health",
-            "description": "Drains 3 points of your health, giving 2 health points it to another person/creature.",
-            "xp": 3,
-            "category": "Abjuration",
-            "level": 0
-        },
-        {
-            "title": "Gift Energy",
-            "description": "Drains 3 points of your energy, giving 2 points of energy to another person/creature.",
-            "ep": 3,
-            "xp": 3,
-            "category": "Abjuration",
-            "level": 0
-        },
-        {
             "title": "Heal",
-            "description": "Heal the target person/creature (can use on yourself) by 2 hit points for every 3 energy points you spend.",
-            "ep": 6,
-            "xp": 6,
+            "description": "Heal the target person/creature (can use on yourself). Restores 4 HP.",
+            "ep": 2,
+            "xp": 5,
             "category": "Abjuration",
-            "level": 1
+            "level": 0
+        },
+        {
+            "title": "Blood Sacrifice",
+            "description": "Sacrifice 5 points of your health to recover 4 energy points.",
+            "xp": 3,
+            "category": "Abjuration",
+            "level": 0
+        },
+        {
+            "title": "Mana Transfer",
+            "description": "Drains 3 points of your energy, giving 2 points of energy to another person/creature.",
+            "ep": 1,
+            "xp": 3,
+            "category": "Abjuration",
+            "level": 0
         },
         {
             "title": "Shield",
             "description": "Create a force field around a target creature or an object. Resists up to 8 damage.  Always has clean air inside. Lasts for an hour, or until it takes more than 8 damage.",
-            "ep": 6,
+            "ep": 1,
             "xp": 6,
             "category": "Abjuration",
             "level": 1
@@ -836,7 +885,7 @@
         {
             "title": "Trigger",
             "description": "Pick one of the spells you know that will activate when a certain condition is met. Whenever that happens within the designated area(15-meter-radius) the spell will be cast.",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Abjuration",
             "level": 2
@@ -844,7 +893,7 @@
         {
             "title": "Recharge",
             "description": "Sacrifice 3 points of your health to grant 2 energy points to the target person/creature (can use on yourself).",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Abjuration",
             "level": 2
@@ -852,7 +901,7 @@
         {
             "title": "Plane of Force",
             "description": "Create 10x10 meters invisible wall of force(at any angle). Lasts for 30 minutes or until it takes 10 damage. Can support up to 500kg of weight.",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Abjuration",
             "level": 2
@@ -860,7 +909,7 @@
         {
             "title": "Sight ward",
             "description": "Nobody can see what’s going on inside a sphere of 15 meter radius",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "category": "Abjuration",
             "level": 3
@@ -868,7 +917,7 @@
         {
             "title": "Bestow Spell",
             "description": "Give the target an ability to use one of the spells you know once.",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "category": "Abjuration",
             "level": 3
@@ -876,7 +925,7 @@
         {
             "title": "Evil Ward",
             "description": "No evil can cross the circle of 15 meter radius. Lasts for 1 hour.",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "category": "Abjuration",
             "level": 3
@@ -884,7 +933,7 @@
         {
             "title": "Anti-magic ward",
             "description": "Magic doesn’t work within a sphere of 15 meter radius",
-            "ep": 15,
+            "ep": 6,
             "xp": 15,
             "category": "Abjuration",
             "level": 4
@@ -892,7 +941,7 @@
         {
             "title": "Velocity ward",
             "description": "Nothing can move faster than a falling feather within a sphere of 15 meter radius",
-            "ep": 15,
+            "ep": 6,
             "xp": 15,
             "category": "Abjuration",
             "level": 4
@@ -900,7 +949,7 @@
         {
             "title": "Minor Telekinesis",
             "description": "Slowly levitate small objects.",
-            "ep": 3,
+            "ep": 1,
             "xp": 3,
             "category": "Telekinesis",
             "level": 0
@@ -908,7 +957,7 @@
         {
             "title": "Push/Pull metal",
             "description": "Push metal directly away from you, or pull it towards you. If the object is lighter than you, the object moves, if it’s heavier - you move. If an object is thrown at a speed, deals 4 damage.",
-            "ep": 6,
+            "ep": 1,
             "xp": 6,
             "category": "Telekinesis",
             "level": 1
@@ -916,7 +965,7 @@
         {
             "title": "Force field",
             "description": "Stationary transparent physical barrier, sphere of 15 meter radius. Anything can get out, nothing can go in.",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Telekinesis",
             "level": 2
@@ -924,7 +973,7 @@
         {
             "title": "Walk on walls/ceiling",
             "description": "For the next 20 minutes you can walk on any surface at any angle as if it was regular floor.",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Telekinesis",
             "level": 2
@@ -932,7 +981,7 @@
         {
             "title": "Levitate",
             "description": "Slowly lifts the target (object, creature, including yourself) vertically above the ground, up to 10 meters. The target can weight up to 300 kg.",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "category": "Telekinesis",
             "level": 3
@@ -940,7 +989,7 @@
         {
             "title": "Greater Telekinesis",
             "description": "Levitate human-sized objects and creatures (not including yourself). Throwing an object/creature deals 5 damage to the target and to the object.",
-            "ep": 15,
+            "ep": 6,
             "xp": 15,
             "category": "Telekinesis",
             "level": 4
@@ -948,7 +997,7 @@
         {
             "title": "Fly",
             "description": "Grant the power of flight to the target creature(including yourself). The target can fly at a speed of a bird for the next 10 minutes.",
-            "ep": 15,
+            "ep": 6,
             "xp": 15,
             "category": "Telekinesis",
             "level": 4
@@ -956,7 +1005,7 @@
         {
             "title": "Minor Illusion",
             "description": "Create an illusion of an object (no larger than a barrel) or a sound within 50 meters and your line of sight.",
-            "ep": 3,
+            "ep": 1,
             "xp": 3,
             "category": "Illusionism",
             "level": 0
@@ -964,7 +1013,7 @@
         {
             "title": "Darkness",
             "description": "Create a field of magical darkness 10 meters in diameter.",
-            "ep": 3,
+            "ep": 1,
             "xp": 3,
             "category": "Illusionism",
             "level": 0
@@ -972,7 +1021,7 @@
         {
             "title": "Veil",
             "description": "Create a static illusion no larger than 100 meters in any direction. Like a building, an oasis, a pile of treasure, etc. When a creature touches the illusion they can no longer see it.",
-            "ep": 6,
+            "ep": 1,
             "xp": 6,
             "category": "Illusionism",
             "level": 1
@@ -980,7 +1029,7 @@
         {
             "title": "Invisibility",
             "description": "Turn yourself, a willing creature, or an object (no larger than a horse) invisible for the next 20 minutes. When they take damage they reappear.",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Illusionism",
             "level": 2
@@ -988,7 +1037,7 @@
         {
             "title": "Embody fear",
             "description": "The target person/creature see the image of whatever they fear the most.",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Illusionism",
             "level": 2
@@ -996,7 +1045,7 @@
         {
             "title": "Major Illusion",
             "description": "Create an object no larger than an elephant, complete with sounds, smells, movement.",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "category": "Illusionism",
             "level": 3
@@ -1004,7 +1053,7 @@
         {
             "title": "Illusory Automaton",
             "description": "Create an illusory person or a creature that can perform simple tasks you give it. It has 5 hit points, lives for a day, and can travel any distance away from you. When it's nearby, you can control it telepathically.",
-            "ep": 15,
+            "ep": 6,
             "xp": 15,
             "category": "Illusionism",
             "level": 4
@@ -1012,7 +1061,7 @@
         {
             "title": "Message",
             "description": "Telepathically send a message to the nearby creature, they can respond back.",
-            "ep": 3,
+            "ep": 1,
             "xp": 3,
             "category": "Telepathy",
             "level": 0
@@ -1020,7 +1069,7 @@
         {
             "title": "Inquire",
             "description": "You learn the creature's Ideal, Flaw, and Desire. You can also learn the worst or best thing they have ever done.",
-            "ep": 3,
+            "ep": 1,
             "xp": 3,
             "category": "Telepathy",
             "level": 0
@@ -1028,7 +1077,7 @@
         {
             "title": "Translate",
             "description": "Understand the language of the person you're speaking to.",
-            "ep": 6,
+            "ep": 1,
             "xp": 6,
             "category": "Telepathy",
             "level": 1
@@ -1036,7 +1085,7 @@
         {
             "title": "Share Dreams",
             "description": "Fall asleep and enter the dream of a sleeping creature within 50 meters around you.",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Telepathy",
             "level": 2
@@ -1044,7 +1093,7 @@
         {
             "title": "Mind Sense",
             "description": "Sense minds in 30 meter radius around you. Get some basic information about each mind – how complex their thoughts are, their species, their gender, their mood.",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Telepathy",
             "level": 2
@@ -1052,7 +1101,7 @@
         {
             "title": "Mind Melt",
             "description": "Create telepathic connection with a willing creature. Both of you will see/hear through the other one's senses, and read each other's surface thoughts.",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Telepathy",
             "level": 2
@@ -1060,7 +1109,7 @@
         {
             "title": "Intent",
             "description": "You look into the mind of the creature, learning about their most prominent short-term goal (what they want to accomplish within the next 10 minutes), long term goal, or what their intentions are towards a specific creature or an object.",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Telepathy",
             "level": 2
@@ -1068,7 +1117,7 @@
         {
             "title": "Technomancy",
             "description": "Ability to control electrical/mechanical devices from a distance. Activate/deactivate them, make them perform their functions.",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "category": "Telepathy",
             "level": 3
@@ -1076,7 +1125,7 @@
         {
             "title": "Read Surface Thoughts",
             "description": "For the next 10 minutes you can hear and understand what a target creature within 50 meters is thinking.",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "category": "Telepathy",
             "level": 3
@@ -1084,7 +1133,7 @@
         {
             "title": "Read Memories",
             "description": "Search through unconscious creature's mind, pulling out 15 minutes of memories.",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "category": "Telepathy",
             "level": 3
@@ -1092,7 +1141,7 @@
         {
             "title": "Lie Detector",
             "description": "For the next 10 minutes you know when you hear lying.",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "category": "Telepathy",
             "level": 3
@@ -1100,7 +1149,7 @@
         {
             "title": "Mind Stealer",
             "description": "Eat a person’s brain, and for the next hour you have access to their skills and memories.",
-            "ep": 15,
+            "ep": 6,
             "xp": 15,
             "category": "Telepathy",
             "level": 4
@@ -1108,7 +1157,7 @@
         {
             "title": "Charm Person",
             "description": "The person regards you as their friend for 1 hour. When the spell ends, they know they’ve been charmed.",
-            "ep": 3,
+            "ep": 1,
             "xp": 3,
             "category": "Enchantment",
             "level": 0
@@ -1116,7 +1165,7 @@
         {
             "title": "Influence",
             "description": "Speak to the person and influence their state of mind for the next hour. Choose one of the psychological effects (increased confidence, anxiety, euphoria, fear, paranoia, calm, irritability, etc).",
-            "ep": 3,
+            "ep": 1,
             "xp": 3,
             "category": "Enchantment",
             "level": 0
@@ -1124,7 +1173,7 @@
         {
             "title": "Suggestion",
             "description": "Influence target's thoughts and behaviors. Making them trust someone they otherwise wouldn't, look away, feel an emotion they would not normally be inclined to feel, calm or intensify what they feel. ",
-            "ep": 6,
+            "ep": 1,
             "xp": 6,
             "category": "Enchantment",
             "level": 1
@@ -1132,7 +1181,7 @@
         {
             "title": "Sleep",
             "description": "Sing the lullaby, causing the target creatures within 30 meters around you to fall asleep. (you actually need to come up with and sing a lullaby).",
-            "ep": 6,
+            "ep": 1,
             "xp": 6,
             "category": "Enchantment",
             "level": 1
@@ -1140,7 +1189,7 @@
         {
             "title": "No Secrets",
             "description": "Find out if an ally is keeping an important secret from you. You’ll learn who they are but not what the secret is.",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Enchantment",
             "level": 2
@@ -1148,7 +1197,7 @@
         {
             "title": "Redirect Feelings",
             "description": "When an NPCs has some strong feelings toward you (love, anger, etc), you can redirect that feeling to a different target for a day.",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Enchantment",
             "level": 2
@@ -1156,7 +1205,7 @@
         {
             "title": "Command",
             "description": "Speak a simple two-word command  (Approach me, Drop item, Flee, Fall down, Halt, etc) to a creature you can see within 50 meters, and it will be forced to obey.",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Enchantment",
             "level": 2
@@ -1164,7 +1213,7 @@
         {
             "title": "Calm/Intensify Emotions",
             "description": "Reduce or amplify the emotion the target is feeling.",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Enchantment",
             "level": 2
@@ -1172,7 +1221,7 @@
         {
             "title": "Captivate",
             "description": "Conjure a dazzling image in the air (describe the image), captivating anyone who looks at it. Image hangs in the air for 10 minutes then dissipates.",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Enchantment",
             "level": 2
@@ -1180,7 +1229,7 @@
         {
             "title": "Remoralization",
             "description": "Until the end of the day, the NPC shapes their behavior around their ideal",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Enchantment",
             "level": 2
@@ -1188,7 +1237,7 @@
         {
             "title": "Alter Senses",
             "description": "Change the way the target will experience the world for the next day. Cause them to perceive a specific thing or a category of things falsely (make them see all wolves as puppies, the king as a clown, see all the doors shifted 5 paces away from where they actually are, have them think that freshly baked bread smells like fire. etc). The spell lasts until you cancel it or until the creature is harmed by the effects of the deception.",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "category": "Enchantment",
             "level": 3
@@ -1196,7 +1245,7 @@
         {
             "title": "Puppeteering",
             "description": "Compel the target to physically take an action that lasts no longer than 5 seconds  - jump, kick, throw something, release an arrow, etc.",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "category": "Enchantment",
             "level": 3
@@ -1204,7 +1253,7 @@
         {
             "title": "Compel Truth",
             "description": "The target is compelled to answer all questions truthfully for the next 5 minutes.",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "category": "Enchantment",
             "level": 3
@@ -1212,7 +1261,7 @@
         {
             "title": "Mind wiping",
             "description": "Touch an unconscious person/creature, and erase any 15 minutes of their memory, or all their recent memories up to 1 month ago. ",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "category": "Enchantment",
             "level": 3
@@ -1220,7 +1269,7 @@
         {
             "title": "Alter Memory",
             "description": "Change any 15 minutes of the character’s memory.",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "category": "Enchantment",
             "level": 3
@@ -1228,7 +1277,7 @@
         {
             "title": "Value Change",
             "description": "You reach deep into the person’s soul, and change what they value the most in life. Lasts for 1 hour. After it’s dispelled, the person knows you’ve done it to them. Highly illegal, punishable by death in all civilized societies. Possess a creature. You control a possessed creature, can read it’s mind and use it’s skills.",
-            "ep": 15,
+            "ep": 6,
             "xp": 15,
             "category": "Enchantment",
             "level": 4
@@ -1236,7 +1285,7 @@
         {
             "title": "Dominate",
             "description": "You gain full control over the person for an hour. You can issue commands, or take control over their mind directly - see through their senses and control their body, but during that time you lose awareness of your own body and what's going on around you. The spell lasts 1 hour, spend 2 energy per hour to extend the duration.",
-            "ep": 15,
+            "ep": 6,
             "xp": 15,
             "category": "Enchantment",
             "level": 4
@@ -1244,7 +1293,7 @@
         {
             "title": "Query",
             "description": "Pick an object, learn about 3 important events in its history.",
-            "ep": 3,
+            "ep": 1,
             "xp": 3,
             "category": "Divination",
             "level": 0
@@ -1252,7 +1301,7 @@
         {
             "title": "Sense Magic",
             "description": "You can sense the magic auras of any spells, items, or creatures within 200 meters around you. You'll get a vague sense of what they are, and their general direction. Allows you to detect illusions.",
-            "ep": 3,
+            "ep": 1,
             "xp": 3,
             "category": "Divination",
             "level": 0
@@ -1260,7 +1309,7 @@
         {
             "title": "Evil Eye",
             "description": "You pause, closing your eyes and quieting your mind. You sense the worst thing that  happened nearby within the last day.",
-            "ep": 6,
+            "ep": 1,
             "xp": 6,
             "category": "Divination",
             "level": 1
@@ -1268,7 +1317,7 @@
         {
             "title": "Sense Danger",
             "description": "Activate your 'spidey sense', for the next 30 minutes you'll be able to sense imminent danger.",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Divination",
             "level": 2
@@ -1276,7 +1325,7 @@
         {
             "title": "Infrasight",
             "description": "Sense heat emanating from creatures. You can sense it through walls.",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Divination",
             "level": 2
@@ -1284,7 +1333,7 @@
         {
             "title": "Probability Lanes",
             "description": "You see the most likely short-term outcomes of the action you're about to take.",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Divination",
             "level": 2
@@ -1292,7 +1341,7 @@
         {
             "title": "Nemesis",
             "description": "Mark a creature you can see as your nemesis(you can have only one at a time). Now you will always sense when the nemesis is nearby, and the direction they’re in (even if they’re invisible).",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Divination",
             "level": 2
@@ -1300,7 +1349,7 @@
         {
             "title": "Find Nemesis",
             "description": "You see the vision of a place your nemesis has visited in the past day.",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Divination",
             "level": 2
@@ -1308,7 +1357,7 @@
         {
             "title": "X-Ray Vision",
             "description": "See through solid objects in 30 meter radius for the next 5 minutes.",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "category": "Divination",
             "level": 3
@@ -1316,7 +1365,7 @@
         {
             "title": "Seek",
             "description": "You glimpse the target in real time, can see its surroundings, and may watch it for the next minute.",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "category": "Divination",
             "level": 3
@@ -1324,7 +1373,7 @@
         {
             "title": "Astral Projection",
             "description": "Create an astral body (like a ghost), it's transparent, glows faint blue light, it's invulnerable to damage and can pass through walls. It lasts an hour, spend 2EP to extend the duration by an hour.",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "category": "Divination",
             "level": 3
@@ -1332,7 +1381,7 @@
         {
             "title": "Oracle",
             "description": "Get a correct yes or no answer to any question that can be answered.",
-            "ep": 15,
+            "ep": 6,
             "xp": 15,
             "category": "Divination",
             "level": 4
@@ -1340,7 +1389,7 @@
         {
             "title": "Familiar Transposition. ",
             "description": "Swap places with your familiar.",
-            "ep": 3,
+            "ep": 1,
             "xp": 3,
             "category": "Teleportation",
             "level": 0
@@ -1348,7 +1397,7 @@
         {
             "title": "Summon Item",
             "description": "Mark an object or an item (no larger than 2x2 meters). Whenever you cast this spell, it will teleport to your hand (or in front of you) from wherever it is.",
-            "ep": 6,
+            "ep": 1,
             "xp": 6,
             "category": "Teleportation",
             "level": 1
@@ -1356,7 +1405,7 @@
         {
             "title": "Rewind",
             "description": "Teleport where you physically were 5 minutes ago(doesn’t take you back in time)",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Teleportation",
             "level": 2
@@ -1364,7 +1413,7 @@
         {
             "title": "Misty Step",
             "description": "Instantly telepot a short-distance (a stone's throw, line of sight. Think Nightcrawler from X-Men).",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "category": "Teleportation",
             "level": 3
@@ -1372,7 +1421,7 @@
         {
             "title": "Portal",
             "description": "Open 2 connected portals (within 50 meter radius, line of sight, like in Portal game). Portals have custom radius (up to 2 meters), stay open for up to 5 minutes (spend 1 EP per minute to extend the duration), and can transport up to 10 elephants worth of mass.",
-            "ep": 15,
+            "ep": 6,
             "xp": 15,
             "category": "Teleportation",
             "level": 4
@@ -1380,7 +1429,7 @@
         {
             "title": "Greater Teleportation",
             "description": "Teleport any object, willing or unwilling creature, within 100 meters to another point within 100 meters.",
-            "ep": 15,
+            "ep": 6,
             "xp": 15,
             "category": "Teleportation",
             "level": 4
@@ -1388,7 +1437,7 @@
         {
             "title": "Mend",
             "description": "Fix a broken non-magical item (broken cup, torn clothes).",
-            "ep": 3,
+            "ep": 1,
             "xp": 3,
             "category": "Conjuration",
             "level": 0
@@ -1396,7 +1445,7 @@
         {
             "title": "Conjure a Mundane Item",
             "description": "Create a small non-magical item you’re familiar with (like a hammer, a spyglass, or a candle). No larger than 3 feet cube, no heavier than 10 pounds. The object is visibly magical, disappears after 1 hour, or if it takes or deals any damage.",
-            "ep": 3,
+            "ep": 1,
             "xp": 3,
             "category": "Conjuration",
             "level": 0
@@ -1404,7 +1453,7 @@
         {
             "title": "Create a wall",
             "description": "Creates a stone wall, 10x10 meters. Window is optional.",
-            "ep": 5,
+            "ep": 2,
             "xp": 5,
             "category": "Conjuration",
             "level": 0
@@ -1412,7 +1461,7 @@
         {
             "title": "Summon Familiar",
             "description": "Summon a small creature who will be your pet and a friend. You can communicate with it telepathically, give it commands, see through its eyes, hear what it hears, cast spells through it. If the creature takes damage it disappears, but you can resummon it.",
-            "ep": 10,
+            "ep": 8,
             "xp": 6,
             "category": "Conjuration",
             "level": 1
@@ -1420,7 +1469,7 @@
         {
             "title": "Transfiguration",
             "description": "Turn an object into any other object of the same size made out of the same material.",
-            "ep": 3,
+            "ep": 1,
             "xp": 3,
             "category": "Conjuration",
             "level": 2
@@ -1428,7 +1477,7 @@
         {
             "title": "Summon a creature",
             "description": "Summon a non-magical animal no larger than a cow. It obeys your commands. Disappears within an hour.",
-            "ep": 6,
+            "ep": 1,
             "xp": 6,
             "category": "Conjuration",
             "level": 3
@@ -1436,7 +1485,7 @@
         {
             "title": "Summon a swarm",
             "description": "Summon a swarm of insects that obeys your telepathic orders.",
-            "ep": 6,
+            "ep": 1,
             "xp": 6,
             "category": "Conjuration",
             "level": 3
@@ -1444,7 +1493,7 @@
         {
             "title": "Summon an Evil Twin",
             "description": "Create a copy of a target person/creature that has the opposite values and will do it's best to achieve the outcome opposite from what they want.",
-            "ep": 15,
+            "ep": 6,
             "xp": 15,
             "category": "Conjuration",
             "level": 4
@@ -1452,7 +1501,7 @@
         {
             "title": "Split",
             "description": "Splits you into two identical clones. Each clone has 50% of your energy points. Sustaining a clone takes 2 EP per hour. The clones can fight and use magic (including splitting into more clones). When a clone takes any damage or runs out of energy points, it disappears, it's memories instantly merged into the remaining clones. When there's only one remains - it becomes the \"original\" you, keeping the memories of all the copies.",
-            "ep": 15,
+            "ep": 6,
             "xp": 15,
             "category": "Conjuration",
             "level": 4
@@ -1460,7 +1509,7 @@
         {
             "title": "Grow gills",
             "description": "Touch a willing creature, and they grow gills allowing them to breathe underwater for up to 1 hour.",
-            "ep": 3,
+            "ep": 1,
             "xp": 3,
             "category": "Shapeshifting",
             "level": 0
@@ -1468,7 +1517,7 @@
         {
             "title": "Petrify",
             "description": "Turns a non-magical creature or an object (no larger than a barrel) you’re touching into stone for the next 5 minutes.",
-            "ep": 6,
+            "ep": 1,
             "xp": 6,
             "category": "Shapeshifting",
             "level": 1
@@ -1476,7 +1525,7 @@
         {
             "title": "Elasticity",
             "description": "For the next 10 minutes you can do what Elastigirl from Incredibles can do. ",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Shapeshifting",
             "level": 2
@@ -1484,7 +1533,7 @@
         {
             "title": "Turn into Creature",
             "description": "Touch a willing non-magical creature and spend an Experience point to “acquire” it. Now you can turn into this creature for up to an hour.",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "category": "Shapeshifting",
             "level": 3
@@ -1492,7 +1541,7 @@
         {
             "title": "Turn into Person",
             "description": "Touch a willing person and spend an Experience point to “acquire” them. Now you can turn into this person for up to an hour.",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "category": "Shapeshifting",
             "level": 3
@@ -1500,7 +1549,7 @@
         {
             "title": "Shapeshift Target",
             "description": "Touch a willing or unconscious creature or a person, turning them into a creature/person you have acquired.",
-            "ep": 15,
+            "ep": 6,
             "xp": 15,
             "category": "Shapeshifting",
             "level": 4
@@ -1508,7 +1557,7 @@
         {
             "title": "Turn into a Magical Creature",
             "description": "Works like Turn into Creature, but works on magical creatures.",
-            "ep": 15,
+            "ep": 6,
             "xp": 15,
             "category": "Shapeshifting",
             "level": 4
@@ -1516,7 +1565,7 @@
         {
             "title": "Speak with Animals",
             "description": "For the next hour you can speak with animals.",
-            "ep": 3,
+            "ep": 1,
             "xp": 3,
             "category": "Nature",
             "level": 0
@@ -1524,7 +1573,7 @@
         {
             "title": "Animal Courier",
             "description": "You can ask a nearby animal to deliver a small item. The destination must be within 3 day’s travel time.",
-            "ep": 3,
+            "ep": 1,
             "xp": 3,
             "category": "Nature",
             "level": 0
@@ -1532,7 +1581,7 @@
         {
             "title": "Fog",
             "description": "Produce fog between your hands, it's quickly covering the nearby area, making everyone unable to see beyond their reach.",
-            "ep": 5,
+            "ep": 2,
             "xp": 5,
             "category": "Nature",
             "level": 0
@@ -1540,7 +1589,7 @@
         {
             "title": "Animal Buddy",
             "description": "Recruit a nearby animal, they will follow your orders to the best of their ability. It can't be smaller than a mouse or bigger than a horse. You can have only one animal partner at a time. If you get separated, it will try to find you. They have 6 HP and can make basic attacks for 2 damage.",
-            "ep": 6,
+            "ep": 1,
             "xp": 6,
             "category": "Nature",
             "level": 1
@@ -1548,7 +1597,7 @@
         {
             "title": "Intwine",
             "description": "Use grass, wines, and tree branches as if they were your own limbs.",
-            "ep": 6,
+            "ep": 1,
             "xp": 6,
             "category": "Nature",
             "level": 1
@@ -1556,7 +1605,7 @@
         {
             "title": "Speak with Trees",
             "description": "Touch a tree trunk, connecting yourself to the nearby forest. It can help you find a creature or an object located in the forest, a path to a location, or warn you about the nearby danger.",
-            "ep": 6,
+            "ep": 1,
             "xp": 6,
             "category": "Nature",
             "level": 1
@@ -1564,7 +1613,7 @@
         {
             "title": "Change weather",
             "description": "Summon a storm, a fog, a heatwave, calm the weather, etc. You can’t cause lightning or natural-disaster level events(tornado, tsunami, etc).",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Nature",
             "level": 2
@@ -1572,7 +1621,7 @@
         {
             "title": "Bond",
             "description": "You develop a telepathic connection with an animal. You can see/hear through their senses. You can enter a trance to leave your body and take control of your partner. You remain dimly aware of what's happening around your own body.",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Nature",
             "level": 2
@@ -1580,15 +1629,15 @@
         {
             "title": "Change Season",
             "description": "You change the season in the area of 1km around you for the next day.",
-            "ep": 12,
+            "ep": 8,
             "xp": 12,
             "category": "Nature",
             "level": 3
         },
         {
             "title": "Control Bugs",
-            "description": "You can sense and control all the insects within 100 meter radius.",
-            "ep": 12,
+            "description": "You can sense and control all the insects within 100 meter radius for the next 2 hours.",
+            "ep": 8,
             "xp": 12,
             "category": "Nature",
             "level": 3
@@ -1596,7 +1645,7 @@
         {
             "title": "Beastmaster",
             "description": "Gather an army of up to 50 nearby animals who will follow your commands.",
-            "ep": 18,
+            "ep": 10,
             "xp": 18,
             "category": "Nature",
             "level": 4
@@ -1604,7 +1653,7 @@
         {
             "title": "Natural Disaster",
             "description": "Summon a natural disaster like tornado, hurricane, tsunami, etc.",
-            "ep": 18,
+            "ep": 10,
             "xp": 18,
             "category": "Nature",
             "level": 4
@@ -1612,7 +1661,7 @@
         {
             "title": "Bestow Sentience",
             "description": "Touch a non-sentient creature, and bestow the gift of sentience and intelligence onto it.",
-            "ep": 18,
+            "ep": 10,
             "xp": 18,
             "category": "Nature",
             "level": 4
@@ -1620,7 +1669,7 @@
         {
             "title": "Fake Death",
             "description": "Appear to be dead for the next 30 minutes.",
-            "ep": 3,
+            "ep": 1,
             "xp": 3,
             "category": "Necromancy",
             "level": 0
@@ -1628,7 +1677,7 @@
         {
             "title": "Sense Death",
             "description": "Sense whether any remnants of the dead are nearby, their location, and the nature of their death (natural causes, accident, or a faul play).",
-            "ep": 3,
+            "ep": 1,
             "xp": 3,
             "category": "Necromancy",
             "level": 0
@@ -1636,7 +1685,7 @@
         {
             "title": "Steal Life",
             "description": "Steal one person's/creature's life force and give it to another. Aging the source and making the target proportionally younger. Transfers 8 HP.",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Necromancy",
             "level": 2
@@ -1644,7 +1693,7 @@
         {
             "title": "Last Moments",
             "description": "Touch a dead person/creature, and see what they have seen during the last 5 seconds of their life.",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "category": "Necromancy",
             "level": 3
@@ -1652,7 +1701,7 @@
         {
             "title": "Speak to the Dead",
             "description": "Touch a dead person/creature to summon their ghost. You can talk/communicate with it for the next 10 minutes.",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "category": "Necromancy",
             "level": 3
@@ -1660,7 +1709,7 @@
         {
             "title": "Raise a zombie",
             "description": "Turns a dead body into a zombie. It obeys your commands and can attack enemies.\nRaise undead. The raised person has their memories and is able to speak.",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "category": "Necromancy",
             "level": 3
@@ -1675,7 +1724,7 @@
         {
             "title": "Ticking Bomb",
             "description": "Curse the person's/creature's heart, causing it to explode instantly, or at any point within the next year.",
-            "ep": 18,
+            "ep": 12,
             "xp": 18,
             "category": "Necromancy",
             "level": 4
@@ -1683,7 +1732,7 @@
         {
             "title": "Posess",
             "description": "Touch any dead creature, and make it the host of the nearby ghost. The ghost can now use it's body, and remember fragments of their memories.",
-            "ep": 18,
+            "ep": 12,
             "xp": 18,
             "category": "Necromancy",
             "level": 4
@@ -1691,7 +1740,7 @@
         {
             "title": "Reverse Gravity",
             "description": "Reverse gravity inside 10x10 meter cube.",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Time and Space",
             "level": 0
@@ -1699,7 +1748,7 @@
         {
             "title": "Luck",
             "description": "Cast this spell when someone performs an action, and it will be influenced by the supernaturally good (or bad) luck.",
-            "ep": 9,
+            "ep": 4,
             "xp": 9,
             "category": "Time and Space",
             "level": 0
@@ -1707,7 +1756,7 @@
         {
             "title": "Intangibility",
             "description": "Become immaterial (like a ghost) for the next 10 minutes. Walk through doors, let attacks pass through you.",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "category": "Time and Space",
             "level": 1
@@ -1715,7 +1764,7 @@
         {
             "title": "Slow Time",
             "description": "Makes time run 10x slower. 5x5 meter cube",
-            "ep": 12,
+            "ep": 6,
             "xp": 12,
             "category": "Time and Space",
             "level": 1
@@ -1723,7 +1772,7 @@
         {
             "title": "Still Magic",
             "description": "Stop time for a selected object for 1 minute.",
-            "ep": 15,
+            "ep": 6,
             "xp": 15,
             "category": "Time and Space",
             "level": 2
@@ -1731,7 +1780,7 @@
         {
             "title": "Speed",
             "description": "For the next 2 seconds the time flows 100 times slower for you, so it feels to you like 3 minutes (Quicksilver powers).",
-            "ep": 15,
+            "ep": 6,
             "xp": 15,
             "category": "Time and Space",
             "level": 2
@@ -1739,7 +1788,7 @@
         {
             "title": "Revision Magic",
             "description": "Pick an object, creature, or 3x3 meter area, and rewind it's time for up to 1 minute. Revising a person causes them to lose all their memories of what happened during revision time, and all the damage they took.",
-            "ep": 18,
+            "ep": 14,
             "xp": 18,
             "category": "Time and Space",
             "level": 3
@@ -1824,10 +1873,15 @@
             "category": "Utility"
         },
         {
-            "title": "Energy Crystal",
-            "description": "Stores up to 5 Energy Points. Spend energy points to charge it, increases your max energy by 5.",
-            "ep": 5,
+            "title": "Small Energy Crystal",
+            "description": "Automatically accumulates energy, stores up to 4 Energy Points, recharges once per day. Use it once per day to recover 4EP.",
             "rarity": "Uncommon",
+            "category": "Utility"
+        },
+        {
+            "title": "Large Energy Crystal",
+            "description": "Automatically accumulates energy, stores up to 8 Energy Points, recharges once per day. Use it once per day to recover 8EP.",
+            "rarity": "Legendary",
             "category": "Utility"
         },
         {
@@ -2085,6 +2139,18 @@
             "title": "Small Energy Potion",
             "description": "Restores 4 energy.",
             "rarity": "Common",
+            "category": "Potions"
+        },
+        {
+            "title": "Large Health Potion",
+            "description": "Restores 8 health.",
+            "rarity": "Rare",
+            "category": "Potions"
+        },
+        {
+            "title": "Large Energy Potion",
+            "description": "Restores 8 energy.",
+            "rarity": "Rare",
             "category": "Potions"
         },
         {
@@ -2388,7 +2454,13 @@
             "category": "Armor"
         },
         {
-            "rarity": "Common"
+            "title": "Wizard's Robes",
+            "description": "Increases your max Energy by 4 points",
+            "rarity": "Rare",
+            "category": "Armor"
+        },
+        {
+            "title": "Wizard's Robes"
         },
         {
             "title": "Grappling Hook Gun",
@@ -2561,6 +2633,52 @@
         }
     ],
     "temp": [
+        {
+            "title": "Gift Health",
+            "description": "Drains 3 points of your health, giving 2 health points it to another person/creature.",
+            "xp": 3,
+            "reqlvl": "Abjuration",
+            "category": 0
+        },
+        {
+            "title": "Gift Energy",
+            "description": "Drains 3 points of your energy, giving 2 points of energy to another person/creature.",
+            "ep": 3,
+            "xp": 3,
+            "reqlvl": "Abjuration",
+            "category": 0
+        },
+        {
+            "title": "Leather Armor",
+            "description": "Basic armor. Increases you max HP by 3 points.",
+            "req": "Common",
+            "rarity": "Armor"
+        },
+        {
+            "title": "Ninja Armor",
+            "description": "Suit made out of light black clothes. Increases you max HP by 3 points. Makes you very hard to notice in the dark.",
+            "xp": 1,
+            "req": "Uncommon",
+            "rarity": "Armor"
+        },
+        {
+            "title": "Steel Armor",
+            "description": "Increases your max HP by 6 points.",
+            "req": "Uncommon",
+            "rarity": "Armor"
+        },
+        {
+            "title": "Obsidian Armor",
+            "description": "Increases your max HP by 8 points.",
+            "req": "Legendary",
+            "rarity": "Armor"
+        },
+        {
+            "title": "Wizard's Robes",
+            "description": "Increases your max Energy by 4 points",
+            "req": "Rare",
+            "rarity": "Armor"
+        },
         {
             "title": "Kinestetic",
             "description": "You know the basics of \"Kinestetic\" Magic School. Allows you to cast spells that modify your physical abilities.",

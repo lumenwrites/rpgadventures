@@ -1,6 +1,64 @@
 [
   {
+    "title": 0,
     "powers": [
+      {
+        "title": "Gift Health",
+        "description": "Drains 3 points of your health, giving 2 health points it to another person/creature.",
+        "xp": 3,
+        "category": 0,
+        "school": "0 (undefined)",
+        "section": "temp"
+      },
+      {
+        "title": "Gift Energy",
+        "description": "Drains 3 points of your energy, giving 2 points of energy to another person/creature.",
+        "ep": 3,
+        "xp": 3,
+        "category": 0,
+        "school": "0 (undefined)",
+        "section": "temp"
+      }
+    ]
+  },
+  {
+    "powers": [
+      {
+        "title": "Leather Armor",
+        "description": "Basic armor. Increases you max HP by 3 points.",
+        "rarity": "Armor",
+        "school": "undefined (undefined)",
+        "section": "temp"
+      },
+      {
+        "title": "Ninja Armor",
+        "description": "Suit made out of light black clothes. Increases you max HP by 3 points. Makes you very hard to notice in the dark.",
+        "xp": 1,
+        "rarity": "Armor",
+        "school": "undefined (undefined)",
+        "section": "temp"
+      },
+      {
+        "title": "Steel Armor",
+        "description": "Increases your max HP by 6 points.",
+        "rarity": "Armor",
+        "school": "undefined (undefined)",
+        "section": "temp"
+      },
+      {
+        "title": "Obsidian Armor",
+        "description": "Increases your max HP by 8 points.",
+        "rarity": "Armor",
+        "school": "undefined (undefined)",
+        "section": "temp"
+      },
+      {
+        "title": "Wizard's Robes",
+        "description": "Increases your max Energy by 4 points",
+        "rarity": "Armor",
+        "school": "undefined (undefined)",
+        "section": "temp"
+      },
       {
         "title": "Kinestetic",
         "description": "You know the basics of \"Kinestetic\" Magic School. Allows you to cast spells that modify your physical abilities.",

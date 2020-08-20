@@ -10,6 +10,7 @@ class Stats extends Component {
   update = (value, key)=> {
     var sheet = this.props.sheets[0]
     sheet = {...sheet}
+    if (parseInt(value) > 12) return
     sheet[key] = parseInt(value)
     this.props.updateSheet(sheet)
   }
@@ -32,14 +33,15 @@ class Stats extends Component {
 			 onChange={(e)=>
 			   this.update(e.target.value,
 				       "currentHealth")}/>
-		  /
-		  <input type="number"
-			 className="value"
-		  	 data-tip="Max Health"
-			 value={sheet.maxHealth}
-			 onChange={(e)=>
-			   this.update(e.target.value,
-				       "maxHealth")}/>
+		  {/* 		  / 
+		      <input type="number"
+		      className="value"
+		      data-tip="Max Health"
+		      value={sheet.maxHealth}
+		      onChange={(e)=>
+		      this.update(e.target.value,
+		      "maxHealth")}/>
+		    */}
 	      </div>
 	  </div>
 
@@ -55,14 +57,15 @@ class Stats extends Component {
 			 onChange={(e)=>
 			   this.update(e.target.value,
 				       "currentEnergy")}/>
-		  /
-		  <input type="number"
-			 className="value"
-		  	 data-tip="Max Energy"
-			 value={sheet.maxEnergy}
-			 onChange={(e)=>
-			   this.update(e.target.value,
-				       "maxEnergy")}/>
+		  {/* 		  / 
+		      <input type="number"
+		      className="value"
+		      data-tip="Max Energy"
+		      value={sheet.maxEnergy}
+		      onChange={(e)=>
+		      this.update(e.target.value,
+		      "maxEnergy")}/>
+		    */}
 	      </div>
 	  </div>
 	  
