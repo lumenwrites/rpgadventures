@@ -28,7 +28,6 @@ class Stats extends Component {
 	      <div className="inputs-wrapper">
 		  <input type="number"
 			 className="value"
-			 data-tip="Current Health"
 			 value={sheet.currentHealth}
 			 onChange={(e)=>
 			   this.update(e.target.value,
@@ -52,7 +51,6 @@ class Stats extends Component {
 	      <div className="inputs-wrapper">
 		  <input type="number"
 			 className="value"
-		  	 data-tip="Current Energy"
 			 value={sheet.currentEnergy}
 			 onChange={(e)=>
 			   this.update(e.target.value,

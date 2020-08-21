@@ -6,7 +6,7 @@
             "ep": 1,
             "xp": 3,
             "category": "Physique",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Acrobat",
@@ -14,7 +14,7 @@
             "ep": 1,
             "xp": 3,
             "category": "Physique",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Tough",
@@ -22,7 +22,7 @@
             "ep": 1,
             "xp": 3,
             "category": "Physique",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Keen Ear",
@@ -30,7 +30,7 @@
             "ep": 1,
             "xp": 3,
             "category": "Physique",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Grapple",
@@ -38,7 +38,7 @@
             "ep": 3,
             "xp": 6,
             "category": "Physique",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Keen Eye",
@@ -46,7 +46,7 @@
             "ep": 3,
             "xp": 6,
             "category": "Physique",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Darkvision",
@@ -54,7 +54,7 @@
             "ep": 3,
             "xp": 6,
             "category": "Physique",
-            "level": 1
+            "level": 2
         },
         {
             "category": "Physique"
@@ -65,7 +65,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Physique",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Owl's Ear",
@@ -73,28 +73,30 @@
             "ep": 4,
             "xp": 9,
             "category": "Physique",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Pack Mule",
             "description": "Increases the number of items you can carry by 5.",
             "xp": 9,
             "category": "Physique",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Run",
             "description": "For the next hour you can run as fast as a horse.",
             "ep": 6,
             "xp": 12,
-            "level": 3
+            "category": "Physique",
+            "level": 4
         },
         {
             "title": "Leap",
             "description": "Jump up to 6 meters forward and 4 meters upward in any direction.",
             "ep": 6,
             "xp": 12,
-            "level": 3
+            "category": "Physique",
+            "level": 4
         },
         {
             "title": "Hulk",
@@ -102,7 +104,7 @@
             "ep": 6,
             "xp": 15,
             "category": "Physique",
-            "level": 4
+            "level": 5
         },
         {
             "title": "Spider Man",
@@ -110,56 +112,84 @@
             "ep": 6,
             "xp": 15,
             "category": "Physique",
-            "level": 4
+            "level": 5
         },
         {
             "title": "Peacemaker",
-            "description": "Every time you find a non-combat resolution, you gain 2 EP.",
+            "description": "Every time you find a non-combat resolution, you gain 3 EP.",
             "xp": 3,
             "category": "Traits",
-            "level": 0
+            "level": 1
         },
         {
-            "title": "Guardian",
+            "title": "Compassionate",
             "description": "Every time you spare a life or rescue someone, you gain 3 EP.",
             "xp": 3,
             "category": "Traits",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Comedian",
-            "description": "Every time you make a joke that gets a laugh from the group, you gain 2 EP.",
+            "description": "Every time you make a joke that gets a laugh from the group, you gain 3 EP.",
             "xp": 3,
             "category": "Traits",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Detective",
             "description": "Every time you solve a difficult puzzle, you gain 3EP.",
             "xp": 3,
             "category": "Traits",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Hero",
             "description": "When you put yourself at risk to protect someone, you gain 3 EP.",
             "xp": 3,
             "category": "Traits",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Celebrity",
             "description": "Every time you draw attention of a crowd, you gain 3 EP.",
             "xp": 3,
             "category": "Traits",
-            "level": 0
+            "level": 1
+        },
+        {
+            "title": "Reckless",
+            "description": "Every time your recklessness puts you in a difficult situation you gain 3 EP.",
+            "xp": 3,
+            "category": "Traits",
+            "level": 1
+        },
+        {
+            "title": "Irreverent",
+            "description": "Every time you challenge authority (like threatening someone too powerful) and it puts you at a disadvantage, you gain 3 EP.",
+            "xp": 3,
+            "category": "Traits",
+            "level": 1
         },
         {
             "title": "Fearless",
             "description": "When you do something your character fears the most, you gain 3 EP.",
             "xp": 3,
             "category": "Traits",
-            "level": 0
+            "level": 1
+        },
+        {
+            "title": "Cowardly",
+            "description": "When your fears get you into trouble, you gain 3 EP.",
+            "xp": 3,
+            "category": "Traits",
+            "level": 1
+        },
+        {
+            "title": "Angry",
+            "description": "Every time losing your temper makes life more difficult for you, you gain 3EP.",
+            "xp": 3,
+            "category": "Traits",
+            "level": 1
         },
         {
             "title": "Insightful",
@@ -167,7 +197,7 @@
             "ep": 1,
             "xp": 3,
             "category": "Charm",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Persuasive",
@@ -175,7 +205,7 @@
             "ep": 1,
             "xp": 3,
             "category": "Charm",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Liar",
@@ -183,7 +213,7 @@
             "ep": 1,
             "xp": 3,
             "category": "Charm",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Intimidating",
@@ -191,7 +221,7 @@
             "ep": 3,
             "xp": 6,
             "category": "Charm",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Performance",
@@ -199,7 +229,7 @@
             "ep": 3,
             "xp": 6,
             "category": "Charm",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Seduction",
@@ -207,7 +237,7 @@
             "ep": 3,
             "xp": 6,
             "category": "Charm",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Politics",
@@ -215,7 +245,7 @@
             "ep": 3,
             "xp": 6,
             "category": "Charm",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Act like you belong",
@@ -223,7 +253,7 @@
             "ep": 3,
             "xp": 6,
             "category": "Charm",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Bartering",
@@ -231,7 +261,7 @@
             "ep": 3,
             "xp": 6,
             "category": "Charm",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Folk Song",
@@ -239,7 +269,7 @@
             "ep": 3,
             "xp": 6,
             "category": "Charm",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Aspiring Artist",
@@ -247,7 +277,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Charm",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Insight Expert",
@@ -255,7 +285,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Charm",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Tell a Tale",
@@ -263,7 +293,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Charm",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Recruit",
@@ -271,7 +301,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Charm",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Inspire",
@@ -279,7 +309,7 @@
             "ep": 6,
             "xp": 12,
             "category": "Charm",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Deception Master",
@@ -287,7 +317,7 @@
             "ep": 6,
             "xp": 12,
             "category": "Charm",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Persuasion Master",
@@ -295,7 +325,7 @@
             "ep": 6,
             "xp": 12,
             "category": "Charm",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Horrifying",
@@ -303,7 +333,7 @@
             "ep": 6,
             "xp": 12,
             "category": "Charm",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Sneaky",
@@ -311,7 +341,7 @@
             "ep": 1,
             "xp": 3,
             "category": "Stealth",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Thief",
@@ -319,7 +349,7 @@
             "ep": 1,
             "xp": 3,
             "category": "Stealth",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Criminal Underworld",
@@ -327,7 +357,7 @@
             "ep": 1,
             "xp": 3,
             "category": "Stealth",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Lock Picking",
@@ -335,7 +365,7 @@
             "ep": 3,
             "xp": 6,
             "category": "Stealth",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Subtle Spell",
@@ -343,7 +373,7 @@
             "ep": 3,
             "xp": 6,
             "category": "Stealth",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Concealment",
@@ -351,7 +381,7 @@
             "ep": 3,
             "xp": 6,
             "category": "Stealth",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Disguise",
@@ -359,7 +389,7 @@
             "ep": 3,
             "xp": 6,
             "category": "Stealth",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Forgery",
@@ -367,7 +397,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Stealth",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Gather Intel",
@@ -375,7 +405,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Stealth",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Ninja",
@@ -383,7 +413,7 @@
             "ep": 6,
             "xp": 12,
             "category": "Stealth",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Master Thief",
@@ -391,10 +421,10 @@
             "ep": 6,
             "xp": 12,
             "category": "Stealth",
-            "level": 3
+            "level": 4
         },
         {
-            "level": 0
+            "level": 1
         },
         {
             "title": "Animal Handling",
@@ -402,7 +432,7 @@
             "ep": 1,
             "xp": 3,
             "category": "Survival",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Tracking",
@@ -410,7 +440,7 @@
             "ep": 1,
             "xp": 3,
             "category": "Survival",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Build Shelter",
@@ -418,7 +448,7 @@
             "ep": 3,
             "xp": 6,
             "category": "Survival",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Disarm Traps",
@@ -426,7 +456,7 @@
             "ep": 3,
             "xp": 6,
             "category": "Survival",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Navigation",
@@ -434,7 +464,7 @@
             "ep": 3,
             "xp": 6,
             "category": "Survival",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Echolocation",
@@ -442,7 +472,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Survival",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Remedy",
@@ -450,7 +480,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Survival",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Distress Signal",
@@ -458,56 +488,56 @@
             "ep": 6,
             "xp": 12,
             "category": "Survival",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Craftsman",
             "description": "Enables you to spend 3 XP to craft any common or uncommon item.",
             "xp": 6,
             "category": "Crafting",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Potion Maker",
             "description": "Enables you to spend 2 XP to brew any common or uncommon potion.",
             "xp": 6,
             "category": "Crafting",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Excellent Craftsman",
             "description": "Enables you to spend 6 XP to craft any rare item.",
             "xp": 9,
             "category": "Crafting",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Experienced Potion Maker",
             "description": "Enables you to spend 6 XP to brew any rare potion.",
             "xp": 9,
             "category": "Crafting",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Enchanter",
             "description": "Enables you to spend 1 XP to imbue a mundane item with a spell (one-time use).",
             "xp": 9,
             "category": "Crafting",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Potion Master",
             "description": "Enables you to spend 9 XP to brew any legendary potion.",
             "xp": 12,
             "category": "Crafting",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Enchantment Expert",
             "description": "Enables you to spend 9 XP to permanently imbue a mundane item with any spell.",
             "xp": 12,
             "category": "Crafting",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Arcana Student",
@@ -515,7 +545,7 @@
             "ep": 2,
             "xp": 4,
             "category": "Knowledge",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Technology",
@@ -523,7 +553,7 @@
             "ep": 2,
             "xp": 4,
             "category": "Knowledge",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Investigation",
@@ -531,7 +561,7 @@
             "ep": 2,
             "xp": 4,
             "category": "Knowledge",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Warfare",
@@ -539,7 +569,7 @@
             "ep": 2,
             "xp": 4,
             "category": "Knowledge",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Medicine",
@@ -547,7 +577,7 @@
             "ep": 2,
             "xp": 4,
             "category": "Knowledge",
-            "level": 0
+            "level": 1
         },
         {
             "title": "World",
@@ -555,7 +585,7 @@
             "ep": 2,
             "xp": 4,
             "category": "Knowledge",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Religion",
@@ -563,7 +593,7 @@
             "ep": 2,
             "xp": 4,
             "category": "Knowledge",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Arcana Master",
@@ -571,7 +601,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Knowledge",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Reckless Attack",
@@ -579,7 +609,7 @@
             "ep": 9,
             "xp": 9,
             "category": "Warfare",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Parry",
@@ -587,7 +617,7 @@
             "ep": 3,
             "xp": 3,
             "category": "Warfare",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Provoke",
@@ -595,7 +625,7 @@
             "ep": 3,
             "xp": 3,
             "category": "Warfare",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Intercept",
@@ -603,7 +633,7 @@
             "ep": 3,
             "xp": 3,
             "category": "Warfare",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Knock Down",
@@ -611,7 +641,7 @@
             "ep": 3,
             "xp": 3,
             "category": "Warfare",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Martial Artist",
@@ -620,7 +650,7 @@
             "xp": 3,
             "damage": 4,
             "category": "Warfare",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Thrown Weapons",
@@ -628,7 +658,7 @@
             "ep": 6,
             "xp": 6,
             "category": "Warfare",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Sneak Attack",
@@ -636,7 +666,7 @@
             "ep": 6,
             "xp": 6,
             "category": "Warfare",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Retreat",
@@ -644,7 +674,7 @@
             "ep": 6,
             "xp": 6,
             "category": "Warfare",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Cripple",
@@ -652,7 +682,7 @@
             "ep": 3,
             "xp": 3,
             "category": "Warfare",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Charge",
@@ -660,7 +690,7 @@
             "ep": 6,
             "xp": 6,
             "category": "Warfare",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Dual Wielding",
@@ -668,7 +698,7 @@
             "ep": 6,
             "xp": 6,
             "category": "Warfare",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Whirldwind",
@@ -676,14 +706,15 @@
             "ep": 7,
             "xp": 7,
             "category": "Warfare",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Parry Master",
             "description": "Deflect physical ranged attacks (arrows, throwing daggers).",
             "ep": 12,
             "xp": 12,
-            "level": 3
+            "category": "Warfare",
+            "level": 4
         },
         {
             "title": "Thrown Weapons Expert",
@@ -691,7 +722,7 @@
             "ep": 12,
             "xp": 12,
             "category": "Warfare",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Master of Martial Arts",
@@ -700,7 +731,7 @@
             "xp": 15,
             "damage": 6,
             "category": "Warfare",
-            "level": 4
+            "level": 5
         },
         {
             "title": "Light Armor",
@@ -708,7 +739,7 @@
             "ep": 3,
             "xp": 3,
             "category": "Warfare",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Medium Armor",
@@ -716,7 +747,7 @@
             "ep": 6,
             "xp": 6,
             "category": "Warfare",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Heavy armor",
@@ -724,7 +755,7 @@
             "ep": 9,
             "xp": 9,
             "category": "Warfare",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Farshot",
@@ -732,7 +763,7 @@
             "ep": 3,
             "xp": 3,
             "category": "Warfare",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Barrage",
@@ -740,7 +771,7 @@
             "ep": 6,
             "xp": 6,
             "category": "Warfare",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Deadeye",
@@ -748,7 +779,7 @@
             "ep": 6,
             "xp": 6,
             "category": "Warfare",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Ricochet",
@@ -756,14 +787,14 @@
             "ep": 12,
             "xp": 12,
             "category": "Warfare",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Gunslinger",
             "ep": 3,
             "xp": 3,
             "category": "Warfare",
-            "level": 0
+            "level": 1
         },
         {
             "title": "[Custom Title]",
@@ -779,7 +810,7 @@
             "xp": 3,
             "damage": 3,
             "category": "Elementalism",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Fire hose",
@@ -787,7 +818,7 @@
             "ep": 1,
             "xp": 3,
             "category": "Elementalism",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Annoying Cloud",
@@ -796,7 +827,7 @@
             "xp": 3,
             "damage": 3,
             "category": "Elementalism",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Shockwave",
@@ -805,7 +836,7 @@
             "xp": 6,
             "damage": 3,
             "category": "Elementalism",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Electricute",
@@ -814,7 +845,7 @@
             "xp": 6,
             "damage": 3,
             "category": "Elementalism",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Mold Earth",
@@ -822,7 +853,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Elementalism",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Stun",
@@ -831,7 +862,7 @@
             "xp": 9,
             "damage": 3,
             "category": "Elementalism",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Freeze Pulse",
@@ -840,7 +871,7 @@
             "xp": 12,
             "damage": 6,
             "category": "Elementalism",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Big Fireball",
@@ -849,7 +880,7 @@
             "xp": 12,
             "damage": 6,
             "category": "Elementalism",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Heal",
@@ -857,14 +888,14 @@
             "ep": 2,
             "xp": 5,
             "category": "Abjuration",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Blood Sacrifice",
             "description": "Sacrifice 5 points of your health to recover 4 energy points.",
             "xp": 3,
             "category": "Abjuration",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Mana Transfer",
@@ -872,7 +903,7 @@
             "ep": 1,
             "xp": 3,
             "category": "Abjuration",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Shield",
@@ -880,7 +911,7 @@
             "ep": 1,
             "xp": 6,
             "category": "Abjuration",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Trigger",
@@ -888,7 +919,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Abjuration",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Recharge",
@@ -896,7 +927,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Abjuration",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Plane of Force",
@@ -904,7 +935,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Abjuration",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Sight ward",
@@ -912,7 +943,7 @@
             "ep": 6,
             "xp": 12,
             "category": "Abjuration",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Bestow Spell",
@@ -920,7 +951,7 @@
             "ep": 6,
             "xp": 12,
             "category": "Abjuration",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Evil Ward",
@@ -928,7 +959,7 @@
             "ep": 6,
             "xp": 12,
             "category": "Abjuration",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Anti-magic ward",
@@ -936,7 +967,7 @@
             "ep": 6,
             "xp": 15,
             "category": "Abjuration",
-            "level": 4
+            "level": 5
         },
         {
             "title": "Velocity ward",
@@ -944,7 +975,7 @@
             "ep": 6,
             "xp": 15,
             "category": "Abjuration",
-            "level": 4
+            "level": 5
         },
         {
             "title": "Minor Telekinesis",
@@ -952,7 +983,7 @@
             "ep": 1,
             "xp": 3,
             "category": "Telekinesis",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Push/Pull metal",
@@ -960,7 +991,7 @@
             "ep": 1,
             "xp": 6,
             "category": "Telekinesis",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Force field",
@@ -968,7 +999,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Telekinesis",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Walk on walls/ceiling",
@@ -976,7 +1007,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Telekinesis",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Levitate",
@@ -984,7 +1015,7 @@
             "ep": 6,
             "xp": 12,
             "category": "Telekinesis",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Greater Telekinesis",
@@ -992,7 +1023,7 @@
             "ep": 6,
             "xp": 15,
             "category": "Telekinesis",
-            "level": 4
+            "level": 5
         },
         {
             "title": "Fly",
@@ -1000,7 +1031,7 @@
             "ep": 6,
             "xp": 15,
             "category": "Telekinesis",
-            "level": 4
+            "level": 5
         },
         {
             "title": "Minor Illusion",
@@ -1008,7 +1039,7 @@
             "ep": 1,
             "xp": 3,
             "category": "Illusionism",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Darkness",
@@ -1016,7 +1047,7 @@
             "ep": 1,
             "xp": 3,
             "category": "Illusionism",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Veil",
@@ -1024,7 +1055,7 @@
             "ep": 1,
             "xp": 6,
             "category": "Illusionism",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Invisibility",
@@ -1032,7 +1063,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Illusionism",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Embody fear",
@@ -1040,7 +1071,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Illusionism",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Major Illusion",
@@ -1048,7 +1079,7 @@
             "ep": 6,
             "xp": 12,
             "category": "Illusionism",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Illusory Automaton",
@@ -1056,7 +1087,7 @@
             "ep": 6,
             "xp": 15,
             "category": "Illusionism",
-            "level": 4
+            "level": 5
         },
         {
             "title": "Message",
@@ -1064,7 +1095,7 @@
             "ep": 1,
             "xp": 3,
             "category": "Telepathy",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Inquire",
@@ -1072,7 +1103,7 @@
             "ep": 1,
             "xp": 3,
             "category": "Telepathy",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Translate",
@@ -1080,7 +1111,7 @@
             "ep": 1,
             "xp": 6,
             "category": "Telepathy",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Share Dreams",
@@ -1088,7 +1119,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Telepathy",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Mind Sense",
@@ -1096,7 +1127,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Telepathy",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Mind Melt",
@@ -1104,7 +1135,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Telepathy",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Intent",
@@ -1112,7 +1143,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Telepathy",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Technomancy",
@@ -1120,7 +1151,7 @@
             "ep": 6,
             "xp": 12,
             "category": "Telepathy",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Read Surface Thoughts",
@@ -1128,7 +1159,7 @@
             "ep": 6,
             "xp": 12,
             "category": "Telepathy",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Read Memories",
@@ -1136,7 +1167,7 @@
             "ep": 6,
             "xp": 12,
             "category": "Telepathy",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Lie Detector",
@@ -1144,7 +1175,7 @@
             "ep": 6,
             "xp": 12,
             "category": "Telepathy",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Mind Stealer",
@@ -1152,7 +1183,7 @@
             "ep": 6,
             "xp": 15,
             "category": "Telepathy",
-            "level": 4
+            "level": 5
         },
         {
             "title": "Charm Person",
@@ -1160,7 +1191,7 @@
             "ep": 1,
             "xp": 3,
             "category": "Enchantment",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Influence",
@@ -1168,7 +1199,7 @@
             "ep": 1,
             "xp": 3,
             "category": "Enchantment",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Suggestion",
@@ -1176,7 +1207,7 @@
             "ep": 1,
             "xp": 6,
             "category": "Enchantment",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Sleep",
@@ -1184,7 +1215,7 @@
             "ep": 1,
             "xp": 6,
             "category": "Enchantment",
-            "level": 1
+            "level": 2
         },
         {
             "title": "No Secrets",
@@ -1192,7 +1223,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Enchantment",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Redirect Feelings",
@@ -1200,7 +1231,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Enchantment",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Command",
@@ -1208,7 +1239,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Enchantment",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Calm/Intensify Emotions",
@@ -1216,7 +1247,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Enchantment",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Captivate",
@@ -1224,7 +1255,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Enchantment",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Remoralization",
@@ -1232,7 +1263,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Enchantment",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Alter Senses",
@@ -1240,7 +1271,7 @@
             "ep": 6,
             "xp": 12,
             "category": "Enchantment",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Puppeteering",
@@ -1248,7 +1279,7 @@
             "ep": 6,
             "xp": 12,
             "category": "Enchantment",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Compel Truth",
@@ -1256,7 +1287,7 @@
             "ep": 6,
             "xp": 12,
             "category": "Enchantment",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Mind wiping",
@@ -1264,7 +1295,7 @@
             "ep": 6,
             "xp": 12,
             "category": "Enchantment",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Alter Memory",
@@ -1272,7 +1303,7 @@
             "ep": 6,
             "xp": 12,
             "category": "Enchantment",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Value Change",
@@ -1280,7 +1311,7 @@
             "ep": 6,
             "xp": 15,
             "category": "Enchantment",
-            "level": 4
+            "level": 5
         },
         {
             "title": "Dominate",
@@ -1288,7 +1319,7 @@
             "ep": 6,
             "xp": 15,
             "category": "Enchantment",
-            "level": 4
+            "level": 5
         },
         {
             "title": "Query",
@@ -1296,7 +1327,7 @@
             "ep": 1,
             "xp": 3,
             "category": "Divination",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Sense Magic",
@@ -1304,7 +1335,7 @@
             "ep": 1,
             "xp": 3,
             "category": "Divination",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Evil Eye",
@@ -1312,7 +1343,7 @@
             "ep": 1,
             "xp": 6,
             "category": "Divination",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Sense Danger",
@@ -1320,7 +1351,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Divination",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Infrasight",
@@ -1328,7 +1359,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Divination",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Probability Lanes",
@@ -1336,7 +1367,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Divination",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Nemesis",
@@ -1344,7 +1375,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Divination",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Find Nemesis",
@@ -1352,7 +1383,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Divination",
-            "level": 2
+            "level": 3
         },
         {
             "title": "X-Ray Vision",
@@ -1360,7 +1391,7 @@
             "ep": 6,
             "xp": 12,
             "category": "Divination",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Seek",
@@ -1368,7 +1399,7 @@
             "ep": 6,
             "xp": 12,
             "category": "Divination",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Astral Projection",
@@ -1376,7 +1407,7 @@
             "ep": 6,
             "xp": 12,
             "category": "Divination",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Oracle",
@@ -1384,7 +1415,7 @@
             "ep": 6,
             "xp": 15,
             "category": "Divination",
-            "level": 4
+            "level": 5
         },
         {
             "title": "Familiar Transposition. ",
@@ -1392,7 +1423,7 @@
             "ep": 1,
             "xp": 3,
             "category": "Teleportation",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Summon Item",
@@ -1400,7 +1431,7 @@
             "ep": 1,
             "xp": 6,
             "category": "Teleportation",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Rewind",
@@ -1408,7 +1439,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Teleportation",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Misty Step",
@@ -1416,7 +1447,7 @@
             "ep": 6,
             "xp": 12,
             "category": "Teleportation",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Portal",
@@ -1424,7 +1455,7 @@
             "ep": 6,
             "xp": 15,
             "category": "Teleportation",
-            "level": 4
+            "level": 5
         },
         {
             "title": "Greater Teleportation",
@@ -1432,7 +1463,7 @@
             "ep": 6,
             "xp": 15,
             "category": "Teleportation",
-            "level": 4
+            "level": 5
         },
         {
             "title": "Mend",
@@ -1440,7 +1471,7 @@
             "ep": 1,
             "xp": 3,
             "category": "Conjuration",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Conjure a Mundane Item",
@@ -1448,7 +1479,7 @@
             "ep": 1,
             "xp": 3,
             "category": "Conjuration",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Create a wall",
@@ -1456,7 +1487,7 @@
             "ep": 2,
             "xp": 5,
             "category": "Conjuration",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Summon Familiar",
@@ -1464,7 +1495,7 @@
             "ep": 8,
             "xp": 6,
             "category": "Conjuration",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Transfiguration",
@@ -1472,7 +1503,7 @@
             "ep": 1,
             "xp": 3,
             "category": "Conjuration",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Summon a creature",
@@ -1480,7 +1511,7 @@
             "ep": 1,
             "xp": 6,
             "category": "Conjuration",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Summon a swarm",
@@ -1488,7 +1519,7 @@
             "ep": 1,
             "xp": 6,
             "category": "Conjuration",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Summon an Evil Twin",
@@ -1496,7 +1527,7 @@
             "ep": 6,
             "xp": 15,
             "category": "Conjuration",
-            "level": 4
+            "level": 5
         },
         {
             "title": "Split",
@@ -1504,7 +1535,7 @@
             "ep": 6,
             "xp": 15,
             "category": "Conjuration",
-            "level": 4
+            "level": 5
         },
         {
             "title": "Grow gills",
@@ -1512,7 +1543,7 @@
             "ep": 1,
             "xp": 3,
             "category": "Shapeshifting",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Petrify",
@@ -1520,7 +1551,7 @@
             "ep": 1,
             "xp": 6,
             "category": "Shapeshifting",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Elasticity",
@@ -1528,7 +1559,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Shapeshifting",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Turn into Creature",
@@ -1536,7 +1567,7 @@
             "ep": 6,
             "xp": 12,
             "category": "Shapeshifting",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Turn into Person",
@@ -1544,7 +1575,7 @@
             "ep": 6,
             "xp": 12,
             "category": "Shapeshifting",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Shapeshift Target",
@@ -1552,7 +1583,7 @@
             "ep": 6,
             "xp": 15,
             "category": "Shapeshifting",
-            "level": 4
+            "level": 5
         },
         {
             "title": "Turn into a Magical Creature",
@@ -1560,7 +1591,7 @@
             "ep": 6,
             "xp": 15,
             "category": "Shapeshifting",
-            "level": 4
+            "level": 5
         },
         {
             "title": "Speak with Animals",
@@ -1568,7 +1599,7 @@
             "ep": 1,
             "xp": 3,
             "category": "Nature",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Animal Courier",
@@ -1576,7 +1607,7 @@
             "ep": 1,
             "xp": 3,
             "category": "Nature",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Fog",
@@ -1584,7 +1615,7 @@
             "ep": 2,
             "xp": 5,
             "category": "Nature",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Animal Buddy",
@@ -1592,7 +1623,7 @@
             "ep": 1,
             "xp": 6,
             "category": "Nature",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Intwine",
@@ -1600,7 +1631,7 @@
             "ep": 1,
             "xp": 6,
             "category": "Nature",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Speak with Trees",
@@ -1608,7 +1639,7 @@
             "ep": 1,
             "xp": 6,
             "category": "Nature",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Change weather",
@@ -1616,7 +1647,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Nature",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Bond",
@@ -1624,7 +1655,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Nature",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Change Season",
@@ -1632,7 +1663,7 @@
             "ep": 8,
             "xp": 12,
             "category": "Nature",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Control Bugs",
@@ -1640,7 +1671,7 @@
             "ep": 8,
             "xp": 12,
             "category": "Nature",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Beastmaster",
@@ -1648,7 +1679,7 @@
             "ep": 10,
             "xp": 18,
             "category": "Nature",
-            "level": 4
+            "level": 5
         },
         {
             "title": "Natural Disaster",
@@ -1656,7 +1687,7 @@
             "ep": 10,
             "xp": 18,
             "category": "Nature",
-            "level": 4
+            "level": 5
         },
         {
             "title": "Bestow Sentience",
@@ -1664,7 +1695,7 @@
             "ep": 10,
             "xp": 18,
             "category": "Nature",
-            "level": 4
+            "level": 5
         },
         {
             "title": "Fake Death",
@@ -1672,7 +1703,7 @@
             "ep": 1,
             "xp": 3,
             "category": "Necromancy",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Sense Death",
@@ -1680,7 +1711,7 @@
             "ep": 1,
             "xp": 3,
             "category": "Necromancy",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Steal Life",
@@ -1688,7 +1719,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Necromancy",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Last Moments",
@@ -1696,7 +1727,7 @@
             "ep": 6,
             "xp": 12,
             "category": "Necromancy",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Speak to the Dead",
@@ -1704,7 +1735,7 @@
             "ep": 6,
             "xp": 12,
             "category": "Necromancy",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Raise a zombie",
@@ -1712,14 +1743,14 @@
             "ep": 6,
             "xp": 12,
             "category": "Necromancy",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Vampirism",
             "description": "Recover up to 5 HP or EP by drinking the blood of a sentient creature you've just killed. If you have this perk, you can't walk into houses uninvited, and you lose 1 HP for every hour you are under direct sunlight.",
             "xp": 12,
             "category": "Necromancy",
-            "level": 3
+            "level": 4
         },
         {
             "title": "Ticking Bomb",
@@ -1727,7 +1758,7 @@
             "ep": 12,
             "xp": 18,
             "category": "Necromancy",
-            "level": 4
+            "level": 5
         },
         {
             "title": "Posess",
@@ -1735,7 +1766,7 @@
             "ep": 12,
             "xp": 18,
             "category": "Necromancy",
-            "level": 4
+            "level": 5
         },
         {
             "title": "Reverse Gravity",
@@ -1743,7 +1774,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Time and Space",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Luck",
@@ -1751,7 +1782,7 @@
             "ep": 4,
             "xp": 9,
             "category": "Time and Space",
-            "level": 0
+            "level": 1
         },
         {
             "title": "Intangibility",
@@ -1759,7 +1790,7 @@
             "ep": 6,
             "xp": 12,
             "category": "Time and Space",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Slow Time",
@@ -1767,7 +1798,7 @@
             "ep": 6,
             "xp": 12,
             "category": "Time and Space",
-            "level": 1
+            "level": 2
         },
         {
             "title": "Still Magic",
@@ -1775,7 +1806,7 @@
             "ep": 6,
             "xp": 15,
             "category": "Time and Space",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Speed",
@@ -1783,7 +1814,7 @@
             "ep": 6,
             "xp": 15,
             "category": "Time and Space",
-            "level": 2
+            "level": 3
         },
         {
             "title": "Revision Magic",
@@ -1791,7 +1822,7 @@
             "ep": 14,
             "xp": 18,
             "category": "Time and Space",
-            "level": 3
+            "level": 4
         },
         {
             "title": "[Custom Title]",
@@ -2316,7 +2347,10 @@
             "category": "Potions"
         },
         {
-            "title": "Resurrection Scroll"
+            "title": "Resurrection Scroll",
+            "description": "Allows you to resurrect a dead person.",
+            "rarity": "Supreme",
+            "category": "Other"
         },
         {
             "title": "[Custom Title]",

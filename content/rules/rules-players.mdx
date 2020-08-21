@@ -65,26 +65,30 @@ Gain XP as a reward for overcoming challenges, completing quests, teamwork, and 
 
 <div className="columns">
 
-### Schools and Spells
-Abilities and Spells are organized into Schools (like Warfare, Stealth, Charm, Necromancy) and Skill Levels  (Novice, Initiate, Adept, Expert, Master).
+### Learning Spells and Abilities
+Abilities and Spells have Levels (1-5, from Novice to Master), and  are organized into Schools (like Warfare, Stealth, Charm, Necromancy).
 
-You can learn "Novice" level powers right away. To progress to the more advanced level in the school, you need to learn at least one power from the previous level. So if you want to be able to learn Adept-level Illusionism spells, you need to know one Initiate-level Illusionism spells.
+You can learn first level powers right away. To progress to the more advanced level in the school, you need to learn at least one power from the previous level. So if you want to be able to learn 3rd level Illusionism spells, you need to know one 2nd level Illusionism spell.
+
+To learn a power, spend the number of experience points equal to it's level.
 
 <Power power={exampleSpell} sample />
 
-This spell costs **4** Energy Points to cast, **5** Experience Points to learn, and requires **Expert** level skills in **Illusionism** school.
+This spell costs **4** Energy Points to cast, **3** Experience Points to learn, and requires knowing at least one 2nd level spell in **Illusionism** school.
 
 <div className="column-break"/>
 
 
 ### Abilities
-You use abilities to do things that are difficult or require expertise. For example, lifting heavy things, picking locks, sneaking, climbing, investigating, seducing, lying. Without the relevant ability, your character is as good at doing things as an average person.
+You use abilities to do things that are difficult or require expertise. For example, lifting heavy things, picking locks, sneaking, climbing, investigating, seducing, lying.
+
+Without the relevant ability, your character is as good at doing things as an average person.
 
 Example of an ability:
 
 <Power power={exampleAbility} sample />
 
-Using this ability costs **2** Energy points. To learn it, you need to spend **3** Experience points, and you must have **Adept** skill level in **Survival** school.
+Using this ability costs **2** Energy points. To learn it, you need to spend **3** Experience points, and you must already know at least one 2nd level ability from **Survival** school.
 
 
 </div>
@@ -138,7 +142,7 @@ All attacks hit automatically unless there's a reason they don't (such as enemy 
 There are two distances. When something is **In Reach**, it means you can use it, reach it with a melee weapon, or cast a spell that requires touch. When something is **In Range** - you can hit it with a ranged weapon or a spell, or run up to it during your turn.
 
 ### Death
-If you run out of Health, you pass out. If someone hits you when you’re passed out - you die. and turn into a ghost. You can haunt your fellow players until they find a resurrection scroll, or make a new character.
+If you run out of Health, you pass out. If someone hits you when you’re passed out - you die and turn into a ghost. You can haunt your fellow players until they find a resurrection scroll, or make a new character.
 
 
 </div>
@@ -186,7 +190,7 @@ If you’re not sure what kind of character to create - use your favorite charac
 ### Custom Character Creation
 Players more familiar with their favorite spells and items can create a custom character.
 
-You start with 12 Health, 12 Energy, and 12 Experience.
+You start with 12 Health, 12 Energy, and 5 Experience.
 
 Create a blank character sheet and:
 

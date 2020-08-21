@@ -136,13 +136,13 @@ class Power extends Component {
 		     <FontAwesomeIcon icon={["fas", "bolt"]}/>	  
 		     {power.damage}
 		 </div>)}
-	       {/* Show XP cost if it exists, and I'm in the PowerModal */}
-	       {(adding || sample) && power.xp && (
-		 <div className="level" data-tip={`Costs ${power.xp} XP <br/> to learn`}>
-		     <FontAwesomeIcon icon={["fas", "book"]}/>	  		  
-		     {power.xp}
-		 </div>
-	       )}
+	       {/* Show XP cost if it exists, and I'm in the PowerModal
+		   {(adding || sample) && power.xp && (
+		   <div className="level" data-tip={`Costs ${power.xp} XP <br/> to learn`}>
+		   <FontAwesomeIcon icon={["fas", "book"]}/>	  		  
+		   {power.xp}
+		   </div>
+		   )} */}
 	       {/* Requirements. */}
 	       {displaySchool && (
 		 <>
@@ -151,9 +151,10 @@ class Power extends Component {
 			 {power.category}
 		     </div>
 		     <div className="level requirements"
-			  data-tip={`Skill Level`}>
+			  data-tip={`Skill Level <br/> Costs ${power.level} XP <br/> to learn`}>
 			 <FontAwesomeIcon icon={["fas", "chart-line"]}/>
-			 {levels[power.level]}
+			 {power.level}
+			 {/* levels[power.level] */}
 		     </div>
 		 </>
 	       )}

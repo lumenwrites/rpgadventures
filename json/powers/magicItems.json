@@ -417,6 +417,14 @@
         "category": "Other",
         "school": "Other (undefined)",
         "section": "magicItems"
+      },
+      {
+        "title": "Resurrection Scroll",
+        "description": "Allows you to resurrect a dead person.",
+        "rarity": "Supreme",
+        "category": "Other",
+        "school": "Other (undefined)",
+        "section": "magicItems"
       }
     ]
   },

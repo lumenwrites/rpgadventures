@@ -8,8 +8,8 @@
         "ep": 1,
         "xp": 3,
         "category": "Physique",
-        "level": 0,
-        "school": "Physique (0)",
+        "level": 1,
+        "school": "Physique (1)",
         "section": "abilities"
       },
       {
@@ -18,8 +18,8 @@
         "ep": 1,
         "xp": 3,
         "category": "Physique",
-        "level": 0,
-        "school": "Physique (0)",
+        "level": 1,
+        "school": "Physique (1)",
         "section": "abilities"
       },
       {
@@ -28,8 +28,8 @@
         "ep": 1,
         "xp": 3,
         "category": "Physique",
-        "level": 0,
-        "school": "Physique (0)",
+        "level": 1,
+        "school": "Physique (1)",
         "section": "abilities"
       },
       {
@@ -38,8 +38,8 @@
         "ep": 1,
         "xp": 3,
         "category": "Physique",
-        "level": 0,
-        "school": "Physique (0)",
+        "level": 1,
+        "school": "Physique (1)",
         "section": "abilities"
       },
       {
@@ -48,8 +48,8 @@
         "ep": 3,
         "xp": 6,
         "category": "Physique",
-        "level": 1,
-        "school": "Physique (1)",
+        "level": 2,
+        "school": "Physique (2)",
         "section": "abilities"
       },
       {
@@ -58,8 +58,8 @@
         "ep": 3,
         "xp": 6,
         "category": "Physique",
-        "level": 1,
-        "school": "Physique (1)",
+        "level": 2,
+        "school": "Physique (2)",
         "section": "abilities"
       },
       {
@@ -68,8 +68,8 @@
         "ep": 3,
         "xp": 6,
         "category": "Physique",
-        "level": 1,
-        "school": "Physique (1)",
+        "level": 2,
+        "school": "Physique (2)",
         "section": "abilities"
       },
       {
@@ -78,8 +78,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Physique",
-        "level": 2,
-        "school": "Physique (2)",
+        "level": 3,
+        "school": "Physique (3)",
         "section": "abilities"
       },
       {
@@ -88,8 +88,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Physique",
-        "level": 2,
-        "school": "Physique (2)",
+        "level": 3,
+        "school": "Physique (3)",
         "section": "abilities"
       },
       {
@@ -97,8 +97,28 @@
         "description": "Increases the number of items you can carry by 5.",
         "xp": 9,
         "category": "Physique",
-        "level": 2,
-        "school": "Physique (2)",
+        "level": 3,
+        "school": "Physique (3)",
+        "section": "abilities"
+      },
+      {
+        "title": "Run",
+        "description": "For the next hour you can run as fast as a horse.",
+        "ep": 6,
+        "xp": 12,
+        "category": "Physique",
+        "level": 4,
+        "school": "Physique (4)",
+        "section": "abilities"
+      },
+      {
+        "title": "Leap",
+        "description": "Jump up to 6 meters forward and 4 meters upward in any direction.",
+        "ep": 6,
+        "xp": 12,
+        "category": "Physique",
+        "level": 4,
+        "school": "Physique (4)",
         "section": "abilities"
       },
       {
@@ -107,8 +127,8 @@
         "ep": 6,
         "xp": 15,
         "category": "Physique",
-        "level": 4,
-        "school": "Physique (4)",
+        "level": 5,
+        "school": "Physique (5)",
         "section": "abilities"
       },
       {
@@ -117,39 +137,8 @@
         "ep": 6,
         "xp": 15,
         "category": "Physique",
-        "level": 4,
-        "school": "Physique (4)",
-        "section": "abilities"
-      }
-    ]
-  },
-  {
-    "powers": [
-      {
-        "title": "Run",
-        "description": "For the next hour you can run as fast as a horse.",
-        "ep": 6,
-        "xp": 12,
-        "level": 3,
-        "school": "undefined (3)",
-        "section": "abilities"
-      },
-      {
-        "title": "Leap",
-        "description": "Jump up to 6 meters forward and 4 meters upward in any direction.",
-        "ep": 6,
-        "xp": 12,
-        "level": 3,
-        "school": "undefined (3)",
-        "section": "abilities"
-      },
-      {
-        "title": "Parry Master",
-        "description": "Deflect physical ranged attacks (arrows, throwing daggers).",
-        "ep": 12,
-        "xp": 12,
-        "level": 3,
-        "school": "undefined (3)",
+        "level": 5,
+        "school": "Physique (5)",
         "section": "abilities"
       }
     ]
@@ -159,29 +148,29 @@
     "powers": [
       {
         "title": "Peacemaker",
-        "description": "Every time you find a non-combat resolution, you gain 2 EP.",
+        "description": "Every time you find a non-combat resolution, you gain 3 EP.",
         "xp": 3,
         "category": "Traits",
-        "level": 0,
-        "school": "Traits (0)",
+        "level": 1,
+        "school": "Traits (1)",
         "section": "abilities"
       },
       {
-        "title": "Guardian",
+        "title": "Compassionate",
         "description": "Every time you spare a life or rescue someone, you gain 3 EP.",
         "xp": 3,
         "category": "Traits",
-        "level": 0,
-        "school": "Traits (0)",
+        "level": 1,
+        "school": "Traits (1)",
         "section": "abilities"
       },
       {
         "title": "Comedian",
-        "description": "Every time you make a joke that gets a laugh from the group, you gain 2 EP.",
+        "description": "Every time you make a joke that gets a laugh from the group, you gain 3 EP.",
         "xp": 3,
         "category": "Traits",
-        "level": 0,
-        "school": "Traits (0)",
+        "level": 1,
+        "school": "Traits (1)",
         "section": "abilities"
       },
       {
@@ -189,8 +178,8 @@
         "description": "Every time you solve a difficult puzzle, you gain 3EP.",
         "xp": 3,
         "category": "Traits",
-        "level": 0,
-        "school": "Traits (0)",
+        "level": 1,
+        "school": "Traits (1)",
         "section": "abilities"
       },
       {
@@ -198,8 +187,8 @@
         "description": "When you put yourself at risk to protect someone, you gain 3 EP.",
         "xp": 3,
         "category": "Traits",
-        "level": 0,
-        "school": "Traits (0)",
+        "level": 1,
+        "school": "Traits (1)",
         "section": "abilities"
       },
       {
@@ -207,8 +196,26 @@
         "description": "Every time you draw attention of a crowd, you gain 3 EP.",
         "xp": 3,
         "category": "Traits",
-        "level": 0,
-        "school": "Traits (0)",
+        "level": 1,
+        "school": "Traits (1)",
+        "section": "abilities"
+      },
+      {
+        "title": "Reckless",
+        "description": "Every time your recklessness puts you in a difficult situation you gain 3 EP.",
+        "xp": 3,
+        "category": "Traits",
+        "level": 1,
+        "school": "Traits (1)",
+        "section": "abilities"
+      },
+      {
+        "title": "Irreverent",
+        "description": "Every time you challenge authority (like threatening someone too powerful) and it puts you at a disadvantage, you gain 3 EP.",
+        "xp": 3,
+        "category": "Traits",
+        "level": 1,
+        "school": "Traits (1)",
         "section": "abilities"
       },
       {
@@ -216,8 +223,26 @@
         "description": "When you do something your character fears the most, you gain 3 EP.",
         "xp": 3,
         "category": "Traits",
-        "level": 0,
-        "school": "Traits (0)",
+        "level": 1,
+        "school": "Traits (1)",
+        "section": "abilities"
+      },
+      {
+        "title": "Cowardly",
+        "description": "When your fears get you into trouble, you gain 3 EP.",
+        "xp": 3,
+        "category": "Traits",
+        "level": 1,
+        "school": "Traits (1)",
+        "section": "abilities"
+      },
+      {
+        "title": "Angry",
+        "description": "Every time losing your temper makes life more difficult for you, you gain 3EP.",
+        "xp": 3,
+        "category": "Traits",
+        "level": 1,
+        "school": "Traits (1)",
         "section": "abilities"
       }
     ]
@@ -231,8 +256,8 @@
         "ep": 1,
         "xp": 3,
         "category": "Charm",
-        "level": 0,
-        "school": "Charm (0)",
+        "level": 1,
+        "school": "Charm (1)",
         "section": "abilities"
       },
       {
@@ -241,8 +266,8 @@
         "ep": 1,
         "xp": 3,
         "category": "Charm",
-        "level": 0,
-        "school": "Charm (0)",
+        "level": 1,
+        "school": "Charm (1)",
         "section": "abilities"
       },
       {
@@ -251,8 +276,8 @@
         "ep": 1,
         "xp": 3,
         "category": "Charm",
-        "level": 0,
-        "school": "Charm (0)",
+        "level": 1,
+        "school": "Charm (1)",
         "section": "abilities"
       },
       {
@@ -261,8 +286,8 @@
         "ep": 3,
         "xp": 6,
         "category": "Charm",
-        "level": 1,
-        "school": "Charm (1)",
+        "level": 2,
+        "school": "Charm (2)",
         "section": "abilities"
       },
       {
@@ -271,8 +296,8 @@
         "ep": 3,
         "xp": 6,
         "category": "Charm",
-        "level": 1,
-        "school": "Charm (1)",
+        "level": 2,
+        "school": "Charm (2)",
         "section": "abilities"
       },
       {
@@ -281,8 +306,8 @@
         "ep": 3,
         "xp": 6,
         "category": "Charm",
-        "level": 1,
-        "school": "Charm (1)",
+        "level": 2,
+        "school": "Charm (2)",
         "section": "abilities"
       },
       {
@@ -291,8 +316,8 @@
         "ep": 3,
         "xp": 6,
         "category": "Charm",
-        "level": 1,
-        "school": "Charm (1)",
+        "level": 2,
+        "school": "Charm (2)",
         "section": "abilities"
       },
       {
@@ -301,8 +326,8 @@
         "ep": 3,
         "xp": 6,
         "category": "Charm",
-        "level": 1,
-        "school": "Charm (1)",
+        "level": 2,
+        "school": "Charm (2)",
         "section": "abilities"
       },
       {
@@ -311,8 +336,8 @@
         "ep": 3,
         "xp": 6,
         "category": "Charm",
-        "level": 1,
-        "school": "Charm (1)",
+        "level": 2,
+        "school": "Charm (2)",
         "section": "abilities"
       },
       {
@@ -321,8 +346,8 @@
         "ep": 3,
         "xp": 6,
         "category": "Charm",
-        "level": 1,
-        "school": "Charm (1)",
+        "level": 2,
+        "school": "Charm (2)",
         "section": "abilities"
       },
       {
@@ -331,8 +356,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Charm",
-        "level": 2,
-        "school": "Charm (2)",
+        "level": 3,
+        "school": "Charm (3)",
         "section": "abilities"
       },
       {
@@ -341,8 +366,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Charm",
-        "level": 2,
-        "school": "Charm (2)",
+        "level": 3,
+        "school": "Charm (3)",
         "section": "abilities"
       },
       {
@@ -351,8 +376,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Charm",
-        "level": 2,
-        "school": "Charm (2)",
+        "level": 3,
+        "school": "Charm (3)",
         "section": "abilities"
       },
       {
@@ -361,8 +386,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Charm",
-        "level": 2,
-        "school": "Charm (2)",
+        "level": 3,
+        "school": "Charm (3)",
         "section": "abilities"
       },
       {
@@ -371,8 +396,8 @@
         "ep": 6,
         "xp": 12,
         "category": "Charm",
-        "level": 3,
-        "school": "Charm (3)",
+        "level": 4,
+        "school": "Charm (4)",
         "section": "abilities"
       },
       {
@@ -381,8 +406,8 @@
         "ep": 6,
         "xp": 12,
         "category": "Charm",
-        "level": 3,
-        "school": "Charm (3)",
+        "level": 4,
+        "school": "Charm (4)",
         "section": "abilities"
       },
       {
@@ -391,8 +416,8 @@
         "ep": 6,
         "xp": 12,
         "category": "Charm",
-        "level": 3,
-        "school": "Charm (3)",
+        "level": 4,
+        "school": "Charm (4)",
         "section": "abilities"
       },
       {
@@ -401,8 +426,8 @@
         "ep": 6,
         "xp": 12,
         "category": "Charm",
-        "level": 3,
-        "school": "Charm (3)",
+        "level": 4,
+        "school": "Charm (4)",
         "section": "abilities"
       }
     ]
@@ -416,8 +441,8 @@
         "ep": 1,
         "xp": 3,
         "category": "Stealth",
-        "level": 0,
-        "school": "Stealth (0)",
+        "level": 1,
+        "school": "Stealth (1)",
         "section": "abilities"
       },
       {
@@ -426,8 +451,8 @@
         "ep": 1,
         "xp": 3,
         "category": "Stealth",
-        "level": 0,
-        "school": "Stealth (0)",
+        "level": 1,
+        "school": "Stealth (1)",
         "section": "abilities"
       },
       {
@@ -436,8 +461,8 @@
         "ep": 1,
         "xp": 3,
         "category": "Stealth",
-        "level": 0,
-        "school": "Stealth (0)",
+        "level": 1,
+        "school": "Stealth (1)",
         "section": "abilities"
       },
       {
@@ -446,8 +471,8 @@
         "ep": 3,
         "xp": 6,
         "category": "Stealth",
-        "level": 1,
-        "school": "Stealth (1)",
+        "level": 2,
+        "school": "Stealth (2)",
         "section": "abilities"
       },
       {
@@ -456,8 +481,8 @@
         "ep": 3,
         "xp": 6,
         "category": "Stealth",
-        "level": 1,
-        "school": "Stealth (1)",
+        "level": 2,
+        "school": "Stealth (2)",
         "section": "abilities"
       },
       {
@@ -466,8 +491,8 @@
         "ep": 3,
         "xp": 6,
         "category": "Stealth",
-        "level": 1,
-        "school": "Stealth (1)",
+        "level": 2,
+        "school": "Stealth (2)",
         "section": "abilities"
       },
       {
@@ -476,8 +501,8 @@
         "ep": 3,
         "xp": 6,
         "category": "Stealth",
-        "level": 1,
-        "school": "Stealth (1)",
+        "level": 2,
+        "school": "Stealth (2)",
         "section": "abilities"
       },
       {
@@ -486,8 +511,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Stealth",
-        "level": 2,
-        "school": "Stealth (2)",
+        "level": 3,
+        "school": "Stealth (3)",
         "section": "abilities"
       },
       {
@@ -496,8 +521,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Stealth",
-        "level": 2,
-        "school": "Stealth (2)",
+        "level": 3,
+        "school": "Stealth (3)",
         "section": "abilities"
       },
       {
@@ -506,8 +531,8 @@
         "ep": 6,
         "xp": 12,
         "category": "Stealth",
-        "level": 3,
-        "school": "Stealth (3)",
+        "level": 4,
+        "school": "Stealth (4)",
         "section": "abilities"
       },
       {
@@ -516,8 +541,8 @@
         "ep": 6,
         "xp": 12,
         "category": "Stealth",
-        "level": 3,
-        "school": "Stealth (3)",
+        "level": 4,
+        "school": "Stealth (4)",
         "section": "abilities"
       }
     ]
@@ -531,8 +556,8 @@
         "ep": 1,
         "xp": 3,
         "category": "Survival",
-        "level": 0,
-        "school": "Survival (0)",
+        "level": 1,
+        "school": "Survival (1)",
         "section": "abilities"
       },
       {
@@ -541,8 +566,8 @@
         "ep": 1,
         "xp": 3,
         "category": "Survival",
-        "level": 0,
-        "school": "Survival (0)",
+        "level": 1,
+        "school": "Survival (1)",
         "section": "abilities"
       },
       {
@@ -551,8 +576,8 @@
         "ep": 3,
         "xp": 6,
         "category": "Survival",
-        "level": 1,
-        "school": "Survival (1)",
+        "level": 2,
+        "school": "Survival (2)",
         "section": "abilities"
       },
       {
@@ -561,8 +586,8 @@
         "ep": 3,
         "xp": 6,
         "category": "Survival",
-        "level": 1,
-        "school": "Survival (1)",
+        "level": 2,
+        "school": "Survival (2)",
         "section": "abilities"
       },
       {
@@ -571,8 +596,8 @@
         "ep": 3,
         "xp": 6,
         "category": "Survival",
-        "level": 1,
-        "school": "Survival (1)",
+        "level": 2,
+        "school": "Survival (2)",
         "section": "abilities"
       },
       {
@@ -581,8 +606,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Survival",
-        "level": 2,
-        "school": "Survival (2)",
+        "level": 3,
+        "school": "Survival (3)",
         "section": "abilities"
       },
       {
@@ -591,8 +616,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Survival",
-        "level": 2,
-        "school": "Survival (2)",
+        "level": 3,
+        "school": "Survival (3)",
         "section": "abilities"
       },
       {
@@ -601,8 +626,8 @@
         "ep": 6,
         "xp": 12,
         "category": "Survival",
-        "level": 3,
-        "school": "Survival (3)",
+        "level": 4,
+        "school": "Survival (4)",
         "section": "abilities"
       }
     ]
@@ -615,8 +640,8 @@
         "description": "Enables you to spend 3 XP to craft any common or uncommon item.",
         "xp": 6,
         "category": "Crafting",
-        "level": 0,
-        "school": "Crafting (0)",
+        "level": 1,
+        "school": "Crafting (1)",
         "section": "abilities"
       },
       {
@@ -624,8 +649,8 @@
         "description": "Enables you to spend 2 XP to brew any common or uncommon potion.",
         "xp": 6,
         "category": "Crafting",
-        "level": 0,
-        "school": "Crafting (0)",
+        "level": 1,
+        "school": "Crafting (1)",
         "section": "abilities"
       },
       {
@@ -633,8 +658,8 @@
         "description": "Enables you to spend 6 XP to craft any rare item.",
         "xp": 9,
         "category": "Crafting",
-        "level": 1,
-        "school": "Crafting (1)",
+        "level": 2,
+        "school": "Crafting (2)",
         "section": "abilities"
       },
       {
@@ -642,8 +667,8 @@
         "description": "Enables you to spend 6 XP to brew any rare potion.",
         "xp": 9,
         "category": "Crafting",
-        "level": 1,
-        "school": "Crafting (1)",
+        "level": 2,
+        "school": "Crafting (2)",
         "section": "abilities"
       },
       {
@@ -651,8 +676,8 @@
         "description": "Enables you to spend 1 XP to imbue a mundane item with a spell (one-time use).",
         "xp": 9,
         "category": "Crafting",
-        "level": 1,
-        "school": "Crafting (1)",
+        "level": 2,
+        "school": "Crafting (2)",
         "section": "abilities"
       },
       {
@@ -660,8 +685,8 @@
         "description": "Enables you to spend 9 XP to brew any legendary potion.",
         "xp": 12,
         "category": "Crafting",
-        "level": 2,
-        "school": "Crafting (2)",
+        "level": 3,
+        "school": "Crafting (3)",
         "section": "abilities"
       },
       {
@@ -669,8 +694,8 @@
         "description": "Enables you to spend 9 XP to permanently imbue a mundane item with any spell.",
         "xp": 12,
         "category": "Crafting",
-        "level": 2,
-        "school": "Crafting (2)",
+        "level": 3,
+        "school": "Crafting (3)",
         "section": "abilities"
       }
     ]
@@ -684,8 +709,8 @@
         "ep": 2,
         "xp": 4,
         "category": "Knowledge",
-        "level": 0,
-        "school": "Knowledge (0)",
+        "level": 1,
+        "school": "Knowledge (1)",
         "section": "abilities"
       },
       {
@@ -694,8 +719,8 @@
         "ep": 2,
         "xp": 4,
         "category": "Knowledge",
-        "level": 0,
-        "school": "Knowledge (0)",
+        "level": 1,
+        "school": "Knowledge (1)",
         "section": "abilities"
       },
       {
@@ -704,8 +729,8 @@
         "ep": 2,
         "xp": 4,
         "category": "Knowledge",
-        "level": 0,
-        "school": "Knowledge (0)",
+        "level": 1,
+        "school": "Knowledge (1)",
         "section": "abilities"
       },
       {
@@ -714,8 +739,8 @@
         "ep": 2,
         "xp": 4,
         "category": "Knowledge",
-        "level": 0,
-        "school": "Knowledge (0)",
+        "level": 1,
+        "school": "Knowledge (1)",
         "section": "abilities"
       },
       {
@@ -724,8 +749,8 @@
         "ep": 2,
         "xp": 4,
         "category": "Knowledge",
-        "level": 0,
-        "school": "Knowledge (0)",
+        "level": 1,
+        "school": "Knowledge (1)",
         "section": "abilities"
       },
       {
@@ -734,8 +759,8 @@
         "ep": 2,
         "xp": 4,
         "category": "Knowledge",
-        "level": 0,
-        "school": "Knowledge (0)",
+        "level": 1,
+        "school": "Knowledge (1)",
         "section": "abilities"
       },
       {
@@ -744,8 +769,8 @@
         "ep": 2,
         "xp": 4,
         "category": "Knowledge",
-        "level": 0,
-        "school": "Knowledge (0)",
+        "level": 1,
+        "school": "Knowledge (1)",
         "section": "abilities"
       },
       {
@@ -754,8 +779,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Knowledge",
-        "level": 3,
-        "school": "Knowledge (3)",
+        "level": 4,
+        "school": "Knowledge (4)",
         "section": "abilities"
       }
     ]
@@ -769,8 +794,8 @@
         "ep": 9,
         "xp": 9,
         "category": "Warfare",
-        "level": 0,
-        "school": "Warfare (0)",
+        "level": 1,
+        "school": "Warfare (1)",
         "section": "abilities"
       },
       {
@@ -779,8 +804,8 @@
         "ep": 3,
         "xp": 3,
         "category": "Warfare",
-        "level": 0,
-        "school": "Warfare (0)",
+        "level": 1,
+        "school": "Warfare (1)",
         "section": "abilities"
       },
       {
@@ -789,8 +814,8 @@
         "ep": 3,
         "xp": 3,
         "category": "Warfare",
-        "level": 0,
-        "school": "Warfare (0)",
+        "level": 1,
+        "school": "Warfare (1)",
         "section": "abilities"
       },
       {
@@ -799,8 +824,8 @@
         "ep": 3,
         "xp": 3,
         "category": "Warfare",
-        "level": 0,
-        "school": "Warfare (0)",
+        "level": 1,
+        "school": "Warfare (1)",
         "section": "abilities"
       },
       {
@@ -809,8 +834,8 @@
         "ep": 3,
         "xp": 3,
         "category": "Warfare",
-        "level": 0,
-        "school": "Warfare (0)",
+        "level": 1,
+        "school": "Warfare (1)",
         "section": "abilities"
       },
       {
@@ -820,8 +845,8 @@
         "xp": 3,
         "damage": 4,
         "category": "Warfare",
-        "level": 0,
-        "school": "Warfare (0)",
+        "level": 1,
+        "school": "Warfare (1)",
         "section": "abilities"
       },
       {
@@ -830,8 +855,8 @@
         "ep": 6,
         "xp": 6,
         "category": "Warfare",
-        "level": 1,
-        "school": "Warfare (1)",
+        "level": 2,
+        "school": "Warfare (2)",
         "section": "abilities"
       },
       {
@@ -840,8 +865,8 @@
         "ep": 6,
         "xp": 6,
         "category": "Warfare",
-        "level": 1,
-        "school": "Warfare (1)",
+        "level": 2,
+        "school": "Warfare (2)",
         "section": "abilities"
       },
       {
@@ -850,8 +875,8 @@
         "ep": 6,
         "xp": 6,
         "category": "Warfare",
-        "level": 1,
-        "school": "Warfare (1)",
+        "level": 2,
+        "school": "Warfare (2)",
         "section": "abilities"
       },
       {
@@ -860,8 +885,8 @@
         "ep": 3,
         "xp": 3,
         "category": "Warfare",
-        "level": 1,
-        "school": "Warfare (1)",
+        "level": 2,
+        "school": "Warfare (2)",
         "section": "abilities"
       },
       {
@@ -870,8 +895,8 @@
         "ep": 6,
         "xp": 6,
         "category": "Warfare",
-        "level": 2,
-        "school": "Warfare (2)",
+        "level": 3,
+        "school": "Warfare (3)",
         "section": "abilities"
       },
       {
@@ -880,8 +905,8 @@
         "ep": 6,
         "xp": 6,
         "category": "Warfare",
-        "level": 2,
-        "school": "Warfare (2)",
+        "level": 3,
+        "school": "Warfare (3)",
         "section": "abilities"
       },
       {
@@ -890,8 +915,18 @@
         "ep": 7,
         "xp": 7,
         "category": "Warfare",
-        "level": 2,
-        "school": "Warfare (2)",
+        "level": 3,
+        "school": "Warfare (3)",
+        "section": "abilities"
+      },
+      {
+        "title": "Parry Master",
+        "description": "Deflect physical ranged attacks (arrows, throwing daggers).",
+        "ep": 12,
+        "xp": 12,
+        "category": "Warfare",
+        "level": 4,
+        "school": "Warfare (4)",
         "section": "abilities"
       },
       {
@@ -900,8 +935,8 @@
         "ep": 12,
         "xp": 12,
         "category": "Warfare",
-        "level": 3,
-        "school": "Warfare (3)",
+        "level": 4,
+        "school": "Warfare (4)",
         "section": "abilities"
       },
       {
@@ -911,8 +946,8 @@
         "xp": 15,
         "damage": 6,
         "category": "Warfare",
-        "level": 4,
-        "school": "Warfare (4)",
+        "level": 5,
+        "school": "Warfare (5)",
         "section": "abilities"
       },
       {
@@ -921,8 +956,8 @@
         "ep": 3,
         "xp": 3,
         "category": "Warfare",
-        "level": 1,
-        "school": "Warfare (1)",
+        "level": 2,
+        "school": "Warfare (2)",
         "section": "abilities"
       },
       {
@@ -931,8 +966,8 @@
         "ep": 6,
         "xp": 6,
         "category": "Warfare",
-        "level": 2,
-        "school": "Warfare (2)",
+        "level": 3,
+        "school": "Warfare (3)",
         "section": "abilities"
       },
       {
@@ -941,8 +976,8 @@
         "ep": 9,
         "xp": 9,
         "category": "Warfare",
-        "level": 3,
-        "school": "Warfare (3)",
+        "level": 4,
+        "school": "Warfare (4)",
         "section": "abilities"
       },
       {
@@ -951,8 +986,8 @@
         "ep": 3,
         "xp": 3,
         "category": "Warfare",
-        "level": 0,
-        "school": "Warfare (0)",
+        "level": 1,
+        "school": "Warfare (1)",
         "section": "abilities"
       },
       {
@@ -961,8 +996,8 @@
         "ep": 6,
         "xp": 6,
         "category": "Warfare",
-        "level": 1,
-        "school": "Warfare (1)",
+        "level": 2,
+        "school": "Warfare (2)",
         "section": "abilities"
       },
       {
@@ -971,8 +1006,8 @@
         "ep": 6,
         "xp": 6,
         "category": "Warfare",
-        "level": 1,
-        "school": "Warfare (1)",
+        "level": 2,
+        "school": "Warfare (2)",
         "section": "abilities"
       },
       {
@@ -981,8 +1016,8 @@
         "ep": 12,
         "xp": 12,
         "category": "Warfare",
-        "level": 3,
-        "school": "Warfare (3)",
+        "level": 4,
+        "school": "Warfare (4)",
         "section": "abilities"
       }
     ]

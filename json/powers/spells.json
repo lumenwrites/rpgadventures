@@ -9,8 +9,8 @@
         "xp": 3,
         "damage": 3,
         "category": "Elementalism",
-        "level": 0,
-        "school": "Elementalism (0)",
+        "level": 1,
+        "school": "Elementalism (1)",
         "section": "spells"
       },
       {
@@ -19,8 +19,8 @@
         "ep": 1,
         "xp": 3,
         "category": "Elementalism",
-        "level": 0,
-        "school": "Elementalism (0)",
+        "level": 1,
+        "school": "Elementalism (1)",
         "section": "spells"
       },
       {
@@ -30,8 +30,8 @@
         "xp": 3,
         "damage": 3,
         "category": "Elementalism",
-        "level": 0,
-        "school": "Elementalism (0)",
+        "level": 1,
+        "school": "Elementalism (1)",
         "section": "spells"
       },
       {
@@ -41,8 +41,8 @@
         "xp": 6,
         "damage": 3,
         "category": "Elementalism",
-        "level": 1,
-        "school": "Elementalism (1)",
+        "level": 2,
+        "school": "Elementalism (2)",
         "section": "spells"
       },
       {
@@ -52,8 +52,8 @@
         "xp": 6,
         "damage": 3,
         "category": "Elementalism",
-        "level": 1,
-        "school": "Elementalism (1)",
+        "level": 2,
+        "school": "Elementalism (2)",
         "section": "spells"
       },
       {
@@ -62,8 +62,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Elementalism",
-        "level": 2,
-        "school": "Elementalism (2)",
+        "level": 3,
+        "school": "Elementalism (3)",
         "section": "spells"
       },
       {
@@ -73,8 +73,8 @@
         "xp": 9,
         "damage": 3,
         "category": "Elementalism",
-        "level": 2,
-        "school": "Elementalism (2)",
+        "level": 3,
+        "school": "Elementalism (3)",
         "section": "spells"
       },
       {
@@ -84,8 +84,8 @@
         "xp": 12,
         "damage": 6,
         "category": "Elementalism",
-        "level": 3,
-        "school": "Elementalism (3)",
+        "level": 4,
+        "school": "Elementalism (4)",
         "section": "spells"
       },
       {
@@ -95,8 +95,8 @@
         "xp": 12,
         "damage": 6,
         "category": "Elementalism",
-        "level": 3,
-        "school": "Elementalism (3)",
+        "level": 4,
+        "school": "Elementalism (4)",
         "section": "spells"
       }
     ]
@@ -110,8 +110,8 @@
         "ep": 2,
         "xp": 5,
         "category": "Abjuration",
-        "level": 0,
-        "school": "Abjuration (0)",
+        "level": 1,
+        "school": "Abjuration (1)",
         "section": "spells"
       },
       {
@@ -119,8 +119,8 @@
         "description": "Sacrifice 5 points of your health to recover 4 energy points.",
         "xp": 3,
         "category": "Abjuration",
-        "level": 0,
-        "school": "Abjuration (0)",
+        "level": 1,
+        "school": "Abjuration (1)",
         "section": "spells"
       },
       {
@@ -129,8 +129,8 @@
         "ep": 1,
         "xp": 3,
         "category": "Abjuration",
-        "level": 0,
-        "school": "Abjuration (0)",
+        "level": 1,
+        "school": "Abjuration (1)",
         "section": "spells"
       },
       {
@@ -139,8 +139,8 @@
         "ep": 1,
         "xp": 6,
         "category": "Abjuration",
-        "level": 1,
-        "school": "Abjuration (1)",
+        "level": 2,
+        "school": "Abjuration (2)",
         "section": "spells"
       },
       {
@@ -149,8 +149,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Abjuration",
-        "level": 2,
-        "school": "Abjuration (2)",
+        "level": 3,
+        "school": "Abjuration (3)",
         "section": "spells"
       },
       {
@@ -159,8 +159,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Abjuration",
-        "level": 2,
-        "school": "Abjuration (2)",
+        "level": 3,
+        "school": "Abjuration (3)",
         "section": "spells"
       },
       {
@@ -169,8 +169,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Abjuration",
-        "level": 2,
-        "school": "Abjuration (2)",
+        "level": 3,
+        "school": "Abjuration (3)",
         "section": "spells"
       },
       {
@@ -179,8 +179,8 @@
         "ep": 6,
         "xp": 12,
         "category": "Abjuration",
-        "level": 3,
-        "school": "Abjuration (3)",
+        "level": 4,
+        "school": "Abjuration (4)",
         "section": "spells"
       },
       {
@@ -189,8 +189,8 @@
         "ep": 6,
         "xp": 12,
         "category": "Abjuration",
-        "level": 3,
-        "school": "Abjuration (3)",
+        "level": 4,
+        "school": "Abjuration (4)",
         "section": "spells"
       },
       {
@@ -199,8 +199,8 @@
         "ep": 6,
         "xp": 12,
         "category": "Abjuration",
-        "level": 3,
-        "school": "Abjuration (3)",
+        "level": 4,
+        "school": "Abjuration (4)",
         "section": "spells"
       },
       {
@@ -209,8 +209,8 @@
         "ep": 6,
         "xp": 15,
         "category": "Abjuration",
-        "level": 4,
-        "school": "Abjuration (4)",
+        "level": 5,
+        "school": "Abjuration (5)",
         "section": "spells"
       },
       {
@@ -219,8 +219,8 @@
         "ep": 6,
         "xp": 15,
         "category": "Abjuration",
-        "level": 4,
-        "school": "Abjuration (4)",
+        "level": 5,
+        "school": "Abjuration (5)",
         "section": "spells"
       }
     ]
@@ -234,8 +234,8 @@
         "ep": 1,
         "xp": 3,
         "category": "Telekinesis",
-        "level": 0,
-        "school": "Telekinesis (0)",
+        "level": 1,
+        "school": "Telekinesis (1)",
         "section": "spells"
       },
       {
@@ -244,8 +244,8 @@
         "ep": 1,
         "xp": 6,
         "category": "Telekinesis",
-        "level": 1,
-        "school": "Telekinesis (1)",
+        "level": 2,
+        "school": "Telekinesis (2)",
         "section": "spells"
       },
       {
@@ -254,8 +254,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Telekinesis",
-        "level": 2,
-        "school": "Telekinesis (2)",
+        "level": 3,
+        "school": "Telekinesis (3)",
         "section": "spells"
       },
       {
@@ -264,8 +264,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Telekinesis",
-        "level": 2,
-        "school": "Telekinesis (2)",
+        "level": 3,
+        "school": "Telekinesis (3)",
         "section": "spells"
       },
       {
@@ -274,8 +274,8 @@
         "ep": 6,
         "xp": 12,
         "category": "Telekinesis",
-        "level": 3,
-        "school": "Telekinesis (3)",
+        "level": 4,
+        "school": "Telekinesis (4)",
         "section": "spells"
       },
       {
@@ -284,8 +284,8 @@
         "ep": 6,
         "xp": 15,
         "category": "Telekinesis",
-        "level": 4,
-        "school": "Telekinesis (4)",
+        "level": 5,
+        "school": "Telekinesis (5)",
         "section": "spells"
       },
       {
@@ -294,8 +294,8 @@
         "ep": 6,
         "xp": 15,
         "category": "Telekinesis",
-        "level": 4,
-        "school": "Telekinesis (4)",
+        "level": 5,
+        "school": "Telekinesis (5)",
         "section": "spells"
       }
     ]
@@ -309,8 +309,8 @@
         "ep": 1,
         "xp": 3,
         "category": "Illusionism",
-        "level": 0,
-        "school": "Illusionism (0)",
+        "level": 1,
+        "school": "Illusionism (1)",
         "section": "spells"
       },
       {
@@ -319,8 +319,8 @@
         "ep": 1,
         "xp": 3,
         "category": "Illusionism",
-        "level": 0,
-        "school": "Illusionism (0)",
+        "level": 1,
+        "school": "Illusionism (1)",
         "section": "spells"
       },
       {
@@ -329,8 +329,8 @@
         "ep": 1,
         "xp": 6,
         "category": "Illusionism",
-        "level": 1,
-        "school": "Illusionism (1)",
+        "level": 2,
+        "school": "Illusionism (2)",
         "section": "spells"
       },
       {
@@ -339,8 +339,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Illusionism",
-        "level": 2,
-        "school": "Illusionism (2)",
+        "level": 3,
+        "school": "Illusionism (3)",
         "section": "spells"
       },
       {
@@ -349,8 +349,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Illusionism",
-        "level": 2,
-        "school": "Illusionism (2)",
+        "level": 3,
+        "school": "Illusionism (3)",
         "section": "spells"
       },
       {
@@ -359,8 +359,8 @@
         "ep": 6,
         "xp": 12,
         "category": "Illusionism",
-        "level": 3,
-        "school": "Illusionism (3)",
+        "level": 4,
+        "school": "Illusionism (4)",
         "section": "spells"
       },
       {
@@ -369,8 +369,8 @@
         "ep": 6,
         "xp": 15,
         "category": "Illusionism",
-        "level": 4,
-        "school": "Illusionism (4)",
+        "level": 5,
+        "school": "Illusionism (5)",
         "section": "spells"
       }
     ]
@@ -384,8 +384,8 @@
         "ep": 1,
         "xp": 3,
         "category": "Telepathy",
-        "level": 0,
-        "school": "Telepathy (0)",
+        "level": 1,
+        "school": "Telepathy (1)",
         "section": "spells"
       },
       {
@@ -394,8 +394,8 @@
         "ep": 1,
         "xp": 3,
         "category": "Telepathy",
-        "level": 0,
-        "school": "Telepathy (0)",
+        "level": 1,
+        "school": "Telepathy (1)",
         "section": "spells"
       },
       {
@@ -404,8 +404,8 @@
         "ep": 1,
         "xp": 6,
         "category": "Telepathy",
-        "level": 1,
-        "school": "Telepathy (1)",
+        "level": 2,
+        "school": "Telepathy (2)",
         "section": "spells"
       },
       {
@@ -414,8 +414,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Telepathy",
-        "level": 2,
-        "school": "Telepathy (2)",
+        "level": 3,
+        "school": "Telepathy (3)",
         "section": "spells"
       },
       {
@@ -424,8 +424,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Telepathy",
-        "level": 2,
-        "school": "Telepathy (2)",
+        "level": 3,
+        "school": "Telepathy (3)",
         "section": "spells"
       },
       {
@@ -434,8 +434,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Telepathy",
-        "level": 2,
-        "school": "Telepathy (2)",
+        "level": 3,
+        "school": "Telepathy (3)",
         "section": "spells"
       },
       {
@@ -444,8 +444,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Telepathy",
-        "level": 2,
-        "school": "Telepathy (2)",
+        "level": 3,
+        "school": "Telepathy (3)",
         "section": "spells"
       },
       {
@@ -454,8 +454,8 @@
         "ep": 6,
         "xp": 12,
         "category": "Telepathy",
-        "level": 3,
-        "school": "Telepathy (3)",
+        "level": 4,
+        "school": "Telepathy (4)",
         "section": "spells"
       },
       {
@@ -464,8 +464,8 @@
         "ep": 6,
         "xp": 12,
         "category": "Telepathy",
-        "level": 3,
-        "school": "Telepathy (3)",
+        "level": 4,
+        "school": "Telepathy (4)",
         "section": "spells"
       },
       {
@@ -474,8 +474,8 @@
         "ep": 6,
         "xp": 12,
         "category": "Telepathy",
-        "level": 3,
-        "school": "Telepathy (3)",
+        "level": 4,
+        "school": "Telepathy (4)",
         "section": "spells"
       },
       {
@@ -484,8 +484,8 @@
         "ep": 6,
         "xp": 12,
         "category": "Telepathy",
-        "level": 3,
-        "school": "Telepathy (3)",
+        "level": 4,
+        "school": "Telepathy (4)",
         "section": "spells"
       },
       {
@@ -494,8 +494,8 @@
         "ep": 6,
         "xp": 15,
         "category": "Telepathy",
-        "level": 4,
-        "school": "Telepathy (4)",
+        "level": 5,
+        "school": "Telepathy (5)",
         "section": "spells"
       }
     ]
@@ -509,8 +509,8 @@
         "ep": 1,
         "xp": 3,
         "category": "Enchantment",
-        "level": 0,
-        "school": "Enchantment (0)",
+        "level": 1,
+        "school": "Enchantment (1)",
         "section": "spells"
       },
       {
@@ -519,8 +519,8 @@
         "ep": 1,
         "xp": 3,
         "category": "Enchantment",
-        "level": 0,
-        "school": "Enchantment (0)",
+        "level": 1,
+        "school": "Enchantment (1)",
         "section": "spells"
       },
       {
@@ -529,8 +529,8 @@
         "ep": 1,
         "xp": 6,
         "category": "Enchantment",
-        "level": 1,
-        "school": "Enchantment (1)",
+        "level": 2,
+        "school": "Enchantment (2)",
         "section": "spells"
       },
       {
@@ -539,8 +539,8 @@
         "ep": 1,
         "xp": 6,
         "category": "Enchantment",
-        "level": 1,
-        "school": "Enchantment (1)",
+        "level": 2,
+        "school": "Enchantment (2)",
         "section": "spells"
       },
       {
@@ -549,8 +549,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Enchantment",
-        "level": 2,
-        "school": "Enchantment (2)",
+        "level": 3,
+        "school": "Enchantment (3)",
         "section": "spells"
       },
       {
@@ -559,8 +559,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Enchantment",
-        "level": 2,
-        "school": "Enchantment (2)",
+        "level": 3,
+        "school": "Enchantment (3)",
         "section": "spells"
       },
       {
@@ -569,8 +569,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Enchantment",
-        "level": 2,
-        "school": "Enchantment (2)",
+        "level": 3,
+        "school": "Enchantment (3)",
         "section": "spells"
       },
       {
@@ -579,8 +579,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Enchantment",
-        "level": 2,
-        "school": "Enchantment (2)",
+        "level": 3,
+        "school": "Enchantment (3)",
         "section": "spells"
       },
       {
@@ -589,8 +589,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Enchantment",
-        "level": 2,
-        "school": "Enchantment (2)",
+        "level": 3,
+        "school": "Enchantment (3)",
         "section": "spells"
       },
       {
@@ -599,8 +599,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Enchantment",
-        "level": 2,
-        "school": "Enchantment (2)",
+        "level": 3,
+        "school": "Enchantment (3)",
         "section": "spells"
       },
       {
@@ -609,8 +609,8 @@
         "ep": 6,
         "xp": 12,
         "category": "Enchantment",
-        "level": 3,
-        "school": "Enchantment (3)",
+        "level": 4,
+        "school": "Enchantment (4)",
         "section": "spells"
       },
       {
@@ -619,8 +619,8 @@
         "ep": 6,
         "xp": 12,
         "category": "Enchantment",
-        "level": 3,
-        "school": "Enchantment (3)",
+        "level": 4,
+        "school": "Enchantment (4)",
         "section": "spells"
       },
       {
@@ -629,8 +629,8 @@
         "ep": 6,
         "xp": 12,
         "category": "Enchantment",
-        "level": 3,
-        "school": "Enchantment (3)",
+        "level": 4,
+        "school": "Enchantment (4)",
         "section": "spells"
       },
       {
@@ -639,8 +639,8 @@
         "ep": 6,
         "xp": 12,
         "category": "Enchantment",
-        "level": 3,
-        "school": "Enchantment (3)",
+        "level": 4,
+        "school": "Enchantment (4)",
         "section": "spells"
       },
       {
@@ -649,8 +649,8 @@
         "ep": 6,
         "xp": 12,
         "category": "Enchantment",
-        "level": 3,
-        "school": "Enchantment (3)",
+        "level": 4,
+        "school": "Enchantment (4)",
         "section": "spells"
       },
       {
@@ -659,8 +659,8 @@
         "ep": 6,
         "xp": 15,
         "category": "Enchantment",
-        "level": 4,
-        "school": "Enchantment (4)",
+        "level": 5,
+        "school": "Enchantment (5)",
         "section": "spells"
       },
       {
@@ -669,8 +669,8 @@
         "ep": 6,
         "xp": 15,
         "category": "Enchantment",
-        "level": 4,
-        "school": "Enchantment (4)",
+        "level": 5,
+        "school": "Enchantment (5)",
         "section": "spells"
       }
     ]
@@ -684,8 +684,8 @@
         "ep": 1,
         "xp": 3,
         "category": "Divination",
-        "level": 0,
-        "school": "Divination (0)",
+        "level": 1,
+        "school": "Divination (1)",
         "section": "spells"
       },
       {
@@ -694,8 +694,8 @@
         "ep": 1,
         "xp": 3,
         "category": "Divination",
-        "level": 0,
-        "school": "Divination (0)",
+        "level": 1,
+        "school": "Divination (1)",
         "section": "spells"
       },
       {
@@ -704,8 +704,8 @@
         "ep": 1,
         "xp": 6,
         "category": "Divination",
-        "level": 1,
-        "school": "Divination (1)",
+        "level": 2,
+        "school": "Divination (2)",
         "section": "spells"
       },
       {
@@ -714,8 +714,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Divination",
-        "level": 2,
-        "school": "Divination (2)",
+        "level": 3,
+        "school": "Divination (3)",
         "section": "spells"
       },
       {
@@ -724,8 +724,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Divination",
-        "level": 2,
-        "school": "Divination (2)",
+        "level": 3,
+        "school": "Divination (3)",
         "section": "spells"
       },
       {
@@ -734,8 +734,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Divination",
-        "level": 2,
-        "school": "Divination (2)",
+        "level": 3,
+        "school": "Divination (3)",
         "section": "spells"
       },
       {
@@ -744,8 +744,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Divination",
-        "level": 2,
-        "school": "Divination (2)",
+        "level": 3,
+        "school": "Divination (3)",
         "section": "spells"
       },
       {
@@ -754,8 +754,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Divination",
-        "level": 2,
-        "school": "Divination (2)",
+        "level": 3,
+        "school": "Divination (3)",
         "section": "spells"
       },
       {
@@ -764,8 +764,8 @@
         "ep": 6,
         "xp": 12,
         "category": "Divination",
-        "level": 3,
-        "school": "Divination (3)",
+        "level": 4,
+        "school": "Divination (4)",
         "section": "spells"
       },
       {
@@ -774,8 +774,8 @@
         "ep": 6,
         "xp": 12,
         "category": "Divination",
-        "level": 3,
-        "school": "Divination (3)",
+        "level": 4,
+        "school": "Divination (4)",
         "section": "spells"
       },
       {
@@ -784,8 +784,8 @@
         "ep": 6,
         "xp": 12,
         "category": "Divination",
-        "level": 3,
-        "school": "Divination (3)",
+        "level": 4,
+        "school": "Divination (4)",
         "section": "spells"
       },
       {
@@ -794,8 +794,8 @@
         "ep": 6,
         "xp": 15,
         "category": "Divination",
-        "level": 4,
-        "school": "Divination (4)",
+        "level": 5,
+        "school": "Divination (5)",
         "section": "spells"
       }
     ]
@@ -809,8 +809,8 @@
         "ep": 1,
         "xp": 3,
         "category": "Teleportation",
-        "level": 0,
-        "school": "Teleportation (0)",
+        "level": 1,
+        "school": "Teleportation (1)",
         "section": "spells"
       },
       {
@@ -819,8 +819,8 @@
         "ep": 1,
         "xp": 6,
         "category": "Teleportation",
-        "level": 1,
-        "school": "Teleportation (1)",
+        "level": 2,
+        "school": "Teleportation (2)",
         "section": "spells"
       },
       {
@@ -829,8 +829,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Teleportation",
-        "level": 2,
-        "school": "Teleportation (2)",
+        "level": 3,
+        "school": "Teleportation (3)",
         "section": "spells"
       },
       {
@@ -839,8 +839,8 @@
         "ep": 6,
         "xp": 12,
         "category": "Teleportation",
-        "level": 3,
-        "school": "Teleportation (3)",
+        "level": 4,
+        "school": "Teleportation (4)",
         "section": "spells"
       },
       {
@@ -849,8 +849,8 @@
         "ep": 6,
         "xp": 15,
         "category": "Teleportation",
-        "level": 4,
-        "school": "Teleportation (4)",
+        "level": 5,
+        "school": "Teleportation (5)",
         "section": "spells"
       },
       {
@@ -859,8 +859,8 @@
         "ep": 6,
         "xp": 15,
         "category": "Teleportation",
-        "level": 4,
-        "school": "Teleportation (4)",
+        "level": 5,
+        "school": "Teleportation (5)",
         "section": "spells"
       }
     ]
@@ -874,8 +874,8 @@
         "ep": 1,
         "xp": 3,
         "category": "Conjuration",
-        "level": 0,
-        "school": "Conjuration (0)",
+        "level": 1,
+        "school": "Conjuration (1)",
         "section": "spells"
       },
       {
@@ -884,8 +884,8 @@
         "ep": 1,
         "xp": 3,
         "category": "Conjuration",
-        "level": 0,
-        "school": "Conjuration (0)",
+        "level": 1,
+        "school": "Conjuration (1)",
         "section": "spells"
       },
       {
@@ -894,8 +894,8 @@
         "ep": 2,
         "xp": 5,
         "category": "Conjuration",
-        "level": 0,
-        "school": "Conjuration (0)",
+        "level": 1,
+        "school": "Conjuration (1)",
         "section": "spells"
       },
       {
@@ -904,8 +904,8 @@
         "ep": 8,
         "xp": 6,
         "category": "Conjuration",
-        "level": 1,
-        "school": "Conjuration (1)",
+        "level": 2,
+        "school": "Conjuration (2)",
         "section": "spells"
       },
       {
@@ -914,8 +914,8 @@
         "ep": 1,
         "xp": 3,
         "category": "Conjuration",
-        "level": 2,
-        "school": "Conjuration (2)",
+        "level": 3,
+        "school": "Conjuration (3)",
         "section": "spells"
       },
       {
@@ -924,8 +924,8 @@
         "ep": 1,
         "xp": 6,
         "category": "Conjuration",
-        "level": 3,
-        "school": "Conjuration (3)",
+        "level": 4,
+        "school": "Conjuration (4)",
         "section": "spells"
       },
       {
@@ -934,8 +934,8 @@
         "ep": 1,
         "xp": 6,
         "category": "Conjuration",
-        "level": 3,
-        "school": "Conjuration (3)",
+        "level": 4,
+        "school": "Conjuration (4)",
         "section": "spells"
       },
       {
@@ -944,8 +944,8 @@
         "ep": 6,
         "xp": 15,
         "category": "Conjuration",
-        "level": 4,
-        "school": "Conjuration (4)",
+        "level": 5,
+        "school": "Conjuration (5)",
         "section": "spells"
       },
       {
@@ -954,8 +954,8 @@
         "ep": 6,
         "xp": 15,
         "category": "Conjuration",
-        "level": 4,
-        "school": "Conjuration (4)",
+        "level": 5,
+        "school": "Conjuration (5)",
         "section": "spells"
       }
     ]
@@ -969,8 +969,8 @@
         "ep": 1,
         "xp": 3,
         "category": "Shapeshifting",
-        "level": 0,
-        "school": "Shapeshifting (0)",
+        "level": 1,
+        "school": "Shapeshifting (1)",
         "section": "spells"
       },
       {
@@ -979,8 +979,8 @@
         "ep": 1,
         "xp": 6,
         "category": "Shapeshifting",
-        "level": 1,
-        "school": "Shapeshifting (1)",
+        "level": 2,
+        "school": "Shapeshifting (2)",
         "section": "spells"
       },
       {
@@ -989,8 +989,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Shapeshifting",
-        "level": 2,
-        "school": "Shapeshifting (2)",
+        "level": 3,
+        "school": "Shapeshifting (3)",
         "section": "spells"
       },
       {
@@ -999,8 +999,8 @@
         "ep": 6,
         "xp": 12,
         "category": "Shapeshifting",
-        "level": 3,
-        "school": "Shapeshifting (3)",
+        "level": 4,
+        "school": "Shapeshifting (4)",
         "section": "spells"
       },
       {
@@ -1009,8 +1009,8 @@
         "ep": 6,
         "xp": 12,
         "category": "Shapeshifting",
-        "level": 3,
-        "school": "Shapeshifting (3)",
+        "level": 4,
+        "school": "Shapeshifting (4)",
         "section": "spells"
       },
       {
@@ -1019,8 +1019,8 @@
         "ep": 6,
         "xp": 15,
         "category": "Shapeshifting",
-        "level": 4,
-        "school": "Shapeshifting (4)",
+        "level": 5,
+        "school": "Shapeshifting (5)",
         "section": "spells"
       },
       {
@@ -1029,8 +1029,8 @@
         "ep": 6,
         "xp": 15,
         "category": "Shapeshifting",
-        "level": 4,
-        "school": "Shapeshifting (4)",
+        "level": 5,
+        "school": "Shapeshifting (5)",
         "section": "spells"
       }
     ]
@@ -1044,8 +1044,8 @@
         "ep": 1,
         "xp": 3,
         "category": "Nature",
-        "level": 0,
-        "school": "Nature (0)",
+        "level": 1,
+        "school": "Nature (1)",
         "section": "spells"
       },
       {
@@ -1054,8 +1054,8 @@
         "ep": 1,
         "xp": 3,
         "category": "Nature",
-        "level": 0,
-        "school": "Nature (0)",
+        "level": 1,
+        "school": "Nature (1)",
         "section": "spells"
       },
       {
@@ -1064,8 +1064,8 @@
         "ep": 2,
         "xp": 5,
         "category": "Nature",
-        "level": 0,
-        "school": "Nature (0)",
+        "level": 1,
+        "school": "Nature (1)",
         "section": "spells"
       },
       {
@@ -1074,8 +1074,8 @@
         "ep": 1,
         "xp": 6,
         "category": "Nature",
-        "level": 1,
-        "school": "Nature (1)",
+        "level": 2,
+        "school": "Nature (2)",
         "section": "spells"
       },
       {
@@ -1084,8 +1084,8 @@
         "ep": 1,
         "xp": 6,
         "category": "Nature",
-        "level": 1,
-        "school": "Nature (1)",
+        "level": 2,
+        "school": "Nature (2)",
         "section": "spells"
       },
       {
@@ -1094,8 +1094,8 @@
         "ep": 1,
         "xp": 6,
         "category": "Nature",
-        "level": 1,
-        "school": "Nature (1)",
+        "level": 2,
+        "school": "Nature (2)",
         "section": "spells"
       },
       {
@@ -1104,8 +1104,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Nature",
-        "level": 2,
-        "school": "Nature (2)",
+        "level": 3,
+        "school": "Nature (3)",
         "section": "spells"
       },
       {
@@ -1114,8 +1114,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Nature",
-        "level": 2,
-        "school": "Nature (2)",
+        "level": 3,
+        "school": "Nature (3)",
         "section": "spells"
       },
       {
@@ -1124,8 +1124,8 @@
         "ep": 8,
         "xp": 12,
         "category": "Nature",
-        "level": 3,
-        "school": "Nature (3)",
+        "level": 4,
+        "school": "Nature (4)",
         "section": "spells"
       },
       {
@@ -1134,8 +1134,8 @@
         "ep": 8,
         "xp": 12,
         "category": "Nature",
-        "level": 3,
-        "school": "Nature (3)",
+        "level": 4,
+        "school": "Nature (4)",
         "section": "spells"
       },
       {
@@ -1144,8 +1144,8 @@
         "ep": 10,
         "xp": 18,
         "category": "Nature",
-        "level": 4,
-        "school": "Nature (4)",
+        "level": 5,
+        "school": "Nature (5)",
         "section": "spells"
       },
       {
@@ -1154,8 +1154,8 @@
         "ep": 10,
         "xp": 18,
         "category": "Nature",
-        "level": 4,
-        "school": "Nature (4)",
+        "level": 5,
+        "school": "Nature (5)",
         "section": "spells"
       },
       {
@@ -1164,8 +1164,8 @@
         "ep": 10,
         "xp": 18,
         "category": "Nature",
-        "level": 4,
-        "school": "Nature (4)",
+        "level": 5,
+        "school": "Nature (5)",
         "section": "spells"
       }
     ]
@@ -1179,8 +1179,8 @@
         "ep": 1,
         "xp": 3,
         "category": "Necromancy",
-        "level": 0,
-        "school": "Necromancy (0)",
+        "level": 1,
+        "school": "Necromancy (1)",
         "section": "spells"
       },
       {
@@ -1189,8 +1189,8 @@
         "ep": 1,
         "xp": 3,
         "category": "Necromancy",
-        "level": 0,
-        "school": "Necromancy (0)",
+        "level": 1,
+        "school": "Necromancy (1)",
         "section": "spells"
       },
       {
@@ -1199,8 +1199,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Necromancy",
-        "level": 2,
-        "school": "Necromancy (2)",
+        "level": 3,
+        "school": "Necromancy (3)",
         "section": "spells"
       },
       {
@@ -1209,8 +1209,8 @@
         "ep": 6,
         "xp": 12,
         "category": "Necromancy",
-        "level": 3,
-        "school": "Necromancy (3)",
+        "level": 4,
+        "school": "Necromancy (4)",
         "section": "spells"
       },
       {
@@ -1219,8 +1219,8 @@
         "ep": 6,
         "xp": 12,
         "category": "Necromancy",
-        "level": 3,
-        "school": "Necromancy (3)",
+        "level": 4,
+        "school": "Necromancy (4)",
         "section": "spells"
       },
       {
@@ -1229,8 +1229,8 @@
         "ep": 6,
         "xp": 12,
         "category": "Necromancy",
-        "level": 3,
-        "school": "Necromancy (3)",
+        "level": 4,
+        "school": "Necromancy (4)",
         "section": "spells"
       },
       {
@@ -1238,8 +1238,8 @@
         "description": "Recover up to 5 HP or EP by drinking the blood of a sentient creature you've just killed. If you have this perk, you can't walk into houses uninvited, and you lose 1 HP for every hour you are under direct sunlight.",
         "xp": 12,
         "category": "Necromancy",
-        "level": 3,
-        "school": "Necromancy (3)",
+        "level": 4,
+        "school": "Necromancy (4)",
         "section": "spells"
       },
       {
@@ -1248,8 +1248,8 @@
         "ep": 12,
         "xp": 18,
         "category": "Necromancy",
-        "level": 4,
-        "school": "Necromancy (4)",
+        "level": 5,
+        "school": "Necromancy (5)",
         "section": "spells"
       },
       {
@@ -1258,8 +1258,8 @@
         "ep": 12,
         "xp": 18,
         "category": "Necromancy",
-        "level": 4,
-        "school": "Necromancy (4)",
+        "level": 5,
+        "school": "Necromancy (5)",
         "section": "spells"
       }
     ]
@@ -1273,8 +1273,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Time and Space",
-        "level": 0,
-        "school": "Time and Space (0)",
+        "level": 1,
+        "school": "Time and Space (1)",
         "section": "spells"
       },
       {
@@ -1283,8 +1283,8 @@
         "ep": 4,
         "xp": 9,
         "category": "Time and Space",
-        "level": 0,
-        "school": "Time and Space (0)",
+        "level": 1,
+        "school": "Time and Space (1)",
         "section": "spells"
       },
       {
@@ -1293,8 +1293,8 @@
         "ep": 6,
         "xp": 12,
         "category": "Time and Space",
-        "level": 1,
-        "school": "Time and Space (1)",
+        "level": 2,
+        "school": "Time and Space (2)",
         "section": "spells"
       },
       {
@@ -1303,8 +1303,8 @@
         "ep": 6,
         "xp": 12,
         "category": "Time and Space",
-        "level": 1,
-        "school": "Time and Space (1)",
+        "level": 2,
+        "school": "Time and Space (2)",
         "section": "spells"
       },
       {
@@ -1313,8 +1313,8 @@
         "ep": 6,
         "xp": 15,
         "category": "Time and Space",
-        "level": 2,
-        "school": "Time and Space (2)",
+        "level": 3,
+        "school": "Time and Space (3)",
         "section": "spells"
       },
       {
@@ -1323,8 +1323,8 @@
         "ep": 6,
         "xp": 15,
         "category": "Time and Space",
-        "level": 2,
-        "school": "Time and Space (2)",
+        "level": 3,
+        "school": "Time and Space (3)",
         "section": "spells"
       },
       {
@@ -1333,8 +1333,8 @@
         "ep": 14,
         "xp": 18,
         "category": "Time and Space",
-        "level": 3,
-        "school": "Time and Space (3)",
+        "level": 4,
+        "school": "Time and Space (4)",
         "section": "spells"
       }
     ]
