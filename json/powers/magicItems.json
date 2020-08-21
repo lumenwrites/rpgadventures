@@ -348,6 +348,15 @@
         "category": "Information",
         "school": "Information (undefined)",
         "section": "magicItems"
+      },
+      {
+        "title": "Crown of Eyes",
+        "description": "Activate it to see through the eyes of all living creatures in 150 meter radius around you for up to 10 minutes.",
+        "ep": 5,
+        "rarity": "Legendary",
+        "category": "Information",
+        "school": "Information (undefined)",
+        "section": "magicItems"
       }
     ]
   },

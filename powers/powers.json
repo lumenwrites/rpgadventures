@@ -914,6 +914,20 @@
             "level": 2
         },
         {
+            "title": "Dispel Magic",
+            "description": "Dispels magical effects and or enchantments on a target (creature, object, etc).",
+            "ep": 2,
+            "category": "Abjuration",
+            "level": 2
+        },
+        {
+            "title": "Counterspell",
+            "description": "Interrupt a spell being cast by another mage.",
+            "ep": 4,
+            "category": "Abjuration",
+            "level": 3
+        },
+        {
             "title": "Trigger",
             "description": "Pick one of the spells you know that will activate when a certain condition is met. Whenever that happens within the designated area(15-meter-radius) the spell will be cast.",
             "ep": 4,
@@ -1214,6 +1228,13 @@
             "description": "Sing the lullaby, causing the target creatures within 30 meters around you to fall asleep. (you actually need to come up with and sing a lullaby).",
             "ep": 1,
             "xp": 6,
+            "category": "Enchantment",
+            "level": 2
+        },
+        {
+            "title": "Gift of Gab",
+            "description": "The spell affects listeners within 1.5 meters of the caster. It erases their memories of everything they heard from the caster within the previous 6 seconds and replaces it with a new memory of the caster's choice",
+            "ep": 3,
             "category": "Enchantment",
             "level": 2
         },
@@ -2086,6 +2107,13 @@
         {
             "title": "Eye of Vance",
             "description": "Sees everything in 360 degrees and 100m radius around you. Can see through solid objects. Can see invisible objects. Can see anything hidden. Works twice per day for 10 minutes",
+            "rarity": "Legendary",
+            "category": "Information"
+        },
+        {
+            "title": "Crown of Eyes",
+            "description": "Activate it to see through the eyes of all living creatures in 150 meter radius around you for up to 10 minutes.",
+            "ep": 5,
             "rarity": "Legendary",
             "category": "Information"
         },
