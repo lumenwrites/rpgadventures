@@ -54,8 +54,6 @@ class PowersModal extends Component {
     )
   }
   renderFilterPowersToggle = () => {
-    
-
     if (this.state.filterPowers) {
       return (
 	<div className="btn filter-powers-toggle"
@@ -85,7 +83,7 @@ class PowersModal extends Component {
     var learnedPowers = abilities.concat(spells)
 
     /* Hide the power if you don't have enough XP learn it */
-    if (power.xp && (currentXP < power.xp)) return true
+    if (power.level && (currentXP < power.level)) return true
 
     /* Hide already learned abilities/spells (but not items, they can have duplicates) */
     var isAbilityOrSpell = power.section == 'abilities' || power.section == 'spells'
@@ -97,7 +95,7 @@ class PowersModal extends Component {
     /* Hide the power if you don't have prerequisite abilities */
     /* (not hiding items, you can have one without being able to use it) */
     var levels = ["Novice", "Initiate", "Adept", "Expert", "Master"]
-    if (isAbilityOrSpell && power.level > 0) {
+    if (isAbilityOrSpell && power.level > 1) {
       var prerequisites = learnedPowers.filter(p => {
 	var sameSchool = p.category === power.category
 	var oneLevelLower = p.level === power.level - 1
