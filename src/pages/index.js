@@ -7,9 +7,6 @@ import SignUp from "../components/elements/SignUp"
 
 const BlogIndex = ({ data, location, pageContext }) => {
   const posts = data.allMdx.edges
-  var categoryTitle = pageContext.category
-  /* Capitalize */
-  categoryTitle = categoryTitle.charAt(0).toUpperCase() + categoryTitle.slice(1)
   return (
     <Layout location={location}>
       <div className="post-grid">
@@ -33,7 +30,7 @@ const BlogIndex = ({ data, location, pageContext }) => {
         })}
       </div>
       <SignUp />
-      <SEO title={`${categoryTitle}s`} />
+      <SEO title={`Adventures`} />
     </Layout>
   )
 }
@@ -41,10 +38,10 @@ const BlogIndex = ({ data, location, pageContext }) => {
 export default BlogIndex
 
 export const pageQuery = graphql`
-  query PostsByCategory($category: String!) {
+  query Adventures {
     allMdx(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { fields: { category: { eq: $category }  draft: { eq: false } } }
+      filter: { fields: { category: { eq: "adventure" }  draft: { eq: false } } }
     ) {
       edges {
         node {

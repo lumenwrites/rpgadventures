@@ -7,22 +7,22 @@ import { Link, graphql } from "gatsby"
 
 import ReactMarkdown from 'react-markdown'
 
-import HCs from "../../json/prompts/HCs.json"
-import goals from "../../json/prompts/goals.json"
-import complications from "../../json/prompts/complications.json"
-import villains from "../../json/prompts/villains.json"
-import villainMotivations from "../../json/prompts/villain-motivations.json"
-import movieCharacters from "../../json/prompts/movie-characters.json"
+import HCs from "../../../json/prompts/HCs.json"
+import goals from "../../../json/prompts/goals.json"
+import complications from "../../../json/prompts/complications.json"
+import villains from "../../../json/prompts/villains.json"
+import villainMotivations from "../../../json/prompts/villain-motivations.json"
+import movieCharacters from "../../../json/prompts/movie-characters.json"
 
-import action from "../../json/prompts/action-adventure.json"
-import exploration from "../../json/prompts/exploration.json"
-import social from "../../json/prompts/social.json"
-import mystery from "../../json/prompts/mystery.json"
-import stealth from "../../json/prompts/stealth.json"
-import villainMoves from "../../json/prompts/villain-moves.json"
+import action from "../../../json/prompts/action-adventure.json"
+import exploration from "../../../json/prompts/exploration.json"
+import social from "../../../json/prompts/social.json"
+import mystery from "../../../json/prompts/mystery.json"
+import stealth from "../../../json/prompts/stealth.json"
+import villainMoves from "../../../json/prompts/villain-moves.json"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from "../../components/layout"
+import SEO from "../../components/seo"
 
 class Prompts extends Component {
   state = {
@@ -65,7 +65,7 @@ class Prompts extends Component {
           >
               <FontAwesomeIcon icon={["fas", "dice"]} />
           </div>
-          <div className="clearfix" />	  
+          <div className="clearfix" />
           {showTitle ? (
 	    <span className="prompt-label">{image.name}</span>
 	  ) : (
@@ -88,12 +88,12 @@ class Prompts extends Component {
               <Link className="small" to="/prompts/high-concept-ideas">
 		  [Full list of High Concept Ideas]
               </Link>
-              <div className="clearfix" />	      
+              <div className="clearfix" />
 	      {this.renderPrompt("Heroes'/Antagonist's Goal", goals, 1)}
 	      <Link className="small" to="/prompts/goals">
 		  [Full list of Goals]
               </Link>
-              <div className="clearfix" />	      
+              <div className="clearfix" />
 	      {this.renderPrompt("Complication", complications, 2)}
               <Link className="small" to="/prompts/complications">
 		  [Full list of Complications]

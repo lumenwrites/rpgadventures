@@ -1,9 +1,0 @@
-{
-    "title": "Mage Hand",
-    "ep": "1",
-    "bonusDice": "1",
-    "xp": "2",
-    "requirements": "Novice Telekinesis",
-    "description": "Slowly levitate small objects.",
-    "section": "spells"
-}
