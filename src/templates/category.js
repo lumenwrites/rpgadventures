@@ -4,6 +4,7 @@ import Img from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import SignUp from "../components/elements/SignUp"
+import PostBox from "../components/PostBox"
 
 const BlogIndex = ({ data, location, pageContext }) => {
   const posts = data.allMdx.edges
@@ -20,15 +21,12 @@ const BlogIndex = ({ data, location, pageContext }) => {
             image = <Img fluid={node.frontmatter.image.childImageSharp.fluid} />
           }
           return (
-            <Link className="post-box" to={node.fields.slug} key={node.fields.slug}>
-              {image}
-              <section className="description">
-                <div className="title">{title}</div>
-                <div dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }} />
-              </section>
-            </Link>
+            <PostBox
+              image={node.frontmatter.image ? node.frontmatter.image.childImageSharp.original.src : ""}
+              title={title}
+              description={node.frontmatter.description || node.excerpt}
+              slug={node.fields.slug}
+              key={node.fields.slug} />
           )
         })}
       </div>
@@ -37,6 +35,7 @@ const BlogIndex = ({ data, location, pageContext }) => {
     </Layout>
   )
 }
+
 
 export default BlogIndex
 
@@ -57,6 +56,7 @@ export const pageQuery = graphql`
             description
             image {
               childImageSharp {
+                original { src }
                 fluid(maxWidth: 800) {
                   ...GatsbyImageSharpFluid
                 }
