@@ -31,19 +31,18 @@ const Header = () => {
 		      </Link>
 					<div className="right">
 
-						<div className="dropdown">
+						{/* <div className="dropdown">
 							<div className="menu-handle btn">Guides</div>
 							<div className="menu">
-								<Link to="/guide/"
+								<Link to="/guide/brainstorming"
 									className="item btn">
 									Brainstorming
 				  			</Link>
 								<Link to="/guide/adventure-design" className="item btn">
 									Adventure Design
 				  			</Link>
-
 							</div>
-						</div>
+						</div> */}
 
 						<Link to="/prompts" className="menu-handle btn">
 							Prompts
@@ -53,8 +52,8 @@ const Header = () => {
 							Adventures
 			  		</Link> */}
 
-						<Link to="/about" className="menu-handle btn">
-							About
+						<Link to="/brainstorming" className="menu-handle btn">
+							Writer's Room
 			  		</Link>
 					</div>
 					{/* End right */}
