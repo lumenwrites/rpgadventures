@@ -5,7 +5,7 @@ class SignUp extends Component {
 	render() {
 		return (
 			<div className={`mailing-list ${this.props.adventure ? "adventure" : ""}`}>
-				Get notified when we publish a new adventure:
+				Get notified when we publish a new adventure or a useful GM guide:
 				{/* , adventure design  */}
 				{/* MailChimp */}
 				<form action="https://playmirage.us7.list-manage.com/subscribe/post?u=0f23c7984541d915d1108a16e&amp;id=22b9dcc98a" method="post">
@@ -20,7 +20,7 @@ class SignUp extends Component {
 					<button className="btn-subscribe" type="submit">
 						Subscribe
 	      </button>
-					<a className="btn-square" href="https://playmirage.io/rss.xml">
+					<a className="btn-square" href="https://rpgadventures.io/rss.xml">
 						<FontAwesomeIcon icon={["fas", "rss"]} />
 					</a>
 					<a className="btn-square" href="https://twitter.com/lumenwrites">

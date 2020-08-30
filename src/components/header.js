@@ -31,30 +31,36 @@ const Header = () => {
 		      </Link>
 					<div className="right">
 
-						{/* <div className="dropdown">
-							<div className="menu-handle btn">Guides</div>
-							<div className="menu">
-								<Link to="/guide/brainstorming"
-									className="item btn">
-									Brainstorming
+						<Link to="/" className="btn">
+							Adventures
+			  		</Link>
+
+						<div className="dropdown">
+							<div className="menu-handle btn">Resources</div>
+							<div className="menu left">
+								<Link to="/writers-room" className="item btn">
+									Writer's Room
 				  			</Link>
-								<Link to="/guide/adventure-design" className="item btn">
+								<Link to="/adventure-writing-guide" className="item btn">
 									Adventure Design
 				  			</Link>
+								{/*  
+								<a target="_blank" href="https://docs.google.com/document/d/1nGwOkRbI80hz8O51-S1R081a1Em98bWg9dj6_zQ2NMY" className="item btn">
+									Brainstorming Template
+				  			</a>	
+								<a target="_blank" href="https://docs.google.com/document/d/15s0bm3G3AnOVxayBSZ8X1RbazSWdB-HXPSFTTCQVWxY" className="item btn">
+									Adventure Template
+				  			</a>
+								<a target="_blank" href="https://docs.google.com/document/d/1ABgu25Y1G7kvcLQmDKm-PwKbGSkeu0q9zrQpaw9eqsw" className="item btn">
+									Archive of Ideas
+								</a>	
+								*/}
+								<Link to="/prompts" className="item btn">
+									Prompts
+				  			</Link>
 							</div>
-						</div> */}
+						</div>
 
-						<Link to="/prompts" className="menu-handle btn">
-							Prompts
-			  		</Link>
-
-						{/* <Link to="/adventures" className="menu-handle btn">
-							Adventures
-			  		</Link> */}
-
-						<Link to="/brainstorming" className="menu-handle btn">
-							Writer's Room
-			  		</Link>
 					</div>
 					{/* End right */}
 					<div className="clearfix" />

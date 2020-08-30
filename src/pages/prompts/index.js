@@ -23,6 +23,7 @@ import villainMoves from "../../../json/prompts/villain-moves.json"
 
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
+import AdBoxes from "../../components/AdBoxes"
 
 class Prompts extends Component {
   state = {
@@ -35,18 +36,18 @@ class Prompts extends Component {
     var prompt = prompts[Math.floor(this.state.seeds[index] * prompts.length)]
     return (
       <div className="prompt">
-          <div className="refresh" onClick={() => {
-            var seeds = [...this.state.seeds]
-            seeds[index] = Math.random()
-            this.setState({ seeds })
-          }}>
-              <FontAwesomeIcon icon={["fas", "dice"]} />
-          </div>
-          <span className="prompt-label">{title}:</span>
-          <div className="clearfix" />
-	  <ReactMarkdown source={prompt}
-			 className="text"
-			 escapeHtml={false} />
+        <div className="refresh" onClick={() => {
+          var seeds = [...this.state.seeds]
+          seeds[index] = Math.random()
+          this.setState({ seeds })
+        }}>
+          <FontAwesomeIcon icon={["fas", "dice"]} />
+        </div>
+        <span className="prompt-label">{title}:</span>
+        <div className="clearfix" />
+        <ReactMarkdown source={prompt}
+          className="text"
+          escapeHtml={false} />
       </div>
     )
   }
@@ -55,25 +56,25 @@ class Prompts extends Component {
     var image = images[Math.floor(this.state.seeds[index] * images.length)].node
     return (
       <div className="prompt image-prompt">
-          <div
-            className="refresh"
-            onClick={() => {
-              var seeds = [...this.state.seeds]
-              seeds[index] = Math.random()
-              this.setState({ seeds })
-            }}
-          >
-              <FontAwesomeIcon icon={["fas", "dice"]} />
-          </div>
-          <div className="clearfix" />
-          {showTitle ? (
-	    <span className="prompt-label">{image.name}</span>
-	  ) : (
-	    <span className="prompt-label">Appearance</span>
-	  )}
-          <div className="clearfix" />
-          {/* <Img fixed={image.childImageSharp.fixed} />  */}
-          <img src={image.childImageSharp.original.src} />
+        <div
+          className="refresh"
+          onClick={() => {
+            var seeds = [...this.state.seeds]
+            seeds[index] = Math.random()
+            this.setState({ seeds })
+          }}
+        >
+          <FontAwesomeIcon icon={["fas", "dice"]} />
+        </div>
+        <div className="clearfix" />
+        {showTitle ? (
+          <span className="prompt-label">{image.name}</span>
+        ) : (
+            <span className="prompt-label">Appearance</span>
+          )}
+        <div className="clearfix" />
+        {/* <Img fixed={image.childImageSharp.fixed} />  */}
+        <img src={image.childImageSharp.original.src} />
       </div>
     )
   }
@@ -81,79 +82,63 @@ class Prompts extends Component {
   render() {
     return (
       <Layout>
-          <div className="prompts">
-              <h1>Adventure Prompts</h1>
-	      <h3>Adventure Idea</h3>
-	      {this.renderPrompt("High Concept Idea", HCs, 0)}
-              <Link className="small" to="/prompts/high-concept-ideas">
-		  [Full list of High Concept Ideas]
+        <div className="prompts">
+          <h1>Adventure Prompts</h1>
+          <h3>Adventure Idea</h3>
+          {this.renderPrompt("High Concept Idea", HCs, 0)}
+          <Link className="small" to="/prompts/high-concept-ideas">
+            [Full list of High Concept Ideas]
               </Link>
-              <div className="clearfix" />
-	      {this.renderPrompt("Heroes'/Antagonist's Goal", goals, 1)}
-	      <Link className="small" to="/prompts/goals">
-		  [Full list of Goals]
+          <div className="clearfix" />
+          {this.renderPrompt("Heroes'/Antagonist's Goal", goals, 1)}
+          <Link className="small" to="/prompts/goals">
+            [Full list of Goals]
               </Link>
-              <div className="clearfix" />
-	      {this.renderPrompt("Complication", complications, 2)}
-              <Link className="small" to="/prompts/complications">
-		  [Full list of Complications]
+          <div className="clearfix" />
+          {this.renderPrompt("Complication", complications, 2)}
+          <Link className="small" to="/prompts/complications">
+            [Full list of Complications]
               </Link>
-	      <div className="clearfix" />
-	      <h3>Antagonist</h3>
-	      {this.renderPrompt("Antagonist", villains, 3)}
-	      {this.renderPrompt("Antagonist's Motivation", villainMotivations, 4)}
-	      {this.renderPrompt("Movie Character (personality)", movieCharacters, 5)}
-	      <Link className="small" to="/prompts/antagonist-prompts">
-		  [Full list of Antagonist Prompts]
+          <div className="clearfix" />
+          <h3>Antagonist</h3>
+          {this.renderPrompt("Antagonist", villains, 3)}
+          {this.renderPrompt("Antagonist's Motivation", villainMotivations, 4)}
+          {this.renderPrompt("Movie Character (personality)", movieCharacters, 5)}
+          <Link className="small" to="/prompts/antagonist-prompts">
+            [Full list of Antagonist Prompts]
               </Link>
-	      <div className="clearfix" />
+          <div className="clearfix" />
 	      (Adapt them to fantasy and use as an Antagonist. For good characters - make an evil/corrupted version of them.)
 	      {this.renderImage(this.props.data.villains.edges, 16, false)}
-              <Link className="small" to="/villain-images">
-		  [Full list of Villain Images]
+          <Link className="small" to="/villain-images">
+            [Full list of Villain Images]
               </Link>
-	      <div className="clearfix" />
-              <h3>Setting</h3>
-              {this.renderImage(this.props.data.locations.edges, 15, true)}
-              <Link className="small" to="/prompts/locations">
-		  [Full list of Settings]
+          <div className="clearfix" />
+          <h3>Setting</h3>
+          {this.renderImage(this.props.data.locations.edges, 15, true)}
+          <Link className="small" to="/prompts/locations">
+            [Full list of Settings]
               </Link>
-              <div className="clearfix" />
-	      <h3>Challenges</h3>
-	      {this.renderPrompt("Action/Adventure", action, 6)}
-	      {this.renderPrompt("Exploration", exploration, 7)}
-	      {this.renderPrompt("Social/Intrigue", social, 8)}
-	      {this.renderPrompt("Mystery/Investigation", mystery, 9)}
-	      {this.renderPrompt("Stealth/Heist", stealth, 10)}
-              <Link className="small" to="/prompts/challenges">
-		  [Full list of Challenges]
+          <div className="clearfix" />
+          <h3>Challenges</h3>
+          {this.renderPrompt("Action/Adventure", action, 6)}
+          {this.renderPrompt("Exploration", exploration, 7)}
+          {this.renderPrompt("Social/Intrigue", social, 8)}
+          {this.renderPrompt("Mystery/Investigation", mystery, 9)}
+          {this.renderPrompt("Stealth/Heist", stealth, 10)}
+          <Link className="small" to="/prompts/challenges">
+            [Full list of Challenges]
               </Link>
-	      <div className="clearfix" />
-	      {this.renderPrompt("Villain's Moves", villainMoves, 11)}
-	      <Link className="small" to="/prompts/villain-moves">
-		  [Full list of Villain's Moves]
+          <div className="clearfix" />
+          {this.renderPrompt("Villain's Moves", villainMoves, 11)}
+          <Link className="small" to="/prompts/villain-moves">
+            [Full list of Villain's Moves]
               </Link>
-              <div className="clearfix" />
-              <h3>Useful Resources</h3>
-              <ul>
-		  <li>
-		      Use{" "}
-		      <Link to="/guide/adventure-template/">
-			  Adventure Template
-		      </Link>{" "}
-		      to develop these prompts into a complete adventure.
-		  </li>
-		  <li>
-		      Join our{" "}
-		      <a href="https://discord.gg/UVNxeQE">
-			  Adventure Writer's Room
-		      </a>{" "}
-		      - Our goal is to brainstorm fun ideas and improvise stories together in a chill, lighthearted, no-pressure environment. We meet in the discord voice chat, and we challenge ourselves to improvise a one-shot adventure in 2 hours. It works, it really helps with writing, and it is super fun. We also exchange advice and feedback, and help each other with brainstorming ideas and solving creative problems. We're looking for some friendly and creative people to join us!
-		  </li>
-              </ul>
-          </div>
-	  <SEO title={"Adventure Writing Prompts"}
-	       description={"Adventure Writing Prompts. Story ideas, villains, settings."}/>
+          <div className="clearfix" />
+        </div>
+        <AdBoxes />
+        <SEO title={"Adventure Writing Prompts"}
+          description={"Adventure Writing Prompts. Story ideas, villains, settings."} />
       </Layout>
     )
   }

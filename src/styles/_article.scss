@@ -1,28 +1,29 @@
 article {
     padding: 20px 40px;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
     margin-top: 20px;
     background: white;
     //background: #fffaf1;
     border-radius: 4px;
     img {
-	width:100%;
+        width: 100%;
     }
     .header-img {
-	width: calc(100% + 80px);
-	margin: -40px;
-	margin-bottom: 0;
+        width: calc(100% + 80px);
+        margin: -40px;
+        margin-bottom: 0;
     }
 
-    h1,h2 {
-	text-align: center;
+    h1,
+    h2 {
+        text-align: center;
     }
 }
 .columns {
     column-count: 2;
 
-    @media  (max-width: 640px) {
-	column-count: 1;
+    @media (max-width: 640px) {
+        column-count: 1;
     }
 
     column-gap: 40px;
@@ -39,9 +40,9 @@ article {
     display: grid;
     grid-gap: 0 10px;
     grid-template-columns: repeat(3, 1fr);
-    min-height: 350px;
-    @media  (max-width: 640px) {
-	grid-template-columns: repeat(1, 1fr);
+    min-height: 150px;
+    @media (max-width: 640px) {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 .post-box {
@@ -52,13 +53,13 @@ article {
     .title {
         font-size: 1.2em;
         margin-top: 10px;
-	font-weight: bold;
+        font-weight: bold;
     }
     .description {
-	padding: 0px 10px 10px 10px;
-	font-size: 12px;
+        padding: 0px 10px 10px 10px;
+        font-size: 12px;
     }
     p {
-	margin: 0;
+        margin: 0;
     }
 }
