@@ -29,8 +29,9 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 620,
-              withWebp: true
+              maxWidth: 700,
+              withWebp: true,
+              disableBgImageOnAlpha: true
             },
           },
           {
@@ -87,7 +88,7 @@ module.exports = {
       resolve: 'gatsby-plugin-webpack-bundle-analyzer',
       options: {
         analyzerPort: 3000,
-        disable: true,
+        disable: true ,
         production: false
       },
     },

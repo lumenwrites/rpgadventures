@@ -78,8 +78,10 @@ exports.createPages = async ({ graphql, actions }) => {
 
   // Create category pages
   categorySet.forEach(category => {
+    var path = `${category}s/` //${_.kebabCase(category)}
+    if (category === "adventure") path = '/' // use adventures category as home page
     createPage({
-      path: `${category}s/`,//${_.kebabCase(category)}
+      path,
       component: categoryTemplate,
       context: { category }
     })

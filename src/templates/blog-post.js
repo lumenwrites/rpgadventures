@@ -32,7 +32,7 @@ export const pageQuery = graphql`
       excerpt(pruneLength: 160)
       body
       fields {
-	category
+  	    category
       }
       frontmatter {
         title
