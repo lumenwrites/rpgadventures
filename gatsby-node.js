@@ -64,6 +64,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const categorySet = new Set()
 
   posts.forEach((post, index) => {
+    console.log("Creating post", post.node.fields.slug)
     createPage({
       path: post.node.fields.slug,
       component: postTemplate,
@@ -78,6 +79,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
   // Create category pages
   categorySet.forEach(category => {
+    console.log("Creating category", category)
     var path = `${category}s/` //${_.kebabCase(category)}
     if (category === "adventure") path = '/' // use adventures category as home page
     createPage({
