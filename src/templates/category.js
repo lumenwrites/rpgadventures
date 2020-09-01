@@ -18,11 +18,11 @@ const BlogIndex = ({ data, location, pageContext }) => {
           const title = node.frontmatter.title || node.fields.slug
           let image
           if (node.frontmatter.image) {
-            image = <Img fluid={node.frontmatter.image.childImageSharp.fluid} />
+            image = <Img fluid={{ ...node.frontmatter.image.childImageSharp.fluid, aspectRatio: 16 / 9 }} />
           }
           return (
             <PostBox
-              image={node.frontmatter.image ? node.frontmatter.image.childImageSharp.original.src : ""}
+              image={image}//{node.frontmatter.image ? node.frontmatter.image.childImageSharp.original.src : ""}
               title={title}
               description={node.frontmatter.description || node.excerpt}
               slug={node.fields.slug}
@@ -58,7 +58,7 @@ export const pageQuery = graphql`
               childImageSharp {
                 original { src }
                 fluid(maxWidth: 800) {
-                  ...GatsbyImageSharpFluid
+                  ...GatsbyImageSharpFluid_withWebp
                 }
               }
             }
