@@ -1,6 +1,4 @@
 import React, { Component } from 'react'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import PostBox from './PostBox'
 
 import valley from '../../static/valley.jpg'
 import writingDesk from '../../static/writing-desk.jpg'
@@ -24,15 +22,15 @@ class SignUp extends Component {
 	render() {
 		return (
 			<div className="post-grid">
-				<PostBox
+				<AdBox
 					title="Adventure Writing Guide"
 					description="This is the complete list of things you need to figure out to create an adventure and run the game. Learn how to write or prep adventures quickly and efficiently."
-					slug="/adventure-writing-guide"
+					href="/adventure-writing-guide"
 					image={book} />
-				<PostBox
+				<AdBox
 					title="Adventure Writer's Room"
 					description="We are a group of GMs who meet in the discord voice chat, and challenge ourselves to improvise a one-shot adventure in 2 hours. Our goal is to have fun brainstorming ideas in a chill, lighthearted, no-pressure environment. We’re looking for some friendly and creative people to join us! "
-					slug="/writers-room"
+					href="/writers-room"
 					image={writingDesk} />
 				<AdBox
 					title="Mirage"
