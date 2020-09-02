@@ -110,7 +110,7 @@ class Prompts extends Component {
           <div className="clearfix" />
 	      (Adapt them to fantasy and use as an Antagonist. For good characters - make an evil/corrupted version of them.)
 	      {this.renderImage(this.props.data.villains.edges, 16, false)}
-          <Link className="small" to="/villain-images">
+          <Link className="small" to="/prompts/villains">
             [Full list of Villain Images]
               </Link>
           <div className="clearfix" />
