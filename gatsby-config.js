@@ -5,8 +5,8 @@ module.exports = {
       name: `lumenwrites`,
       summary: `who lives and works in San Francisco building useful things.`,
     },
-    description: `Lighthearted, social, easy to learn roleplaying game focused on storytelling, improvisation, imagination and creativity.`,
-    siteUrl: `https://playmirage.io`,
+    description: `An archive of free RPG adventures made by the Writer's Room community.`,
+    siteUrl: `https://rpgadventures.io`,
     image: `/social.png`,
     twitterUsername: "@lumenwrites",
     social: {
