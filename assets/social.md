@@ -1,3 +1,23 @@
+# Before session
+@everyone We begin in 10 minutes and we have some spots open. If you're free - come join us!
+
+We'll try to make a short, lighthearted, low-combat, system-agnostic, fantasy one-shot adventure. It usually takes around 1-2 hours, give or take.
+
+This is the google doc we'll be filling in with ideas, open it before we begin:
+https://docs.google.com/document/d/1Utc4jnEYwvkQLWMcNV9jfbGev8dlBjsJpbdEXrZASoM/
+In the google doc go to Tools > Preferences, and uncheck "Automatically Detect Lists", otherwise google docs autoformatting will be really annoying. Feel free to start filling in the first section with the ideas before we begin the session.
+
+If you haven't read the guidelines yet - check them out:
+https://rpgadventures.io/writers-room
+
+I also recommend to open a note-taking app, can be convenient. And you can open the writing prompts generator (https://playmirage.io/prompts), if you feel like it'll be useful to you.
+
+
+
+
+
+
+
 [Online][Other] Novice GM looking for 2-4 friendly people to help me playtest my new adventure. Lighthearted/Spooky RP-focused one-shot, over voice chat, today, at 8 AM GMT.
 
 Hi! I'm a novice GM, I have made a new one-shot adventure, and I'm looking for 2-4 friendly people to help me playtest it.
