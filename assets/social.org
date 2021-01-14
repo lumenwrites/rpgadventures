@@ -194,3 +194,18 @@ If you haven't read the guidelines yet - check them out:
 https://docs.google.com/document/d/17wZ5GA_JcbgxrEXRejA4sYSRqFHp0hE7o56rIHWEXPM/
 
 I also recommend to open a note-taking app, can be convenient. And you can open the writing prompts generator (https://playmirage.io/prompts), if you feel like it'll be useful to you.
+* Welcome Message
+**Welcome to the Adventure Writer's Room!**
+"Adventure Writer's Room" is an experimental collaborative storytelling game where our goal is to brainstorm fun ideas and improvise a story together in a chill, lighthearted, no-pressure environment. 
+
+**How does it work?**
+- We meet in the Writer's Room voice chat, for 1-3 hours.
+- We "win" this game if by the end of the hour we have created a short and simple story together. Doesn't have to be the most brilliant story in the world, it can be silly, we're just trying to make something coherent, something that makes sense. Or, at least, doesn't make sense in a fun and entertaining way.
+- If we end up just joking around and coming up with a bunch of fun adventure ideas, locations, characters, and scenes - I'd also call that a victory!
+- We play this game by trying to fill in a story template (https://playmirage.io/story-template) together. We will create a google doc we can all edit, and fill it with the ideas we're brainstorming. We will use random prompts (https://playmirage.io/prompts) to help us get started.
+- We go through each part of the adventure - story idea, antagonist, characters, setting, challenges, etc, and brainstorm 5 ideas for each one. We do each part for 10 minutes - that way we'll avoid perfectionism/overthinking, we won't try to make the best ideas possible, we'll make up whatever we can and roll with it. 
+- Then we will pick our favorite ideas, and try to combine them together into a story that makes sense. Or doesn't make sense in a funny way.
+- After the session we have a draft/outline of an adventure we can run for our players, or playtest between ourselves.
+
+**Who can play?**
+You! There are no prerequisites, no expectations about being a brilliant writer or improviser. Novice people are welcome! If you're friendly and are interested in stretching your creative muscles - join us!
