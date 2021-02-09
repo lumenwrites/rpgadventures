@@ -6,14 +6,14 @@ import SEO from "../components/seo"
 
 const TemplateRedirect = () => {
   if (typeof window !== "undefined") {
-    window.location.replace("https://docs.google.com/document/d/1nGwOkRbI80hz8O51-S1R081a1Em98bWg9dj6_zQ2NMY/")
+    window.location.replace("https://docs.google.com/document/d/1S0KMVB6qyc_MKvXt2SS4-Zn5seT31QfXjYD1Gb9htzM/")
   }
 
   return (
     <Layout>
-	<article>
-	    <a href="https://docs.google.com/document/d/1nGwOkRbI80hz8O51-S1R081a1Em98bWg9dj6_zQ2NMY/">Story Template</a>
-	</article>
+      <article>
+        <a href="https://docs.google.com/document/d/1S0KMVB6qyc_MKvXt2SS4-Zn5seT31QfXjYD1Gb9htzM/">Brainstorming Template</a>
+      </article>
     </Layout>
   )
 }
