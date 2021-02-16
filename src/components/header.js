@@ -41,6 +41,9 @@ const Header = () => {
 								<Link to="/writers-room" className="item btn">
 									Writer's Room
 				  			</Link>
+								<Link to="/story-games" className="item btn">
+									Story Games
+				  			</Link>
 								<Link to="/adventure-writing-guide" className="item btn">
 									Adventure Design
 				  			</Link>

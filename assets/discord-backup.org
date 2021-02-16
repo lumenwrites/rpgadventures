@@ -1,0 +1,29 @@
+* Playtesting Rules
+After brainstorming we can do a playthrough of our adventure. Think of it as a mix between the freeform improv-heavy roleplay and collaborative storytelling. Our goal is to improvise and play out a fun story, flesh out our adventure, fill in the blanks on the fly, answer the remaining open questions, come up with more details and cool ideas, practice running the adventure before we do it for our players.
+
+_ _
+**How to Play**
+- After the brainstorm, we summarize our ideas using the adventure template (http://rpgadventures.io/adventure-template). We make a list of still unsolved open questions that would be difficult to improvise during the game, and answer them in the text chat before we begin the game.
+- We create our characters, and play through all the scenes we have outlined during the brainstorming stage, trying to fill our story with fun details and resolve it in an awesome and satisfying climax.
+- Players take turns GMing. One player GMs a scene, we play through it, the next player GMs the next one.
+- Current GM describes the world around the players, plays the role of non-player characters, introduces the challenges/complications, narrates the consequences of players' actions. While you GM a scene, your character temporarily becomes an NPC. GMs can improvise the challenges/locations/characters that we didn't prepare in advance, change the story in response to the player's actions.
+- If the current GM feels stuck, they can tap out and let someone else continue the story. If we're all feeling stuck, we can pause for a quick brainstorm and figrue out what happens next together.
+- All players actively contribute to the story. Introduce new ideas, fill in missing information, answer open questions when you see them.
+- Because freeform roleplay doesn't have many rules, there's nothing stopping us from doing anything we can imagine, but we trust each other to play fairly - avoid game-breaking actions, do things that make sense in the story, and try to make it interesting and fun for other players.
+- After the game, each player picks one or two scenes to write, summarize what we've just played. Resulting in a complete adventure we can run for players or publish.
+
+_ _
+**Create your Character**
+```
+**Name**: <Character's Name>
+**Description**: <Appearance, personality, occupation, motivations.>
+**Abilities**: <Cool stuff you can do. Spells and non-magical skills.>
+**Inventory**: <Useful items and equipment you have.>
+```
+You can use this list for inspiration for cool abilities/items: http://playmirage.io/all-powers
+
+**Rolling Dice**
+Roll dice for successes/failures of major actions, significant outcomes. If you roll above the target number (set by the GM depending on the difficulty of the task) - you succeed, otherwise you fail. On a failed roll, you can reroll the die at a cost of suffering a negative consequence, setback, complication, or taking a riskier option.
+
+Roll with advantage if you use an ability or an item relevant to the task you're attempting. Type `!roll` for a regular roll, type `!adv` to roll with advantage.
+
