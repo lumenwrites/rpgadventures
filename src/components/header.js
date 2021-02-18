@@ -44,9 +44,15 @@ const Header = () => {
 								<Link to="/story-games" className="item btn">
 									Story Games
 				  			</Link>
+								<Link to="/prompts" className="item btn">
+									Prompts
+				  			</Link>
+								{/* 							
 								<Link to="/adventure-writing-guide" className="item btn">
 									Adventure Design
-				  			</Link>
+								</Link>
+								 */}
+
 								{/*  
 								<a target="_blank" href="https://docs.google.com/document/d/1nGwOkRbI80hz8O51-S1R081a1Em98bWg9dj6_zQ2NMY" className="item btn">
 									Brainstorming Template
@@ -58,9 +64,7 @@ const Header = () => {
 									Archive of Ideas
 								</a>	
 								*/}
-								<Link to="/prompts" className="item btn">
-									Prompts
-				  			</Link>
+
 							</div>
 						</div>
 
