@@ -56,7 +56,7 @@ class Prompts extends Component {
     var image = images[Math.floor(this.state.seeds[index] * images.length)].node
     return (
       <div className="prompt image-prompt">
-        <div
+                <div
           className="refresh"
           onClick={() => {
             var seeds = [...this.state.seeds]
@@ -72,7 +72,7 @@ class Prompts extends Component {
         ) : (
             <span className="prompt-label">Appearance</span>
           )}
-        <div className="clearfix" />
+<div className="clearfix" />
         {/* <Img fixed={image.childImageSharp.fixed} />  */}
         <img src={image.childImageSharp.original.src} />
       </div>
@@ -84,43 +84,43 @@ class Prompts extends Component {
       <Layout>
         <div className="prompts">
           <h1>Adventure Prompts</h1>
-          <h3>Adventure Idea</h3>
-          {this.renderPrompt("High Concept Idea", HCs, 0)}
+          {/* <h2>Adventure Idea</h2> */}
+          {this.renderPrompt("Adventure Idea", HCs, 0)}
           <Link className="small" to="/prompts/high-concept-ideas">
-            [Full list of High Concept Ideas]
+            [Full list of Ideas]
               </Link>
           <div className="clearfix" />
-          {this.renderPrompt("Heroes'/Antagonist's Goal", goals, 1)}
+          {this.renderPrompt("Problem/Goal", goals, 1)}
           <Link className="small" to="/prompts/goals">
             [Full list of Goals]
-              </Link>
+          </Link>
           <div className="clearfix" />
-          {this.renderPrompt("Complication", complications, 2)}
-          <Link className="small" to="/prompts/complications">
-            [Full list of Complications]
-              </Link>
-          <div className="clearfix" />
-          <h3>Antagonist</h3>
-          {this.renderPrompt("Antagonist", villains, 3)}
-          {this.renderPrompt("Antagonist's Motivation", villainMotivations, 4)}
-          {this.renderPrompt("Movie Character (personality)", movieCharacters, 5)}
-          <Link className="small" to="/prompts/antagonist-prompts">
-            [Full list of Antagonist Prompts]
-              </Link>
-          <div className="clearfix" />
-	      (Adapt them to fantasy and use as an Antagonist. For good characters - make an evil/corrupted version of them.)
-	      {this.renderImage(this.props.data.villains.edges, 16, false)}
-          <Link className="small" to="/prompts/villains">
-            [Full list of Villain Images]
-              </Link>
-          <div className="clearfix" />
-          <h3>Setting</h3>
+          <hr />
+          <h1>Setting</h1>
           {this.renderImage(this.props.data.locations.edges, 15, true)}
           <Link className="small" to="/prompts/locations">
             [Full list of Settings]
               </Link>
           <div className="clearfix" />
-          <h3>Challenges</h3>
+          <hr />
+
+          <h1>Antagonist</h1>
+          {this.renderPrompt("Antagonist", villains, 3)}
+          {this.renderPrompt("Antagonist's Motivation", villainMotivations, 4)}
+          {this.renderPrompt("Antagonist's Personality", movieCharacters, 5)}
+          <Link className="small" to="/prompts/antagonist-prompts">
+            [Full list of Antagonist Prompts]
+              </Link>
+          <div className="clearfix" />
+          {/* (Adapt them to fantasy and use as an Antagonist. For good characters - make an evil/corrupted version of them.) */}
+          {this.renderImage(this.props.data.villains.edges, 16, false)}
+          <Link className="small" to="/prompts/villains">
+            [Full list of Villain Images]
+              </Link>
+          <div className="clearfix" />
+          <hr />
+
+          <h1>Challenges</h1>
           {this.renderPrompt("Action/Adventure", action, 6)}
           {this.renderPrompt("Exploration", exploration, 7)}
           {this.renderPrompt("Social/Intrigue", social, 8)}
@@ -130,10 +130,17 @@ class Prompts extends Component {
             [Full list of Challenges]
               </Link>
           <div className="clearfix" />
+          <hr />
+          <h1>Complications</h1>
+          {this.renderPrompt("Complication", complications, 2)}
+          <Link className="small" to="/prompts/complications">
+            [Full list of Complications]
+          </Link>
+          <div className="clearfix" />
           {this.renderPrompt("Villain's Moves", villainMoves, 11)}
           <Link className="small" to="/prompts/villain-moves">
             [Full list of Villain's Moves]
-              </Link>
+          </Link>
           <div className="clearfix" />
         </div>
         <AdBoxes />
