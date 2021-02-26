@@ -8,7 +8,7 @@ import AdBoxes from "../components/AdBoxes"
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.mdx
-  const adventure = post.fields.category === "adventure"
+  const adventure = post.fields.category === "adventure" || post.fields.category === "draft"
   return (
     <Layout location={location}>
       <article className={adventure ? "adventure" : ""} >
