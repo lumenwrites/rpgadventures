@@ -608,3 +608,71 @@ Nice. Perfect. Just "strive to incorporate them into our story, use them to guid
 
 Perfect, what more do you need.
 
+
+
+"",
+
+"",
+
+Combine goals. Main goal requires 2-3 subgoals
+</p>
+
+
+
+Cool stuff you can do. Cool powers, special skills, useful items.
+
+
+
+
+
+
+<p className="smaller"></p>
+
+flavor for locations? Meh.
+1 Captured
+2 Abandoned
+3 Advanced
+4 Monolithic
+5 Endangered
+6 Treacherous
+1 Protected
+2 Volatile
+3 Beautiful
+4 Deceptive
+5 Shattered
+6 Savage
+1 Exotic
+2 Fragile
+3 Civilized
+4 Hidden
+5 Active
+6 Moving
+
+It WOULD be nice to have a list of challenges that aren't just goals.
+Although let's face it, that's what they are.
+1 Danger (imperil)
+2 Obstacle (slow)
+3 Barrier (prevent)
+4 Passage (advance)
+5 Resource (enable)
+6 Refuge (refresh)
+
+1 Desert
+2 Jungle
+3 Oceanic
+4 Frozen
+5 Volcanic
+6 Junkyard
+1 Artificial
+2 Hollow
+3 Sentient
+4 Metropolis
+5 Paradisiac
+6 Dark
+1 Shattered
+2 Gaseous
+3 Mountain
+4 Swamp
+5 Tropical
+
+
