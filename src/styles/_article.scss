@@ -5,6 +5,8 @@ article {
     background: white;
     //background: #fffaf1;
     border-radius: 4px;
+    text-align: justify;
+
     img {
         width: 100%;
     }
@@ -39,7 +41,9 @@ article {
 
 .col {
     break-inside: avoid;
-    > :first-child {margin-top: 0;}
+    > :first-child {
+        margin-top: 0;
+    }
 }
 
 .post-grid {
