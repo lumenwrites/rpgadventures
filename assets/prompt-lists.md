@@ -1,0 +1,368 @@
+# Adventure Writing Prompts
+## Settings
+- Wild West. Cowboys, bandits, gold.
+- Pirates. Tortuga. Ships. Treasure.
+- Egyptian/Aztec Pyramids. Mummies.
+- Ancient/Lost Civilization. Atlantis.
+- Battleground between two factions.
+- Prehistoric. Dinosaurs, mammoths.
+- Land of Outcasts/Exiles/Criminals.
+- Vehicle. Zeppelin, Train, Submarine.
+- Magic forest. Elves, druids, unicorns.
+- Abandoned spaceship. Space station.
+- Remote island. Tropical Jungle. Oasis. 
+- Extreme weather. Maelstrom,radiation.
+- Exoctic Building. Castle, Tower.
+- Steampunk. Elaborate machines.
+- Magic School. Adventuring Academy.
+- The world of the dead. Heaven/Hell.
+- Horror movie. Old cabin. Halloween.
+- Underground. Glowing plants.
+- Secret organization. Spies. Agents.
+- In Virtual Reality, Game, Illusion.
+- Inside of a Genie’s lamp.
+- Beneath the ocean. Merfolk. Kraken.
+- Secret Society/Conspiracy/Cult lair.
+- Mad Scientist/Wizard laboratory.
+- Monster lair. World of monsters.
+- Post-apocalyptic fallout.
+- Colony, scientific expedition. 
+- Research facility/labs.
+- Ninja/Samurai temple.
+- Primitive tribes.
+- Dark evil empire.
+- Floating islands.
+- Alien planet.
+- A ghost town.
+- Abandoned ship/spaceship.
+- Subway. A disused metro station.
+- An archaeological dig.
+
+## High Concept Fictional Elements
+-  Creatures/Objects turned sentient.
+-  A person turned into an animal.
+-  Alien cultures/creatures/invaders.
+-  Portal to another world.
+-  Zombies.
+-  Ghosts.
+-  Vampires.
+-  Mythical creatures.
+-  Sphynx.
+-  Yeti. 
+-  Time manipulation.
+-  Reversed/Accelerated aging.
+-  Mind control.
+-  Possession. 
+-  Memory alteration.
+-  Multiple personalities (like in Inside Out).
+-  Artificial Intelligence.
+-  Shared dreams.
+-  Dreams turned real.
+-  Drugs with unusual/magical effects.
+-  Djinn. 
+-  Monkey’s Paw.
+-  Ancient Curse/Prophecy.
+-  Ancient evil awakened.
+-  People shrunk to a tiny size.
+-  Monster's egg.
+-  Love potion.
+-  Succubus.
+-  Holograms.
+-  Illusions.
+-  Deal with the devil.
+-  Clones. 
+-  Evil twins.
+-  Witches. 
+-  Shamans. 
+-  Voodoo.
+-  Hivemind. 
+-  Body swap (like in Freaky Friday).
+-  Truth serum. (or an Anti-Lying field).
+-  Big monsters. (Dragons, Kaiju, etc.).
+-  Robots.
+-  Mutants.
+-  Aliens.
+-  Body Snatchers.
+-  Shapeshifters.
+-  Superheroes and Supervillains.
+-  Shop of cursed items.
+-  Jim Carrey's Mask.
+-  Xenomorphs.
+-  Eldritch Horrors.
+-  Adapt folklore, fairytale, myth.
+
+## Antagonists
+-  Assassin
+-  Bounty Hunter
+-  Criminal
+-  Corrupt official
+-  Crazy Scientist/Wizard
+-  Necromancer
+-  Religious Leader
+-  Deadly Monster
+-  Dangerous Creature
+-  Witch
+-  Demon
+-  Evil Machiavellian Mastermind
+-  Heroe's employer
+-  Heroe's old mentor
+-  Oppressive ruler
+-  Brilliant Detective
+-  Blackmailer
+-  Military general
+-  Serial Killer
+-  A noble lord
+-  Misguided Former Hero
+-  Organized Crime Boss
+-  Powerful Businessman/Merchant
+-  Fugitive
+-  Criminal
+-  Shaman
+-  Trickster
+-  Acolyte of a dark god/demon/devil
+-  Evil Advisor
+-  Alien Invader
+-  Corrupted angel/hero/priest
+-  Demigod
+-  Former teammate that everyone thought was dead
+-  Next in line to be a ruler
+-  Possessed Hero
+-  The Leader/An Agent of [organizations]
+-  The Leader of an Angry Mob
+-  A spy
+-  A secret agent
+-  Evil Spirit
+-  A vampire
+-  A pirtate
+-  A ninja
+
+## Antagonist Motivations
+-  Prove themselves to someone
+-  Gain Political Power/Magic Power/Power/Knowledge/Wealth/Respect/Influence/Social Status/Fame
+-  Destroy their rival
+-  Rule an organization/a kingdom/ the world
+-  Get revenge
+-  Do whatever it takes to survive
+-  Follow their misguided sense of justice
+-  Follow orders
+-  Regain their honor
+-  Gain immortality
+-  Gain freedom
+-  Resurrect their loved one
+-  Repay their dept to the devil
+-  Escape pursuit of the law
+-  Ensure the success of their business/organization by any means
+-  Spread chaos and mess with people
+-  Enforce the status quo / unjust laws
+-  Follow the will of their gods
+-  Get summoned/resurrected
+-  Complete some world altering task before their death
+-  Maintain the power/status they already possess
+-  Resurrect their child/god/leader/loved one
+-  Cleanse the world of the inferior, non-believers, unworthy, etc.
+- Hatred (of a person/group/class/race)
+- Love/lust
+- Cruelty, dark/violent urges
+- Biological necessity (they must drink blood, eat people, rampage, etc)
+- Competitive spirit, desire to win
+- Fanatical patriotism
+- Their faith/religion
+- Desire for conquest
+
+
+## Challenges
+
+### Action/Adventure
+- Kill a person/creature
+- Obtain/Steal an item/information
+- Find a lost person/creature/item/place
+- Kidnap a person
+- Capture a creature
+- Escort/Deliver a person/a creature/an item/a place/information
+- Save/Rescue a person/creature
+- Capture/Chase/Pursue a person/creature
+- Escape from pursuit
+- Protect a person/creature/item/place/information
+- Retrieve an item
+- Invade/Defend a location
+- Complete/Sabotage a project
+- Intercept a delivery/an escort
+- Race someone to the destination
+- Destroy an item/a place/information
+- Build or repair an object
+- Sabotage an item/a device/a vehicle
+- Distract the enemies, act as bait
+- Build/Repair/Research something
+- Perform a robbery
+- Win a competition/duel
+- Gather resources
+- Fight a war
+
+### Social
+- Convince/manipulate someone.
+- Get someone to do you a favor.
+- Get someone to reveal a secret/info.
+- Get someone to give you something.
+- Get someone to take a specific action.
+- Get someone to let you do something.
+- Find a non-combat resolution.
+- Persuade a group of people.
+- Resolve conflict, broker peace.
+- Pit people/factions against each other.
+- Negotiate, close a deal, bargain.
+- Make allies. Impress/Befriend/Seduce.
+- Blackmail/Pressure someone.
+- Seize political power. 
+- Gain status, influence, fame.
+- Change someone’s social status.
+- Run a society/organization/team. 
+- Organize or Sabotage an event.
+- Ensure the event goes as planned.
+- Put down or incite rebellion/mutiny.
+- Navigate a strange culture/customs.
+- Recruit people to your cause.
+- Deception. Create a convincing lie.
+- Put on a show, entertain.
+- Train or be tutored.
+
+### Exploration
+- Overcome environmental obstacles.
+- Survive environmental dangers. 
+- Journey to a distant location.
+- Explore a dangerous place.
+- Scout/survey a location, gather info.
+- Overcome natural hazards.
+- Extreme weather, natural disasters.
+- Invade/Capture/Secure a location.
+- Prepare and execute an ambush.
+- Escape a trap/ambush.
+- Gain control over the territory.
+- Track something/someone.
+- Deal with a natural disaster.
+- Clear a location of danger.
+- Find a way home.
+- Solve puzzles.
+
+### Stealth
+- Plan, prepare, and execute a heist.
+- Break into or break out of a location.
+- Overcome security, defenses, traps.
+- Infiltrate and spy, go undercover.
+- Impersonate someone.
+- Steal an item/information.
+- Break into place, obtain Information.
+- Smuggle/Plant an Item/Info/Rumor.
+- Hide, cover your tracks, lay low.
+- Sneak through undetected.
+- Deal with unwanted attention.
+- Get caught lying/cheating/sneaking.
+- Clean up evidence.
+- Frame someone for a crime.
+- Fake someone’s death.
+- Perform a con.
+
+### Mystery
+- Find answers, solve a mystery. 
+- Obtain info required to achieve a goal. 
+- Solve a crime. Find the murderer/thief.
+- Investigate supernatural events.
+- Discover fate of a missing expedition.
+- Find out what happened at this place.
+- Uncover a conspiracy, secret plot.
+- Figure out who's behind the plot.
+- Find the spy/traitor/mole.
+- Discover someone’s secret.
+- Figure out who can be trusted.
+- Find evidence. Prove guilt/innocence.
+- Interview witnesses/secret keepers.
+- Interrogate suspects.
+- Spying/Surveillance, gather info.
+- Do the research. 
+- Use clues to deduce a conclusion.
+
+## Difficulties
+What makes accomplishing the goal difficult:
+
+- Must use social/political means only.
+- Must be stealthy, secret, under cover. 
+- Must avoid violence, collateral damage.
+- Must compete with the rivals.
+- Must cooperate with an enemy.
+- Antagonist is sympathetic/innocent.
+- Incomplete/false information.
+- Limited resources/preparation.
+- While on the run from the law.
+- It goes against the will of authorities.
+- Must do it under scrutiny/supervision.
+- You're bound by strict rules/laws.
+- Must do it under time pressure.
+- Must do it while protecting someone.
+- Noone can be trusted.
+- The people you're helping don't want your help.
+- Target must be unharmed.
+
+
+### Complications
+- Surprising reveal redefines the goal.
+- Enemy more powerful than expected.
+- The path to the objective is blocked.
+- A big risk or sacrifice is necessary.
+- Environment becomes dangerous.
+- A dishonorable act is required.
+- A rare/unique item is required.
+- Heroes are captured/trapped. 
+- Heroes are betrayed by a key ally. 
+- Allies/employers turn out to be evil.
+- Lose a key ally. Captured or killed?
+- Disgruntled ally turns on heroes.
+- Key item is lost/stolen/fake.
+- Transportation is sabotaged/stolen.
+- Key information is lost/missing/wrong.
+- Important location is destroyed.
+- A player or ally is badly injured.
+- Objective is moved/hidden/destroyed.
+- Ally insists on a strict code of conduct
+- Heroes have been framed for a crime
+- Antagonists get backup.
+- Lose a major advantage/ability.
+- Enemy discovers heroes’ weakness.
+- The mission was designed to fail.
+- Enemy presumed dead comes back.
+- Captured enemy escapes.
+- Enemy is warned of heroes’ actions.
+- Innocents are in danger, require help.
+- A mistake or bad luck leads to ruin.
+- Someone dies.
+
+### Moves
+Moves the Villain can make to make life more difficult for the players.
+- Personally confronts the heroes
+- Sends minions after the heroes
+- Flees, forcing the heroes to give chase
+- Took hostages
+- Captures an ally
+- Uses their political power/influence
+- Controls or possess a player/key ally
+- Has set up a trap/ambush
+- Has sent a double agent (traitor, spy).
+- Sends an assassin or bounty hunter
+- Hired a rival team of adventurers
+- Threatens a friendly character/an innocent
+- Frames heroes for a crime
+- Reveals heroes’ secrets
+- Bribes/intimidates people in power
+- Makes the public dislike the heroes
+- Has a “dead man switch”
+- Has set a ticking time-bomb
+- Blackmails someone
+- Impersonates someone else
+- Befriends and betrays the heroes
+- Kidnaps one of the players/an ally
+- Plant falses clues, decoys
+- Fosters rivalries, mistrust, disorder
+- Creates a difficult choice for the heroes
+- Takes away a key resource heroes relied on
+- Has misled everyone about their weaknesses
+- Uses heroes’ flaws/temptations/fears against them
+- Has developed a good public image
+- Seduces allies to the dark side

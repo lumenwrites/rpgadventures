@@ -1,0 +1,172 @@
+<h1>[title]</h1>
+<div style="margin: 1em auto; padding: 0 1em; max-width: 700px;">
+  <button onclick="update()">Randomize Prompts</button>
+  <p style="text-align: center; font-size: 0.7em;">
+    (click on text or images to randomize the individual prompts)
+  </p>
+
+  <table>
+    <colgroup>
+      <col span="1" style="width: 30%;" />
+      <col span="1" style="width: 70%;" />
+    </colgroup>
+    <tr>
+      <td>
+        <b onclick="update(set);update(setimg);" class="clickable">Setting</b>
+      </td>
+      <td>
+        <p onclick="update(set)" id="set" class="clickable">
+          [settings]
+        </p>
+        <p>
+          <img onclick="update(setimg)" id="setimg" src="[settingimages]" />
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td><b onclick="update(hcs1);" class="clickable">Fictional Element</b></td>
+      <td>
+        <p onclick="update(hcs1)" id="hcs1" class="clickable">
+          [hcs]
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td><b onclick="update(obj);update(act);" class="clickable">Heroes' Goal</b></td>
+      <td>
+        <p onclick="update(obj)" id="obj" class="clickable">
+          [objectives]
+        </p>
+        <p onclick="update(act)" id="act" class="clickable">
+          [action]
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b onclick="update(ant);update(pers);update(motv);update(vimg);"class="clickable">
+          Antagonist
+        </b>
+      </td>
+      <td>
+        <p onclick="update(ant)" id="ant" class="clickable">
+          [antagonists]
+        </p>
+        <p onclick="update(pers)" id="pers" class="clickable">
+          Personality: [personality]
+        </p>
+        <p onclick="update(motv)" id="motv" class="clickable">
+          Motivation: [tap(motivation)]
+        </p>
+        <img onclick="update(vimg)" id="vimg" src="[villainimagesrc]" />      
+      </td>
+    </tr>
+  </table>
+
+  <br/><br />
+  <b>Challenges</b>
+  <table>
+    <colgroup>
+      <col span="1" style="width: 30%;" />
+      <col span="1" style="width: 70%;" />
+    </colgroup>
+    <tr>
+      <td><b>Action/Adventure</b></td>
+      <td>[tap(action)]</td>
+    </tr>
+    <tr>
+      <td><b>Social</b></td>
+      <td>[tap(social)]</td>
+    </tr>
+    <tr>
+      <td><b>Exploration</b></td>
+      <td>[tap(exploration)]</td>
+    </tr>
+    <tr>
+      <td><b>Stealth</b></td>
+      <td>[tap(stealth)]</td>
+    </tr>
+    <tr>
+      <td><b>Mystery</b></td>
+      <td>[tap(mystery)]</td>
+    </tr>
+    <tr>
+      <td><b>Complication</b></td>
+      <td>[tap(midpoint)]</td>
+    </tr>
+  </table>
+  <br />
+
+  <hr />
+  <p>
+    Use the
+    <a href="https://docs.google.com/document/d/1S0KMVB6qyc_MKvXt2SS4-Zn5seT31QfXjYD1Gb9htzM/edit">Adventure Template</a>
+    to turn these prompts into a full adventure.
+  </p>
+
+  <p>
+    Join the
+    <a href="https://rpgadventures.io/writers-room">Adventure Writers' Room</a>
+    - we are a group of GMs who meet in the discord voice chat, and challenge
+    ourselves to improvise a one-shot adventure in 2 hours.
+  </p>
+  <p>
+    Our goal is to brainstorm fun ideas and improvise stories together in a
+    chill, lighthearted, no-pressure environment. It’s really fun, it works, and
+    it really helps with creating adventures! Usually, by the end of the
+    brainstorming session, we have a solid outline of an adventure we can run
+    for our players.
+  </p>
+  <p>
+    We’re looking for some friendly and creative people to join us!
+  </p>
+
+</div>
+
+
+<style>
+  h1 {
+    text-align: center;
+  }
+  span,
+  td {
+    font-weight: 100 !important;
+  }
+
+  td,
+  th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    font-size: 0.95em;
+  }
+  table {
+    width: 100%;
+  }
+  h2 {
+    font-size: 1.2em;
+    margin: 0;
+    margin-top: 10px;
+  }
+  p {
+    text-align: justify;
+    font-weight: 100;
+    margin: 0;
+    margin-top: 5px;
+  }
+  .clickable {
+    cursor: pointer;
+  }
+  tr:nth-child(even) {
+    background: #f2f2f2;
+  }
+  img {
+    height: 150px;
+    cursor: pointer;
+  }
+  button {
+    background: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+</style>
