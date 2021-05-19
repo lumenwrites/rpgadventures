@@ -11,12 +11,12 @@ class World extends Component {
     const { data } = this.props
     return data.allFile.edges.map(({ node }, i) => {
       return (
-        <div className="prompt-image"  key={i}>
-            <div className="bold">{node.name}</div>
-	    {/* <img src={node.childImageSharp.original.src} /> */}
-	    {/* <a href={node.childImageSharp.original.src}> */}
-		<Img alt={node.name} fixed={node.childImageSharp.fixed} />
-		{/* </a> */}
+        <div className="prompt-image" key={i}>
+          <div className="bold">{node.name}</div>
+          {/* <img src={node.childImageSharp.original.src} /> */}
+          <a href={node.childImageSharp.original.src}>
+            <Img alt={node.name} fixed={node.childImageSharp.fixed} />
+          </a>
         </div>
       )
     })
@@ -25,12 +25,14 @@ class World extends Component {
     var { mirageWorld } = this.props.data
     return (
       <Layout>
-          <article>
-	      <h1>Locations</h1>
-	      <span className="small">(see more prompts in <Link to="/prompts">Prompts App</Link>)</span>
-	      <div className="columns">{this.renderImages()}</div>
-          </article>
-	  <SEO title={"World of Mirage"} description={"Fantasy Locations"}/>
+        <article>
+          <h1>Locations</h1>
+          <span className="small">
+            (see more prompts in <Link to="/prompts">Prompts App</Link>)
+          </span>
+          <div className="columns">{this.renderImages()}</div>
+        </article>
+        <SEO title={"World of Mirage"} description={"Fantasy Locations"} />
       </Layout>
     )
   }
@@ -51,9 +53,11 @@ export const query = graphql`
         node {
           name
           childImageSharp {
-	    original { src }
+            original {
+              src
+            }
             fixed(width: 290) {
-	      ...GatsbyImageSharpFixed_withWebp
+              ...GatsbyImageSharpFixed_withWebp
             }
           }
         }
