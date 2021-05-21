@@ -11,6 +11,7 @@ const BlogIndex = ({ data, location, pageContext }) => {
   var categoryTitle = pageContext.category
   /* Capitalize */
   categoryTitle = categoryTitle.charAt(0).toUpperCase() + categoryTitle.slice(1)
+  console.log("POSTS", posts)
   return (
     <Layout location={location}>
       <div className="post-grid">
@@ -25,6 +26,7 @@ const BlogIndex = ({ data, location, pageContext }) => {
               image={image}//{node.frontmatter.image ? node.frontmatter.image.childImageSharp.original.src : ""}
               title={title}
               description={node.frontmatter.description || node.excerpt}
+              pdf={node.frontmatter.pdf}
               slug={node.fields.slug}
               key={node.fields.slug} />
           )
@@ -62,6 +64,7 @@ export const pageQuery = graphql`
                 }
               }
             }
+            pdf
           }
         }
       }
