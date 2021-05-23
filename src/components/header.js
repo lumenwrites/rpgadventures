@@ -44,9 +44,9 @@ const Header = () => {
 								<Link to="/story-games" className="item btn">
 									Story Games
 				  			</Link>
-								<Link to="/prompts" className="item btn">
+								<a href="https://perchance.org/adventure-prompts" target="_blank" className="item btn">
 									Prompts
-				  			</Link>
+				  			</a>
 								{/* 							
 								<Link to="/adventure-writing-guide" className="item btn">
 									Adventure Design
