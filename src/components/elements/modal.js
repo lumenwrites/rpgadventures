@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
-import { connect } from 'react-redux'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import React, { Component } from "react"
+import { connect } from "react-redux"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 /* Actions */
-import { toggleModal } from '../../actions/utils'
+import { toggleModal } from "../../actions/utils"
 
 class Modal extends Component {
   render() {
@@ -13,15 +13,19 @@ class Modal extends Component {
     if (!showModal) return null
     return (
       <div className="modal-wrapper">
-	  <div className={"modal-card " + this.props.className}>
-	      <div className="close-button"
-		   onClick={() => this.props.toggleModal(name)}>
-		  <FontAwesomeIcon icon={["fas", "times"]}/>  
-	      </div>
-	      <div>{children}</div>
-	  </div>
-	  <div className="modal-bg"
-	       onClick={() => this.props.toggleModal(name)}></div>
+        <div className={"modal-card " + this.props.className}>
+          <div
+            className="close-button"
+            onClick={() => this.props.toggleModal(name)}
+          >
+            <FontAwesomeIcon icon={["fas", "times"]} />
+          </div>
+          <div>{children}</div>
+        </div>
+        <div
+          className="modal-bg"
+          onClick={() => this.props.toggleModal(name)}
+        ></div>
       </div>
     )
   }
