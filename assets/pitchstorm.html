@@ -1,0 +1,317 @@
+<div class="wrapper">
+  <h1>[title]</h1>
+
+  <div class="tab">
+    <button class="tablinks active" id="act" onclick="openCity(event, 'About')">About</button>
+    <button class="tablinks" onclick="openCity(event, 'Writer')">Writer</button>
+    <button class="tablinks" onclick="openCity(event, 'Executive')">Executive</button>
+  </div>
+  <div id="About" class="tabcontent">
+    <h2> Rules </h2>
+    
+    <div class="rules">
+    <p>Pitchstorm is a party game that puts you in the position of an unprepared writer pitching movies to the world&#39;s worst executives (AKA, your friends.)</p>
+<p>Each round, one player acts as the executive, while everyone else plays as a writer trying to pitch them the next Hollywood Blockbuster.</p>
+<p><strong>Writer:</strong> Open the &quot;Writer&quot; tab and get new prompts (character, plot, and an award you're aiming for). You can click on any of the prompts once if you want to swap it for a different one. Read the prompts out loud, the executive starts a timer, and you have 40 seconds to pitch your next masterpiece. After that the executive will give you a &quot;helpful&quot; note, and you will have 20 more seconds to incorporate this terrible idea into the story.</p>
+<p><strong>Executive:</strong> Use the timer to time writer&#39;s pitch. Once the author is out of time, interrupt them and give them one of your notes, and set the timer for 20 more seconds.</p>
+<p>After everyone has pitched a movie, the executive chooses which one they want to make, and that player gets a point. The next player becomes an executive, and you play the next round. Keep playing until everyone has pitched 3 moives. The person with the most points wins and becomes rich and famous!</p>
+
+    </div>
+  </div>
+  <div id="Writer" class="tabcontent">
+  <br/>
+  <button onclick="update()">Get New Prompts</button>
+  <br/><br/>
+  <table>
+    <colgroup>
+      <col span="1" style="width: 50%;" />
+      <col span="1" style="width: 50%;" />
+    </colgroup>
+    <tr>
+      <th onclick="update(char1);//update(char2);update(char3);" class="clickable">Character</th>
+      <th onclick="update(plot1);//update(plot2);update(plot3);;" class="clickable">Plot</th>
+    </tr>
+    <tr>
+      <td>
+        <p onclick="update(char1)" id="char1" class="clickable">
+          [Characters]
+        </p>
+      </td>
+      <td>
+        <p onclick="update(plot1)" id="plot1" class="clickable">
+          [Plots]
+        </p>
+      </td>
+    </tr>
+    <!--
+    <tr>
+      <td>
+        <p onclick="update(char2)" id="char2" class="clickable">
+          [Characters]
+        </p>
+      </td>
+      <td>
+        <p onclick="update(plot2)" id="plot2" class="clickable">
+          [Plots]
+        </p>
+      </td>
+    </tr>
+      <tr>
+      <td>
+        <p onclick="update(char3)" id="char3" class="clickable">
+          [Characters]
+        </p>
+      </td>
+      <td>
+        <p onclick="update(plot3)" id="plot3" class="clickable">
+          [Plots]
+        </p>
+      </td>
+    </tr>
+    -->
+  </table>
+   <br/> 
+   <table>
+    <colgroup>
+      <col span="1" style="width: 100%;" />
+    </colgroup>
+    <tr>
+      <th onclick="update(award1);//update(award2);update(award3);" class="clickable">Award</th>
+    </tr>
+    <tr>
+      <td>
+        <p onclick="update(award1)" id="award1" class="clickable">
+          [Awards]
+        </p>
+      </td>
+    </tr>
+    <!--
+    <tr>
+      <td>
+        <p onclick="update(award2)" id="award2" class="clickable">
+          [Awards]
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p onclick="update(award3)" id="award3" class="clickable">
+          [Awards]
+        </p>
+      </td>
+    </tr>
+    -->
+  </table>
+  </div> <!-- end writer -->
+  
+  <div id="Executive" class="tabcontent">
+     <br/>
+    <button onclick="startTimer(40)">Start Pitch Timer</button>
+    <button onclick="startTimer(20)">Start Note Timer</button>
+    <br/><br/>
+    <div class="timer">
+      <p>Time Left:</p>
+      <span id="pitch-timer">40</span>
+    </div>
+    <br/>
+    <button onclick="update()">Get New Prompts</button>
+  <br/><br/>
+    <table>
+    <colgroup>
+      <col span="1" style="width: 100%;" />
+    </colgroup>
+    <tr>
+      <th onclick="update(note1);update(note2);update(note3);" class="clickable">Notes</th>
+    </tr>
+    <tr>
+      <td>
+        <p onclick="update(note1)" id="note1" class="clickable">
+          [Notes]
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p onclick="update(note2)" id="note2" class="clickable">
+          [Notes]
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p onclick="update(note3)" id="note3" class="clickable">
+          [Notes]
+        </p>
+      </td>
+    </tr>
+  </table>
+ 
+  </div> <!-- end executive -->
+</div>
+
+<script>
+  console.log("test");
+</script>
+<style>
+  body {
+    background: #faf4e9;
+ 
+  }
+  .wrapper {
+    margin: 0px auto; 
+    border-top: 3px solid #ff6600;
+    padding: 0 1em; 
+    max-width: 740px;
+    background: white;
+    padding: 20px 40px;
+  }
+  h1 {
+    text-align: center;
+  }
+  span,
+  td {
+    font-weight: 100 !important;
+    height: 80px;
+  }
+
+  td,
+  th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    font-size: 0.95em;
+  }
+  th {
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+  }
+  h2 {
+    font-size: 1.2em;
+    margin: 0;
+    margin-top: 10px;
+  }
+  p {
+    text-align: center;
+    font-weight: 100;
+    margin: 0;
+    margin-top: 5px;
+  }
+  .clickable {
+    cursor: pointer;
+  }
+  tr:nth-child(even) {
+    background: #f2f2f2;
+  }
+  img {
+    height: 150px;
+    cursor: pointer;
+    max-width: 100%;
+  }
+  button {
+    background: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  .timer {
+    background: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  .rules p {
+    text-align: justify;
+    margin-top: 10px;
+  }
+</style>
+
+
+<script>
+function openCity(evt, cityName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+window.addEventListener('load', function () {
+  //openCity(event, 'Writer');
+})
+openCity(event, 'About');
+document.getElementById('act').className += " active";
+</script>
+<style>
+  /* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  //border-bottom: none;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  width: calc(100% / 3);
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+}
+</style>
+
+<script>
+var time_left = 0
+var timer1
+function startTimer(duration) {
+  time_left = duration
+  if (timer1) clearInterval(timer1);
+  console.log("Start Timer", time_left)
+  document.getElementById("pitch-timer").innerHTML = time_left;
+  timer1 = setInterval(countdown, 1000);
+}
+function countdown() {
+  time_left -= 1
+  console.log("time_left", time_left)
+  document.getElementById("pitch-timer").innerHTML = time_left;
+
+
+  // If the count down is finished, write some text
+  if (time_left < 0) {
+    clearInterval(timer1);
+    document.getElementById("pitch-timer").innerHTML = "Time is up!";
+  }
+}
+
+</script>
