@@ -6,6 +6,9 @@ article {
   //background: #fffaf1;
   border-radius: 4px;
   text-align: justify;
+  @media (max-width: 500px) {
+    text-align: left;
+  }
 
   img {
     width: 100%;
@@ -37,6 +40,9 @@ article {
 
 .column-break {
   break-after: column;
+  @media (max-width: 640px) {
+    break-after: auto;
+  }
 }
 
 .col {
