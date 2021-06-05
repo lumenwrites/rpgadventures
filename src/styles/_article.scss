@@ -1,75 +1,100 @@
 article {
-    padding: 20px 40px;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
-    margin-top: 20px;
-    background: white;
-    //background: #fffaf1;
-    border-radius: 4px;
-    text-align: justify;
+  padding: 20px 40px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  margin-top: 20px;
+  background: white;
+  //background: #fffaf1;
+  border-radius: 4px;
+  text-align: justify;
 
-    img {
-        width: 100%;
-    }
-    .header-img {
-        width: calc(100% + 80px);
-        margin: -40px;
-        margin: -20px -40px;
-        margin-bottom: 0;
-    }
+  img {
+    width: 100%;
+  }
+  .header-img {
+    width: calc(100% + 80px);
+    margin: -40px;
+    margin: -20px -40px;
+    margin-bottom: 0;
+  }
 
-    h1,
-    h2 {
-        text-align: center;
-    }
+  h1,
+  h2 {
+    text-align: center;
+  }
 }
 .columns {
-    column-count: 2;
+  column-count: 2;
 
-    @media (max-width: 640px) {
-        column-count: 1;
-    }
+  @media (max-width: 640px) {
+    column-count: 1;
+  }
 
-    column-gap: 40px;
-    //margin-top: 1em;
+  column-gap: 40px;
+  //margin-top: 1em;
 
-    //> :first-child {margin-top: 0;}
+  //> :first-child {margin-top: 0;}
 }
 
 .column-break {
-    break-after: column;
+  break-after: column;
 }
 
 .col {
-    break-inside: avoid;
-    > :first-child {
-        margin-top: 0;
-    }
+  break-inside: avoid;
+  > :first-child {
+    margin-top: 0;
+  }
 }
 
 .post-grid {
-    display: grid;
-    grid-gap: 0 10px;
-    grid-template-columns: repeat(3, 1fr);
-    min-height: 150px;
-    @media (max-width: 640px) {
-        grid-template-columns: repeat(1, 1fr);
-    }
+  display: grid;
+  grid-gap: 0 10px;
+  grid-template-columns: repeat(3, 1fr);
+  min-height: 150px;
+  @media (max-width: 640px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 .post-box {
-    background: white;
+  background: white;
+  margin-top: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  .title {
+    font-size: 1.2em;
     margin-top: 10px;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
-    border: 1px solid rgba(0, 0, 0, 0.09);
-    .title {
-        font-size: 1.2em;
-        margin-top: 10px;
-        font-weight: bold;
+    font-weight: bold;
+  }
+  .description {
+    padding: 0px 10px 10px 10px;
+    font-size: 12px;
+  }
+  p {
+    margin: 0;
+  }
+}
+.collapsible {
+  .title {
+    font-size: 1em;
+    font-weight: bold;
+    border: 2px solid $border;
+    background: #fafafa;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 4px 0;
+    // &.expanded {
+    //     border-bottom: none;
+    // }
+    svg {
+      margin: 0 5px;
+      width: 16px !important;
     }
-    .description {
-        padding: 0px 10px 10px 10px;
-        font-size: 12px;
+  }
+  .body {
+    // border-left: 2px solid $border;
+    // padding-left: 10px;
+    p:first-of-type{
+        margin-top:0;
     }
-    p {
-        margin: 0;
-    }
+  }
 }
