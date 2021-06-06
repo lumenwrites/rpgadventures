@@ -42,7 +42,7 @@ class SignUp extends Component {
           href="/writers-room"
           image={writingDesk}
         />
-        {Math.random() < 0.5 ? (
+        {Math.random() < 0 ? (
           <AdBox
             title="Story Games"
             description="Story games are for people who love improvisation and freeform roleplay. Together we go on imaginary adventures improvised from scratch, with no preparation. We take turns GMing scenes for each other, roleplaying, trying to tell a fun story. Come play with us!"
@@ -52,8 +52,8 @@ class SignUp extends Component {
         ) : (
           <AdBox
             title="Mirage"
-            description="A social, lighthearted, low-combat, rules-light, storytelling-focused game for people who love improvisation and freeform roleplay. A minimal set of rules designed to help create fun roleplay and improv. Come play with us!"
-            href="https://playmirage.io"
+              description="A rules-light game for people who love storytelling, improvisation, and freeform roleplay. Go on imaginary adventures, play out fun stories in a lighthearted atmosphere with other friendly and creative people. Come play with us!"
+            href="/mirage"
             image={valley}
           />
         )}
