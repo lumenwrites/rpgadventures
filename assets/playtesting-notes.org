@@ -269,7 +269,60 @@ Andre. Blacksmith, trying to make money. Elven artificer.
 Uses armor as prosthetics.
 
 Describe your characters.
+* <2021-06-22 Tue> Do or Dry
+Lotter the Otter
+I have been doing russian like this
+eat your radish
+pills that make me a nightmare for people like you
+
+Gentle
+frolick
+
+Plain ottor, hardwood armor, eyepatch, plant fiber, halbert
+mr voul
+
+why order pizza in the beginning if she didn't have the money to pay for it
+mage hand
+
+watership down
+
+Necklace love your mom.
+glass coke bottles
+one water bottle
+
+mush santiago, onto our next adventure.
+
+Santiago
+Dirty Monty
+Sinister foreshadowing
+
+too dehydrated
+
+resolve centuries of racial tension.
+elizabeth the beaver
+
+My darling lives in Cyntia.
+
+Theodosia Chipmunk
+dictate therm
+i hate to watch him go but I love to watch him leave.
+
+some cannons
+horn to communicate.
+
+#jok "
+Im gonna have wet nightmares about this
 
 
 
+import { compare, hash } from 'bcryptjs'
+import { sign } from 'jsonwebtoken'
+const { APP_SECRET } = process.env
 
+* <2021-06-22 Tue>
+>> Im not asking for intellectual property, I'm asking to let me open source this under creative commons. That way I get all the rights 100%, and so does everyone.
+And it's squeaky clean. And there's no danger since this is a separate project.
+Which *I* can later use as I please.
+
+you must release creative commons:
+https://creativecommons.org/licenses/by-sa/3.0/us/
